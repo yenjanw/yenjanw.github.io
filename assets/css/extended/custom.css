@@ -144,3 +144,107 @@ header.header {
         /* 減少兩側留白 */
     }
 }
+
+/* --- Medium.com 風格排版 (Typography) --- */
+
+:root {
+    /* 基礎字體大小設為 20px (Medium 風格) */
+    --font-size: 20px;
+    --line-height: 1.6;
+    /* 讓行距更寬鬆 */
+}
+
+body {
+    /* 內文使用 Serif 襯線體 (類似 Medium 的 Charter/Georgia) */
+    font-family: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
+    /* 微調字距 */
+    letter-spacing: -0.003em;
+    /* 優化文字渲染 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 標題使用 Sans-Serif 無襯線體 (乾淨俐落) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--primary);
+}
+
+/* 文章標題特別加大 */
+.post-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+/* 段落間距 */
+.post-content p {
+    margin-bottom: 2em;
+    font-weight: 400;
+    color: var(--content);
+}
+
+/* 引用區塊樣式 (Blockquote) */
+.post-content blockquote {
+    border-left: 3px solid var(--primary);
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 1.1em;
+    color: var(--secondary);
+}
+
+/* 調整程式碼區塊字型大小 (不要隨內文變太大) */
+.post-content pre,
+.post-content code {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 16px;
+}
+
+/* --- List View Specifics (Medium Style) --- */
+
+/* 列表項目的間距與樣式 */
+.post-entry {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-entry:last-child {
+    border-bottom: none;
+}
+
+/* 列表標題 (Sans-Serif, Bold) */
+.entry-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* 列表摘要 (Serif, Readable) */
+.entry-content {
+    font-family: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--secondary);
+    margin-top: 8px;
+}
+
+/* 列表 Metadata (Date, etc.) - Small Sans-Serif */
+.entry-footer {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: var(--secondary);
+    margin-top: 12px;
+}
