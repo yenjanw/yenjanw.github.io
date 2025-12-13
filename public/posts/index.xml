@@ -2,451 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on YJ-OnLine</title>
-    <link>https://yenjanw.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 13 Dec 2025 17:35:50 +0800</lastBuildDate>
-    <atom:link href="https://yenjanw.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>【合規分析】個資蒐集要件分析</title>
-      <link>https://yenjanw.github.io/posts/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</link>
-      <pubDate>Sat, 13 Dec 2025 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
-      <description>&lt;p&gt;在執行個人資料盤點與適法性評估時，企業常習慣性選擇「當事人同意」作為法律依據。然而，依據《個人資料保護法》第19條，「與當事人有契約或類似契約之關係，且已採取適當之安全措施」 往往是更穩固且合適的選擇。&lt;/p&gt;
-&lt;p&gt;我們要回到個資保護最根本的邏輯：「合法性基礎」。非公務機關要處理個資，必須有一個合法的理由。這兩個條款代表了兩種截然不同的權利來源：
-兩者差異的核心在於資料處理的驅動力：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;契約關係（交易驅動）： 基於「必要性」。為了履行對您的承諾（如：交付商品、支付薪資），企業「必須」處理您的資料。若無此資料，契約將無法執行。&lt;/li&gt;
-&lt;li&gt;同意（授權驅動）： 基於「自願性」。該資料處理對履行核心契約並非絕對必要，但企業「想要」進行（如：精準行銷、數據分析），因此需要當事人的額外授權。&lt;/li&gt;
-&lt;/ul&gt;</description>
-      <content:encoded>&lt;p&gt;在執行個人資料盤點與適法性評估時，企業常習慣性選擇「當事人同意」作為法律依據。然而，依據《個人資料保護法》第19條，「與當事人有契約或類似契約之關係，且已採取適當之安全措施」 往往是更穩固且合適的選擇。&lt;/p&gt;
-&lt;p&gt;我們要回到個資保護最根本的邏輯：「合法性基礎」。非公務機關要處理個資，必須有一個合法的理由。這兩個條款代表了兩種截然不同的權利來源：
-兩者差異的核心在於資料處理的驅動力：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;契約關係（交易驅動）： 基於「必要性」。為了履行對您的承諾（如：交付商品、支付薪資），企業「必須」處理您的資料。若無此資料，契約將無法執行。&lt;/li&gt;
-&lt;li&gt;同意（授權驅動）： 基於「自願性」。該資料處理對履行核心契約並非絕對必要，但企業「想要」進行（如：精準行銷、數據分析），因此需要當事人的額外授權。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;適用情境與法律構成要件&#34;&gt;適用情境與法律構成要件&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;比較項目&lt;/th&gt;
-          &lt;th&gt;契約或類似契約&lt;/th&gt;
-          &lt;th&gt;經當事人同意&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;法源依據&lt;/td&gt;
-          &lt;td&gt;個資法第19條第1項第2款&lt;/td&gt;
-          &lt;td&gt;個資法第19條第1項第5款&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;核心定義&lt;/td&gt;
-          &lt;td&gt;基於雙方建立的法律關係，為履行該關係所必須之蒐集、處理及利用。&lt;/td&gt;
-          &lt;td&gt;基於當事人對特定目的之單獨授權。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;是否需要簽署「同意書」&lt;/td&gt;
-          &lt;td&gt;不需要。&lt;br&gt;只要契約成立（含口頭、書面、點擊條款），即自動取得合法性。&lt;/td&gt;
-          &lt;td&gt;需要。&lt;br&gt;必須有明確的「同意」意思表示（如主動勾選Checkbox）。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;範圍限制&lt;/td&gt;
-          &lt;td&gt;嚴格限於「履行契約所必須」之最小範圍。&lt;/td&gt;
-          &lt;td&gt;限於「告知並取得同意」的特定目的範圍。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;撤回權利&lt;/td&gt;
-          &lt;td&gt;無任意撤回權。&lt;br&gt;只要契約關係存續，當事人原則上無法要求停止處理（否則構成違約或服務終止）。&lt;/td&gt;
-          &lt;td&gt;隨時可撤回。&lt;br&gt;當事人有權隨時取消同意，企業必須具備立即停止處理之機制。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;舉例&lt;/td&gt;
-          &lt;td&gt;網購為了送貨而蒐集地址。&lt;br&gt;銀行為了開戶而蒐集身分證。&lt;/td&gt;
-          &lt;td&gt;電商為「行銷」第三方產品而蒐集Email。&lt;br&gt;App 為改善體驗而蒐集使用行為數據。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;關鍵概念解析&#34;&gt;關鍵概念解析&lt;/h2&gt;
-&lt;h3 id=&#34;類似契約的深層意涵&#34;&gt;「類似契約」的深層意涵&lt;/h3&gt;
-&lt;p&gt;此條款賦予企業在正式簽約前的彈性空間，涵蓋「契約成立前之準備階段」：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;適用場景：求職者投遞履歷（尚未建立僱傭契約）、客戶詢價或索取型錄（尚未正式下單）。&lt;/li&gt;
-&lt;li&gt;合規價值：企業在磋商與談判階段即可合法處理個資，無需強迫對方先行簽署個資同意書，優化業務流程。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;適當之安全措施的舉證責任&#34;&gt;「適當之安全措施」的舉證責任&lt;/h3&gt;
-&lt;p&gt;這是第2款特有的前提要件。由於未經當事人額外同意，法律要求企業承擔更高的保護義務：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;實務要求：企業需證明已導入符合個資法第27條及施行細則之安全措施（如TPIPAS標準）。&lt;/li&gt;
-&lt;li&gt;風險提示：若發生資料外洩且企業無法舉證已採取適當措施，則該次蒐集可能被視為「自始違法」，面臨行政裁罰與損害賠償風險。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;同意的嚴格標準個資法第7條&#34;&gt;「同意」的嚴格標準（個資法第7條）&lt;/h2&gt;
-&lt;p&gt;依據個資法第7條及國際趨勢（如GDPR），有效的同意必須符合以下三要素：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;告知後同意：須先行履行第8條告知義務（蒐集目的、類別、利用期間等）。&lt;/li&gt;
-&lt;li&gt;明確性：禁止使用「預設勾選」或隱晦的「概括性同意」。&lt;/li&gt;
-&lt;li&gt;單獨性：「核心服務」與「行銷利用」的同意應分開取得。不能強迫用戶為了使用服務就必須接受行銷廣告（禁止包裹式同意）。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;企業決策建議路徑&#34;&gt;企業決策建議路徑&lt;/h2&gt;
-&lt;h3 id=&#34;優先適用契約關係推薦核心業務採用&#34;&gt;優先適用「契約關係」（推薦核心業務採用）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;適用情境：核心業務流程（如下單購買、物流配送、員工薪資轉帳）。&lt;/li&gt;
-&lt;li&gt;優點：
-&lt;ul&gt;
-&lt;li&gt;法律穩定性：排除當事人隨意要求刪除資料的風險，確保契約履行。&lt;/li&gt;
-&lt;li&gt;使用者體驗：減少干擾式彈跳視窗與繁瑣的勾選流程。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;風險控管：必須嚴格界定「必要範圍」，嚴禁目的外利用（如：不得將物流配送資料轉售或用於非關聯之行銷）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;補充適用當事人同意推薦加值服務採用&#34;&gt;補充適用「當事人同意」（推薦加值服務採用）&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;適用情境：非核心業務、加值服務、行銷推廣、提供資料予第三方合作夥伴。
-&lt;ul&gt;
-&lt;li&gt;優點：法律依據明確，賦予企業處理「非必要資料」的合法權限。&lt;/li&gt;
-&lt;li&gt;管理成本：
-&lt;ul&gt;
-&lt;li&gt;需建立「同意管理機制」，精確記錄「誰、在何時、同意了什麼」。&lt;/li&gt;
-&lt;li&gt;需具備「撤回權響應機制」，一旦用戶撤回同意，系統需能即時阻斷資料利用。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;常見稽核缺失&#34;&gt;常見稽核缺失&lt;/h2&gt;
-&lt;p&gt;在實務稽核中，我們常見以下違規樣態，請務必避免：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;強迫同意：
-&lt;ul&gt;
-&lt;li&gt;缺失樣態：在隱私權政策宣告「若您使用本服務，即代表您同意我們將資料用於行銷推廣」。&lt;/li&gt;
-&lt;li&gt;顧問分析：此舉混淆了第2款與第5款。使用服務是基於契約，行銷利用則需額外同意。強迫打包的同意條款，在法律上極可能被認定無效（顯失公平）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;欠乏安全措施導致合法性喪失：
-&lt;ul&gt;
-&lt;li&gt;缺失樣態：企業主張基於「契約關係」處理資料，但缺乏存取控制或加密機制，導致駭客入侵。&lt;/li&gt;
-&lt;li&gt;顧問分析：法院或主管機關可能認定因未符合「已採取適當之安全措施」之後段要件，導致蒐集行為自始不合法，企業將失去免責抗辯的基礎。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content:encoded>
-    </item>
-    <item>
-      <title>【深度解析】企業個資保護鐵三角</title>
-      <link>https://yenjanw.github.io/posts/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</link>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</guid>
-      <description>&lt;p&gt;在數位經濟時代，資料是企業最寶貴的資產之一，而個人資料的保護更是重中之重。隨著台灣《個人資料保護法》及各行業主管機關的法規日趨嚴謹，許多企業開始意識到，單憑IT部門的努力，已不足以應對複雜的個資保護挑戰。於是，「個人資料保護專責人員」、「管理人員」、「查核人員」這些名詞應運而生。&lt;/p&gt;
-&lt;p&gt;然而，許多企業主、法務、甚至IT人員，對於這三個角色的具體差異仍然一知半解：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;這三個職位有什麼不同？可以由同一個人擔任嗎？&lt;/li&gt;
-&lt;li&gt;我們公司需要設立哪些職位？法規有強制要求嗎？&lt;/li&gt;
-&lt;li&gt;他們分別需要具備什麼樣的知識和技能（學能）？&lt;/li&gt;
-&lt;li&gt;如何從零開始，在企業內部建立起這套制度？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;本文將為您徹底剖析這三個角色的本質區別，提供具體的建置建議，讓您一次搞懂企業個資保護的「治理鐵三角」。&lt;/p&gt;</description>
-      <content:encoded>&lt;p&gt;在數位經濟時代，資料是企業最寶貴的資產之一，而個人資料的保護更是重中之重。隨著台灣《個人資料保護法》及各行業主管機關的法規日趨嚴謹，許多企業開始意識到，單憑IT部門的努力，已不足以應對複雜的個資保護挑戰。於是，「個人資料保護專責人員」、「管理人員」、「查核人員」這些名詞應運而生。&lt;/p&gt;
-&lt;p&gt;然而，許多企業主、法務、甚至IT人員，對於這三個角色的具體差異仍然一知半解：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;這三個職位有什麼不同？可以由同一個人擔任嗎？&lt;/li&gt;
-&lt;li&gt;我們公司需要設立哪些職位？法規有強制要求嗎？&lt;/li&gt;
-&lt;li&gt;他們分別需要具備什麼樣的知識和技能（學能）？&lt;/li&gt;
-&lt;li&gt;如何從零開始，在企業內部建立起這套制度？&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;本文將為您徹底剖析這三個角色的本質區別，提供具體的建置建議，讓您一次搞懂企業個資保護的「治理鐵三角」。&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;h2 id=&#34;主管機關的安維辦法&#34;&gt;主管機關的安維辦法&lt;/h2&gt;
-&lt;p&gt;多數主管機關（如金管會、衛福部、NCC等）發布的「個人資料檔案安全維護管理辦法」中，皆明確要求：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;配置相當資源及設立專責人員或組織：這直接對應了「管理人員」與「專責人員」的設立需求。法規強調「專責」，意在要求企業投入足夠心力，而非僅是名義上的指派。&lt;/li&gt;
-&lt;li&gt;個人資料保護導入、稽核及持續改善機制：這明確指出了PDCA循環的必要性，而「稽核機制」正是「查核人員」的核心職責。部分辦法更直接寫明應建立「內部稽核(internal     audit)制度」。&lt;/li&gt;
-&lt;li&gt;風險評鑑機制：這是「管理人員」的核心職責之一，用以決定資源投入的優先順序。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;結論&lt;/strong&gt;：雖然法規未使用「管理、專責、查核」等精確詞彙，但其要求的職能已經完整涵蓋了這三個角色的核心任務。企業若想證明自己已採取「適當之安全維護措施」，建置這三種職能的角色是最佳的舉證方式。&lt;/p&gt;
-&lt;h2 id=&#34;為何需要這些角色&#34;&gt;為何需要這些角色？&lt;/h2&gt;
-&lt;p&gt;要理解這三個角色的差異，我們必須回歸問題的根本：&lt;strong&gt;為什麼法律會要求組織採取「適當的安全維護措施」？&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;《個人資料保護法》第27條第1項要求「非公務機關應採行適當之安全維護措施，防止個人資料被竊取、竄改、毀損、滅失或洩漏。」&lt;/li&gt;
-&lt;li&gt;「適當」是什麼意思？這不是一個單一的行動，而是一個持續的管理循環。《個資法施行細則》第12條進一步定義了11項「適當」的措施，其中包含了「訂定個人資料保護方針」、「訂定個人資料檔案之安全維護計畫及業務終止後個人資料處理方法」、「定期檢視或稽核所定之前二款方針、計畫及方法是否落實」等要求。&lt;/li&gt;
-&lt;li&gt;這11項措施清楚地勾勒出一個管理體系（Management System）的輪廓，這個輪廓與國際上通行的PDCA（Plan-Do-Check-Act）持續改善循環完全吻合。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Plan (規劃)：需要有人來規劃與建立整個個資保護制度。這包括制定政策、評估風險、分配資源。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Do (執行)：需要有人來執行這些已規劃好的政策與程序，處理日常的個資相關作業。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Check (查核)：需要有人來檢查制度是否被確實執行，以及執行的效果是否符合預期。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Act (行動)：需要有人根據檢查的結果，修正並改善整個制度。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;從這個最根本的PDCA循環中，三個角色的定位便清晰地浮現出來：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;個人資料保護管理人員&lt;/strong&gt;：制度的規劃者與建構者 (Plan     &amp;amp; Act)。他是整個個資保護管理系統（PIMS,     Personal Information Management System）的總設計師與負責人。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;個人資料保護專責人員&lt;/strong&gt;：制度的日常執行者 (Do)。他們是第一線處理個資事務、落實各項保護措施的骨幹。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;個人資料保護查核人員&lt;/strong&gt;：制度的監督者與驗證者     (Check)。他們是獨立的第三方（或內部獨立角色），用以確認制度是否有效運作。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;這個「規劃-執行-查核」的職責分離（Segregation of Duties）原則，是現代管理制度與內部控制的核心，旨在避免「球員兼裁判」的利益衝突，確保制度的客觀性與有效性。&lt;/p&gt;
-&lt;h2 id=&#34;從不同視角剖析角色差異一表看懂三大角色&#34;&gt;從不同視角剖析角色差異：一表看懂三大角色&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;比較維度&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;個人資料保護管理人員 (Personal-data   Protection Manager)&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;個人資料保護專責人員 (Personal-data   Protection Specialist)&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;個人資料保護查核人員 (Personal-data   Protection Auditor)&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;核心定位&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;制度建構者&amp;amp;維運者&lt;/td&gt;
-          &lt;td&gt;制度執行者&amp;amp;維護者&lt;/td&gt;
-          &lt;td&gt;制度監督者&amp;amp;驗證者&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;PDCA&lt;/strong&gt; &lt;strong&gt;角色&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;Plan (規劃) &amp;amp; Act (行動)&lt;/td&gt;
-          &lt;td&gt;Do (執行)&lt;/td&gt;
-          &lt;td&gt;Check (查核)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;比喻&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;建築師&amp;amp;專案經理  (設計藍圖、管理專案、確保資源到位)&lt;/td&gt;
-          &lt;td&gt;現場工程師&amp;amp;工班  (依藍圖施工、處理日常問題)&lt;/td&gt;
-          &lt;td&gt;獨立監工&amp;amp;品保稽查員   (查驗施工品質是否符合藍圖與法規)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;工作重心&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;策略層面、體系建立、風險管理、資源協調、持續改善&lt;/td&gt;
-          &lt;td&gt;操作層面、日常作業、事件處理、執行程序、使用者支援&lt;/td&gt;
-          &lt;td&gt;監督層面、合規性驗證、有效性評估、獨立報告&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;詳細職責技能與要求比較表&#34;&gt;詳細職責、技能與要求比較表&lt;/h2&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;比較面向&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;個人資料保護管理人員&lt;/strong&gt; &lt;strong&gt;(Personal-data Protection Manager)&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;個人資料保護專責人員&lt;/strong&gt; &lt;strong&gt;(Personal-data Protection   Specialist)&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;個人資料保護查核人員&lt;/strong&gt; &lt;strong&gt;(Personal-data Protection Auditor)&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;主要職責&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;1.   建立與維護PIMS：依據法規(如個人資料保護法)與標準(如ISO 27701、TPIPAS)，規劃、建置及維運組織的個人資料保護管理制度。  2.   風險評鑑與管理：主導個人資料風險評鑑(PIA/DPIA)，識別、分析及評估風險，並制定應對措施。  3.   政策與程序制定：撰寫、頒布及修訂個資保護政策、管理辦法、作業指導書等文件。  4.   資源規劃與協調：向高階管理層爭取預算、人力與技術資源，並協調跨部門合作。  5.   管理審查：定期召開管理審查會議，向高階主管報告PIMS的運作狀況、風險情勢與改善建議。  6.   推動持續改善：根據內部查核、外部稽核及管理審查的結果，推動制度的矯正與預防措施。  7.   規劃與推動內部教育訓練：制定年度個資保護教育訓練計畫，並向高階主管及各部門主管進行策略性宣導。  8.   重大事件應變總指揮：擔任重大個資外洩事件的應變總指揮或核心成員，協調法務、公關、IT等部門進行處理。  9.   對外溝通代表：作為與主管機關溝通的主要窗口，回應其調查或要求。&lt;/td&gt;
-          &lt;td&gt;1.   執行日常保護措施：落實存取控制、加密、資料銷毀等技術與組織措施。  2.   個資盤點與清冊維護：執行個人資料的盤點作業，並持續維護最新的個資檔案清冊。  3.   當事人權利行使應對：處理當事人提出之查詢、閱覽、複製、補充、更正、停止處理利用、刪除等請求。  4.   個資事故初步應變：作為第一線應變人員，在個資事故發生時，執行初步的損害控制、通報與紀錄。  5.   委外監督支援：協助監督受託機關(委外廠商)是否落實其監督責任，如檢視合約、查核紀錄等。  6.   維護作業紀錄：確實記錄所有個人資料的利用、處理、國際傳輸及當事人權利行使的軌跡。  7.   系統權限管理：根據職務需求，執行個資相關系統的帳號權限申請、變更與停用作業。  8.   內部諮詢與訓練執行：擔任員工日常個資作業的諮詢窗口，並協助執行新人訓練、年度線上課程等基礎教育訓練。&lt;/td&gt;
-          &lt;td&gt;1.   制定查核計畫：依據風險評估結果與管理要求，規劃年度或專案性的內部查核計畫，包含查核範圍、目的、準則與時程。   2.   執行查核程序：透過訪談、文件審閱、實地觀察、系統抽查等方式，蒐集客觀的查核證據。  3.   評估合規性與有效性：判斷PIMS的運作是否符合個人資料保護法、TPIPAS、ISO 27701及組織內部政策的要求(合規性)，並評估其達成保護目標的程度(有效性)。  4.   撰寫查核報告：將查核發現(Findings)，包含符合事項、待觀察事項(OFIs)與不符合事項(NCs)，撰寫成客觀、公正的查核報告。   5.   追蹤改善行動：追蹤不符合事項的矯正措施是否被有效執行並完成，以確保問題被根本解決。  6.   獨立性與客觀性維持：在整個查核過程中，保持獨立於受查單位之外的客觀立場，不受管理壓力影響。  7.   向權責單位報告：將查核結果直接向高階管理層或監督單位(如董事會、稽核室)報告。  8.   提供專業建議：基於查核發現，對制度的弱點與不足之處，提供具體的改善建議。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;組織定位&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;策略規劃單位或核心管理職 通常隸屬於法務、風控、資安或獨立的隱私辦公室(Privacy  Office)，具備協調跨部門資源的權力。&lt;/td&gt;
-          &lt;td&gt;業務執行單位或IT維運單位 通常散布在有人力資源、行銷、客服、IT等會大量處理個資的部門內，或由IT/資安人員兼任。&lt;/td&gt;
-          &lt;td&gt;獨立監督單位 必須獨立於PIMS的建置與執行單位之外。通常由稽核室、法遵部門人員擔任，或由其他部門具備資格的人員進行交叉查核。  &lt;strong&gt;絕對不能查核自己設計或執行的工作&lt;/strong&gt;。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;匯報對象&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;高階管理層 (CEO, COO)、法務長、資安長(CISO)或董事會下的風險管理委員會。&lt;/td&gt;
-          &lt;td&gt;部門主管、個資保護管理人員。&lt;/td&gt;
-          &lt;td&gt;高階管理層、董事會、稽核主管。 其報告路線應獨立於受查單位。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;所需學能 (硬實力)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;1.    管理知識：專案管理、風險管理、PIMS建置方法論(如ISO  27701)、PDCA。   2.    法規知識：深入理解《個人資料保護法》、施行細則、GDPR、CBPR等國內外法規，以及各行業主管機關的安維辦法。   3.    技術理解：雖不需精通，但需廣泛理解網路架構、資料庫、加密、身份認證、安全開發(SSDLC)等資安概念，才能與IT有效溝通。   4.    業務流程知識：需了解公司核心業務流程，才能識別個資流向與風險。&lt;/td&gt;
-          &lt;td&gt;1.    法規知識：熟悉與日常作業相關的法規條文，如當事人權利、告知義務等。   2.    技術實作：具備操作特定資安工具(如DLP、加密軟體)、管理系統權限、安全刪除資料等實務技能。   3.    作業程序知識：精通公司內部制定的各項個資作業SOP。   4.    溝通與應對：能清晰地向當事人或內部員工解釋個資政策與程序。&lt;/td&gt;
-          &lt;td&gt;1.    查核/稽核專業：精通稽核方法論與技巧，包含查核規劃、證據蒐集、訪談技巧、報告撰寫。   2.    法規/標準知識：對查核準則(如個人資料保護法、TPIPAS、ISO 27701條文)有精確的理解與詮釋能力。   3.    邏輯分析與歸納：能從繁雜的證據中，識別出系統性的問題，並歸納出根本原因。   4.    客觀判斷力：能夠基於證據，做出公正、客觀且一致的符合性判斷。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;所需學能 (軟實力)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;領導力、策略思維、溝通協調能力、談判與說服力、專案管理能力、危機處理能力。&lt;/td&gt;
-          &lt;td&gt;細心、耐心、責任感、良好的溝通能力、客戶服務導向、團隊合作精神。&lt;/td&gt;
-          &lt;td&gt;獨立性、客觀性、正直誠信、批判性思維、觀察力、專業懷疑精神(Professional Skepticism)、良好的書面與口頭表達能力。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;績效指標 (KPIs)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;1.   PIMS建置與驗證時程達成率   2.   風險評鑑與處置計畫完成率   3.   重大個資外洩事件數量 (越少越好)   4.   內部/外部稽核之不符合事項數量 (越少越好)   1.   5. 管理審查決議事項的完成率&lt;/td&gt;
-          &lt;td&gt;1.    當事人權利行使請求的處理時效與滿意度   2.    個資盤點清冊的準確性與更新頻率   3.    日常作業SOP的遵循率   4.    個資事故通報的及時性與正確性   5.    教育訓練的執行率與覆蓋率&lt;/td&gt;
-          &lt;td&gt;1.    年度查核計畫的完成率  2.    查核報告的及時性與品質   3.    提出之不符合事項的有效性 (是否切中要害)   4.    矯正措施追蹤與結案的完成率   5.    受查單位對查核過程與結果的回饋&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;潛在風險與挑戰&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;1.   資源不足：高層不支持，拿不到預算和人力。   2.   跨部門溝通障礙：業務單位不配合，IT部門有技術困難。   3.   法規變動快：難以即時跟上國內外新法規的要求。   4.   球員兼裁判：若同時兼任查核工作，將失去獨立性。&lt;/td&gt;
-          &lt;td&gt;1.   作業繁瑣重複：日常工作量大，容易產生倦怠與疏忽。   2.   應對當事人壓力：面對情緒激動或要求不合理的當事人。   3.   權責不清：在事故發生時，成為代罪羔羊。   2.   技能成長有限：長期專注於執行面，可能缺乏策略思維的培養。&lt;/td&gt;
-          &lt;td&gt;1.   獨立性受威脅：來自受查單位主管或高層的壓力，要求修改查核結果。   2.   查核範圍受限：被拒絕提供必要的資料或系統存取權限。   3.   專業能力不足：對新技術或複雜業務流程不熟，導致查核不夠深入。   4.   人際關係緊張：因常&amp;quot;找麻煩&amp;quot; 而被同事排擠。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;組織架構與建置路徑我的組織該如何開始&#34;&gt;組織架構與建置路徑：我的組織該如何開始？&lt;/h2&gt;
-&lt;p&gt;理解了三個角色的差異後，下一個關鍵問題是：&lt;strong&gt;「我的組織該如何配置這些角色？」&lt;/strong&gt; 這沒有單一的標準答案，取決於企業的規模、業務複雜度、處理的個資數量與敏感性。&lt;/p&gt;
-&lt;p&gt;以下為您提供三種不同規模組織的建置路徑，並分析其優劣。&lt;/p&gt;
-&lt;h3 id=&#34;路徑一微型新創企業的務實合規模式&#34;&gt;路徑一：微型****/****新創企業的「務實合規」模式&lt;/h3&gt;
-&lt;p&gt;對於資源有限的微型或新創企業，目標是在符合法規最低要求的基礎上，以最經濟的方式起步。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;架構藍圖&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;角色&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;擔任人員&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;管理人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;通常由創辦人、執行長或具備管理職權的資深員工（如行政主管、IT主管）兼任。關鍵任務是意識到個資保護的重要性，並願意投入時間學習與規劃。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;專責人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;不設立專職。由各業務環節的負責人（如處理訂單的電商人員、管理人事資料的HR）直接承擔其業務範圍內的個資保護執行責任。管理人員需要對他們進行基礎的教育訓練。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;查核人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;這點最為棘手。最務實的做法是，由「管理人員」每年底進行一次自我檢視（Self-Assessment），誠實地對照法規與內部規定，記錄下落實情況與待辦事項。但必須認知到，這不具備獨立性，是權宜之計。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;優缺點&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;優點&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;缺點與風險&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;建議&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;·    &lt;strong&gt;成本極低&lt;/strong&gt;：無須增加新人事成本。  ·    &lt;strong&gt;決策快速&lt;/strong&gt;：權力集中，管理人員一聲令下即可推動。&lt;/td&gt;
-          &lt;td&gt;·    &lt;strong&gt;高度風險集中&lt;/strong&gt;：成敗繫於「管理人員」一身，若其專業不足或不夠投入，整個體系形同虛設。  ·    &lt;strong&gt;缺乏獨立監督&lt;/strong&gt;：「球員兼裁判」的極致，自我檢視很容易流於形式，無法發現真正的盲點。  ·    &lt;strong&gt;專業能力不足&lt;/strong&gt;：兼任人員通常缺乏系統性的個資保護與資安訓練，難以應對複雜的威脅或法規要求。  ·    &lt;strong&gt;法遵風險高&lt;/strong&gt;：雖然滿足了「有人負責」的表象，但可能經不起主管機關的實質檢查。&lt;/td&gt;
-          &lt;td&gt;此模式僅適用於創業初期、個資處理量極少的階段。一旦業務成長，就必須盡快朝路徑二邁進。管理人員至少應參加由個人資料管理人員課程或其他專業機構開設的基礎課程，獲取最基本的知識藍圖。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;路徑二中大型企業的標準制度模式&#34;&gt;路徑二：中大型企業的「標準制度」模式&lt;/h3&gt;
-&lt;p&gt;這是最符合個人資料保護法與TPIPAS、ISO 27701等管理系統精神的標準架構，也是大多數有一定規模、希望建立穩健制度的企業應採取的模式。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;架構藍圖&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;角色&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;擔任人員&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;管理人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;設立專職的「個資保護經理/主任」或「資安長(CISO)」，直接向高階管理層（如總經理、法務長）匯報。此職位應被賦予足夠的權力與資源，以協調各部門。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;專責人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;在主要個資處理部門（如IT、HR、行銷、客服）中，指派或招募專職或兼職的個資保護專員。他們在業務上聽從部門主管，但在個資保護事務上，需接受「管理人員」的指導與監督（虛線報告關係）。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;查核人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;由組織內獨立的稽核室或法遵部門人員擔任。稽核人員的訓練、計畫與執行，應獨立於管理人員與專責人員之外，其查核報告直接提交給董事會或總經理。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;優缺點&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;優點&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;缺點與風險&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;建議&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;·    &lt;strong&gt;職責分離明確&lt;/strong&gt;：完美體現「規劃、執行、查核」分離的內控原則，有效避免利益衝突。  ·    &lt;strong&gt;專業分工&lt;/strong&gt;：各角色可專注於自身領域，提升專業深度與執行品質。  ·    &lt;strong&gt;制度穩健&lt;/strong&gt;：符合國內外主流標準，易於通過驗證或主管機關查核。  ·    &lt;strong&gt;責任明確&lt;/strong&gt;：發生事故時，可依職責歸屬進行調查與究責。&lt;/td&gt;
-          &lt;td&gt;·    &lt;strong&gt;成本較高&lt;/strong&gt;：需要投入更多的人力與訓練成本。  ·    &lt;strong&gt;溝通成本增加&lt;/strong&gt;：跨部門協調需求高，若管理人員權力不足，可能推動困難。&lt;/td&gt;
-          &lt;td&gt;這是企業個資保護制度走向成熟的必經之路。導入初期，可先指派內部資深人員轉任，並積極尋求外部顧問與教育訓練資源。  成功的關鍵在於&lt;strong&gt;高階管理層的全力支持&lt;/strong&gt;。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;路徑三大型跨國集團的卓越治理模式&#34;&gt;路徑三：大型****/****跨國集團的「卓越治理」模式&lt;/h3&gt;
-&lt;p&gt;對於業務遍及全球、資料處理極其複雜的大型集團，其架構更強調中央集權的策略指導與在地化的彈性執行。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;架構藍圖&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;角色&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;擔任人員&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;最高層級 (集團總部)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;設立「資料保護長 (DPO, Data Protection  Officer)」或「隱私長 (CPO, Chief Privacy Officer)」。此為集團最高隱私治理官員，負責制定全球統一的隱私策略與框架，直接向董事會或最高執行單位匯報。類似於「超級管理人員」。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;區域/國家層級&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;設立區域性的「個資保護管理人員」，負責將集團策略轉化為符合當地法規（如台灣個人資料保護法、歐盟GDPR）的具體制度。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;業務單位層級&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;在各事業群或重要產品線中，設置「業務單位專責人員」。他們是植入業務單位的種子，負責推動隱私工程化 (Privacy by Design)，並作為第一線的諮詢窗口。他們同時向業務主管與個資管理人員報告（矩陣式管理）。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;strong&gt;查核人員&lt;/strong&gt;&lt;/td&gt;
-          &lt;td&gt;由集團層級的「全球內部稽核 (Global Internal  Audit)」團隊負責，他們具備多國法規的查核能力，確保全球政策的一致性與在地法規的遵循性。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;優缺點&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;strong&gt;優點&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;缺點與風險&lt;/strong&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;strong&gt;建議&lt;/strong&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;·    &lt;strong&gt;全球視野與在地落實兼具&lt;/strong&gt;：能應對複雜的跨國法規環境。  ·    &lt;strong&gt;隱私文化深度融合&lt;/strong&gt;：將隱私保護內化為產品開發與業務流程的一部分。  ·    &lt;strong&gt;資源整合效益高&lt;/strong&gt;：可共享全球的專家資源、威脅情資與解決方案。&lt;/td&gt;
-          &lt;td&gt;·    &lt;strong&gt;架構複雜，溝通成本極高&lt;/strong&gt;：矩陣式管理容易產生多頭馬車的問題。  ·    &lt;strong&gt;建置與維運成本巨大&lt;/strong&gt;：需要龐大的專家團隊與支援系統。&lt;/td&gt;
-          &lt;td&gt;此模式適用於已具備成熟資安與法遵體系的跨國企業。其核心精神在於「治理 (Governance)」，不僅是管理，更是建立一套可自我調適、持續進化的生態系統。&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;從合規到卓越建構企業的個資防護網&#34;&gt;從合規到卓越，建構企業的個資防護網&lt;/h2&gt;
-&lt;p&gt;回到我們最初的問題：「個人資料保護專責人員、管理人員、查核人員的區別是什麼？」&lt;/p&gt;
-&lt;p&gt;經過層層拆解與分析，我們可以得到一個根本性的結論：&lt;/p&gt;
-&lt;p&gt;這三個角色並非單純的職位名稱，它們代表了個資保護管理制度（PIMS）中不可或缺的三種核心職能：規劃與改善（Plan &amp;amp; Act）、日常執行（Do）、以及獨立監督（Check）。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;管理人員&lt;/strong&gt;是&lt;strong&gt;大腦&lt;/strong&gt;，負責思考、規劃、決策。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;專責人員&lt;/strong&gt;是&lt;strong&gt;雙手&lt;/strong&gt;，負責將大腦的指令付諸實行。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;查核人員&lt;/strong&gt;是&lt;strong&gt;眼睛&lt;/strong&gt;，負責獨立審視雙手的執行成果是否符合大腦的預期藍圖。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;一個健全的組織，需要大腦、雙手、眼睛各司其職，協同運作。&lt;/p&gt;
-&lt;p&gt;個人資料保護不僅僅是法規遵循的義務，更是企業贏得客戶信任、鞏固品牌商譽、在數位時代永續經營的基石。透過建立清晰的「管理-專責-查核」鐵三角，您的企業將能構建起一道堅實而有韌性的個資防護網，從被動的法規遵循，邁向主動的風險治理與商業卓越。&lt;/p&gt;
-</content:encoded>
-    </item>
+    <lastBuildDate>Fri, 05 May 2017 17:35:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DEVONthink(五)</title>
-      <link>https://yenjanw.github.io/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <link>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <guid>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -665,9 +231,9 @@
     </item>
     <item>
       <title>DEVONthink(四)</title>
-      <link>https://yenjanw.github.io/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
+      <link>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 25 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
+      <guid>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -823,9 +389,9 @@
     </item>
     <item>
       <title>DEVONthink(三)</title>
-      <link>https://yenjanw.github.io/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
       <description>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;
 &lt;h2 id=&#34;建立一個新資料庫&#34;&gt;建立一個新資料庫&lt;/h2&gt;
@@ -883,9 +449,9 @@
     </item>
     <item>
       <title>DEVONthink(二)</title>
-      <link>https://yenjanw.github.io/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
+      <link>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
+      <guid>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
       <description>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
 &lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -1019,9 +585,9 @@
     </item>
     <item>
       <title>DEVONthink(一)</title>
-      <link>https://yenjanw.github.io/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
       <pubDate>Tue, 18 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
       <description>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
@@ -1075,9 +641,9 @@
     </item>
     <item>
       <title>幸福其實就在轉念之間~</title>
-      <link>https://yenjanw.github.io/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
+      <link>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
       <pubDate>Thu, 06 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
+      <guid>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lGfQGcX.jpeg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;很久以前看過的四格漫畫，在不同的時間看會有不同的領悟。&lt;/p&gt;
 &lt;p&gt;我稍微為英文不好的人做個翻譯&lt;/p&gt;
@@ -1157,9 +723,9 @@
     </item>
     <item>
       <title>快速顯示Markdown的.md檔 for MAC</title>
-      <link>https://yenjanw.github.io/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
       <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
 &lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
 &lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>
@@ -1193,9 +759,9 @@
     </item>
     <item>
       <title>Incremental Ta-Lib</title>
-      <link>https://yenjanw.github.io/posts/incremental-ta_lib/</link>
+      <link>http://localhost:1313/posts/incremental-ta_lib/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/incremental-ta_lib/</guid>
+      <guid>http://localhost:1313/posts/incremental-ta_lib/</guid>
       <description>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;
 &lt;h2 id=&#34;ta-lib-慢的原因&#34;&gt;Ta-Lib 慢的原因&lt;/h2&gt;
@@ -1282,9 +848,9 @@
     </item>
     <item>
       <title>如何在MAC中製作Windows 10的重灌USB</title>
-      <link>https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
+      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
+      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
       <description>&lt;p&gt;最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，&lt;strong&gt;電腦是拿來用的，不是拿來折騰的&lt;/strong&gt;。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
 以下記錄一下這次的心得。&lt;/p&gt;</description>
@@ -1329,9 +895,9 @@
     </item>
     <item>
       <title>我的推薦標準</title>
-      <link>https://yenjanw.github.io/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
+      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
+      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
       <description>&lt;p&gt;往後我會在BLOG中放上一些我曾經去過、吃過、玩過、看過、聽過的地方、餐廳、樂園、電影、音樂。(國中學的錯綜句法)有人會以為我推薦的東西有何特別，其實沒有。為此我說明一下我的評分標準，其實很簡單，只有幾項而已，免得讓人會錯義，&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;下次不會再來&lt;/li&gt;
@@ -1376,9 +942,9 @@
     </item>
     <item>
       <title>我的馬拉松賽事評分標準</title>
-      <link>https://yenjanw.github.io/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
+      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
       <pubDate>Sun, 02 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
+      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://tw.running.biji.co&#34;&gt;運動筆記&lt;/a&gt;有個功能就是為賽事評分，這目的也是讓主辦單位知道舉辦之後大家的感想，立意良好。但是評比本來就是主觀的，加上有些人是來亂的，畢竟現在賽事這麼多，但跑者的數量又不是無限的，很容易變成搶人比人氣的現象出現。&lt;/p&gt;
 &lt;p&gt;當然每個人參加馬拉松的目的都是不一樣的，有的人是為了賺錢(?)、有的人是為了肯定自我、有的人是為了身體健康、有的人是為了參賽禮而報名、有的人是為了交朋友(&lt;del&gt;結交正妹&lt;/del&gt;)、有的人是為了吃更多(&lt;del&gt;山豬肉&lt;/del&gt;)、有的人是為了跑而跑(百馬跑者)、有的人是&lt;a href=&#34;http://tw.running.biji.co/index.php?q=review&amp;amp;act=detail&amp;amp;id=29531&amp;amp;subtitle=%E3%80%90%E8%B7%91%E6%AD%A5%E7%85%A7%E7%89%87%E6%95%85%E4%BA%8B%E3%80%91%E5%90%89%E9%9B%B7%E7%B1%B3%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E8%B7%91Remy+cours+pour+Taiwan&#34;&gt;為台灣而跑&lt;/a&gt;(棒棒)&amp;hellip;.反正一百個人，有一百零一種理由，出發點都不相同，目的也不相同，怎麼可能會有相同的標準呢?&lt;/p&gt;
 &lt;p&gt;不相同就不相同吧，也沒有必要為了這種事情去統一規格。我個人比較龜毛，針對評分有一套自己的標準，在這提出大家參考看看，以避免在打星星時失去了客觀的評判。&lt;/p&gt;
@@ -1577,9 +1143,9 @@
     </item>
     <item>
       <title>純文字的力量!</title>
-      <link>https://yenjanw.github.io/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
       <pubDate>Thu, 30 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
       <description>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
 &lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -1631,9 +1197,9 @@
     </item>
     <item>
       <title>Evernote替代方案</title>
-      <link>https://yenjanw.github.io/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
       <pubDate>Thu, 23 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;列出我的需求:&lt;/p&gt;
@@ -1721,9 +1287,9 @@ Keep定位在一個輕量化的記事&lt;/p&gt;
     </item>
     <item>
       <title>Evernote 搬家到 DEVONthink</title>
-      <link>https://yenjanw.github.io/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
+      <link>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
       <pubDate>Mon, 20 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
+      <guid>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
       <description>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
@@ -1770,9 +1336,9 @@ Keep定位在一個輕量化的記事&lt;/p&gt;
     </item>
     <item>
       <title>Ulysses的Markdown功能</title>
-      <link>https://yenjanw.github.io/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
+      <link>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
       <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://yenjanw.github.io/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
 &lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
 &lt;ol&gt;
@@ -1864,9 +1430,9 @@ Keep定位在一個輕量化的記事&lt;/p&gt;
     </item>
     <item>
       <title>網頁不適合透過行動裝置瀏覽</title>
-      <link>https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
+      <link>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
+      <guid>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
       <description>&lt;p&gt;經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別&lt;strong&gt;您的網頁不適合使用行動裝置瀏覽&lt;/strong&gt;，針對這一點我覺得莫名奇妙
 &lt;img alt=&#34;Google搜尋的結果&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xragLQ4.png&#34;&gt;
 因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?&lt;/p&gt;

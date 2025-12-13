@@ -211,7 +211,7 @@
     </div>
 
     <!-- 側邊欄 -->
-    {{- if .IsHome }}
+    {{- if or .IsHome (eq .Section "dp_column") }}
     {{- partial "sidebar.html" . }}
     {{- end }}
 </div>

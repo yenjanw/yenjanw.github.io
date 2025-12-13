@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Markdown on YJ-OnLine</title>
-    <link>https://yenjanw.github.io/categories/markdown/</link>
+    <link>http://localhost:1313/categories/markdown/</link>
     <description>Recent content in Markdown on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 18 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yenjanw.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ulysses的Markdown功能</title>
-      <link>https://yenjanw.github.io/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
+      <link>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
       <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://yenjanw.github.io/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
 &lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
 &lt;ol&gt;

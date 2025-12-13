@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>如何在MAC中製作Windows 10的重灌USB | YJ-OnLine</title>
 <meta name="keywords" content="">
 <meta name="description" content="最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，電腦是拿來用的，不是拿來折騰的。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
 以下記錄一下這次的心得。">
 <meta name="author" content="">
-<link rel="canonical" href="https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
+<link rel="canonical" href="http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://yenjanw.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://yenjanw.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://yenjanw.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://yenjanw.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://yenjanw.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
 <noscript>
     <style>
         #theme-toggle,
@@ -72,77 +72,13 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
-  <meta property="og:site_name" content="YJ-OnLine">
-  <meta property="og:title" content="如何在MAC中製作Windows 10的重灌USB">
-  <meta property="og:description" content="最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，電腦是拿來用的，不是拿來折騰的。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。 以下記錄一下這次的心得。">
-  <meta property="og:locale" content="zh-TW">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2017-04-03T17:35:50+08:00">
-    <meta property="article:modified_time" content="2017-04-03T17:35:50+08:00">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="如何在MAC中製作Windows 10的重灌USB">
-<meta name="twitter:description" content="最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，電腦是拿來用的，不是拿來折騰的。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
-灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
-以下記錄一下這次的心得。">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://yenjanw.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "如何在MAC中製作Windows 10的重灌USB",
-      "item": "https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "如何在MAC中製作Windows 10的重灌USB",
-  "name": "如何在MAC中製作Windows 10的重灌USB",
-  "description": "最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，電腦是拿來用的，不是拿來折騰的。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。 以下記錄一下這次的心得。\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，電腦是拿來用的，不是拿來折騰的。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。 以下記錄一下這次的心得。\n環境 作業系統 MacOS 10.15.4 Catalina Windows10檔案: Win10_Edu_1909_Chinese(Traditional)_x64.iso 軟體 Bootcamp balenaEthcer 1.5.71 unetbootin USB Transcend 8GB USB Disk PC主機板 Gigabyte G1-Sniper-H6 CPU Intel-4790k 用Boot Camp Assistant製作 USB可以跑完，程式完整，但不能開機。\n用ubnet 可以跑完，可以開機，但安裝會報錯，有一個檔案無法正常讀取。\n作個撒尿牛丸 先將USB格式化成exfat 再用bootcamp安裝windows程式 再跑一次ubnet，一路按跳過，最後製作開機檔 完工~ ",
-  "wordCount" : "452",
-  "inLanguage": "en",
-  "datePublished": "2017-04-03T17:35:50+08:00",
-  "dateModified": "2017-04-03T17:35:50+08:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://yenjanw.github.io/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "YJ-OnLine",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://yenjanw.github.io/favicon.ico"
-    }
-  }
-}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://yenjanw.github.io/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -168,12 +104,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="https://yenjanw.github.io/" title="BLOG">
+                <a href="http://localhost:1313/" title="BLOG">
                     <span>BLOG</span>
                 </a>
             </li>
             <li>
-                <a href="https://yenjanw.github.io/about-me/" title="About Me">
+                <a href="http://localhost:1313/dp_column/" title="個資法專欄">
+                    <span>個資法專欄</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
                     <span>About Me</span>
                 </a>
             </li>
@@ -185,7 +126,7 @@
 <div class="post-container">
     <article class="post-single">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="https://yenjanw.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://yenjanw.github.io/posts/">Posts</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
             <h1 class="post-title entry-hint-parent">
                 如何在MAC中製作Windows 10的重灌USB
             </h1>
@@ -273,12 +214,12 @@
             <ul class="post-tags">
             </ul>
 <nav class="paginav">
-  <a class="prev" href="https://yenjanw.github.io/posts/incremental-ta_lib/">
+  <a class="prev" href="http://localhost:1313/posts/incremental-ta_lib/">
     <span class="title">« Prev</span>
     <br>
     <span>Incremental Ta-Lib</span>
   </a>
-  <a class="next" href="https://yenjanw.github.io/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/">
+  <a class="next" href="http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/">
     <span class="title">Next »</span>
     <br>
     <span>我的推薦標準</span>
@@ -328,7 +269,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://yenjanw.github.io/">YJ-OnLine</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
 
     <span>
         Powered by

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>契約關係 on YJ-OnLine</title>
-    <link>https://yenjanw.github.io/tags/%E5%A5%91%E7%B4%84%E9%97%9C%E4%BF%82/</link>
+    <link>http://localhost:1313/tags/%E5%A5%91%E7%B4%84%E9%97%9C%E4%BF%82/</link>
     <description>Recent content in 契約關係 on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 13 Dec 2025 17:35:50 +0800</lastBuildDate>
-    <atom:link href="https://yenjanw.github.io/tags/%E5%A5%91%E7%B4%84%E9%97%9C%E4%BF%82/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E5%A5%91%E7%B4%84%E9%97%9C%E4%BF%82/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【合規分析】個資蒐集要件分析</title>
-      <link>https://yenjanw.github.io/posts/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</link>
+      <link>http://localhost:1313/dp_column/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</link>
       <pubDate>Sat, 13 Dec 2025 17:35:50 +0800</pubDate>
-      <guid>https://yenjanw.github.io/posts/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
+      <guid>http://localhost:1313/dp_column/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
       <description>&lt;p&gt;在執行個人資料盤點與適法性評估時，企業常習慣性選擇「當事人同意」作為法律依據。然而，依據《個人資料保護法》第19條，「與當事人有契約或類似契約之關係，且已採取適當之安全措施」 往往是更穩固且合適的選擇。&lt;/p&gt;
 &lt;p&gt;我們要回到個資保護最根本的邏輯：「合法性基礎」。非公務機關要處理個資，必須有一個合法的理由。這兩個條款代表了兩種截然不同的權利來源：
 兩者差異的核心在於資料處理的驅動力：&lt;/p&gt;

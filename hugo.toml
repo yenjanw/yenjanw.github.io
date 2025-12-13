@@ -1,4 +1,4 @@
-baseURL = 'https://yenjanw.github.io'
+baseURL = 'https://www.yjho.me'
 
 post = "/:year/:month/:slug/"
 languageCode = 'zh-TW'
@@ -54,9 +54,15 @@ hasCJKLanguage = true
     url  = "/"
 
 [[menu.main]]
+    name = "個資法專欄"
+    identifier = "dp_column"
+    weight = 2
+    url = "/dp_column/"
+
+[[menu.main]]
     name = "About Me"
     identifier = "about"
-    weight = 2
+    weight = 3
     url = "/about-me/"
 
 [sitemap]
