@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on YJ-OnLine</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:51365/posts/</link>
     <description>Recent content in Posts on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Fri, 05 May 2017 17:35:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51365/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DEVONthink(五)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <link>http://localhost:51365/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <guid>http://localhost:51365/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -231,9 +231,9 @@
     </item>
     <item>
       <title>DEVONthink(四)</title>
-      <link>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
+      <link>http://localhost:51365/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 25 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
+      <guid>http://localhost:51365/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -389,9 +389,9 @@
     </item>
     <item>
       <title>DEVONthink(三)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <link>http://localhost:51365/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <guid>http://localhost:51365/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
       <description>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;
 &lt;h2 id=&#34;建立一個新資料庫&#34;&gt;建立一個新資料庫&lt;/h2&gt;
@@ -449,9 +449,9 @@
     </item>
     <item>
       <title>DEVONthink(二)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
+      <link>http://localhost:51365/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
+      <guid>http://localhost:51365/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
       <description>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
 &lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -585,9 +585,9 @@
     </item>
     <item>
       <title>DEVONthink(一)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
+      <link>http://localhost:51365/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
       <pubDate>Tue, 18 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
+      <guid>http://localhost:51365/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
       <description>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
@@ -641,9 +641,9 @@
     </item>
     <item>
       <title>幸福其實就在轉念之間~</title>
-      <link>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
+      <link>http://localhost:51365/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
       <pubDate>Thu, 06 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
+      <guid>http://localhost:51365/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lGfQGcX.jpeg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;很久以前看過的四格漫畫，在不同的時間看會有不同的領悟。&lt;/p&gt;
 &lt;p&gt;我稍微為英文不好的人做個翻譯&lt;/p&gt;
@@ -723,9 +723,9 @@
     </item>
     <item>
       <title>快速顯示Markdown的.md檔 for MAC</title>
-      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <link>http://localhost:51365/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <guid>http://localhost:51365/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
       <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
 &lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
 &lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>
@@ -759,9 +759,9 @@
     </item>
     <item>
       <title>Incremental Ta-Lib</title>
-      <link>http://localhost:1313/posts/incremental-ta_lib/</link>
+      <link>http://localhost:51365/posts/incremental-ta_lib/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/incremental-ta_lib/</guid>
+      <guid>http://localhost:51365/posts/incremental-ta_lib/</guid>
       <description>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;
 &lt;h2 id=&#34;ta-lib-慢的原因&#34;&gt;Ta-Lib 慢的原因&lt;/h2&gt;
@@ -848,9 +848,9 @@
     </item>
     <item>
       <title>如何在MAC中製作Windows 10的重灌USB</title>
-      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
+      <link>http://localhost:51365/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
+      <guid>http://localhost:51365/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
       <description>&lt;p&gt;最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，&lt;strong&gt;電腦是拿來用的，不是拿來折騰的&lt;/strong&gt;。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
 以下記錄一下這次的心得。&lt;/p&gt;</description>
@@ -895,9 +895,9 @@
     </item>
     <item>
       <title>我的推薦標準</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
+      <link>http://localhost:51365/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
+      <guid>http://localhost:51365/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
       <description>&lt;p&gt;往後我會在BLOG中放上一些我曾經去過、吃過、玩過、看過、聽過的地方、餐廳、樂園、電影、音樂。(國中學的錯綜句法)有人會以為我推薦的東西有何特別，其實沒有。為此我說明一下我的評分標準，其實很簡單，只有幾項而已，免得讓人會錯義，&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;下次不會再來&lt;/li&gt;
@@ -942,9 +942,9 @@
     </item>
     <item>
       <title>我的馬拉松賽事評分標準</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
+      <link>http://localhost:51365/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
       <pubDate>Sun, 02 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
+      <guid>http://localhost:51365/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://tw.running.biji.co&#34;&gt;運動筆記&lt;/a&gt;有個功能就是為賽事評分，這目的也是讓主辦單位知道舉辦之後大家的感想，立意良好。但是評比本來就是主觀的，加上有些人是來亂的，畢竟現在賽事這麼多，但跑者的數量又不是無限的，很容易變成搶人比人氣的現象出現。&lt;/p&gt;
 &lt;p&gt;當然每個人參加馬拉松的目的都是不一樣的，有的人是為了賺錢(?)、有的人是為了肯定自我、有的人是為了身體健康、有的人是為了參賽禮而報名、有的人是為了交朋友(&lt;del&gt;結交正妹&lt;/del&gt;)、有的人是為了吃更多(&lt;del&gt;山豬肉&lt;/del&gt;)、有的人是為了跑而跑(百馬跑者)、有的人是&lt;a href=&#34;http://tw.running.biji.co/index.php?q=review&amp;amp;act=detail&amp;amp;id=29531&amp;amp;subtitle=%E3%80%90%E8%B7%91%E6%AD%A5%E7%85%A7%E7%89%87%E6%95%85%E4%BA%8B%E3%80%91%E5%90%89%E9%9B%B7%E7%B1%B3%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E8%B7%91Remy+cours+pour+Taiwan&#34;&gt;為台灣而跑&lt;/a&gt;(棒棒)&amp;hellip;.反正一百個人，有一百零一種理由，出發點都不相同，目的也不相同，怎麼可能會有相同的標準呢?&lt;/p&gt;
 &lt;p&gt;不相同就不相同吧，也沒有必要為了這種事情去統一規格。我個人比較龜毛，針對評分有一套自己的標準，在這提出大家參考看看，以避免在打星星時失去了客觀的評判。&lt;/p&gt;
@@ -1143,9 +1143,9 @@
     </item>
     <item>
       <title>純文字的力量!</title>
-      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <link>http://localhost:51365/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
       <pubDate>Thu, 30 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <guid>http://localhost:51365/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
       <description>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
 &lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -1197,9 +1197,9 @@
     </item>
     <item>
       <title>Evernote替代方案</title>
-      <link>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
+      <link>http://localhost:51365/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
       <pubDate>Thu, 23 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://localhost:51365/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;列出我的需求:&lt;/p&gt;
@@ -1287,9 +1287,9 @@ Keep定位在一個輕量化的記事&lt;/p&gt;
     </item>
     <item>
       <title>Evernote 搬家到 DEVONthink</title>
-      <link>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
+      <link>http://localhost:51365/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
       <pubDate>Mon, 20 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
+      <guid>http://localhost:51365/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
       <description>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
@@ -1336,9 +1336,9 @@ Keep定位在一個輕量化的記事&lt;/p&gt;
     </item>
     <item>
       <title>Ulysses的Markdown功能</title>
-      <link>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
+      <link>http://localhost:51365/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
       <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
+      <guid>http://localhost:51365/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
 &lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
 &lt;ol&gt;
@@ -1430,9 +1430,9 @@ Keep定位在一個輕量化的記事&lt;/p&gt;
     </item>
     <item>
       <title>網頁不適合透過行動裝置瀏覽</title>
-      <link>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
+      <link>http://localhost:51365/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
+      <guid>http://localhost:51365/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
       <description>&lt;p&gt;經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別&lt;strong&gt;您的網頁不適合使用行動裝置瀏覽&lt;/strong&gt;，針對這一點我覺得莫名奇妙
 &lt;img alt=&#34;Google搜尋的結果&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xragLQ4.png&#34;&gt;
 因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?&lt;/p&gt;

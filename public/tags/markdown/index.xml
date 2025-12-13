@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Markdown on YJ-OnLine</title>
-    <link>http://localhost:1313/tags/markdown/</link>
+    <link>http://localhost:51365/tags/markdown/</link>
     <description>Recent content in Markdown on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Thu, 06 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51365/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>快速顯示Markdown的.md檔 for MAC</title>
-      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <link>http://localhost:51365/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <guid>http://localhost:51365/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
       <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
 &lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
 &lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>純文字的力量!</title>
-      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <link>http://localhost:51365/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
       <pubDate>Thu, 30 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <guid>http://localhost:51365/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
       <description>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
 &lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
 &lt;!-- more --&gt;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51365&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,16 +9,16 @@
 <meta name="keywords" content="">
 <meta name="description" content="最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件Ta-Lib這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/incremental-ta_lib/">
+<link rel="canonical" href="http://localhost:51365/posts/incremental-ta_lib/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:51365/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:51365/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:51365/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:51365/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:51365/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/incremental-ta_lib/">
+<link rel="alternate" hreflang="en" href="http://localhost:51365/posts/incremental-ta_lib/">
 <noscript>
     <style>
         #theme-toggle,
@@ -76,7 +76,7 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <a href="http://localhost:51365/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -102,17 +102,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="BLOG">
+                <a href="http://localhost:51365/" title="BLOG">
                     <span>BLOG</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/dp_column/" title="個資法專欄">
+                <a href="http://localhost:51365/dp_column/" title="個資法專欄">
                     <span>個資法專欄</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about-me/" title="About Me">
+                <a href="http://localhost:51365/about-me/" title="About Me">
                     <span>About Me</span>
                 </a>
             </li>
@@ -124,7 +124,7 @@
 <div class="post-container">
     <article class="post-single">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:51365/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:51365/posts/">Posts</a></div>
             <h1 class="post-title entry-hint-parent">
                 Incremental Ta-Lib
             </h1>
@@ -258,12 +258,12 @@
             <ul class="post-tags">
             </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/">
+  <a class="prev" href="http://localhost:51365/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/">
     <span class="title">« Prev</span>
     <br>
     <span>快速顯示Markdown的.md檔 for MAC</span>
   </a>
-  <a class="next" href="http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
+  <a class="next" href="http://localhost:51365/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
     <span class="title">Next »</span>
     <br>
     <span>如何在MAC中製作Windows 10的重灌USB</span>
@@ -315,7 +315,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:51365/">YJ-OnLine</a></span> · 
 
     <span>
         Powered by
