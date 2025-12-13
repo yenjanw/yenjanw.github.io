@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>DEVONthink(五) | YJ-OnLine</title>
+<meta name="keywords" content="文件管理">
+<meta name="description" content="
+前文已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。
+
+文件整理是個哲學層次問題
+我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。
+文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的圖書館系。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。文件管理的目的，是為了快速搜尋，唯有能快速的找到所需的文件，才是好的管理方式。
+有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                DEVONthink(五)
+                <span class="entry-hint" title="Draft">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+                        <path
+                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                    </svg>
+                </span>
+            </h1>
+            <h2 class="post-subtitle">文件管理</h2>
+            <div class="post-meta">
+                <span title='2017-05-05 17:35:50'>
+                    2017-05-05
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e6%96%87%e4%bb%b6%e6%95%b4%e7%90%86%e6%98%af%e5%80%8b%e5%93%b2%e5%ad%b8%e5%b1%a4%e6%ac%a1%e5%95%8f%e9%a1%8c" aria-label="文件整理是個哲學層次問題">文件整理是個哲學層次問題</a><ul>
+                        
+                <li>
+                    <a href="#%e5%90%8c%e4%b8%80%e8%b3%87%e6%96%99%e5%a4%be%e4%b8%8b%e4%b8%8d%e8%b6%85%e9%81%8e%e5%8d%81%e5%80%8b%e6%aa%94%e6%a1%88" aria-label="同一資料夾下不超過十個檔案">同一資料夾下不超過十個檔案</a></li>
+                <li>
+                    <a href="#%e5%bb%ba%e7%ab%8bgtd%e8%b3%87%e6%96%99%e5%a4%be" aria-label="建立GTD資料夾">建立GTD資料夾</a></li>
+                <li>
+                    <a href="#%e6%8c%81%e7%ba%8c%e7%9a%84%e5%8a%9b%e9%87%8f" aria-label="持續的力量">持續的力量</a></li></ul>
+                </li>
+                <li>
+                    <a href="#devonthink%e7%9a%84%e6%96%87%e4%bb%b6%e7%ae%a1%e7%90%86%e6%96%b9%e5%bc%8f" aria-label="DEVONthink的文件管理方式">DEVONthink的文件管理方式</a><ul>
+                        
+                <li>
+                    <a href="#%e4%bd%95%e8%ac%82group--%e4%bd%95%e8%ac%82tag-" aria-label="何謂Group ? 何謂Tag ?">何謂Group ? 何謂Tag ?</a></li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8group%e7%ae%a1%e7%90%86" aria-label="使用Group管理">使用Group管理</a><ul>
+                        
+                <li>
+                    <a href="#%e5%bb%ba%e7%ab%8b%e6%96%b0%e7%9a%84group" aria-label="建立新的Group">建立新的Group</a></li>
+                <li>
+                    <a href="#auto-group" aria-label="Auto Group">Auto Group</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%a7%bb%e5%8b%95%e6%96%87%e4%bb%b6" aria-label="移動文件">移動文件</a></li>
+                <li>
+                    <a href="#classify" aria-label="Classify">Classify</a><ul>
+                        
+                <li>
+                    <a href="#auto-classify" aria-label="Auto Classify">Auto Classify</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%a4%87%e8%a3%bd" aria-label="複製">複製</a><ul>
+                        
+                <li>
+                    <a href="#duplicate" aria-label="Duplicate">Duplicate</a></li>
+                <li>
+                    <a href="#replicant" aria-label="Replicant">Replicant</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8tag%e7%ae%a1%e7%90%86" aria-label="使用Tag管理">使用Tag管理</a><ul>
+                        
+                <li>
+                    <a href="#tag-bar" aria-label="Tag Bar">Tag Bar</a><ul>
+                        
+                <li>
+                    <a href="#autocompletion" aria-label="Autocompletion">Autocompletion</a></li>
+                <li>
+                    <a href="#pop-up-menu" aria-label="Pop-up Menu">Pop-up Menu</a></li></ul>
+                </li>
+                <li>
+                    <a href="#tag-list" aria-label="Tag List">Tag List</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#wiki" aria-label="Wiki">Wiki</a><ul>
+                        
+                <li>
+                    <a href="#%e6%99%ae%e9%80%9a%e9%80%a3%e7%b5%90" aria-label="普通連結">普通連結</a></li>
+                <li>
+                    <a href="#wikilink" aria-label="WikiLink">WikiLink</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%89%b9%e6%ae%8a%e6%93%8d%e4%bd%9c%e6%96%b9%e5%bc%8f" aria-label="特殊操作方式">特殊操作方式</a><ul>
+                        
+                <li>
+                    <a href="#%e5%9c%a8%e8%b3%87%e6%96%99%e5%ba%ab%e9%96%93%e5%82%b3%e9%80%81%e6%aa%94%e6%a1%88" aria-label="在資料庫間傳送檔案">在資料庫間傳送檔案</a></li>
+                <li>
+                    <a href="#%e5%90%88%e4%bd%b5%e8%88%87%e5%88%86%e5%89%b2%e6%aa%94%e6%a1%88" aria-label="合併與分割檔案">合併與分割檔案</a><ul>
+                        
+                <li>
+                    <a href="#%e5%90%88%e4%bd%b5-merge" aria-label="合併 Merge">合併 Merge</a></li>
+                <li>
+                    <a href="#%e5%88%86%e5%89%b2-split" aria-label="分割 Split">分割 Split</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#%e6%96%87%e4%bb%b6%e7%ae%a1%e7%90%86%e7%b5%90%e8%aa%9e" aria-label="文件管理結語">文件管理結語</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p><img loading="lazy" src="http://i.imgur.com/S6DvEt3.png"></p>
+<p><a href="http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/">前文</a>已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。</p>
+<!-- more -->
+<h1 id="文件整理是個哲學層次問題">文件整理是個哲學層次問題<a hidden class="anchor" aria-hidden="true" href="#文件整理是個哲學層次問題">#</a></h1>
+<p>我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。</p>
+<p>文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的<code>圖書館系</code>。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。<em>文件管理的目的，是為了快速搜尋</em>，唯有能快速的找到所需的文件，才是好的管理方式。</p>
+<p>有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。</p>
+<p>文件管理就在這時候發揮了應有的功能，將相類似的文件放在一起，就是基本的觀念。其實很多人都已經具備這基本的觀念了(<del>就像D槽用騎兵步兵兩資料夾來分類一樣</del>)，會習慣將專案的文件放在一起，所有專案產生的文件，都放在同一個資料夾下，就是一個基本的概念。但是，在文件管理上，這還是不夠的。</p>
+<h2 id="同一資料夾下不超過十個檔案">同一資料夾下不超過十個檔案<a hidden class="anchor" aria-hidden="true" href="#同一資料夾下不超過十個檔案">#</a></h2>
+<blockquote>
+<p>根據統計，只要一個資料夾內超過十個檔案，就會造成使用者失焦。</p>
+</blockquote>
+<p>以我個人的經驗，資料夾真的只要有十個以上的檔案，我一定可以為它再做一次分類。但是這樣的好處是什麼呢?</p>
+<p>在DEVONthink之中，Group路徑會被自動加上Tag之中，所以比如有一個人件叫<code>DEVONthink使用說明</code>，它是放在<code>Plan</code>-&gt;<code>BLOG</code>-&gt;<code>YJOL</code>之中，則在Tag中已被自動加入<code>Plan</code>、<code>Blog</code>、<code>YJOL</code>等三個Tag。這最大的好處是大幅的加快搜尋速度。</p>
+<p>當然啦，有些檔案真的已經被拆解到不知如何再歸類時，其實也不用一直揪結在這項原則之中。比如出遊的照片，已經依照旅遊的目的、時間、地點、場景&hellip;分類，若還要再分類下去，真的蠻沒意義的。</p>
+<h2 id="建立gtd資料夾">建立GTD資料夾<a hidden class="anchor" aria-hidden="true" href="#建立gtd資料夾">#</a></h2>
+<p>在DEVONthink之中，每一個資料庫都預設<code>Inbox</code>資料夾，這就是一估GTD概念的展現。只要將文件或檔案放進資料庫中，就會被先放到這<code>Inbox</code>之中，好處是先執行現在的工作，不要為了分類檔案而分心，當工作告一段落或有空閒的時候，再執行檔案分類的拖拉放工作。如此就不會打斷現有的思緒。</p>
+<p>更進一步可以建立如<code>Action</code>、<code>ToDo</code>、<code>Someday</code>、<code>Archive</code>之類的分類，來將工作的進度作進一步的規畫，體現GTD的精神。這部份可以在網路上找到更佳的文章，大部份都是利用Evernote來介紹GTD的相關資料。但是相信已經看過我前幾篇文章的朋友，已經知道Evernote能做的，DEVONthink都能做得到，甚至做得更好。所以只要將那些方法拿來直接套用就可以。</p>
+<h2 id="持續的力量">持續的力量<a hidden class="anchor" aria-hidden="true" href="#持續的力量">#</a></h2>
+<p>文件管理是一件持續的事，是一個無限迴圈。可以當你的功力夠深，只要一招半式，就可以打遍天下無敵手了。但是持續並不容易，需要的是紀律(<del>又不是在當兵</del>)。所謂烈女只怕痴情郎，現在可能還無法體會出持續的好處，但未來一定會知道的(<del>廢話</del>)。</p>
+<p>好以成天就說到這裡~</p>
+<p>喟~ DEVONthink在文件管理的方式都還沒有提到耶~</p>
+<p>好像是厚! 以下開始說明DEVONthink在文件管理的方式。</p>
+<h1 id="devonthink的文件管理方式">DEVONthink的文件管理方式<a hidden class="anchor" aria-hidden="true" href="#devonthink的文件管理方式">#</a></h1>
+<h2 id="何謂group--何謂tag-">何謂Group ? 何謂Tag ?<a hidden class="anchor" aria-hidden="true" href="#何謂group--何謂tag-">#</a></h2>
+<p>在說明DEVONthink的文件管理邏輯之前，先讓我們來討論一下Group與Tag之間的關係。</p>
+<ul>
+<li>
+<p>DEVONthink預設會將Group的層級自動加入Tag。</p>
+<blockquote>
+<p>若不想在Tag中加入Group的名字，可以在<code>Tools</code>-&gt;<code>Show Info</code>或<code>⇧⌘+I</code>的方式叫出Group的內容，在<code>Tagging</code>上打勾，將自動tag功能關閉。</p>
+<p><img loading="lazy" src="http://i.imgur.com/Ju7Bqj8.png"></p>
+</blockquote>
+</li>
+<li>
+<p>Group適合用在檔案本身邏輯清礎的場合，因為檔案只會存在一個單一的Group位置。當然可以利用DEVONthink的<code>replicate</code>(不了解的可以查看<a href="http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/">前文</a>)功能，將檔案複製在另一個Group中。</p>
+</li>
+<li>
+<p>反而言之，每一個Tag其實也是一個Group，一種排列的方式。這些Tag會在頂層與Inbox一同顯示。也可以用拖拉放的方式，將文字或檔案放入Tag之中。</p>
+</li>
+<li>
+<p>若在Group刪除檔案，因為檔案本身只屬一個Group，如此檔案就真的被刪除了。而通常一個檔案有多個Tag，所以在Tag之中刪除了檔案，該檔案會存在於另一個所屬的Tag之中，並不會被刪除。(有點繞舌)</p>
+</li>
+</ul>
+<h2 id="使用group管理">使用Group管理<a hidden class="anchor" aria-hidden="true" href="#使用group管理">#</a></h2>
+<h3 id="建立新的group">建立新的Group<a hidden class="anchor" aria-hidden="true" href="#建立新的group">#</a></h3>
+<p>方法有下列幾種:</p>
+<ul>
+<li>從<code>Data</code>-&gt;<code>New</code>-&gt;<code>Group</code>(⌘⇧+N)</li>
+</ul>
+<p><img loading="lazy" src="http://i.imgur.com/CmaMxRA.png"></p>
+<ul>
+<li>在Toolbar按下<code>New Group</code>圖示。</li>
+</ul>
+<p><img loading="lazy" src="http://i.imgur.com/v0NavHD.png"></p>
+<ul>
+<li>
+<p>先選好要放在Group中的檔案，再按下<code>Group Item</code>的按鈕。</p>
+<p><img loading="lazy" src="http://i.imgur.com/vTLsCqV.png"></p>
+<blockquote>
+<p>透過這方式執行，系統會建立一個新的Group，並將剛剛所選擇的檔案或文件，直接&quot;<strong>移動</strong>&ldquo;到新的Group之中，因為是搬移的方式，所以舊的位置檔案會消失。</p>
+</blockquote>
+</li>
+<li>
+<p>透過右鍵，由<code>New</code>-&gt;<code>Group</code>來新增。</p>
+</li>
+</ul>
+<p><img loading="lazy" src="http://i.imgur.com/f7bkn5C.png"></p>
+<h3 id="auto-group">Auto Group<a hidden class="anchor" aria-hidden="true" href="#auto-group">#</a></h3>
+<p>這是DEVONthink比其他同類型產品強的地方之一。假如你有很多的檔案要處理，可以試著利用<code>Auto Group</code>功能，來幫你節省時間。</p>
+<p>基於DEVONthink自行的演算方式，所發展的AI(人工智慧Artificial Intelligence)來將檔案放入到適合的Group之中。可以透過<code>Data</code>-&gt;<code>Audo Group</code>來實現這功能。</p>
+<p>Auto Group會將剛剛所選的文件，在相同的Group之中再建立新的Group，並將檔案或文件移入。</p>
+<p>我想要為這功能，說明一下它運作的原理與應用，但本篇文章只是說明的性質，所以作罷，未來再把這部份作詳細的介紹。</p>
+<h2 id="移動文件">移動文件<a hidden class="anchor" aria-hidden="true" href="#移動文件">#</a></h2>
+<p>文件的移動可以透過以下的方式實現:</p>
+<ul>
+<li>
+<p>拖拉放。BJ4</p>
+</li>
+<li>
+<p>從Toolbar的<code>Action</code>按鈕，選擇<code>Move To</code></p>
+<p><img loading="lazy" src="http://i.imgur.com/0NTSX5K.png"></p>
+</li>
+<li>
+<p>在文件上按右鍵，選擇<code>Move To</code></p>
+</li>
+</ul>
+<p><img loading="lazy" src="http://i.imgur.com/gMDSQrV.png"></p>
+<p>當利用這方式來移動文件時，可以看到如下的圖示:</p>
+<p><img loading="lazy" src="http://i.imgur.com/1t0pmHo.png"></p>
+<p>最上面的部份是這份檔案現在所屬的位置。下方是最近所選的位置，當太亂時，可以用<code>Clear Recent Destinations</code>把它清除。而下半部是不同資料庫的位置，如我的圖所示，我兩個資料庫所有的第一層都會被顯示出來。</p>
+<blockquote>
+<p>提醒:移動之後，檔案的Group Tag也會被變動，改成新的位置Tag。再次說明，Tag顏色是灰色的，那是屬於Group所屬的Tag，我簡稱<code>Group Tag</code>。而自己所設定的Tag是藍色的，我孤且稱作<code>Personal Tag</code>。其實原廠並沒有這樣的稱呼方式，是我為了方便辨別而設的簡稱。</p>
+</blockquote>
+<h2 id="classify">Classify<a hidden class="anchor" aria-hidden="true" href="#classify">#</a></h2>
+<p>在中文真的沒有很好的稱呼來說明這動詞，我習慣稱為分類(Classify)。這是用在當文件建立時，在同資料夾下找不到很好可以共同組成資料夾的項目的狀況下，可以參考之前所建立的資料夾，是否有符合適合對應的項目。</p>
+<p>這功能出現在當開啟文件時，打開<code>See Also</code>的抽屜，在上半部顯示適合此文件的資料夾位置，用Score評分的方式來建議選項。</p>
+<p><img loading="lazy" src="http://i.imgur.com/DL8KoVY.png"></p>
+<p>選定確認的資料夾，按<code>⌃+C</code>來將檔案移至該資料夾。</p>
+<h3 id="auto-classify">Auto Classify<a hidden class="anchor" aria-hidden="true" href="#auto-classify">#</a></h3>
+<p>與<code>Auto Group</code>一樣的運算方式，透過DEVONthink專屬的AI演算方式，將文件自動移至適合的資料夾。</p>
+<blockquote>
+<p><code>Auto Group</code>與<code>Auto Classify</code>的差別在於，<code>Auto Group</code>會將檔案放入新的Group之中，而<code>Auto Classify</code>是將檔案放在<strong>已經</strong>存在的Group中。</p>
+</blockquote>
+<p>這功能可以透過Toolbar上<code>Action</code>按鈕，或是<code>Data</code>-&gt;<code>Auto Classify</code>的方式進行。這功能現在我也不多做說明，因為會耗掉很長的篇幅，未來我會再找時間說明一下這功能。</p>
+<p>其實<code>Auto Group</code>與<code>Auto Classify</code>都是DEVONthink之中殺手級的應用，非常快速的解決分類問題。但是，對，就是但是&hellip;.這功能的演算是建立在文章的分析上，而文件的分析在中文斷字還非常的弱，所以這兩功能在中文環境下，變成殘廢級的功能，相當可惜。所以就算假如不知道是幹嘛用的也沒關係，反正中文環境上用不到。這要等原廠未來技術提昇之後再討論也是來得及的。</p>
+<h2 id="複製">複製<a hidden class="anchor" aria-hidden="true" href="#複製">#</a></h2>
+<p>之前的文章<a href="http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/">DEVONthink(一)初步認識</a>已有提過Duplicate與Replicant之間的差別，這裡我就不再重覆。這裡我就說明這功能該如何操作。</p>
+<h3 id="duplicate">Duplicate<a hidden class="anchor" aria-hidden="true" href="#duplicate">#</a></h3>
+<p>當我們選定了一個或多個文件時:</p>
+<ul>
+<li><code>Data</code>-&gt;<code>Duplicate</code>這會複製文件在同一資料夾下。</li>
+<li>按住Option(⌥)，然後移動到你想要複製的位置。</li>
+<li>從Toolbar的<code>Action</code>鈕，選<code>Duplicate to</code>到指定的位置。</li>
+<li>利用右鍵選<code>Duplicate to</code>到指定的位置。</li>
+</ul>
+<h3 id="replicant">Replicant<a hidden class="anchor" aria-hidden="true" href="#replicant">#</a></h3>
+<p>這一項與上述Duplicate幾乎操作方式一樣，也是選定一個或多個文件，然後利用上述的方式操作。唯一差別只有第二點。</p>
+<ul>
+<li>按住Option與Command鍵(⌥⌘)，然後移動到你想要複製的位置。</li>
+</ul>
+<p>其他的操作我就不再說明了。</p>
+<h2 id="使用tag管理">使用Tag管理<a hidden class="anchor" aria-hidden="true" href="#使用tag管理">#</a></h2>
+<p>這與Group管理的方式幾乎相同，其實Tag管理已經在很多方面都得到實證，可以很方便的將文件資料作個分類。以下就簡單說明一下操作方式。</p>
+<h3 id="tag-bar">Tag Bar<a hidden class="anchor" aria-hidden="true" href="#tag-bar">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/L0dFvAR.png"></p>
+<ul>
+<li>先打開一份文件。</li>
+<li>選擇<code>View</code>-&gt;<code>Show Tags</code>或是<code>⌘⌥⌃+T</code>開啟Tag Bar，如圖示的最下方。</li>
+<li>可以在Tag Bar新增、修改或刪除本文件的Tag。</li>
+</ul>
+<p>在Tag Bar有幾項是DEVONthink特有的功能，以下說明一下:</p>
+<h4 id="autocompletion">Autocompletion<a hidden class="anchor" aria-hidden="true" href="#autocompletion">#</a></h4>
+<p>在你Key入Tag的同時，DEVONthink會自動幫你找尋相關字串的Tag，可以自動完成輸入的文字，假如有符合，只要用選的就可以了。</p>
+<h4 id="pop-up-menu">Pop-up Menu<a hidden class="anchor" aria-hidden="true" href="#pop-up-menu">#</a></h4>
+<p>在Tag旁有一個<code>⋁</code>的符號，點選之後有幾項功能</p>
+<ul>
+<li>Reveal Tag: 顯示該Tag的位置，可以帶到該Tag的列表，快速找到相關同類型的文件。</li>
+<li>Remove Tag: 看文字就知道是移除該Tag。</li>
+<li>Related Tags: 列出相同類型的Tag，這是DEVONthink利用AI所計算出，相同類型的Tag。利用帶有相同Tag的文件共同去分析，相類似的Tag會一併在這顯示。</li>
+</ul>
+<h3 id="tag-list">Tag List<a hidden class="anchor" aria-hidden="true" href="#tag-list">#</a></h3>
+<p>在資料庫內，預設會有一個Tags的列表，如同Group一樣被列在資料庫中。用這列表可以很方便的做幾件事情。</p>
+<ul>
+<li>重新命名: 當Tag被改名之後，在Tag內的文件也一併被改名，可以省去一個一個文件做修改的勞苦工作。</li>
+<li>移除: 如同重新命名一樣，在同一資料庫中所有的文件同時被移除這一個Tag。</li>
+<li>指定文件: 把文件拖拉放到該Tag之中，則文件就被新增該Tag。</li>
+</ul>
+<p>這幾個功能，最重要的是可以批量化作業，一次選一堆Tag，或為一堆文件同時修改Tag時相當方便(遠目Evernote)。</p>
+<p>我個人算是個Group控，Tag對我來說只是輔助功能而已，但以上幾些功能對Tag控應是相當的方便。它改善了多數文件管理軟體在這方面的缺點，但也相對的，對我這Group控第一次接觸DEVONthink時產生了困惱，不理解畫面為何要被設計成這麼複雜，不能簡單一點嗎? 就是因為功能眾多，要符合所有人的使用習慣是不可能的，所以剛接觸時會覺得顯示的很凌亂。不過DEVONthink也很貼心的知道這問題，所以假如自己不用的功能，都是有方法選擇關閉的，在<code>View</code>內有很多選項就是在做這功能。</p>
+<h1 id="wiki">Wiki<a hidden class="anchor" aria-hidden="true" href="#wiki">#</a></h1>
+<p>這是DEVONthink最特別的我能之一，有點像是之前的<a href="https://plausible.coop/voodoopad/">Voodoopad</a>的功能，DEVONthink能自動辨識文字中與其他文件檔名、Group、Tag相同的專有名詞。讓整份文件有如Wiki一樣的連結功能。</p>
+<h2 id="普通連結">普通連結<a hidden class="anchor" aria-hidden="true" href="#普通連結">#</a></h2>
+<p>建立在資料庫文件內的相互連結，有幾種不同的方式可以進行:</p>
+<ul>
+<li>在文件中先反白要建立連結的文字，透過右鍵選<code>Link to</code>然後指定要連結的立置(可以是Group、Tag、或是文件)。</li>
+<li>也可以直接在欲被連結的文件，選<code>Edit</code>-&gt;<code>Copy Item Link</code>，這樣連結就被複製進剪貼簿中，然後在文件中貼上即可。</li>
+<li>另外一種方式是，點選欲被連結的文件，利用<code>⌘⌥+拖</code>的方式，放至文件內文之中，即可達到相同的效果。</li>
+<li>若要移除連結，可以反白在藍色底線字上選擇<code>Format</code>-&gt;<code>Remove Link</code>的方式，把連結移除掉。</li>
+</ul>
+<h2 id="wikilink">WikiLink<a hidden class="anchor" aria-hidden="true" href="#wikilink">#</a></h2>
+<p>當你的資料庫文件越來越多的時候，就能顯示出這功能的強大。前述的方式還是自行去建立連結，而這裡來說明DEVONthink自動幫你建立文件之間的連結。</p>
+<p>這主要還是透過Group、Tag、與檔案名稱之間的比對，將文件內容對應到適合的位置，如此該文字下方會出現底線，可以連結到資料庫內的位置。</p>
+<p><img loading="lazy" src="http://i.imgur.com/BD2AY34.png"></p>
+<p>在<code>Preference</code>-&gt;<code>Editing</code> 中可以設定開啟或關閉Wikilink的自動化功能</p>
+<ul>
+<li>Names and Aliases: 預設是這選項，DEVONthink會去比對文字與Group、Tag、檔案名稱相同的部份，檔案名稱會同時去比對檔案的暱稱(可以從文件的Info找到)。當有出現相同時，自動建立連結。</li>
+<li>MashedWords adn Aliases: 這與上述不一樣的地方式，只會去比對一個連續的文字，且中間有大寫的字母，才會視為關鍵字，比如AppleScript(連續，中間有大寫)。</li>
+<li>Don&rsquo;t link to groups: 排除對group的比對工作。</li>
+<li>Open new document in separate windows: 點選連結後，開啟新的視窗。</li>
+</ul>
+<blockquote>
+<p>這是很實用的功能，可以快速建立個人的Wiki資料庫。但是(又來了)，因為中文斷字能力不足的關係，這功能在中文環境下，也是屬於半殘廢的狀態。不過英文環境就沒有這樣的問題，若你有很多的英文文件，你一定會發現這功能的威力。</p>
+</blockquote>
+<h1 id="特殊操作方式">特殊操作方式<a hidden class="anchor" aria-hidden="true" href="#特殊操作方式">#</a></h1>
+<h2 id="在資料庫間傳送檔案">在資料庫間傳送檔案<a hidden class="anchor" aria-hidden="true" href="#在資料庫間傳送檔案">#</a></h2>
+<p>跨資料庫的文件傳送，一般而言只要用拖拉放即可，在此說明一些小小的訣竅，以方便作文件管理。</p>
+<ul>
+<li>當sidebar有顯示的狀態下(<code>View</code>-&gt;<code>Show Sidebar</code>)，將文件拖到資料庫中，會預設被放在該資料庫的<code>Inbox</code>資料夾中。</li>
+<li>當進行多量的移動時，建議開啟Groups &amp; Tags面版(<code>Tools</code>-&gt;<code>Show Gourps &amp; Tags</code>)，可以直接拖拉到指定的資料夾。</li>
+<li>另外一種模式，對於畫面螢幕大的人，可以直接開啟另一個視窗去顯示資料庫位置(<code>File</code>-&gt;<code>New Window</code>-&gt;<code>DB Name</code>)，讓拖拉放更有效率。</li>
+</ul>
+<h2 id="合併與分割檔案">合併與分割檔案<a hidden class="anchor" aria-hidden="true" href="#合併與分割檔案">#</a></h2>
+<p>基於某些特殊的目的，有時需要將文件合併或分割。例如當專案文件檔案要封存時，有時會想將所有的專案文件一併合成一個檔案，用一個檔名，以方便管理。在一般的檔案管理的場合，會以壓縮成zip的方式處理，但在DEVONthink之中就不用這麼麻煩了，只要將多個文件直接合併成一個文件就好啦!</p>
+<h3 id="合併-merge">合併 Merge<a hidden class="anchor" aria-hidden="true" href="#合併-merge">#</a></h3>
+<p>有些相同主題的文件是可以直接被合併的，在DEVONthink中有簡單的方式可以處理。</p>
+<ul>
+<li>選擇要合併的文件，可以兩個或是多個。按右鍵點選<code>Merge</code>，如此就會出現新的已被合併的文件，預設的名稱如同&quot;3 merged documents&quot;就是三個被合併的文件，此時只要修改自己需要的名稱即可。</li>
+<li>如同上述選好文件，在<code>Data</code>-&gt;<code>Merge</code>。</li>
+<li>同上述選好文件，在Toolbar中的<code>Action</code>選<code>Metge</code>。</li>
+<li>可以被合併的文件包括:圖片、文字(Plain, Rich Text)、PDF、sheet、Web pages等，都是可以被合併的。</li>
+</ul>
+<p>有一點要留意的是，合併文件功能，並<strong>不會</strong>把原有的文件刪除。所以原本文件都還保留著。</p>
+<h3 id="分割-split">分割 Split<a hidden class="anchor" aria-hidden="true" href="#分割-split">#</a></h3>
+<p>有些文件內容過長，不方便管理，或是想要將被合併的文件拆解出來，將文件分割也是可以的。進行的方法略與合併不相同，首先要先開啟需被分割的文件，將游標移至欲分割的位置。</p>
+<ul>
+<li>按右鍵選<code>Split Document</code>。</li>
+<li>在<code>Edit</code>-&gt;<code>Split Document</code>。</li>
+</ul>
+<p>被分割出來的新文件，會是原文件名後面加上一個<code>2</code>，就會知道此為原文件的分割文件。</p>
+<ul>
+<li>分割文件功能，只能用在文字(Plain, Rich Text)與PDF檔，其他類型無法使用。</li>
+</ul>
+<h1 id="文件管理結語">文件管理結語<a hidden class="anchor" aria-hidden="true" href="#文件管理結語">#</a></h1>
+<p>從文中應該可以看出DEVONthink根本就是撒尿牛丸級的文件管理系統，幾乎什麼功能都有~~，只差中文斷字支援而已~~。我認為DEVONthink只是一種工具，就像Evernote一樣，也是一種工具，今天工具就是要拿來用，用的透，用的好，就是一種好工具。</p>
+<p>至於文件管理有很多的方法與理論，我相信各種理論都可以在DEVONthink上得到實踐，找到合適的功能來做管理，這就是一個好工具所需具備的元素。不應該是人去適應工具，而應該是工具是因人的需求而被打造的。所以好的工具要想到人真正所需要的需求。</p>
+<p>這一篇拖了一點時間才出來，因為上一個星期感冒，又是爬大山(<del>自找罪受</del>)，導致一整個星期都提不起精神來寫點東西。下一篇會來介紹搜尋功能。</p>
+
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">文件管理</a></li>
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>【深度解析】企業個資保護鐵三角</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/">
+    <span class="title">Next »</span>
+    <br>
+    <span>DEVONthink(四)</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e6%96%87%e4%bb%b6%e6%95%b4%e7%90%86%e6%98%af%e5%80%8b%e5%93%b2%e5%ad%b8%e5%b1%a4%e6%ac%a1%e5%95%8f%e9%a1%8c" aria-label="文件整理是個哲學層次問題">文件整理是個哲學層次問題</a><ul>
+                        
+                <li>
+                    <a href="#%e5%90%8c%e4%b8%80%e8%b3%87%e6%96%99%e5%a4%be%e4%b8%8b%e4%b8%8d%e8%b6%85%e9%81%8e%e5%8d%81%e5%80%8b%e6%aa%94%e6%a1%88" aria-label="同一資料夾下不超過十個檔案">同一資料夾下不超過十個檔案</a></li>
+                <li>
+                    <a href="#%e5%bb%ba%e7%ab%8bgtd%e8%b3%87%e6%96%99%e5%a4%be" aria-label="建立GTD資料夾">建立GTD資料夾</a></li>
+                <li>
+                    <a href="#%e6%8c%81%e7%ba%8c%e7%9a%84%e5%8a%9b%e9%87%8f" aria-label="持續的力量">持續的力量</a></li></ul>
+                </li>
+                <li>
+                    <a href="#devonthink%e7%9a%84%e6%96%87%e4%bb%b6%e7%ae%a1%e7%90%86%e6%96%b9%e5%bc%8f" aria-label="DEVONthink的文件管理方式">DEVONthink的文件管理方式</a><ul>
+                        
+                <li>
+                    <a href="#%e4%bd%95%e8%ac%82group--%e4%bd%95%e8%ac%82tag-" aria-label="何謂Group ? 何謂Tag ?">何謂Group ? 何謂Tag ?</a></li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8group%e7%ae%a1%e7%90%86" aria-label="使用Group管理">使用Group管理</a><ul>
+                        
+                <li>
+                    <a href="#%e5%bb%ba%e7%ab%8b%e6%96%b0%e7%9a%84group" aria-label="建立新的Group">建立新的Group</a></li>
+                <li>
+                    <a href="#auto-group" aria-label="Auto Group">Auto Group</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%a7%bb%e5%8b%95%e6%96%87%e4%bb%b6" aria-label="移動文件">移動文件</a></li>
+                <li>
+                    <a href="#classify" aria-label="Classify">Classify</a><ul>
+                        
+                <li>
+                    <a href="#auto-classify" aria-label="Auto Classify">Auto Classify</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%a4%87%e8%a3%bd" aria-label="複製">複製</a><ul>
+                        
+                <li>
+                    <a href="#duplicate" aria-label="Duplicate">Duplicate</a></li>
+                <li>
+                    <a href="#replicant" aria-label="Replicant">Replicant</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e4%bd%bf%e7%94%a8tag%e7%ae%a1%e7%90%86" aria-label="使用Tag管理">使用Tag管理</a><ul>
+                        
+                <li>
+                    <a href="#tag-bar" aria-label="Tag Bar">Tag Bar</a><ul>
+                        
+                <li>
+                    <a href="#autocompletion" aria-label="Autocompletion">Autocompletion</a></li>
+                <li>
+                    <a href="#pop-up-menu" aria-label="Pop-up Menu">Pop-up Menu</a></li></ul>
+                </li>
+                <li>
+                    <a href="#tag-list" aria-label="Tag List">Tag List</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#wiki" aria-label="Wiki">Wiki</a><ul>
+                        
+                <li>
+                    <a href="#%e6%99%ae%e9%80%9a%e9%80%a3%e7%b5%90" aria-label="普通連結">普通連結</a></li>
+                <li>
+                    <a href="#wikilink" aria-label="WikiLink">WikiLink</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e7%89%b9%e6%ae%8a%e6%93%8d%e4%bd%9c%e6%96%b9%e5%bc%8f" aria-label="特殊操作方式">特殊操作方式</a><ul>
+                        
+                <li>
+                    <a href="#%e5%9c%a8%e8%b3%87%e6%96%99%e5%ba%ab%e9%96%93%e5%82%b3%e9%80%81%e6%aa%94%e6%a1%88" aria-label="在資料庫間傳送檔案">在資料庫間傳送檔案</a></li>
+                <li>
+                    <a href="#%e5%90%88%e4%bd%b5%e8%88%87%e5%88%86%e5%89%b2%e6%aa%94%e6%a1%88" aria-label="合併與分割檔案">合併與分割檔案</a><ul>
+                        
+                <li>
+                    <a href="#%e5%90%88%e4%bd%b5-merge" aria-label="合併 Merge">合併 Merge</a></li>
+                <li>
+                    <a href="#%e5%88%86%e5%89%b2-split" aria-label="分割 Split">分割 Split</a></li></ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#%e6%96%87%e4%bb%b6%e7%ae%a1%e7%90%86%e7%b5%90%e8%aa%9e" aria-label="文件管理結語">文件管理結語</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

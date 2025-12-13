@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on YJ-OnLine</title>
+    <link>http://localhost:1313/categories/markdown/</link>
+    <description>Recent content in Markdown on YJ-OnLine</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 18 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ulysses的Markdown功能</title>
+      <link>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
+      <description>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
+&lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;思續不會終斷
+當我們人在寫作的時候，其實思續都是沈浸在文章之中，但是當要為某一句話作排版時，雙手就很自然的要去碰滑鼠或是觸控版，這時候的注意力就會分散，以致於思續不集中。但是利用Markdown的方式，可以很順利的集中在文章之中而不會被其他的事務所影響。&lt;/li&gt;
+&lt;li&gt;功能簡單
+其實Markdown也只有25種類型，需要記憶的並不多，且常用的其實只有那幾種而已。常用到的功能也不到十種，負擔不會太大，不會因為要學習一個新的輸入方式就要花額外的精力去練習||比我學嘸蝦米還簡單||。&lt;/li&gt;
+&lt;li&gt;語法通用
+已經有很多的APP都有支援這種語法，算是蠻直覺的，只要學一套就可以通用到每一個APP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以往我在寫文章會習慣利用Evernote的界面來輸入，但是總是覺得很麻煩，因為Evernote的語法畢竟是利用HTML的方式所撰寫，所以假如是習慣HTML語法的人才會覺得方便。但我從最早是從用Word開始寫文章的(雖然Word真的很爛)，習慣的操作方式已經被定型了，這讓我在使用Evernote時倍感難用。而Ulysses的簡面真的很簡單，就是一個像備忘錄一樣的界面，不用去管字的大小、字體的樣式，只要順從心意去輸入想要的文字就好。這讓我的注意力集中在畫面之中，算是我學嘸蝦米之後(從此視線不在注視著選字)的另外一次進階改變。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
+&lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;思續不會終斷
+當我們人在寫作的時候，其實思續都是沈浸在文章之中，但是當要為某一句話作排版時，雙手就很自然的要去碰滑鼠或是觸控版，這時候的注意力就會分散，以致於思續不集中。但是利用Markdown的方式，可以很順利的集中在文章之中而不會被其他的事務所影響。&lt;/li&gt;
+&lt;li&gt;功能簡單
+其實Markdown也只有25種類型，需要記憶的並不多，且常用的其實只有那幾種而已。常用到的功能也不到十種，負擔不會太大，不會因為要學習一個新的輸入方式就要花額外的精力去練習||比我學嘸蝦米還簡單||。&lt;/li&gt;
+&lt;li&gt;語法通用
+已經有很多的APP都有支援這種語法，算是蠻直覺的，只要學一套就可以通用到每一個APP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以往我在寫文章會習慣利用Evernote的界面來輸入，但是總是覺得很麻煩，因為Evernote的語法畢竟是利用HTML的方式所撰寫，所以假如是習慣HTML語法的人才會覺得方便。但我從最早是從用Word開始寫文章的(雖然Word真的很爛)，習慣的操作方式已經被定型了，這讓我在使用Evernote時倍感難用。而Ulysses的簡面真的很簡單，就是一個像備忘錄一樣的界面，不用去管字的大小、字體的樣式，只要順從心意去輸入想要的文字就好。這讓我的注意力集中在畫面之中，算是我學嘸蝦米之後(從此視線不在注視著選字)的另外一次進階改變。&lt;/p&gt;
+&lt;p&gt;說了這麼多，那到底通用的Markdown有哪些型式呢?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;標題:
+標題就是在第一個字前面加入#井字號，Ulysses可以接受到六個層級的標題，視乎你加入多少井字號，就算是第幾層。開始時會有點不習慣，記得在輸入完的井字後面加入一個&lt;em&gt;空隔&lt;/em&gt;比如:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
+&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
+&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
+&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
+&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;分隔線:
+這是由四個減號所構成，只要在行的開頭加入——即可。比如:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;粗體字:
+只要在要粗體字的句子前後加入米字號兩個&lt;code&gt;##&lt;/code&gt;就可以。比如:
+&lt;strong&gt;粗體字&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;強調:
+在要強調的字我們通常會希望用不同的顏色表示，只要在要強調的句字前後加上一個米字號&lt;code&gt;*&lt;/code&gt;即可。比如:
+&lt;em&gt;強調&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;排序清單:
+有排序的清單，像是&lt;code&gt;1.&lt;/code&gt; &lt;code&gt;2.&lt;/code&gt; &lt;code&gt;3.&lt;/code&gt; &lt;code&gt;4.&lt;/code&gt; 之類的符號，就是在行的開頭加入1. 2. 3. 4. 的方式就可以辦到，一樣記得，在點的後面要加入一個空隔。比如:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第一點&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二點&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三點&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第四點
+…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;無排序的清單:
+這更簡單，在行的最前面加入一個減號&lt;code&gt;-&lt;/code&gt;就可以了，一樣的是在減號後面要留空隔。比如:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;第一點&lt;/li&gt;
+&lt;li&gt;第二點&lt;/li&gt;
+&lt;li&gt;第三點&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;引用:
+對於引用的文句，可在開頭加入一個大於符號&lt;code&gt;&amp;gt;&lt;/code&gt;，如此整個段落就會被視為引用的文章。比如:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用文章，呈現也會加入底免，視不同的軟體有不同的呈現方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;連結:
+有時文章需要引用外部或是內部的連結，可以透過&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

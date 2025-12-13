@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>3C on YJ-Online</title>
+    <link>http://localhost:1313/categories/3c/</link>
+    <description>Recent content in 3C on YJ-Online</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <atom:link href="http://localhost:1313/categories/3c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快速顯示Markdown的.md檔 for MAC</title>
+      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <description>&lt;h1 id=&#34;quick-look&#34;&gt;Quick Look?&lt;/h1&gt;
+&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
+&lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
+&lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;
+&lt;h1 id=&#34;軟體資訊&#34;&gt;軟體資訊&lt;/h1&gt;
+&lt;p&gt;軟體名稱：InkMark
+軟體版本：v1.0
+軟體語言：英文
+軟體費用：免費
+檔案大小：66kb
+系統支援：Mac OS 10.11以上
+官方網站：http://inkmarkapp.com/markdown-quick-look-plugin-mac-os-x/
+軟體下載：&lt;a href=&#34;http://inkmarkapp.com/downloads/QLMarkdown.mpkg.zip&#34;&gt;點我&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;安裝&#34;&gt;安裝&lt;/h1&gt;
+&lt;p&gt;沒啥好寫的，解壓縮後出現QLMarkdown.mpkg檔。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;點兩下進入安裝畫面。&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/HxoiVLb.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;點兩下進入安裝畫面。點選&lt;code&gt;繼續&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/W8RqENX.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;正常來說，用預設的位置就可以了。直接點選&lt;code&gt;安裝&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/hjC5NHa.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;輸入本機個人的&lt;code&gt;使用者名稱&lt;/code&gt;與&lt;code&gt;密碼&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/8J3rzMV.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這樣就安裝完成啦，點選&lt;code&gt;關閉&lt;/code&gt;就安裝結束了。&lt;/p&gt;
+&lt;h1 id=&#34;使用&#34;&gt;使用&lt;/h1&gt;
+&lt;p&gt;這點比安裝還要無聊，只要點想要快速瀏覽的檔案，按下&lt;code&gt;空白鍵&lt;/code&gt;。結束~~&lt;/p&gt;
+&lt;p&gt;真的結束了，我看不出還有什麼是需要報告的。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

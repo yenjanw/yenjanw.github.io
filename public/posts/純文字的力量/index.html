@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>純文字的力量! | YJ-OnLine</title>
+<meta name="keywords" content="markdown">
+<meta name="description" content="你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被警告，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的配置造成資源不夠使用的冏境。
+從我之前的文章可以看到，最近我一直在使用markdown的語法來作文。其實markdown與html語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用markdown語法寫出來的。
+
+網站架構
+這BLOG是用HEXO所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。
+所以現在寫BLOG的流程是:
+
+用typora與markdown語法寫文章。
+用Filezilla上傳到GCP。
+從GCP執行編譯備份到Github上。
+再從GitHub備份到我的GCP之中。
+
+好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                純文字的力量!
+                <span class="entry-hint" title="Draft">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+                        <path
+                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                    </svg>
+                </span>
+            </h1>
+            <div class="post-meta">
+                <span title='2017-03-30 17:35:50'>
+                    2017-03-30
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e7%b6%b2%e7%ab%99%e6%9e%b6%e6%a7%8b" aria-label="網站架構">網站架構</a></li>
+                <li>
+                    <a href="#%e6%96%b0%e7%89%88%e7%b6%b2%e7%ab%99%e7%9a%84%e5%84%aa%e9%bb%9e" aria-label="新版網站的優點">新版網站的優點</a></li>
+                <li>
+                    <a href="#%e7%b4%94%e6%96%87%e5%ad%97%e6%9c%89%e4%bd%95%e7%a8%ae%e5%8a%9b%e9%87%8f" aria-label="純文字有何種力量?">純文字有何種力量?</a></li>
+                <li>
+                    <a href="#%e7%b4%94%e6%96%87%e5%ad%97%e4%b9%8b%e6%97%85" aria-label="純文字之旅">純文字之旅</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p>你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被<a href="http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/">警告</a>，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的<a href="http://i.imgur.com/0AA17AR.png">配置</a>造成資源不夠使用的冏境。</p>
+<p>從我之前的文章可以看到，最近我一直在使用<code>markdown</code>的語法來作文。其實<code>markdown</code>與<code>html</code>語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用<code>markdown</code>語法寫出來的。</p>
+<!-- more -->
+<h2 id="網站架構">網站架構<a hidden class="anchor" aria-hidden="true" href="#網站架構">#</a></h2>
+<p>這BLOG是用<a href="http://hexo.io">HEXO</a>所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。</p>
+<p>所以現在寫BLOG的流程是:</p>
+<ol>
+<li>用<a href="https://typora.io">typora</a>與<code>markdown</code>語法寫文章。</li>
+<li>用<a href="https://filezilla-project.org">Filezilla</a>上傳到GCP。</li>
+<li>從GCP執行編譯備份到<a href="https://github.com">Github</a>上。</li>
+<li>再從GitHub備份到我的GCP之中。</li>
+</ol>
+<p>好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。</p>
+<h2 id="新版網站的優點">新版網站的優點<a hidden class="anchor" aria-hidden="true" href="#新版網站的優點">#</a></h2>
+<ol>
+<li>版面更加的簡單(其實以前就已經很簡單了)。</li>
+<li>右側邊欄有TOC(Table of Content)。</li>
+<li>直接點選TOC可以直接跳到文章的標題。</li>
+<li>更神奇的是TOC會隨著文章卷動出現反白。</li>
+<li>SEO好像做得更好了。</li>
+<li>全純文字，不怕遇到駭客，假如要能駭進來，那要從Linux的底層進攻。安全性更高。</li>
+<li>完全沒有資料庫作底層運算，所以不用擔心效能問題。</li>
+</ol>
+<p>所以這個版本，一次解決了我多個問題。往後我還是一樣，以簡單為出發點。</p>
+<h2 id="純文字有何種力量">純文字有何種力量?<a hidden class="anchor" aria-hidden="true" href="#純文字有何種力量">#</a></h2>
+<p>說了老半天文不對題，其實我就是想說明純文字之後，到底有何改變?</p>
+<ol>
+<li>寫文章時不用再費心編排格式。用<code>markdown</code>寫完之後，直接編譯成<code>HTML</code>格式，快速用方便。</li>
+<li>文章的格式簡單、條理鮮明，利用標題與排列的方式，簡單就能表達出作者的文意。</li>
+<li>容易閱讀，這是我最喜愛的部份。有些BLOG會做過多的修飾，讓多媒體的呈現更豐富，但那些東西其實只會使讀者分心。純文字化之後，沒有過多干擾，相對之下比較不容易分心。</li>
+<li>假如在<code>Word</code>上寫文章，複製出來的文字常常都帶有內碼。沒經驗的說可以試著用<code>Word</code>寫段話，再轉貼到<code>outlook</code>去試看看，通常會連內碼都帶過去了。假如對方不用<code>outlook</code>來看的話，發生編碼錯誤的機率很高。</li>
+</ol>
+<h2 id="純文字之旅">純文字之旅<a hidden class="anchor" aria-hidden="true" href="#純文字之旅">#</a></h2>
+<p>從Wordpress移轉到HEXO，本身就是一個很大的挑戰。其實我不是科班出身的，對於<code>command line</code>的操作能力也只是一般般而已，但是看到別人網站上受可移動的TOC一見傾心，下定決心一定要讓自己的網站與Wordpress網站有那不一樣的功能，就開始折騰了。花了三天研究該如何進行，又花了一個晚上把程式搞定滿再花一個晚上把文章搬家，我想以後應該不會再想這樣搞了吧! 還是乖乖的應用，留下有用的資料在茫茫的網海之中。</p>
+
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="http://localhost:1313/tags/markdown/">Markdown</a></li>
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>我的馬拉松賽事評分標準</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Evernote替代方案</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e7%b6%b2%e7%ab%99%e6%9e%b6%e6%a7%8b" aria-label="網站架構">網站架構</a></li>
+                <li>
+                    <a href="#%e6%96%b0%e7%89%88%e7%b6%b2%e7%ab%99%e7%9a%84%e5%84%aa%e9%bb%9e" aria-label="新版網站的優點">新版網站的優點</a></li>
+                <li>
+                    <a href="#%e7%b4%94%e6%96%87%e5%ad%97%e6%9c%89%e4%bd%95%e7%a8%ae%e5%8a%9b%e9%87%8f" aria-label="純文字有何種力量?">純文字有何種力量?</a></li>
+                <li>
+                    <a href="#%e7%b4%94%e6%96%87%e5%ad%97%e4%b9%8b%e6%97%85" aria-label="純文字之旅">純文字之旅</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

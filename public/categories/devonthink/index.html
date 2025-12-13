@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Devonthink | YJ-OnLine</title>
+<meta name="keywords" content="">
+<meta name="description" content="第四次移Blog,YJOL V4.0">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/categories/devonthink/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/categories/devonthink/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/categories/devonthink/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<style>
+     
+    .main {
+        max-width: 1400px !important;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 280px;
+        gap: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        min-width: 0;
+    }
+
+     
+    .first-entry {
+        min-height: auto !important;
+    }
+
+    .first-entry .entry-header {
+        min-height: auto !important;
+    }
+
+     
+    @media (max-width: 1280px) {
+        .main {
+            max-width: 1200px !important;
+        }
+
+        .main-container {
+            grid-template-columns: 1fr 260px;
+            gap: 30px;
+        }
+    }
+
+     
+    @media (max-width: 1024px) {
+        .main {
+            max-width: 100% !important;
+        }
+
+        .main-container {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .sidebar {
+            order: 2;
+        }
+    }
+
+     
+    @media (max-width: 768px) {
+        .main {
+            padding: 0 15px;
+        }
+    }
+</style>
+
+<div class="main-container">
+    <div class="main-content"> 
+        <header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/categories/">Categories</a></div>
+            <h1>
+                Devonthink
+            </h1>
+        </header>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">DEVONthink(五)
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+                <h3 class="entry-subtitle">文件管理</h3>
+            </header>
+            <div class="entry-content"><p><img loading="lazy" src="http://i.imgur.com/S6DvEt3.png"></p>
+<p><a href="http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/">前文</a>已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。</p>
+
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-05-05 17:35:50'>
+                    2017-05-05
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to DEVONthink(五)" href="http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/"></a>
+        </article>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">DEVONthink(四)
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+                <h3 class="entry-subtitle">輸入文件/檔案</h3>
+            </header>
+            <div class="entry-content"><p><img loading="lazy" src="http://i.imgur.com/IPr8ocy.png"></p>
+<p><a href="http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/">前文</a>有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。</p>
+
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-04-25 17:35:50'>
+                    2017-04-25
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to DEVONthink(四)" href="http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/"></a>
+        </article>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">DEVONthink(三)
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+                <h3 class="entry-subtitle">建立資料庫</h3>
+            </header>
+            <div class="entry-content">在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-04-20 17:35:50'>
+                    2017-04-20
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to DEVONthink(三)" href="http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/"></a>
+        </article>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">DEVONthink(二)
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+                <h3 class="entry-subtitle">操作介面</h3>
+            </header>
+            <div class="entry-content"><p>初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。</p>
+<p>以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。</p>
+
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-04-20 17:35:50'>
+                    2017-04-20
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to DEVONthink(二)" href="http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/"></a>
+        </article>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">DEVONthink(一)
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+                <h3 class="entry-subtitle">初步認識</h3>
+            </header>
+            <div class="entry-content"><p>我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(<del>那還不算刪除嗎?</del>)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看</p>
+<ul>
+<li><a href="http://www.playpcesor.com/2016/12/evernote.html">Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查</a></li>
+<li><a href="http://ithelp.ithome.com.tw/articles/10117041">Evernote 被駭啦!! 有用Evernote 的粉絲請儘快更換密碼喔!!</a></li>
+</ul>
+<p>這些相關的新聞讓我一直對大象很沒有信心，雖然他們最近已經搬到GCP，同步速度已經快上很多，甚至以台灣而言，它是最快的雲端筆記平台(<del>最快洩漏機密的平台</del>)。但是在資料安全性上的疑慮，讓我不得不放棄這好用的平台當作我的資料最後集散地，現在也只當作捉文章的工具而已(文後說明)。</p>
+
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-04-18 17:35:50'>
+                    2017-04-18
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to DEVONthink(一)" href="http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/"></a>
+        </article>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">Evernote替代方案
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+            </header>
+            <div class="entry-content">我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-03-23 17:35:50'>
+                    2017-03-23
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to Evernote替代方案" href="http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/"></a>
+        </article>
+
+        <article class="post-entry tag-entry"> 
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">Evernote 搬家到 DEVONthink
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                </h2>
+            </header>
+            <div class="entry-content"><p>前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。</p>
+<ol>
+<li>已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。</li>
+<li>已安裝 Devonthink</li>
+<li>沒有了&hellip;</li>
+</ol>
+                <span class="read-more">...</span>
+            </div>
+            <footer class="entry-footer">
+                <span title='2017-03-20 17:35:50'>
+                    2017-03-20
+                </span>
+            </footer>
+            <a class="entry-link" aria-label="post link to Evernote 搬家到 DEVONthink" href="http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/"></a>
+        </article>
+    </div>
+
+    
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

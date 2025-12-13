@@ -1,0 +1,219 @@
+{{- define "main" }}
+
+<style>
+    /* 覆寫主題的預設寬度 */
+    .main {
+        max-width: 1400px !important;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 280px;
+        gap: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-content {
+        min-width: 0;
+    }
+
+    /* 移除 first-entry 的過大間距 */
+    .first-entry {
+        min-height: auto !important;
+    }
+
+    .first-entry .entry-header {
+        min-height: auto !important;
+    }
+
+    /* 平板尺寸 */
+    @media (max-width: 1280px) {
+        .main {
+            max-width: 1200px !important;
+        }
+
+        .main-container {
+            grid-template-columns: 1fr 260px;
+            gap: 30px;
+        }
+    }
+
+    /* 小平板/大手機 */
+    @media (max-width: 1024px) {
+        .main {
+            max-width: 100% !important;
+        }
+
+        .main-container {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .sidebar {
+            order: 2;
+        }
+    }
+
+    /* 手機尺寸 */
+    @media (max-width: 768px) {
+        .main {
+            padding: 0 15px;
+        }
+    }
+</style>
+
+<div class="main-container">
+    <div class="main-content">
+        {{- if (and site.Params.profileMode.enabled .IsHome) }}
+        {{- partial "index_profile.html" . }}
+        {{- else }} {{/* if not profileMode */}}
+
+        {{- if not .IsHome | and .Title }}
+        <header class="page-header">
+            {{- partial "breadcrumbs.html" . }}
+            <h1>
+                {{ .Title }}
+                {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
+                {{- with .OutputFormats.Get "rss" }}
+                <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="23">
+                        <path d="M4 11a9 9 0 0 1 9 9" />
+                        <path d="M4 4a16 16 0 0 1 16 16" />
+                        <circle cx="5" cy="19" r="1" />
+                    </svg>
+                </a>
+                {{- end }}
+                {{- end }}
+            </h1>
+            {{- if .Description }}
+            <div class="post-description">
+                {{ .Description | markdownify }}
+            </div>
+            {{- end }}
+        </header>
+        {{- end }}
+
+        {{- if .Content }}
+        <div class="post-content">
+            {{- if not (.Param "disableAnchoredHeadings") }}
+            {{- partial "anchored_headings.html" .Content -}}
+            {{- else }}{{ .Content }}{{ end }}
+        </div>
+        {{- end }}
+
+        {{- $pages := union .RegularPages .Sections }}
+
+        {{- if .IsHome }}
+        {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+        {{- end }}
+
+        {{- $paginator := .Paginate $pages }}
+
+        {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+        {{- partial "home_info.html" . }}
+        {{- end }}
+
+        {{- $term := .Data.Term }}
+        {{- range $index, $page := $paginator.Pages }}
+
+        {{- $class := "post-entry" }}
+
+        {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+        {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+        {{- $class = "first-entry" }}
+        {{- else if $term }}
+        {{- $class = "post-entry tag-entry" }}
+        {{- end }}
+
+        <article class="{{ $class }}">
+            {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+            {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+            <header class="entry-header">
+                <h2 class="entry-hint-parent">
+                    {{- .Title }}
+                    {{- if .Draft }}
+                    <span class="entry-hint" title="Draft">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960"
+                            fill="currentColor">
+                            <path
+                                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                        </svg>
+                    </span>
+                    {{- end }}
+                </h2>
+                {{- if .Params.subtitle }}
+                <h3 class="entry-subtitle">{{ .Params.subtitle }}</h3>
+                {{- end }}
+            </header>
+            {{- if (ne (.Param "hideSummary") true) }}
+            <div class="entry-content">
+                {{- /* 自訂摘要邏輯：直接讀取 Markdown 原始碼 */}}
+                {{- $raw := .RawContent }}
+
+                {{- /* 1. 移除 TOML Front Matter (+++ ... +++) */}}
+                {{- $raw := replaceRE "(?s)^\\+\\+\\+.*?\\+\\+\\+" "" $raw }}
+
+                {{- /* 2. 標準化 more 標記 (處理 <!--more--> 和 <!-- more -->) */}}
+                {{- $raw := replaceRE "<!--\\s*more\\s*-->" "<!--more-->" $raw }}
+
+                {{- /* 3. 檢查並切割 */}}
+                {{- if in $raw "<!--more-->" }}
+                {{- $parts := split $raw "<!--more-->" }}
+                {{- /* 渲染前半段 Markdown */}}
+                {{- index $parts 0 | markdownify }}
+                <span class="read-more">...</span>
+                {{- else }}
+                {{- /* 如果沒有設定 more，回退到 Hugo 預設摘要 */}}
+                {{- .Summary }}
+                {{- end }}
+            </div>
+            {{- end }}
+            {{- if not (.Param "hideMeta") }}
+            <footer class="entry-footer">
+                <span title='{{ .Date.Format "2006-01-02 15:04:05" }}'>
+                    {{ .Date.Format "2006-01-02" }}
+                </span>
+            </footer>
+            {{- end }}
+            <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+        </article>
+        {{- end }}
+
+        {{- if gt $paginator.TotalPages 1 }}
+        <footer class="page-footer">
+            <nav class="pagination">
+                {{- if $paginator.HasPrev }}
+                <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+                    «&nbsp;{{ i18n "prev_page" }}&nbsp;
+                    {{- if (.Param "ShowPageNums") }}
+                    {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+                    {{- end }}
+                </a>
+                {{- end }}
+                {{- if $paginator.HasNext }}
+                <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+                    {{- i18n "next_page" }}&nbsp;
+                    {{- if (.Param "ShowPageNums") }}
+                    {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+                    {{- end }}&nbsp;»
+                </a>
+                {{- end }}
+            </nav>
+        </footer>
+        {{- end }}
+
+        {{- end }}{{/* end profileMode */}}
+    </div>
+
+    <!-- 側邊欄 -->
+    {{- if .IsHome }}
+    {{- partial "sidebar.html" . }}
+    {{- end }}
+</div>
+
+{{- end }}{{- /* end main */ -}}

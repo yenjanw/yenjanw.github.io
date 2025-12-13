@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Onenote on YJ-Online</title>
+    <link>http://localhost:1313/tags/onenote/</link>
+    <description>Recent content in Onenote on YJ-Online</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <atom:link href="http://localhost:1313/tags/onenote/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Evernote替代方案</title>
+      <link>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
+&lt;p&gt;列出我的需求:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;要能多種裝置同步，尤其是iOS與MAC之間的溝通。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;資訊保密上不要有問題，最好有二階段認證的方式登入。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隱私權上可以受到保障。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最好可以支援Markdown的寫作方式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;檔案上傳不要有空間限制，且能保存各型式的檔案。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有分享功能。&lt;/p&gt;
+&lt;p&gt;說來說去，這些功能好像Evernote就只有第四項做不到而已，應該還是留在Evernote之中啊!但是為了個人隱私權的悍衛，不能低頭!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;先分析evernote的功能&#34;&gt;先分析Evernote的功能&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/tyfPgO3.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我所會用到的功能，大致上不會脫離記事、語音、影片、圖片&amp;amp;照片、檔案與網頁截取，其中又以網頁截取佔了一大部份。
+以圖中的內容可以發現到，這每一個都是一種檔案或資料結構，分散在我們硬碟之中。除了網頁截取功能之外，其他幾乎都是自己所創作出來的東西。Evernote只是將它們整合到雲端而已，加上文字說明與Tag功能，讓未來尋找資料時可以更加方便。這些工作以Mac而言，其實Smart Folder自己也是可以設定得出來，但我過去太依賴Evernote幫我整理，就像一個垃圾筒一樣，所有東西都丟到裡面去，等到有需要就用搜尋功能來挖垃圾筒。你說不是嗎?&lt;/p&gt;
+&lt;h3 id=&#34;記事&#34;&gt;記事&lt;/h3&gt;
+&lt;p&gt;其實我在Evernote上的寫作很少，主要原因就是太麻煩了，對我來說我只要一個單純的寫作環境，所以Markdown是必需的，但是大象始終就是不肯將這功能加入。其實不加入Markdown寫作，Evernote應該是有苦衷的，畢竟他們所用的ENEX格式是一種特規，基於HTML的格式而產生的，若要改成純文字模式的md方式會有技術上的困難。對我來說，困難是他家的事，我只要有符合我要的東西才是重要的。&lt;/p&gt;
+&lt;h3 id=&#34;語音影片&#34;&gt;語音、影片&lt;/h3&gt;
+&lt;p&gt;用語音輸入的機會其實並不高，因為我都會盡量採用文字的方式作輸入，但偶而還是會用此功能。綜觀我現在近三千筆的資料，語音的不份不超過十筆，所以這可以不用思考。
+影片的部份算是檔案的特例，要能播放就可以了。&lt;/p&gt;
+&lt;h3 id=&#34;檔案&#34;&gt;檔案&lt;/h3&gt;
+&lt;p&gt;含蓋我所有會用到的文件格式，其中又以M$的Word、Power Point、Excel等格式，是很少會使用上的，我的作業集中在Mac上，所以相對之下Pages、Keynote、Numbers的檔案我就很常會想要輸入到Evernote之中，只是Evernote當作一般的檔案，無法作預覽與索引的功能。
+PDF檔是網路上傳遞的標準，這就佔了很大的一個部份。所以替代方案一定要能夠支援才可以。&lt;/p&gt;
+&lt;h3 id=&#34;網頁截取&#34;&gt;網頁截取&lt;/h3&gt;
+&lt;p&gt;這幾乎是我用Evernote的主要功能。近三千份文件內，有超過二千五百件是屬於這種型式而來。雖然現在已經有很多read it later的服務，比如instapaper、Pocket等，但是對於截取回來的資料都沒有很方便的管理模式，畢竟他們只是做很基本的read it later而已。
+網頁截取重點在於能截取簡化的文件，我要的不是網頁的所有元素，只要將文字與圖片截取即可。&lt;/p&gt;
+&lt;h2 id=&#34;替代方案&#34;&gt;替代方案&lt;/h2&gt;
+&lt;h3 id=&#34;onenote&#34;&gt;Onenote&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/pUEjkAt.jpeg&#34;&gt;
+Microsoft提供的&lt;strong&gt;Onenote&lt;/strong&gt;其實功能相當完整，是取代Evernote的最佳解決方式。但是&amp;hellip;但是&amp;hellip;但是&amp;hellip;我的使用經驗上非常差，主要是Onenote的資料是放在Onedrive之中，而台灣連接Onedrive的速度只能用&lt;strong&gt;可悲&lt;/strong&gt;二字，同步到天荒地老的畫面久久不在腦海裡消失。
+Onenote在寫作的方式很像熟悉的Word一樣，與Evernote的寫作經驗是完全不相同的。一個是以文字為基礎的架構，一個是以網頁語言為基礎的架構。
+這已經是替代方案中，最接近Evernote的方案了，但是執行速度上，完全是&lt;strong&gt;悲劇&lt;/strong&gt;。直接淘汰!&lt;/p&gt;
+&lt;h3 id=&#34;google-keep&#34;&gt;Google Keep&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/DpiWqXa.png&#34;&gt;
+Google以強大的搜尋能力起家，他們家多數的產品也是以搜尋作為服務的基底，但Keep上也是維持這樣的服務特色。不但支援Web，連iOS、Android都有支援，所以算是一個很好的跟平台，但是要完全取代Evernote看似又不可能，怎麼說呢?
+Keep定位在一個輕量化的記事&lt;/p&gt;
+&lt;h3 id=&#34;備忘錄mac-and-ios&#34;&gt;備忘錄(Mac and iOS)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/MUC0bVx.png&#34;&gt;
+在蘋果的裝置中，備忘錄真的很好用，可以放進各種文字、語音、影片，甚至部份的檔案都可以放(如PDF)。最大好處是Evernote所產生的enex檔也可以直接匯入，理論上就已經是很適合的替代方案。
+但是(又來&lt;strong&gt;但是&lt;/strong&gt;了)不能做Markdown，且當文件量很大時，同步與軟體的執行上就會發生緩慢的狀況，畢竟名字就已經跟你說是&lt;strong&gt;備忘錄&lt;/strong&gt;了，有什麼好執著的呢?
+且只有在Apple上能用，當離開了蘋果的世界，這些東西都會消失不見，完全無法使用，不符合我跨平台的需求。&lt;/p&gt;
+&lt;h3 id=&#34;bear&#34;&gt;Bear&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/FvfRN3V.jpeg&#34;&gt;
+在Mac的世界中，義大利人寫了一個Bear的應用，界面簡單而美觀，有符合我這外貌協會成員的需求。支援Markdown的輸入，是一個很好做筆記的軟體，假如我當初沒有用Evernote作為我筆記軟體，現在又不用有搬家需求的話，個人覺得它比Evernote在輸入上好非常多。
+這軟體我沒有用很久，原因是找不到搬家的方法，只是單純喜歡它的Markdown輸入環境而已。另外網頁截取也找不到方法，所以評估完就沒有繼續玩下去了。&lt;/p&gt;
+&lt;h3 id=&#34;devonthink&#34;&gt;DEVONthink&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/YlqL1jE.png&#34;&gt;
+這東西根本就是核彈級的應用，以功能性而言，完爆Evernote，在機器學習上比Evernote還要完整。舉例而言，當我輸入完一篇文章，它會分析我文章中的字句，將文章與其他文章作比對，在See also的功能上就會把相關的內容都提供出來，所以假如只是把這當筆記軟體來看，已經是太小看它的功能了，這完全就是一個知識管理層級的產品。
+除了它是單機版軟體外，沒有Web界面，幾乎找不到缺點。真的要說嘴的話，就是界面的美觀性沒有達到我的要求，畢竟這是德國人寫的軟體，當然是以實用性與穩定性為優先考量，美觀通常是最後才要求的東西。&lt;/p&gt;
+&lt;h3 id=&#34;比較&#34;&gt;比較&lt;/h3&gt;
+&lt;p&gt;我將這幾項最近用過的替代方案作個簡單的比較表如下
+&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/oVXLVYK.jpeg&#34;&gt;
+備註1: 分享不是分享到FB、Twitter之類的功能，而是以能共同編輯文章為出發點的考量。
+備註2: 機器學習在於能不能找到相關文章，其實Devonthink做得比Evernote還要好。
+備註3: 隱私權項目以過去是否有隱私權問題發生，最還登入有二階段認證為主。Devonthink因是本機應用，網路只是備份的地方，所以不會有任何人看到我的內容，所以列為安全。&lt;/p&gt;
+&lt;p&gt;綜觀下來，我並沒有把付不付錢，有沒有月費年費當作我的評量項目，畢竟開公司提供服務就是要賺錢，雖然免費的最好，但有時免費反而是最貴，相信大家長久以來都有這樣的感觸。&lt;/p&gt;
+&lt;h2 id=&#34;我的選擇&#34;&gt;我的選擇&lt;/h2&gt;
+&lt;p&gt;沒有完美的取代方式，畢竟Evernote已經發展了這麼久，功能性已經相當完全，最近又把伺服器搬到GCP(Google Cloud Platform)之中，在台灣的同步速度，完全不是Onenote可以望其項背。但是這間公司真的對我來說有太多的疑慮了，哪天被出賣了都不知道。今天可以開放給員工看，改天就可以開放給政府看，之後開放給大家看我都不意外。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

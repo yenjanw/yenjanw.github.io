@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Devonthink on YJ-OnLine</title>
+    <link>http://localhost:1313/categories/devonthink/</link>
+    <description>Recent content in Devonthink on YJ-OnLine</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 05 May 2017 17:35:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/devonthink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DEVONthink(五)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h1 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h1&gt;
+&lt;p&gt;我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。&lt;/p&gt;
+&lt;p&gt;文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的&lt;code&gt;圖書館系&lt;/code&gt;。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。&lt;em&gt;文件管理的目的，是為了快速搜尋&lt;/em&gt;，唯有能快速的找到所需的文件，才是好的管理方式。&lt;/p&gt;
+&lt;p&gt;有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&amp;hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h1 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h1&gt;
+&lt;p&gt;我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。&lt;/p&gt;
+&lt;p&gt;文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的&lt;code&gt;圖書館系&lt;/code&gt;。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。&lt;em&gt;文件管理的目的，是為了快速搜尋&lt;/em&gt;，唯有能快速的找到所需的文件，才是好的管理方式。&lt;/p&gt;
+&lt;p&gt;有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&amp;hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。&lt;/p&gt;
+&lt;p&gt;文件管理就在這時候發揮了應有的功能，將相類似的文件放在一起，就是基本的觀念。其實很多人都已經具備這基本的觀念了(&lt;del&gt;就像D槽用騎兵步兵兩資料夾來分類一樣&lt;/del&gt;)，會習慣將專案的文件放在一起，所有專案產生的文件，都放在同一個資料夾下，就是一個基本的概念。但是，在文件管理上，這還是不夠的。&lt;/p&gt;
+&lt;h2 id=&#34;同一資料夾下不超過十個檔案&#34;&gt;同一資料夾下不超過十個檔案&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根據統計，只要一個資料夾內超過十個檔案，就會造成使用者失焦。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以我個人的經驗，資料夾真的只要有十個以上的檔案，我一定可以為它再做一次分類。但是這樣的好處是什麼呢?&lt;/p&gt;
+&lt;p&gt;在DEVONthink之中，Group路徑會被自動加上Tag之中，所以比如有一個人件叫&lt;code&gt;DEVONthink使用說明&lt;/code&gt;，它是放在&lt;code&gt;Plan&lt;/code&gt;-&amp;gt;&lt;code&gt;BLOG&lt;/code&gt;-&amp;gt;&lt;code&gt;YJOL&lt;/code&gt;之中，則在Tag中已被自動加入&lt;code&gt;Plan&lt;/code&gt;、&lt;code&gt;Blog&lt;/code&gt;、&lt;code&gt;YJOL&lt;/code&gt;等三個Tag。這最大的好處是大幅的加快搜尋速度。&lt;/p&gt;
+&lt;p&gt;當然啦，有些檔案真的已經被拆解到不知如何再歸類時，其實也不用一直揪結在這項原則之中。比如出遊的照片，已經依照旅遊的目的、時間、地點、場景&amp;hellip;分類，若還要再分類下去，真的蠻沒意義的。&lt;/p&gt;
+&lt;h2 id=&#34;建立gtd資料夾&#34;&gt;建立GTD資料夾&lt;/h2&gt;
+&lt;p&gt;在DEVONthink之中，每一個資料庫都預設&lt;code&gt;Inbox&lt;/code&gt;資料夾，這就是一估GTD概念的展現。只要將文件或檔案放進資料庫中，就會被先放到這&lt;code&gt;Inbox&lt;/code&gt;之中，好處是先執行現在的工作，不要為了分類檔案而分心，當工作告一段落或有空閒的時候，再執行檔案分類的拖拉放工作。如此就不會打斷現有的思緒。&lt;/p&gt;
+&lt;p&gt;更進一步可以建立如&lt;code&gt;Action&lt;/code&gt;、&lt;code&gt;ToDo&lt;/code&gt;、&lt;code&gt;Someday&lt;/code&gt;、&lt;code&gt;Archive&lt;/code&gt;之類的分類，來將工作的進度作進一步的規畫，體現GTD的精神。這部份可以在網路上找到更佳的文章，大部份都是利用Evernote來介紹GTD的相關資料。但是相信已經看過我前幾篇文章的朋友，已經知道Evernote能做的，DEVONthink都能做得到，甚至做得更好。所以只要將那些方法拿來直接套用就可以。&lt;/p&gt;
+&lt;h2 id=&#34;持續的力量&#34;&gt;持續的力量&lt;/h2&gt;
+&lt;p&gt;文件管理是一件持續的事，是一個無限迴圈。可以當你的功力夠深，只要一招半式，就可以打遍天下無敵手了。但是持續並不容易，需要的是紀律(&lt;del&gt;又不是在當兵&lt;/del&gt;)。所謂烈女只怕痴情郎，現在可能還無法體會出持續的好處，但未來一定會知道的(&lt;del&gt;廢話&lt;/del&gt;)。&lt;/p&gt;
+&lt;p&gt;好以成天就說到這裡~&lt;/p&gt;
+&lt;p&gt;喟~ DEVONthink在文件管理的方式都還沒有提到耶~&lt;/p&gt;
+&lt;p&gt;好像是厚! 以下開始說明DEVONthink在文件管理的方式。&lt;/p&gt;
+&lt;h1 id=&#34;devonthink的文件管理方式&#34;&gt;DEVONthink的文件管理方式&lt;/h1&gt;
+&lt;h2 id=&#34;何謂group--何謂tag-&#34;&gt;何謂Group ? 何謂Tag ?&lt;/h2&gt;
+&lt;p&gt;在說明DEVONthink的文件管理邏輯之前，先讓我們來討論一下Group與Tag之間的關係。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DEVONthink預設會將Group的層級自動加入Tag。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若不想在Tag中加入Group的名字，可以在&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Info&lt;/code&gt;或&lt;code&gt;⇧⌘+I&lt;/code&gt;的方式叫出Group的內容，在&lt;code&gt;Tagging&lt;/code&gt;上打勾，將自動tag功能關閉。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Ju7Bqj8.png&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Group適合用在檔案本身邏輯清礎的場合，因為檔案只會存在一個單一的Group位置。當然可以利用DEVONthink的&lt;code&gt;replicate&lt;/code&gt;(不了解的可以查看&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;)功能，將檔案複製在另一個Group中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反而言之，每一個Tag其實也是一個Group，一種排列的方式。這些Tag會在頂層與Inbox一同顯示。也可以用拖拉放的方式，將文字或檔案放入Tag之中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若在Group刪除檔案，因為檔案本身只屬一個Group，如此檔案就真的被刪除了。而通常一個檔案有多個Tag，所以在Tag之中刪除了檔案，該檔案會存在於另一個所屬的Tag之中，並不會被刪除。(有點繞舌)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用group管理&#34;&gt;使用Group管理&lt;/h2&gt;
+&lt;h3 id=&#34;建立新的group&#34;&gt;建立新的Group&lt;/h3&gt;
+&lt;p&gt;方法有下列幾種:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;從&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;-&amp;gt;&lt;code&gt;Group&lt;/code&gt;(⌘⇧+N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/CmaMxRA.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在Toolbar按下&lt;code&gt;New Group&lt;/code&gt;圖示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/v0NavHD.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;先選好要放在Group中的檔案，再按下&lt;code&gt;Group Item&lt;/code&gt;的按鈕。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/vTLsCqV.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;透過這方式執行，系統會建立一個新的Group，並將剛剛所選擇的檔案或文件，直接&amp;quot;&lt;strong&gt;移動&lt;/strong&gt;&amp;ldquo;到新的Group之中，因為是搬移的方式，所以舊的位置檔案會消失。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;透過右鍵，由&lt;code&gt;New&lt;/code&gt;-&amp;gt;&lt;code&gt;Group&lt;/code&gt;來新增。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/f7bkn5C.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;auto-group&#34;&gt;Auto Group&lt;/h3&gt;
+&lt;p&gt;這是DEVONthink比其他同類型產品強的地方之一。假如你有很多的檔案要處理，可以試著利用&lt;code&gt;Auto Group&lt;/code&gt;功能，來幫你節省時間。&lt;/p&gt;
+&lt;p&gt;基於DEVONthink自行的演算方式，所發展的AI(人工智慧Artificial Intelligence)來將檔案放入到適合的Group之中。可以透過&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Audo Group&lt;/code&gt;來實現這功能。&lt;/p&gt;
+&lt;p&gt;Auto Group會將剛剛所選的文件，在相同的Group之中再建立新的Group，並將檔案或文件移入。&lt;/p&gt;
+&lt;p&gt;我想要為這功能，說明一下它運作的原理與應用，但本篇文章只是說明的性質，所以作罷，未來再把這部份作詳細的介紹。&lt;/p&gt;
+&lt;h2 id=&#34;移動文件&#34;&gt;移動文件&lt;/h2&gt;
+&lt;p&gt;文件的移動可以透過以下的方式實現:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;拖拉放。BJ4&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;從Toolbar的&lt;code&gt;Action&lt;/code&gt;按鈕，選擇&lt;code&gt;Move To&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0NTSX5K.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在文件上按右鍵，選擇&lt;code&gt;Move To&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/gMDSQrV.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;當利用這方式來移動文件時，可以看到如下的圖示:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/1t0pmHo.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最上面的部份是這份檔案現在所屬的位置。下方是最近所選的位置，當太亂時，可以用&lt;code&gt;Clear Recent Destinations&lt;/code&gt;把它清除。而下半部是不同資料庫的位置，如我的圖所示，我兩個資料庫所有的第一層都會被顯示出來。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;提醒:移動之後，檔案的Group Tag也會被變動，改成新的位置Tag。再次說明，Tag顏色是灰色的，那是屬於Group所屬的Tag，我簡稱&lt;code&gt;Group Tag&lt;/code&gt;。而自己所設定的Tag是藍色的，我孤且稱作&lt;code&gt;Personal Tag&lt;/code&gt;。其實原廠並沒有這樣的稱呼方式，是我為了方便辨別而設的簡稱。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;classify&#34;&gt;Classify&lt;/h2&gt;
+&lt;p&gt;在中文真的沒有很好的稱呼來說明這動詞，我習慣稱為分類(Classify)。這是用在當文件建立時，在同資料夾下找不到很好可以共同組成資料夾的項目的狀況下，可以參考之前所建立的資料夾，是否有符合適合對應的項目。&lt;/p&gt;
+&lt;p&gt;這功能出現在當開啟文件時，打開&lt;code&gt;See Also&lt;/code&gt;的抽屜，在上半部顯示適合此文件的資料夾位置，用Score評分的方式來建議選項。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/DL8KoVY.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;選定確認的資料夾，按&lt;code&gt;⌃+C&lt;/code&gt;來將檔案移至該資料夾。&lt;/p&gt;
+&lt;h3 id=&#34;auto-classify&#34;&gt;Auto Classify&lt;/h3&gt;
+&lt;p&gt;與&lt;code&gt;Auto Group&lt;/code&gt;一樣的運算方式，透過DEVONthink專屬的AI演算方式，將文件自動移至適合的資料夾。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Auto Group&lt;/code&gt;與&lt;code&gt;Auto Classify&lt;/code&gt;的差別在於，&lt;code&gt;Auto Group&lt;/code&gt;會將檔案放入新的Group之中，而&lt;code&gt;Auto Classify&lt;/code&gt;是將檔案放在&lt;strong&gt;已經&lt;/strong&gt;存在的Group中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這功能可以透過Toolbar上&lt;code&gt;Action&lt;/code&gt;按鈕，或是&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Auto Classify&lt;/code&gt;的方式進行。這功能現在我也不多做說明，因為會耗掉很長的篇幅，未來我會再找時間說明一下這功能。&lt;/p&gt;
+&lt;p&gt;其實&lt;code&gt;Auto Group&lt;/code&gt;與&lt;code&gt;Auto Classify&lt;/code&gt;都是DEVONthink之中殺手級的應用，非常快速的解決分類問題。但是，對，就是但是&amp;hellip;.這功能的演算是建立在文章的分析上，而文件的分析在中文斷字還非常的弱，所以這兩功能在中文環境下，變成殘廢級的功能，相當可惜。所以就算假如不知道是幹嘛用的也沒關係，反正中文環境上用不到。這要等原廠未來技術提昇之後再討論也是來得及的。&lt;/p&gt;
+&lt;h2 id=&#34;複製&#34;&gt;複製&lt;/h2&gt;
+&lt;p&gt;之前的文章&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;DEVONthink(一)初步認識&lt;/a&gt;已有提過Duplicate與Replicant之間的差別，這裡我就不再重覆。這裡我就說明這功能該如何操作。&lt;/p&gt;
+&lt;h3 id=&#34;duplicate&#34;&gt;Duplicate&lt;/h3&gt;
+&lt;p&gt;當我們選定了一個或多個文件時:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Duplicate&lt;/code&gt;這會複製文件在同一資料夾下。&lt;/li&gt;
+&lt;li&gt;按住Option(⌥)，然後移動到你想要複製的位置。&lt;/li&gt;
+&lt;li&gt;從Toolbar的&lt;code&gt;Action&lt;/code&gt;鈕，選&lt;code&gt;Duplicate to&lt;/code&gt;到指定的位置。&lt;/li&gt;
+&lt;li&gt;利用右鍵選&lt;code&gt;Duplicate to&lt;/code&gt;到指定的位置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;replicant&#34;&gt;Replicant&lt;/h3&gt;
+&lt;p&gt;這一項與上述Duplicate幾乎操作方式一樣，也是選定一個或多個文件，然後利用上述的方式操作。唯一差別只有第二點。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按住Option與Command鍵(⌥⌘)，然後移動到你想要複製的位置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他的操作我就不再說明了。&lt;/p&gt;
+&lt;h2 id=&#34;使用tag管理&#34;&gt;使用Tag管理&lt;/h2&gt;
+&lt;p&gt;這與Group管理的方式幾乎相同，其實Tag管理已經在很多方面都得到實證，可以很方便的將文件資料作個分類。以下就簡單說明一下操作方式。&lt;/p&gt;
+&lt;h3 id=&#34;tag-bar&#34;&gt;Tag Bar&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/L0dFvAR.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先打開一份文件。&lt;/li&gt;
+&lt;li&gt;選擇&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Tags&lt;/code&gt;或是&lt;code&gt;⌘⌥⌃+T&lt;/code&gt;開啟Tag Bar，如圖示的最下方。&lt;/li&gt;
+&lt;li&gt;可以在Tag Bar新增、修改或刪除本文件的Tag。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在Tag Bar有幾項是DEVONthink特有的功能，以下說明一下:&lt;/p&gt;
+&lt;h4 id=&#34;autocompletion&#34;&gt;Autocompletion&lt;/h4&gt;
+&lt;p&gt;在你Key入Tag的同時，DEVONthink會自動幫你找尋相關字串的Tag，可以自動完成輸入的文字，假如有符合，只要用選的就可以了。&lt;/p&gt;
+&lt;h4 id=&#34;pop-up-menu&#34;&gt;Pop-up Menu&lt;/h4&gt;
+&lt;p&gt;在Tag旁有一個&lt;code&gt;⋁&lt;/code&gt;的符號，點選之後有幾項功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reveal Tag: 顯示該Tag的位置，可以帶到該Tag的列表，快速找到相關同類型的文件。&lt;/li&gt;
+&lt;li&gt;Remove Tag: 看文字就知道是移除該Tag。&lt;/li&gt;
+&lt;li&gt;Related Tags: 列出相同類型的Tag，這是DEVONthink利用AI所計算出，相同類型的Tag。利用帶有相同Tag的文件共同去分析，相類似的Tag會一併在這顯示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tag-list&#34;&gt;Tag List&lt;/h3&gt;
+&lt;p&gt;在資料庫內，預設會有一個Tags的列表，如同Group一樣被列在資料庫中。用這列表可以很方便的做幾件事情。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;重新命名: 當Tag被改名之後，在Tag內的文件也一併被改名，可以省去一個一個文件做修改的勞苦工作。&lt;/li&gt;
+&lt;li&gt;移除: 如同重新命名一樣，在同一資料庫中所有的文件同時被移除這一個Tag。&lt;/li&gt;
+&lt;li&gt;指定文件: 把文件拖拉放到該Tag之中，則文件就被新增該Tag。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這幾個功能，最重要的是可以批量化作業，一次選一堆Tag，或為一堆文件同時修改Tag時相當方便(遠目Evernote)。&lt;/p&gt;
+&lt;p&gt;我個人算是個Group控，Tag對我來說只是輔助功能而已，但以上幾些功能對Tag控應是相當的方便。它改善了多數文件管理軟體在這方面的缺點，但也相對的，對我這Group控第一次接觸DEVONthink時產生了困惱，不理解畫面為何要被設計成這麼複雜，不能簡單一點嗎? 就是因為功能眾多，要符合所有人的使用習慣是不可能的，所以剛接觸時會覺得顯示的很凌亂。不過DEVONthink也很貼心的知道這問題，所以假如自己不用的功能，都是有方法選擇關閉的，在&lt;code&gt;View&lt;/code&gt;內有很多選項就是在做這功能。&lt;/p&gt;
+&lt;h1 id=&#34;wiki&#34;&gt;Wiki&lt;/h1&gt;
+&lt;p&gt;這是DEVONthink最特別的我能之一，有點像是之前的&lt;a href=&#34;https://plausible.coop/voodoopad/&#34;&gt;Voodoopad&lt;/a&gt;的功能，DEVONthink能自動辨識文字中與其他文件檔名、Group、Tag相同的專有名詞。讓整份文件有如Wiki一樣的連結功能。&lt;/p&gt;
+&lt;h2 id=&#34;普通連結&#34;&gt;普通連結&lt;/h2&gt;
+&lt;p&gt;建立在資料庫文件內的相互連結，有幾種不同的方式可以進行:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在文件中先反白要建立連結的文字，透過右鍵選&lt;code&gt;Link to&lt;/code&gt;然後指定要連結的立置(可以是Group、Tag、或是文件)。&lt;/li&gt;
+&lt;li&gt;也可以直接在欲被連結的文件，選&lt;code&gt;Edit&lt;/code&gt;-&amp;gt;&lt;code&gt;Copy Item Link&lt;/code&gt;，這樣連結就被複製進剪貼簿中，然後在文件中貼上即可。&lt;/li&gt;
+&lt;li&gt;另外一種方式是，點選欲被連結的文件，利用&lt;code&gt;⌘⌥+拖&lt;/code&gt;的方式，放至文件內文之中，即可達到相同的效果。&lt;/li&gt;
+&lt;li&gt;若要移除連結，可以反白在藍色底線字上選擇&lt;code&gt;Format&lt;/code&gt;-&amp;gt;&lt;code&gt;Remove Link&lt;/code&gt;的方式，把連結移除掉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wikilink&#34;&gt;WikiLink&lt;/h2&gt;
+&lt;p&gt;當你的資料庫文件越來越多的時候，就能顯示出這功能的強大。前述的方式還是自行去建立連結，而這裡來說明DEVONthink自動幫你建立文件之間的連結。&lt;/p&gt;
+&lt;p&gt;這主要還是透過Group、Tag、與檔案名稱之間的比對，將文件內容對應到適合的位置，如此該文字下方會出現底線，可以連結到資料庫內的位置。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/BD2AY34.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;Preference&lt;/code&gt;-&amp;gt;&lt;code&gt;Editing&lt;/code&gt; 中可以設定開啟或關閉Wikilink的自動化功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Names and Aliases: 預設是這選項，DEVONthink會去比對文字與Group、Tag、檔案名稱相同的部份，檔案名稱會同時去比對檔案的暱稱(可以從文件的Info找到)。當有出現相同時，自動建立連結。&lt;/li&gt;
+&lt;li&gt;MashedWords adn Aliases: 這與上述不一樣的地方式，只會去比對一個連續的文字，且中間有大寫的字母，才會視為關鍵字，比如AppleScript(連續，中間有大寫)。&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t link to groups: 排除對group的比對工作。&lt;/li&gt;
+&lt;li&gt;Open new document in separate windows: 點選連結後，開啟新的視窗。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這是很實用的功能，可以快速建立個人的Wiki資料庫。但是(又來了)，因為中文斷字能力不足的關係，這功能在中文環境下，也是屬於半殘廢的狀態。不過英文環境就沒有這樣的問題，若你有很多的英文文件，你一定會發現這功能的威力。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;特殊操作方式&#34;&gt;特殊操作方式&lt;/h1&gt;
+&lt;h2 id=&#34;在資料庫間傳送檔案&#34;&gt;在資料庫間傳送檔案&lt;/h2&gt;
+&lt;p&gt;跨資料庫的文件傳送，一般而言只要用拖拉放即可，在此說明一些小小的訣竅，以方便作文件管理。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;當sidebar有顯示的狀態下(&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Sidebar&lt;/code&gt;)，將文件拖到資料庫中，會預設被放在該資料庫的&lt;code&gt;Inbox&lt;/code&gt;資料夾中。&lt;/li&gt;
+&lt;li&gt;當進行多量的移動時，建議開啟Groups &amp;amp; Tags面版(&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Gourps &amp;amp; Tags&lt;/code&gt;)，可以直接拖拉到指定的資料夾。&lt;/li&gt;
+&lt;li&gt;另外一種模式，對於畫面螢幕大的人，可以直接開啟另一個視窗去顯示資料庫位置(&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;New Window&lt;/code&gt;-&amp;gt;&lt;code&gt;DB Name&lt;/code&gt;)，讓拖拉放更有效率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;合併與分割檔案&#34;&gt;合併與分割檔案&lt;/h2&gt;
+&lt;p&gt;基於某些特殊的目的，有時需要將文件合併或分割。例如當專案文件檔案要封存時，有時會想將所有的專案文件一併合成一個檔案，用一個檔名，以方便管理。在一般的檔案管理的場合，會以壓縮成zip的方式處理，但在DEVONthink之中就不用這麼麻煩了，只要將多個文件直接合併成一個文件就好啦!&lt;/p&gt;
+&lt;h3 id=&#34;合併-merge&#34;&gt;合併 Merge&lt;/h3&gt;
+&lt;p&gt;有些相同主題的文件是可以直接被合併的，在DEVONthink中有簡單的方式可以處理。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;選擇要合併的文件，可以兩個或是多個。按右鍵點選&lt;code&gt;Merge&lt;/code&gt;，如此就會出現新的已被合併的文件，預設的名稱如同&amp;quot;3 merged documents&amp;quot;就是三個被合併的文件，此時只要修改自己需要的名稱即可。&lt;/li&gt;
+&lt;li&gt;如同上述選好文件，在&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Merge&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;同上述選好文件，在Toolbar中的&lt;code&gt;Action&lt;/code&gt;選&lt;code&gt;Metge&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;可以被合併的文件包括:圖片、文字(Plain, Rich Text)、PDF、sheet、Web pages等，都是可以被合併的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有一點要留意的是，合併文件功能，並&lt;strong&gt;不會&lt;/strong&gt;把原有的文件刪除。所以原本文件都還保留著。&lt;/p&gt;
+&lt;h3 id=&#34;分割-split&#34;&gt;分割 Split&lt;/h3&gt;
+&lt;p&gt;有些文件內容過長，不方便管理，或是想要將被合併的文件拆解出來，將文件分割也是可以的。進行的方法略與合併不相同，首先要先開啟需被分割的文件，將游標移至欲分割的位置。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按右鍵選&lt;code&gt;Split Document&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;在&lt;code&gt;Edit&lt;/code&gt;-&amp;gt;&lt;code&gt;Split Document&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;被分割出來的新文件，會是原文件名後面加上一個&lt;code&gt;2&lt;/code&gt;，就會知道此為原文件的分割文件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分割文件功能，只能用在文字(Plain, Rich Text)與PDF檔，其他類型無法使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;文件管理結語&#34;&gt;文件管理結語&lt;/h1&gt;
+&lt;p&gt;從文中應該可以看出DEVONthink根本就是撒尿牛丸級的文件管理系統，幾乎什麼功能都有~~，只差中文斷字支援而已~~。我認為DEVONthink只是一種工具，就像Evernote一樣，也是一種工具，今天工具就是要拿來用，用的透，用的好，就是一種好工具。&lt;/p&gt;
+&lt;p&gt;至於文件管理有很多的方法與理論，我相信各種理論都可以在DEVONthink上得到實踐，找到合適的功能來做管理，這就是一個好工具所需具備的元素。不應該是人去適應工具，而應該是工具是因人的需求而被打造的。所以好的工具要想到人真正所需要的需求。&lt;/p&gt;
+&lt;p&gt;這一篇拖了一點時間才出來，因為上一個星期感冒，又是爬大山(&lt;del&gt;自找罪受&lt;/del&gt;)，導致一整個星期都提不起精神來寫點東西。下一篇會來介紹搜尋功能。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(四)</title>
+      <link>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Tue, 25 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;再次說明import-vs-index&#34;&gt;再次說明Import Vs. Index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Import&lt;/code&gt;是將文件/檔案複製一份進入資料庫中。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Index&lt;/code&gt;是將文件/檔案製作索引放入資料庫中。&lt;/li&gt;
+&lt;li&gt;Import文件/檔案進入資料庫後，會佔有空間，當檔案損毀時，就無法再救出來了。&lt;/li&gt;
+&lt;li&gt;Index並不會增大你的資料庫，且當資料庫檔案有損毀時，原檔並不會消失。&lt;/li&gt;
+&lt;li&gt;好像Index比Import還安全，但，其實資料庫並非這麼容易損毀(最少我沒遇過)。&lt;/li&gt;
+&lt;li&gt;Import的好處是，可以將資料庫檔直接放入隨身碟，往後你的所有資料就在這之中，可以隨易攜帶。且備份就只要備份這一個檔案，就全備份完畢，這是Index所做不到的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要選擇哪一種方式，就看您自己的需求去決定。這沒有絕對的標準答案。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;再次說明import-vs-index&#34;&gt;再次說明Import Vs. Index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Import&lt;/code&gt;是將文件/檔案複製一份進入資料庫中。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Index&lt;/code&gt;是將文件/檔案製作索引放入資料庫中。&lt;/li&gt;
+&lt;li&gt;Import文件/檔案進入資料庫後，會佔有空間，當檔案損毀時，就無法再救出來了。&lt;/li&gt;
+&lt;li&gt;Index並不會增大你的資料庫，且當資料庫檔案有損毀時，原檔並不會消失。&lt;/li&gt;
+&lt;li&gt;好像Index比Import還安全，但，其實資料庫並非這麼容易損毀(最少我沒遇過)。&lt;/li&gt;
+&lt;li&gt;Import的好處是，可以將資料庫檔直接放入隨身碟，往後你的所有資料就在這之中，可以隨易攜帶。且備份就只要備份這一個檔案，就全備份完畢，這是Index所做不到的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要選擇哪一種方式，就看您自己的需求去決定。這沒有絕對的標準答案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的方式是，一般文件/檔案我全都用Import的方式。但是對於語音檔、影片、照片等，非常佔容量的檔案用Index。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;先決定文件要存在哪&#34;&gt;先決定文件要存在哪&lt;/h2&gt;
+&lt;h3 id=&#34;一放入inbox中&#34;&gt;一.放入Inbox中&lt;/h3&gt;
+&lt;p&gt;在系統設定內，選擇Import的頁籤可以看到相關的設定。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/LK72pXt.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;系統在GLOBALS有預設的Inbox，這Inbox是出現在Finder的側邊欄位，一般而言假如透過掃描器的文件檔、網站的截取、相關的Scripts所匯入的檔案、或者是拖拉放方式丟到Inbox的資料，都會先放到&lt;code&gt;GLOBAL&lt;/code&gt;-&amp;gt;&lt;code&gt;Inbox&lt;/code&gt;中。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Finder中的Inbox&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5TTGglA.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;圖中所示即是Finder中的Inbox資料夾，將檔案放在這裡，會自動被丟到Global的Inbox中。因為資料都自動被移走，所以這裡是_看不到檔案_的。&lt;/p&gt;
+&lt;h3 id=&#34;二放入指定的資料夾&#34;&gt;二.放入指定的資料夾&lt;/h3&gt;
+&lt;p&gt;假如是在開啟DEVONthink的狀況下，也可以直接拖拉放的方式直接將檔案放入指定的資料夾。所以這是相當自由的。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/4CK1ZTO.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;之前有提到的&lt;code&gt;Groups &amp;amp; Tags&lt;/code&gt;視窗，也適合用來拖拉放檔案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;假如找不到剛才自己放的檔案，建議先看看Global Inbox的group。若是找不到，可以看一下&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;History&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Name&lt;/code&gt;來找一下剛剛匯入的位置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;選一還是選二呢&#34;&gt;選一還是選二呢?&lt;/h2&gt;
+&lt;p&gt;這也是沒有對與錯的事，端看你的個人習慣。以GTD為出發點，建議用第一個方式，將資料先放入Inbox之中，往後再Review這些相關的檔案，再做分類的工作。&lt;/p&gt;
+&lt;p&gt;選二的缺點是會打斷現行的思序，但已經先做好資料夾的管理，所以未來就可以不用花時間處理。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的習慣是選一，都先放入Inbox之中，一個星期會整理一次資料，順便Rwview文件。這議題已經在思考GTD的運作，建議可以參考網路上相關的文章，先建立起自己的模式。不論選哪一種模式，DEVONthink都可以做得到。以下文章會說明更多的匯入方式，可以提供個人使用上的參考。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;利用devonthink建立文件&#34;&gt;利用DEVONthink建立文件&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/VyV8Yzn.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;中，可以看到以上幾種可以建立的資料型態，以下作個簡單的說明。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;With Clipboard&lt;/code&gt;是直接新增現在系統簡貼簿中的文字。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Plain Text&lt;/code&gt;新增純文字檔案，至於什麼是存文字，請自行Google。&lt;a href=&#34;https://en.wikipedia.org/wiki/Plain_text&#34;&gt;Wiki&lt;/a&gt;說明。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Rich Text&lt;/code&gt;這也是自行Google的項目。&lt;a href=&#34;https://zh.wikipedia.org/wiki/RTF&#34;&gt;Wiki&lt;/a&gt;說明。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Formatted Note&lt;/code&gt;通常從截取下來的網頁，都是屬於這檔案類型。是可以被編輯的。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HTML Page&lt;/code&gt;這不用說明了吧，就HTML頁面。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Markdown Text&lt;/code&gt;副檔名為.md檔，就是大家耳聞的Markdown檔案，在撰寫時是Markdown原檔，觀看時可以利用右上方&lt;code&gt;Best Alternative&lt;/code&gt;按鈕切換成被編譯後的閱讀模式。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Sheet&lt;/code&gt;要先輸入Column的參數，如下圖。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/4dwrEK7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然後就能產生像Excel一樣的資料表，如何應用，請自行先想像。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/agYUbQ6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以透過按&lt;code&gt;New Record&lt;/code&gt;的方式來新增資料。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Bookmark&lt;/code&gt;DEVONthink是可以輸入Bookmark型式的資料，可以將Safari、Chrome、Firefox的Bookmark檔保存下來，直接點選連結，可以用內建的瀏覽器觀看網頁。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Feed&lt;/code&gt;在網路上所看到的RSS連結，可以由此輸入，支援OPML、RSS等常見的Feed格式。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;New From Template&lt;/code&gt;這能真的很方便，可以將常輸入的文件，先建立一份Template檔，未來直接用這方式來撰寫。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/uRtQaM5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這示範一份日常的電話紀錄，時間會自動被記下來，不用再手動方式輸入。&lt;/p&gt;
+&lt;p&gt;範本可以是任何型式的檔案，未來只要將檔案放進範本資料夾中，就可以從這裡被引用新增。&lt;/p&gt;
+&lt;h2 id=&#34;托拉放-drag-and-drop&#34;&gt;托拉放 Drag and Drop&lt;/h2&gt;
+&lt;p&gt;檔案或文件可以透過施拉放的方式，將資料Import進資料庫。可以拉到的地方包括:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dock Icon，直接拉到Dock上的DEVONthink程式，就可以自動匯入inbox之中。&lt;/li&gt;
+&lt;li&gt;Group或Tag，拉到所想要放的位置也會被匯入。&lt;/li&gt;
+&lt;li&gt;Group&amp;amp;Tags Panel，假如你有打開這面版，也是會被匯入指定的位置。&lt;/li&gt;
+&lt;li&gt;DEVONthink Window，這就是直接拉到該View的視窗中。&lt;/li&gt;
+&lt;li&gt;Global Inbox，這就是前面所說在Finder中的Inbox資料夾。在此說明一下特點。
+&lt;ul&gt;
+&lt;li&gt;前述的四種方式，被拖拉放之後是被Copy一份資料，原檔案持續存在著。而放在Finder Inbox中算是被移動到Inbox中，所以原檔案會消失。&lt;/li&gt;
+&lt;li&gt;拖到Global Inbox中，默認為放到主資料庫Inbox中，沒有如前四項有指定位置。&lt;/li&gt;
+&lt;li&gt;這是一種GTD的概念，先將文件存下來，日後再做管理的動作，將相同的事情同時執行，就是GTD的實踐。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;services-menu&#34;&gt;Services Menu&lt;/h2&gt;
+&lt;p&gt;在MacOS 10.6 Snow Lepard之後，提供了Service的方式，可以利用一些簡單的Scripts來達成複雜的工作。就如在Finder之中就可以找到Service的例子。如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xj2UjmY.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;當灌好DEVONthink之後，就已經自動將這功能寫入到服務選單之中。&lt;/p&gt;
+&lt;h2 id=&#34;sorter&#34;&gt;Sorter&lt;/h2&gt;
+&lt;p&gt;接下來說明一個令人又愛又恨的功能，有些人很愛，有些人卻又對這東西很反感。&lt;/p&gt;
+&lt;p&gt;在你的桌面上有一個常註的面版，可以隨易移動位置，可以任意放不同的資料夾作預設。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/jphXpdj.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我的習慣是把正在處理中的資料夾放入插槽中，當找到相關的資料，可以直接拖拉放至這裡，然後就會被放到指定的資料夾中。&lt;/p&gt;
+&lt;p&gt;使用情境比如正在寫論文，可以在網路上找到的資料，一股腦兒全放到論文資料夾中，未來就可以統一做整理。但有些人覺得這東西一直常註在桌面上很礙眼，所以如何應用，端看個人的使用習慣決定。&lt;/p&gt;
+&lt;h2 id=&#34;bookmarklets&#34;&gt;Bookmarklets&lt;/h2&gt;
+&lt;p&gt;在&lt;a href=&#34;http://www.devon-technologies.com/download/extras.html&#34;&gt;這裡&lt;/a&gt;可以找到DEVONthink的相關外掛，你可以將Bookmarklets直接拉到書籤之中，當未來找到想要存的網站資料，可以利用這方式直接將網頁存成想要的格式。現在有以下幾種格式可以選擇:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clip to DEVONthink&lt;/li&gt;
+&lt;li&gt;Archive&lt;/li&gt;
+&lt;li&gt;Bookmark&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;PDF&lt;/li&gt;
+&lt;li&gt;PDF(paginated)&lt;/li&gt;
+&lt;li&gt;Selection&lt;/li&gt;
+&lt;li&gt;Text&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;把這幾項集合成一個Bookmarklet資料夾，點選執行，也是很簡單的一種做法。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/3422B9V.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;從email內新增&#34;&gt;從Email內新增&lt;/h2&gt;
+&lt;p&gt;DEVONthink Pro版以上，可以直接與Apple Mail做整合。好處是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;將專案文件一起存放。&lt;/li&gt;
+&lt;li&gt;利用DEVONthink來整理專案檔案，也可以使用See Also、Tag、Replicant的方式管理email的訊息。&lt;/li&gt;
+&lt;li&gt;最大的好處是，DEVONthink真的運算很快且有彈性，在搜尋上可以很快的找到自己要的檔案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/cR4bfhT.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink支援Apple Mail、Microsoft Outlook、Unix Mailbox等三種信箱。不過我已經轉到Airmail使用已經太久了，所以這部份我幾乎都不是用此方式操作。至於如何用Airmail來匯入，因這不是內建的主要服務，未來再找時間說明。&lt;/p&gt;
+&lt;h2 id=&#34;利用pdf選單&#34;&gt;利用PDF選單&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/12RnTG6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在預設的列印功能中，左下角會有PDF字樣，可以利用已經自動幫你設好的PDF Scripts將文件直接輸出成PDF檔，並放入DEVONthink之中。&lt;/p&gt;
+&lt;p&gt;圖中因為我有灌個人版與Pro版兩種(試用)，所以會出現兩個Scripts。若只有裝過一種DEVONthink，就不會與我相同的呈現畫面。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以應用在Safari列印網頁時，選擇網印網站，將網站存成PDF檔，並置入DEVONthink之中。好處是保留了網站原本的排版模式，所以若有這方面的需求，可以選擇此方法輸入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;利用內建瀏覽器&#34;&gt;利用內建瀏覽器&lt;/h2&gt;
+&lt;p&gt;DEVONthink已內建與Safari相同的WebKit引擎，所以用內建的瀏覽器，理論上所看到的與Safari是完全相同。一樣可以用來截取網頁，可以選擇適合的格式存放，如Plain text、Rich text、Formated Note、或是直接存成HTML檔。&lt;/p&gt;
+&lt;p&gt;因為操作方式太直覺了，我就懶得介紹啦。&lt;/p&gt;
+&lt;h2 id=&#34;利用rss-feeds&#34;&gt;利用RSS Feeds&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/CNB6Ijv.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink內建RSS訂閱器，透過&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;-&amp;gt;&lt;code&gt;Feed&lt;/code&gt;可以開啟對話視窗。你只要將Feed放入，往後就會開始訂閱。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Z74rPdJ.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;相關Feed的設定，可以在&lt;code&gt;Preference&lt;/code&gt;找以找到設定參數。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check for update: 檢索的時間差，可以隨自己喜愛設定時間。&lt;/li&gt;
+&lt;li&gt;Skip duplicates: 因為很多Feed可能都是轉貼相同的來源，DEVONthink很聰明的，可以命令他判斷相同的文件。如此在讀到相同的文章時，會自動捨棄掉。&lt;/li&gt;
+&lt;li&gt;Convert categories to tags: 這不用說明了，就Tags會自動包含group的性質。&lt;/li&gt;
+&lt;li&gt;Remove articles: 這假如不選，資料就會一直被截取出來且存在資料庫中，除非自己刪除，不然不會消失。可以隨自己喜愛的方式去設定。&lt;/li&gt;
+&lt;li&gt;Also unread articles: 自動刪除時，會不會也刪除掉未讀的文章，預設是關閉。&lt;/li&gt;
+&lt;li&gt;Feed Style Sheet: 選擇不同的CSS去格式化你的Feed，一般選Default.css即可，除非有特別需求，不然不用動這一項。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我會習慣有興趣的Feed文章，直接拖拉放至Inbox中，這可以很方便做歸檔的動作。剩下文章就不去理他，於指定的時間就會自動被丟到垃圾筒中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;結語&#34;&gt;結語&lt;/h2&gt;
+&lt;p&gt;零零總總寫了這麼多的方式做檔案/文件的輸入，最大的心得就是，DEVONthink根本就是個垃圾筒，不論何種方式都有辦法把檔案置入。有時甚至比內建的垃圾筒還要不挑檔案。&lt;/p&gt;
+&lt;p&gt;我把DEVONthink定義為我的Data Warehouse，把所有的文件都放置於此，利用程式快速的搜尋功能，快速的建立我的個人知識資料庫。&lt;/p&gt;
+&lt;p&gt;接下來將說明的是如何管理這個資料庫。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(三)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <description>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;
+&lt;h2 id=&#34;建立一個新資料庫&#34;&gt;建立一個新資料庫&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;New Database&lt;/code&gt; ，點擊之後會出現一個對話視窗。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5vNHQwb.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;可以自行選擇存放的位置，但系統建議不要放在雲端同步的資料夾中，因為可能會有同步一半斷線造成資料損毀的風險。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Create Spotlight Index&lt;/code&gt;是讓Spotlight可以找到資料庫的內容，很實用，建議開啟。假如這資料庫中，包含了機敏性的資料，不希望被搜尋到，也可以取消他，看您個人的需求而定。&lt;/li&gt;
+&lt;li&gt;點&lt;code&gt;Create&lt;/code&gt;，就建立完成了一個新的空白資料庫。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;資料庫屬性&#34;&gt;資料庫屬性&lt;/h2&gt;
+&lt;p&gt;點選&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Properties&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Name&lt;/code&gt;就可以得到資料庫的屬性資料，如下圖所示。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Ajjf1Uz.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面可以看到資料庫內各種資料，比如有幾個Groups、HTML頁面有多少&amp;hellip;等。這些資料都很直觀，就不詳述。針對裡面可以做修改的部份做個說明。&lt;/p&gt;
+&lt;h3 id=&#34;exclude-groups-from-tagging&#34;&gt;Exclude Groups from Tagging&lt;/h3&gt;
+&lt;p&gt;一般而言，資料庫內的檔案，會依照Groups的方式來存放，但也可以用Tags的方式來存放。優點是可以將相近似的文件都放在一起，完全依照你的個人習慣來決定存放方式。原廠文件中沒有說明會不會影響效能，但一般而言效能差異應該不大。&lt;/p&gt;
+&lt;h3 id=&#34;share-database&#34;&gt;Share Database&lt;/h3&gt;
+&lt;p&gt;DEVONthink Pro Office版之後，可以建立Web Server，從遠端來存取資料。這選項是決定這資料庫是否可以在伺服器內被分享，若是機敏性資料，就建議不夕勾選。&lt;/p&gt;
+&lt;h3 id=&#34;create-spotlight-index&#34;&gt;Create Spotlight Index&lt;/h3&gt;
+&lt;p&gt;如上面對Spotlight的敘述，若你在創建之後想要把它關掉，可以在這選擇。預設是開啟的。&lt;/p&gt;
+&lt;p&gt;Spotlight要Indexing資料庫，通常是有排程的，當資料輸入之後不會馬上被執行。可以按&lt;code&gt;Rebuild&lt;/code&gt;來強制執行Spotlight Indexing的工作。&lt;/p&gt;
+&lt;h3 id=&#34;read-only&#34;&gt;Read Only&lt;/h3&gt;
+&lt;p&gt;若是資料庫內的東西已經封存，未來也不希望被變動，不論是輸入、刪除、或變更，可以勾這選項來處理。&lt;/p&gt;
+&lt;h3 id=&#34;name&#34;&gt;Name&lt;/h3&gt;
+&lt;p&gt;在側邊欄的資料庫名稱，與檔案名稱可以不相同。若希望變動檔案名稱，可以從上面的資料庫路徑，找到檔案存放位置，在關閉後修改。重啟DEVONthink之後會&lt;strong&gt;自動&lt;/strong&gt;捉到資料庫，可以不用再重新Open。&lt;/p&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;p&gt;對資料庫的內容簡述。&lt;/p&gt;
+&lt;h3 id=&#34;protection&#34;&gt;Protection&lt;/h3&gt;
+&lt;p&gt;若希望做到資料庫加密，可以輸入User/Password來處理。如此在開啟DEVONthink時，會出現對話視窗要求你輸入帳號/密碼。如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/WtUBPE7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink在資料加密上其實只有做到開啟加密而已，用Finder一樣可以開啟資料內容。若要做到真正的加密功能，建議可以參考建立加密磁碟的方式進行。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;開啟Mac的Disk Utility。&lt;/li&gt;
+&lt;li&gt;新增一個空白的磁區。&lt;/li&gt;
+&lt;li&gt;在新增磁區時選擇磁碟加密。&lt;/li&gt;
+&lt;li&gt;建立完成後把該資料庫檔案Copy到新的磁區。&lt;/li&gt;
+&lt;li&gt;再用DEVONthink開啟該資料庫。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;透過以上的方式，才可以確保資料庫的安全性。&lt;/p&gt;
+&lt;h2 id=&#34;限制&#34;&gt;限制&lt;/h2&gt;
+&lt;p&gt;以DEVONthink在資料庫上的限制來說，基本上就是沒有限制。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你可以無限建立資料庫。&lt;/li&gt;
+&lt;li&gt;資料庫內容可以無限新增(Evernote有單檔大小限制)。&lt;/li&gt;
+&lt;li&gt;資料庫檔案可以無限大。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上述三點只取決在你的硬碟有多大而已，一般而言，是不需要這麼多的資料庫啦。但是假如你想為專案建立專屬的資料存放位置，這提供了你無限的可能。&lt;/p&gt;
+&lt;p&gt;But&amp;hellip;人生總是有這麼一個But&amp;hellip;&lt;/p&gt;
+&lt;p&gt;搜尋功能&lt;strong&gt;只能&lt;/strong&gt;搜到該資料庫(正在瀏覽)的資料，並不會對所有已經開啟的資料庫做搜尋，所以這應該算是多資料庫的一種限制吧。&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(二)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
+      <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
+      <description>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
+&lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;主視窗&#34;&gt;主視窗&lt;/h2&gt;
+&lt;p&gt;一開啟程式，就可以看到這主要的視窗介面。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/nqAsQcs.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面分成三個部份，上方的Toolbar、左邊的Sidebar、中央一大區塊為Views。&lt;/p&gt;
+&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Vt1iIZ7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這裡可以讓你找到快速按鈕，讓您切換畫面或是快速的建立文件與分類。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/KKd8XBP.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;要更改可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Customize Toolbar&lt;/code&gt;利用對話窗來拖拉放你要的東西，操作很像之前iWorks的方式，相當直覺。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
+&lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;主視窗&#34;&gt;主視窗&lt;/h2&gt;
+&lt;p&gt;一開啟程式，就可以看到這主要的視窗介面。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/nqAsQcs.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面分成三個部份，上方的Toolbar、左邊的Sidebar、中央一大區塊為Views。&lt;/p&gt;
+&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Vt1iIZ7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這裡可以讓你找到快速按鈕，讓您切換畫面或是快速的建立文件與分類。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/KKd8XBP.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;要更改可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Customize Toolbar&lt;/code&gt;利用對話窗來拖拉放你要的東西，操作很像之前iWorks的方式，相當直覺。&lt;/p&gt;
+&lt;h2 id=&#34;sidebar&#34;&gt;Sidebar&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/ozOozsv.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這區塊是分類的快速點選區，有分成Globals、Open Database、Recent Database、Favorites與Smart Groups，前三項是Database的分類，後兩項是Groups。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意: 多個Database只在DEVONthink Professional版以上才有，若是使用DEVONthink Personal版只會有一個資料庫而已。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;假如覺得這區塊很礙眼，可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Hide Sidebar&lt;/code&gt;把它關閉。&lt;/p&gt;
+&lt;h2 id=&#34;views&#34;&gt;Views&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/vt0P6vz.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 Toolbar中有個可以切換View的選項按鈕，在DEVONthink中有六種瀏覽方式。前三項(Icon View、List View、Column View)很像Finder的方式。後三項(Split View、Three Pane View、Tag View)的方式，可以用另一種思維去看檔案，以獲得更多的資訊。&lt;/p&gt;
+&lt;h3 id=&#34;icon-view-1&#34;&gt;Icon View (⌘1)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/it9Zet9.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;是不是很像Finder一樣啊?右上方還有拉Bar可以控制圖的大小，當檔案真的很多的時候，大小控制適當就很重要了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;檔案的排序可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Sort&lt;/code&gt;的底下去找，一般而言都是用名字排序，若有其他需求都可以從那去控制。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;list-view-2&#34;&gt;List View (⌘2)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/8voZJ8F.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;預設會顯示Name、Modified、Kind、Size與URL，若要更改，可以在上面按右鍵來選取，當然大小也可以用拉的來調整。&lt;/p&gt;
+&lt;h3 id=&#34;column-view-3&#34;&gt;Column View (⌘3)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/C4MlCt9.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這模式可以一直往下挖資料夾。上圖是只顯示三層而已，若資料很深，可以一直往下挖，個人最深是放到七層，試過沒有問題。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官方的資料顯示，可以無限制的往下挖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下半部是你現在所處位置的Icon View，最下面一排還有&lt;strong&gt;Tag&lt;/strong&gt;顯示(可以用&lt;code&gt;⌃⌥⌘T&lt;/code&gt;來開啟或關閉)。&lt;/p&gt;
+&lt;p&gt;這部份的排列一樣是從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Sort&lt;/code&gt;的方式去設定。&lt;/p&gt;
+&lt;h3 id=&#34;split-view-4&#34;&gt;Split View (⌘4)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/1jBWKA5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;分割視窗包含垂直的的Group列表與文件，在&lt;code&gt;Widescreen&lt;/code&gt;模式下，右方還預設顯示文章內容。&lt;/p&gt;
+&lt;h3 id=&#34;three-pane-view-5&#34;&gt;Three Pane View (⌘5)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/sq4MfnD.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這有點像是Split View，將文件用List的方式呈現，並且在下方顯示文件內容。若是在&lt;code&gt;Widescreen&lt;/code&gt;模式下，文件內容會顯示在右方。&lt;/p&gt;
+&lt;h3 id=&#34;tag-view-6&#34;&gt;Tag View (⌘6)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lAikCSQ.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最後是Tag View，完全是以Tag的角度出發思考的設計介面，右方顯示資料庫內(&lt;strong&gt;現在所屬的資料庫&lt;/strong&gt;)所有的Tag，點選後在左方顯示內容。完全打破Group的概念，只把相關的Tag拉出。&lt;/p&gt;
+&lt;p&gt;所以前五項是以Group的角度去思考，最後一項是用Tag的角度去思考。至於何時要何種介面，這是有個人習慣的考量。現在內容尚屬於介紹的層級，我就先不去給各位先入為主的觀念，自己先去摸索是很重要的。&lt;/p&gt;
+&lt;h3 id=&#34;navigation-bar&#34;&gt;Navigation Bar&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/h1JpEec.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在每一個編輯視窗，都會出現如上圖的導覽Bar，從左至右分別為上一頁、下一頁、網址、文章資訊、Reload、鎖定、前一個Highlight、後一個Highlight、文字分析(word)、See also與Classify、關鍵字、Tag Bar。&lt;/p&gt;
+&lt;p&gt;這部份之後會列專文說明各個的用途，先了解有這些東西就好。&lt;/p&gt;
+&lt;h1 id=&#34;顯示選項&#34;&gt;顯示選項&lt;/h1&gt;
+&lt;p&gt;除了六個主視窗View的方式外，DEVONthink還有幾個不同的不同的顯示選項可以使用。以下介紹都加上快速鍵，可以自行開啟與關閉。&lt;/p&gt;
+&lt;h2 id=&#34;cover-flow-o&#34;&gt;Cover Flow (⌥⌘O)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/aOuOgSn.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;利用Mac本身的Cover Flow功能來顯示文件，多是用在顯示圖片的功能上，假如是顯示一般文件，也只有文件的縮圖，就如同Mac本身的功能相同。&lt;/p&gt;
+&lt;p&gt;這種顯示方式只能用在&lt;strong&gt;Column、Split、Three Pane、Tag&lt;/strong&gt;等模式上。&lt;/p&gt;
+&lt;h2 id=&#34;tags-t&#34;&gt;Tags (⌃⌥⌘T)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/2cqq5GR.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在文件的下方，會有Tags的顯示區域，可以直接點選更改成類似的Tag，或是在後面新增Tag的分類。&lt;/p&gt;
+&lt;p&gt;DEVONthink會自動將Group加到Tags之中。假如是屬於Group的Tag，呈現&lt;strong&gt;灰色&lt;/strong&gt;，若是不屬於Group的則呈現&lt;strong&gt;藍色&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;details-l&#34;&gt;Details (⌥⌘L)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/PPHPSKs.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;只能用在Icon View模式，顯示更多的內容與資訊，這樣使得Icon View獲得如同List View的功能一樣。&lt;/p&gt;
+&lt;h2 id=&#34;widescreen-w&#34;&gt;Widescreen (⌥⌘W)&lt;/h2&gt;
+&lt;p&gt;只能用在Split View與Three Pane View上，讓內容顯示在右側而非下方。預設是關閉的。因我的電腦畫面不夠寬，所以開啟不了這功能。就不再作截圖示範了。&lt;/p&gt;
+&lt;h2 id=&#34;full-screen&#34;&gt;Full Screen&lt;/h2&gt;
+&lt;p&gt;全螢幕有兩種模式，一個是針對視窗的全螢幕(⌃⌘F)，另一種是針對文件的全螢幕(⌘F7)。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/wykSyhI.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;就如同Mac 10.11之後的全螢幕模式一般，把整個視窗填滿。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/rYjIfXy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;只有文件顯示的部份填滿視窗，還蠻方便的，可以使所有的干擾都消除，達到Focus的效果。&lt;/p&gt;
+&lt;h1 id=&#34;面版-panels&#34;&gt;面版 Panels&lt;/h1&gt;
+&lt;p&gt;部份的視窗功能，在DEVONthink之中被稱作&lt;code&gt;Panels&lt;/code&gt;，與一般的視窗功能上有一點點不太相同，通常可以提供一些特殊的功能，或者是額外的資訊。這些面版是相對於主視窗獨立而生的，不會依附著。以下就是一些特殊的面版介紹。&lt;/p&gt;
+&lt;h2 id=&#34;information-i&#34;&gt;Information (⌘⇧I)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Epj9cQb.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show info&lt;/code&gt;把它叫出來，有著文件的基本資訊。這些資訊也都可以修改的，未來會再詳述這些部份。&lt;/p&gt;
+&lt;h2 id=&#34;properties-p&#34;&gt;Properties (⌘⌥⇧P)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/oJH3sOI.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Properties&lt;/code&gt;把它叫出來，這與一般的視窗也點不同，他是黑色且透明的。這裡可以輸入一些文件的meta data。&lt;/p&gt;
+&lt;h2 id=&#34;groups--tagsg&#34;&gt;Groups &amp;amp; Tags(⌘⌃G)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/4CK1ZTO.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Group &amp;amp; Tags&lt;/code&gt;把它叫出來，這裡擁有資料庫內所有的Group。有時候文件很多時，要做分類我習慣把這面版叫出來，直接用拖拉放的方式將文件移動位置。直接點選兩下，也可以顯示該Group視窗。&lt;/p&gt;
+&lt;h2 id=&#34;download-managerl&#34;&gt;Download Manager(⌘⌃L)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/tKEHTjv.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Window&lt;/code&gt;-&amp;gt;&lt;code&gt;Download Manager&lt;/code&gt;把它叫出來，當有下載時候，可以看出來這些動作。通常是利用DEVONthink內建的瀏覽器讀取網頁時，才會有下載的動作。這與Safari或是Firefox的運作原理相同。&lt;/p&gt;
+&lt;h2 id=&#34;log&#34;&gt;Log&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/QyhBMbi.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Window&lt;/code&gt;-&amp;gt;&lt;code&gt;Log&lt;/code&gt;把它叫出來，當有發生需要你注意的項目時，這畫面會自行跳出來警告你。之前我曾把DEVONthink的data base檔案放在Google Drive同步的資料夾下，就一天到晚警告我這樣是不好的，一定要移離開該位置。&lt;/p&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/XekYFNS.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這面版可以看到資料庫的運作過程，如上圖，這是近期運作的紀錄，資料庫寫入了很多的RSS資料。每次你新增或刪除資料的紀錄都會存放在這裡。&lt;/p&gt;
+&lt;h2 id=&#34;抽屜-drawers&#34;&gt;抽屜 Drawers&lt;/h2&gt;
+&lt;p&gt;有一些視窗，它是依附著主視窗而生，這些在DEVONthink被稱作&lt;code&gt;Drawers&lt;/code&gt;，下方就簡單說明一下。&lt;/p&gt;
+&lt;h2 id=&#34;see-also--classifys&#34;&gt;See Also &amp;amp; Classify(⌘⌃S)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/dm4XcDh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;See Also &amp;amp; Classify&lt;/code&gt;把它叫出來，這是DEVONthink主要的功能之一，在See Also中，DEVONthink透過特殊的演算方式，找出相關的文章，這幾乎可以當作個人版的Wiki來使用了。&lt;/p&gt;
+&lt;p&gt;而上方的是建議的Group，也是透過演算法建議有哪些Group適合這篇文章來放。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官方網站說明這功能有人工智慧(AI)的能力，我還在慢慢訓練我的DEVONthink，看是否會越來越準確。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;concordance&#34;&gt;Concordance&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/PmLehYA.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這個Drawer是計算著這文章中，相同的字句出現的次數，與字句的長度寬度。個人認為這部份以英文運作是很好的，但中文部份斷句還是不夠精確(&lt;del&gt;根本不及格&lt;/del&gt;)。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這功能要在DEVONthink Professional版以上才有。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;document-windows&#34;&gt;Document Windows&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/yKacSa2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;大部份在DEVONthink的文章，點選兩下就可以出現這一個視窗，可以用來編輯與修改文章的內容。假如只是要快速的查看內容的話，建議可以按一下&lt;code&gt;空白鍵&lt;/code&gt;來&lt;code&gt;Quick Look&lt;/code&gt;就可以了。&lt;/p&gt;
+&lt;p&gt;假如是新增文章的話，是透過&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;的方式，選擇要新增的文章格式。在DEVONthink中支援多種文件格式，最重要的是可以支援&lt;code&gt;Markdown&lt;/code&gt;，這點對我來說非常重要。這部份內容未來也會再詳述。&lt;/p&gt;
+&lt;h2 id=&#34;結語&#34;&gt;結語&lt;/h2&gt;
+&lt;p&gt;有沒有覺得這軟體功能真的很強大，居然零零總總的細項功能這麼得多，很多小細節都有顧到。這也是我推薦的原因。&lt;/p&gt;
+&lt;p&gt;說明到現在，其實都還沒有將資料放到Database之中，所以內容還不算真正的開始呢(什麼?)。&lt;/p&gt;
+&lt;p&gt;真的，DEVONthink真的很強大，強大到不知從何處起筆。從操作介面算是一個開始，而不是結束。慢慢得我會再新增一些近日使用上的心得，希望對已經在使用或是正在評估中的使用者有幫助。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(一)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
+      <pubDate>Tue, 18 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
+      <description>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ithelp.ithome.com.tw/articles/10117041&#34;&gt;Evernote 被駭啦!! 有用Evernote 的粉絲請儘快更換密碼喔!!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些相關的新聞讓我一直對大象很沒有信心，雖然他們最近已經搬到GCP，同步速度已經快上很多，甚至以台灣而言，它是最快的雲端筆記平台(&lt;del&gt;最快洩漏機密的平台&lt;/del&gt;)。但是在資料安全性上的疑慮，讓我不得不放棄這好用的平台當作我的資料最後集散地，現在也只當作捉文章的工具而已(文後說明)。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ithelp.ithome.com.tw/articles/10117041&#34;&gt;Evernote 被駭啦!! 有用Evernote 的粉絲請儘快更換密碼喔!!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些相關的新聞讓我一直對大象很沒有信心，雖然他們最近已經搬到GCP，同步速度已經快上很多，甚至以台灣而言，它是最快的雲端筆記平台(&lt;del&gt;最快洩漏機密的平台&lt;/del&gt;)。但是在資料安全性上的疑慮，讓我不得不放棄這好用的平台當作我的資料最後集散地，現在也只當作捉文章的工具而已(文後說明)。&lt;/p&gt;
+&lt;p&gt;用Google搜尋&lt;code&gt;Evernote 替代方案&lt;/code&gt;、&lt;code&gt;Evernote 取代&lt;/code&gt;這些字眼，就可以看到想要逃離的人真的很多，最多是轉到OneNote去，但是OneNote的同步速度，真的讓人懷疑這是微軟的服務嗎?以服務為導向，號稱擁抱雲端的公司，速度慢到令人髮指，根本就是覺得反正你也沒有地方逃的老大心態。曾經我已經放棄了離開Evernote的想法，但是每過一段時間，就會開始找替代方案。為了終止這無趣的行為，決定全部都轉到自己電腦上來管，但這又產生了檔案管理的問題，一直找不到很好的方式來處理。就在萬念俱灰的情況下，讓我找到了DEVONthink…&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;devonthink是什麼&#34;&gt;DEVONthink是什麼?&lt;/h2&gt;
+&lt;p&gt;這問題其實不太好回答，因為不論用Evernote或是OneNote來比擬都不太對，也不是一個很好的形容方式，我用一些簡單的說明，看會不會好一點幫助了解。&lt;/p&gt;
+&lt;h3 id=&#34;1-是一個檔案與媒體的管理與瀏覽工具&#34;&gt;1. 是一個檔案與媒體的管理與瀏覽工具&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/OihLWqd.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;就像Finder一個，DEVONthink可以用資料夾的方式垂直管理電腦中的各種檔案，且這些檔案都可以透過內建的程式直接開啟。有點類似像iTunes或iPhoto一樣的管理方式，但是功能更加強大，算是一種整合型的工具。&lt;/p&gt;
+&lt;p&gt;你可以直接開啟存在裡面的資料，不論是文件(如:Word、Excel、PowerPoing、Pages、Number、Keynote、txt&amp;hellip;)、音樂(aac、mp3&amp;hellip;)、影片(如mp4&amp;hellip;)，幾乎只要在Finder中能打開的檔案，但DEVONthink都可以打開。而且整合Finder的Quick Look功能，按個&lt;code&gt;空白鍵&lt;/code&gt;就可以直接預覽。&lt;/p&gt;
+&lt;h3 id=&#34;2-思考片斷的儲存地&#34;&gt;2. 思考片斷的儲存地&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/K8oiAVX.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在網路的世界中，我們常常看到有用的資料，但現在又沒有時間讀，這已經有很多的應用，比如&lt;a href=&#34;http://instapaper.com&#34;&gt;Instapaper&lt;/a&gt;、&lt;a href=&#34;http://getpocket.com&#34;&gt;Pocket&lt;/a&gt;。但這些Read it later的應用有一個很大的問題，就是無法將文件存回本地端。而DEVONthink在這部份就很強，它可以應用Instapaper的截取技術，只取文字的部份存到裡面，另外再作語意分析，可以快速的將回傳的文章分類好(Auto Classify功能)。除些之外，內建的文字編輯器，可以支援純文字(Plain Text)、Rich Text、Sheet或是Markdown，尤其是Markdown的支援，這是Evernote所沒有的功能。&lt;/p&gt;
+&lt;p&gt;如此而言，DEVONthink已經可以將各種文字型的檔案，都存在資料庫中，這是相當好用的。&lt;/p&gt;
+&lt;h3 id=&#34;3-文件的儲存地&#34;&gt;3. 文件的儲存地&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5msN5nR.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;文件最重要的就是管理，人們往往會花很多的時間在管理與分類上。DEVONthink了解這是一件很浪費時間的事，所以利用自行開發的演算法，可以一鍵自動分類或是分到不用資料夾中。未來要找這些資料，也可以利用搜尋的方式處理。好的，這有什麼了不起?大象也是做得到。&lt;/p&gt;
+&lt;p&gt;DEVONthink更強大的是建立個人的Wiki資料庫。在文件開啟後，有see also功能，會利用文件中相關的字辭與整個文件資料庫做比對，列出相近似的文章。另外文件也都做到內文的檢索，是故不是比對文件標題而已哦，是連上述支援的檔案內文，或是文字化的PDF內文都會被比對出來。&lt;/p&gt;
+&lt;p&gt;再者，資料夾可無限擴充層級，也是我最欣賞的一點。Evernote只能做到兩層的管理，常常讓我在分類上很苦惱，分類學應該是「當一個資料夾內超過十份文件，就代表可以繼續分類下去」，而Evernote只會讓我把相似但又不相同的東西放在一起。例如我有個登山的入山證申請資料，在我的資料庫就是被歸到&lt;code&gt;Archive&lt;/code&gt;-&amp;gt;&lt;code&gt;Mountain&lt;/code&gt;-&amp;gt;&lt;code&gt;南湖群峰&lt;/code&gt;-&amp;gt;&lt;code&gt;南湖大山申請資料&lt;/code&gt;，在Evernote之中在&lt;code&gt;Mountain&lt;/code&gt;階層就結束了。當然我可以利用Tag的方式將文件再做橫向維度的分類，但既然我可以用資料夾就分好了，為何我還要去遷就於軟體的限制呢?&lt;/p&gt;
+&lt;h3 id=&#34;4-資料庫&#34;&gt;4. 資料庫&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Pe0oIrQ.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;假如以結構化的資料庫關念來管理檔案，那就是役於物的限制。在DEVONthink之中，提供了很方便管理文件方法，加入了Duplicate與Replicant的觀念，這也是市面上其他檔案軟體所沒有的功能。另外這算是一個本機端的軟體，以檔案管理的原則，提供了Importing與Indexing兩種方式將資料存入，交互靈活運用，可以有千變萬化的方式作資料管理。這兩個是相似但不相同的概念。有一些觀念是必需要先了解的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Importing&lt;/code&gt;是將檔案複製一份到資料庫中，&lt;code&gt;Indexing&lt;/code&gt;只會做索引，並不會移動檔案。&lt;/li&gt;
+&lt;li&gt;部份人以為DEVONthink是將檔案都放成一個資料庫檔案，所以當資料庫檔案損壞時，所有的資料將全部消失。這可以說是對，也算不對。其實DEVONthink只是將檔案包裏起來而已，也沒有做壓縮的動作，所以就算檔案開不起來，其實都還是可以救回原始的資料。假如真的很擔心的話，建議可以盡量用&lt;code&gt;indexing&lt;/code&gt;的方式將文件放入資料庫中，這樣文件就根本沒有移動過。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Duplicate&lt;/code&gt;與&lt;code&gt;Replicant&lt;/code&gt;都可以將文件做複製的動作，但Duplicate複製完就是兩個完全獨立的文件，修改任一個檔案，都不會影響到另一個。而Replicant卻是修改完後，另一個也跟著變動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;現在我習慣直接將資料存入DEVONthink之中，並且直接編輯，編輯完也是直接按儲存而已。反正資料庫已經連結雲端作備份了，怎麼運作，就不是我要去擔心的事。&lt;/p&gt;
+&lt;p&gt;這部份還有很多可以介紹的，留作未來的主題吧。&lt;/p&gt;
+&lt;h3 id=&#34;5-瀏覽器與rss訂閱器&#34;&gt;5. 瀏覽器與RSS訂閱器&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/f1dnXgL.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;雖然在_Take Control of Getting Started with DEVONthink 2_這本書中有提到，盡量不是將DEVONthink作為RSS的閱讀或訂閱器使用，但是現在我的應用是將我在&lt;a href=&#34;http://feedly.com&#34;&gt;Feedly&lt;/a&gt;中的所有RSS連結直接給DEVONthink使用，好處是當看到有意義的文章，或未來可能會用到的資訊，我就將文放到指定的資料夾中，作為個人資料庫，不用再經過轉檔或截取的動作，一個拖拉放就搞定了。&lt;/p&gt;
+&lt;p&gt;有一些RSS只提供摘要，若點入要開啟瀏覽器也算很麻煩的事，所以這部份DEVONthink可以用內建的Browser搞定，不用再另外開啟程式與畫面，也當然沒有其他分頁之類的惱人問題，算是相當方便。&lt;/p&gt;
+&lt;h1 id=&#34;devonthink缺點&#34;&gt;DEVONthink缺點&lt;/h1&gt;
+&lt;p&gt;秉持著雞蛋裡要挑出骨頭的個性，在這軟體中，其是存在著一些缺點，讓我不得不注意到。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;畫面很老派，感覺像是在用早期的ERP軟體一樣的界面。不用我這外貌協會成員來看，都會覺得畫面一點都不吸引人，雖然沒有炫麗的畫面與操作模式，但功能都很實用。期望下一版可以再更好看一點。&lt;/li&gt;
+&lt;li&gt;中文斷字能力不足，這影響到Classify與Search的能力。中文的文章，&lt;code&gt;Auto Classify&lt;/code&gt;幾乎變成個廢物，連同&lt;code&gt;See also&lt;/code&gt;功能都有點影響。所以在中文使用環境中，DEVONthink的功力算是只剩六成而已。這點可能會讓很多人對此產品沒有信心，這部份現在無解，只待未來改版時再期待改進。&lt;/li&gt;
+&lt;li&gt;利用Instapaper截取網站時，常常都會找一堆無用的資訊都拉進來，把畫面變得很不易閱讀。這問題的解法，我是利用Evernote做為網站截取的主要工具，待上傳到Inbox資料夾之後，再同步到DEVONthink之中。看似繞了一個圈，但最少解決了問題。&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>Evernote替代方案</title>
+      <link>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Thu, 23 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;列出我的需求:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;要能多種裝置同步，尤其是iOS與MAC之間的溝通。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;列出我的需求:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;要能多種裝置同步，尤其是iOS與MAC之間的溝通。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;資訊保密上不要有問題，最好有二階段認證的方式登入。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隱私權上可以受到保障。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最好可以支援Markdown的寫作方式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;檔案上傳不要有空間限制，且能保存各型式的檔案。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有分享功能。&lt;/p&gt;
+&lt;p&gt;說來說去，這些功能好像Evernote就只有第四項做不到而已，應該還是留在Evernote之中啊!但是為了個人隱私權的悍衛，不能低頭!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;先分析evernote的功能&#34;&gt;先分析Evernote的功能&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/tyfPgO3.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我所會用到的功能，大致上不會脫離記事、語音、影片、圖片&amp;amp;照片、檔案與網頁截取，其中又以網頁截取佔了一大部份。
+以圖中的內容可以發現到，這每一個都是一種檔案或資料結構，分散在我們硬碟之中。除了網頁截取功能之外，其他幾乎都是自己所創作出來的東西。Evernote只是將它們整合到雲端而已，加上文字說明與Tag功能，讓未來尋找資料時可以更加方便。這些工作以Mac而言，其實Smart Folder自己也是可以設定得出來，但我過去太依賴Evernote幫我整理，就像一個垃圾筒一樣，所有東西都丟到裡面去，等到有需要就用搜尋功能來挖垃圾筒。你說不是嗎?&lt;/p&gt;
+&lt;h3 id=&#34;記事&#34;&gt;記事&lt;/h3&gt;
+&lt;p&gt;其實我在Evernote上的寫作很少，主要原因就是太麻煩了，對我來說我只要一個單純的寫作環境，所以Markdown是必需的，但是大象始終就是不肯將這功能加入。其實不加入Markdown寫作，Evernote應該是有苦衷的，畢竟他們所用的ENEX格式是一種特規，基於HTML的格式而產生的，若要改成純文字模式的md方式會有技術上的困難。對我來說，困難是他家的事，我只要有符合我要的東西才是重要的。&lt;/p&gt;
+&lt;h3 id=&#34;語音影片&#34;&gt;語音、影片&lt;/h3&gt;
+&lt;p&gt;用語音輸入的機會其實並不高，因為我都會盡量採用文字的方式作輸入，但偶而還是會用此功能。綜觀我現在近三千筆的資料，語音的不份不超過十筆，所以這可以不用思考。
+影片的部份算是檔案的特例，要能播放就可以了。&lt;/p&gt;
+&lt;h3 id=&#34;檔案&#34;&gt;檔案&lt;/h3&gt;
+&lt;p&gt;含蓋我所有會用到的文件格式，其中又以M$的Word、Power Point、Excel等格式，是很少會使用上的，我的作業集中在Mac上，所以相對之下Pages、Keynote、Numbers的檔案我就很常會想要輸入到Evernote之中，只是Evernote當作一般的檔案，無法作預覽與索引的功能。
+PDF檔是網路上傳遞的標準，這就佔了很大的一個部份。所以替代方案一定要能夠支援才可以。&lt;/p&gt;
+&lt;h3 id=&#34;網頁截取&#34;&gt;網頁截取&lt;/h3&gt;
+&lt;p&gt;這幾乎是我用Evernote的主要功能。近三千份文件內，有超過二千五百件是屬於這種型式而來。雖然現在已經有很多read it later的服務，比如instapaper、Pocket等，但是對於截取回來的資料都沒有很方便的管理模式，畢竟他們只是做很基本的read it later而已。
+網頁截取重點在於能截取簡化的文件，我要的不是網頁的所有元素，只要將文字與圖片截取即可。&lt;/p&gt;
+&lt;h2 id=&#34;替代方案&#34;&gt;替代方案&lt;/h2&gt;
+&lt;h3 id=&#34;onenote&#34;&gt;Onenote&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/pUEjkAt.jpeg&#34;&gt;
+Microsoft提供的&lt;strong&gt;Onenote&lt;/strong&gt;其實功能相當完整，是取代Evernote的最佳解決方式。但是&amp;hellip;但是&amp;hellip;但是&amp;hellip;我的使用經驗上非常差，主要是Onenote的資料是放在Onedrive之中，而台灣連接Onedrive的速度只能用&lt;strong&gt;可悲&lt;/strong&gt;二字，同步到天荒地老的畫面久久不在腦海裡消失。
+Onenote在寫作的方式很像熟悉的Word一樣，與Evernote的寫作經驗是完全不相同的。一個是以文字為基礎的架構，一個是以網頁語言為基礎的架構。
+這已經是替代方案中，最接近Evernote的方案了，但是執行速度上，完全是&lt;strong&gt;悲劇&lt;/strong&gt;。直接淘汰!&lt;/p&gt;
+&lt;h3 id=&#34;google-keep&#34;&gt;Google Keep&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/DpiWqXa.png&#34;&gt;
+Google以強大的搜尋能力起家，他們家多數的產品也是以搜尋作為服務的基底，但Keep上也是維持這樣的服務特色。不但支援Web，連iOS、Android都有支援，所以算是一個很好的跟平台，但是要完全取代Evernote看似又不可能，怎麼說呢?
+Keep定位在一個輕量化的記事&lt;/p&gt;
+&lt;h3 id=&#34;備忘錄mac-and-ios&#34;&gt;備忘錄(Mac and iOS)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/MUC0bVx.png&#34;&gt;
+在蘋果的裝置中，備忘錄真的很好用，可以放進各種文字、語音、影片，甚至部份的檔案都可以放(如PDF)。最大好處是Evernote所產生的enex檔也可以直接匯入，理論上就已經是很適合的替代方案。
+但是(又來&lt;strong&gt;但是&lt;/strong&gt;了)不能做Markdown，且當文件量很大時，同步與軟體的執行上就會發生緩慢的狀況，畢竟名字就已經跟你說是&lt;strong&gt;備忘錄&lt;/strong&gt;了，有什麼好執著的呢?
+且只有在Apple上能用，當離開了蘋果的世界，這些東西都會消失不見，完全無法使用，不符合我跨平台的需求。&lt;/p&gt;
+&lt;h3 id=&#34;bear&#34;&gt;Bear&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/FvfRN3V.jpeg&#34;&gt;
+在Mac的世界中，義大利人寫了一個Bear的應用，界面簡單而美觀，有符合我這外貌協會成員的需求。支援Markdown的輸入，是一個很好做筆記的軟體，假如我當初沒有用Evernote作為我筆記軟體，現在又不用有搬家需求的話，個人覺得它比Evernote在輸入上好非常多。
+這軟體我沒有用很久，原因是找不到搬家的方法，只是單純喜歡它的Markdown輸入環境而已。另外網頁截取也找不到方法，所以評估完就沒有繼續玩下去了。&lt;/p&gt;
+&lt;h3 id=&#34;devonthink&#34;&gt;DEVONthink&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/YlqL1jE.png&#34;&gt;
+這東西根本就是核彈級的應用，以功能性而言，完爆Evernote，在機器學習上比Evernote還要完整。舉例而言，當我輸入完一篇文章，它會分析我文章中的字句，將文章與其他文章作比對，在See also的功能上就會把相關的內容都提供出來，所以假如只是把這當筆記軟體來看，已經是太小看它的功能了，這完全就是一個知識管理層級的產品。
+除了它是單機版軟體外，沒有Web界面，幾乎找不到缺點。真的要說嘴的話，就是界面的美觀性沒有達到我的要求，畢竟這是德國人寫的軟體，當然是以實用性與穩定性為優先考量，美觀通常是最後才要求的東西。&lt;/p&gt;
+&lt;h3 id=&#34;比較&#34;&gt;比較&lt;/h3&gt;
+&lt;p&gt;我將這幾項最近用過的替代方案作個簡單的比較表如下
+&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/oVXLVYK.jpeg&#34;&gt;
+備註1: 分享不是分享到FB、Twitter之類的功能，而是以能共同編輯文章為出發點的考量。
+備註2: 機器學習在於能不能找到相關文章，其實Devonthink做得比Evernote還要好。
+備註3: 隱私權項目以過去是否有隱私權問題發生，最還登入有二階段認證為主。Devonthink因是本機應用，網路只是備份的地方，所以不會有任何人看到我的內容，所以列為安全。&lt;/p&gt;
+&lt;p&gt;綜觀下來，我並沒有把付不付錢，有沒有月費年費當作我的評量項目，畢竟開公司提供服務就是要賺錢，雖然免費的最好，但有時免費反而是最貴，相信大家長久以來都有這樣的感觸。&lt;/p&gt;
+&lt;h2 id=&#34;我的選擇&#34;&gt;我的選擇&lt;/h2&gt;
+&lt;p&gt;沒有完美的取代方式，畢竟Evernote已經發展了這麼久，功能性已經相當完全，最近又把伺服器搬到GCP(Google Cloud Platform)之中，在台灣的同步速度，完全不是Onenote可以望其項背。但是這間公司真的對我來說有太多的疑慮了，哪天被出賣了都不知道。今天可以開放給員工看，改天就可以開放給政府看，之後開放給大家看我都不意外。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第一捨棄: 假如硬要選擇的話，Onenote我會先捨棄掉，畢竟同步的效率實在太差了，看著同步圈圈一直轉，根本不知何時才會結束。且我只是同步近三千筆資料而已，改天同步三萬筆資料還得了。&lt;/li&gt;
+&lt;li&gt;第二捨棄: Google Kepp與Bear是我在這步的選擇，因為無法做搬家的動作。其實也不能這麼說，一篇一篇慢慢複製貼上，上是可以做得到。假如我只有三百篇記事需要處理，我或許會選擇這一選項。&lt;/li&gt;
+&lt;li&gt;第三捨棄: Apple備忘錄，望名如其名，就真的只是備忘錄而已，要做為筆記這種吃重的工作，現在還不夠資格的。輸入上也沒有Markdown，也如同Onenote一般，同步是最大的問題。另外以知識管理的角度，它只能做到搜尋的功能，所以只能說，就做好備忘錄吧。
+最後只剩下Devonthink這單機版軟體作選擇了，我已先完成了搬家的手續，最近我會好好花時間研究一下這軟體的操作，順便理解在知識管理上能幫助到我們什麼。&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Evernote 搬家到 DEVONthink</title>
+      <link>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
+      <pubDate>Mon, 20 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
+      <description>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
+&lt;li&gt;已安裝 Devonthink&lt;/li&gt;
+&lt;li&gt;沒有了&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;操作過程&#34;&gt;操作過程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打開Devonthink，File -&amp;gt; Import -&amp;gt; Note from Evernote
+&lt;img alt=&#34;Evernote_T0_Devonthink&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0zfLxbC.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選擇想要匯入的資料夾
+&lt;img alt=&#34;Note from Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/3W6ZcRS.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結束，是不是超級簡單啊?! 連TAG都幫您一同移轉過來了，完全無痛轉移。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <content:encoded>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
+&lt;li&gt;已安裝 Devonthink&lt;/li&gt;
+&lt;li&gt;沒有了&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;操作過程&#34;&gt;操作過程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打開Devonthink，File -&amp;gt; Import -&amp;gt; Note from Evernote
+&lt;img alt=&#34;Evernote_T0_Devonthink&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0zfLxbC.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選擇想要匯入的資料夾
+&lt;img alt=&#34;Note from Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/3W6ZcRS.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結束，是不是超級簡單啊?! 連TAG都幫您一同移轉過來了，完全無痛轉移。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

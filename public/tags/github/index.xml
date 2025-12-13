@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on YJ-Online</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in GitHub on YJ-Online</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>純文字的力量!</title>
+      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <description>&lt;h1 id=&#34;又完成了一次網站移轉&#34;&gt;又完成了一次網站移轉&lt;/h1&gt;
+&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
+&lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
+&lt;h1 id=&#34;網站架構&#34;&gt;網站架構&lt;/h1&gt;
+&lt;p&gt;這BLOG是用&lt;a href=&#34;http://hexo.io&#34;&gt;HEXO&lt;/a&gt;所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。&lt;/p&gt;
+&lt;p&gt;所以現在寫BLOG的流程是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用&lt;a href=&#34;https://typora.io&#34;&gt;typora&lt;/a&gt;與&lt;code&gt;markdown&lt;/code&gt;語法寫文章。&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&#34;https://filezilla-project.org&#34;&gt;Filezilla&lt;/a&gt;上傳到GCP。&lt;/li&gt;
+&lt;li&gt;從GCP執行編譯備份到&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;上。&lt;/li&gt;
+&lt;li&gt;再從GitHub備份到我的GCP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。&lt;/p&gt;
+&lt;h1 id=&#34;新版網站的優點&#34;&gt;新版網站的優點&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;版面更加的簡單(其實以前就已經很簡單了)。&lt;/li&gt;
+&lt;li&gt;右側邊欄有TOC(Table of Content)。&lt;/li&gt;
+&lt;li&gt;直接點選TOC可以直接跳到文章的標題。&lt;/li&gt;
+&lt;li&gt;更神奇的是TOC會隨著文章卷動出現反白。&lt;/li&gt;
+&lt;li&gt;SEO好像做得更好了。&lt;/li&gt;
+&lt;li&gt;全純文字，不怕遇到駭客，假如要能駭進來，那要從Linux的底層進攻。安全性更高。&lt;/li&gt;
+&lt;li&gt;完全沒有資料庫作底層運算，所以不用擔心效能問題。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所以這個版本，一次解決了我多個問題。往後我還是一樣，以簡單為出發點。&lt;/p&gt;
+&lt;h1 id=&#34;純文字有何種力量&#34;&gt;純文字有何種力量?&lt;/h1&gt;
+&lt;p&gt;說了老半天文不對題，其實我就是想說明純文字之後，到底有何改變?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;寫文章時不用再費心編排格式。用&lt;code&gt;markdown&lt;/code&gt;寫完之後，直接編譯成&lt;code&gt;HTML&lt;/code&gt;格式，快速用方便。&lt;/li&gt;
+&lt;li&gt;文章的格式簡單、條理鮮明，利用標題與排列的方式，簡單就能表達出作者的文意。&lt;/li&gt;
+&lt;li&gt;容易閱讀，這是我最喜愛的部份。有些BLOG會做過多的修飾，讓多媒體的呈現更豐富，但那些東西其實只會使讀者分心。純文字化之後，沒有過多干擾，相對之下比較不容易分心。&lt;/li&gt;
+&lt;li&gt;假如在&lt;code&gt;Word&lt;/code&gt;上寫文章，複製出來的文字常常都帶有內碼。沒經驗的說可以試著用&lt;code&gt;Word&lt;/code&gt;寫段話，再轉貼到&lt;code&gt;outlook&lt;/code&gt;去試看看，通常會連內碼都帶過去了。假如對方不用&lt;code&gt;outlook&lt;/code&gt;來看的話，發生編碼錯誤的機率很高。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;純文字之旅&#34;&gt;純文字之旅&lt;/h1&gt;
+&lt;p&gt;從Wordpress移轉到HEXO，本身就是一個很大的挑戰。其實我不是科班出身的，對於&lt;code&gt;command line&lt;/code&gt;的操作能力也只是一般般而已，但是看到別人網站上受可移動的TOC一見傾心，下定決心一定要讓自己的網站與Wordpress網站有那不一樣的功能，就開始折騰了。花了三天研究該如何進行，又花了一個晚上把程式搞定滿再花一個晚上把文章搬家，我想以後應該不會再想這樣搞了吧! 還是乖乖的應用，留下有用的資料在茫茫的網海之中。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

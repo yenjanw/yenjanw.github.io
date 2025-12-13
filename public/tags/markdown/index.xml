@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on YJ-OnLine</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on YJ-OnLine</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 06 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>快速顯示Markdown的.md檔 for MAC</title>
+      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
+&lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
+&lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
+&lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
+&lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;軟體資訊&#34;&gt;軟體資訊&lt;/h2&gt;
+&lt;p&gt;軟體名稱：InkMark
+軟體版本：v1.0
+軟體語言：英文
+軟體費用：免費
+檔案大小：66kb
+系統支援：Mac OS 10.11以上
+官方網站：http://inkmarkapp.com/markdown-quick-look-plugin-mac-os-x/
+軟體下載：&lt;a href=&#34;https://inkmarkapp.com/downloads/QLMarkdown.mpkg.zip&#34;&gt;點我&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
+&lt;p&gt;沒啥好寫的，解壓縮後出現QLMarkdown.mpkg檔。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;點兩下進入安裝畫面。&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/HxoiVLb.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;點兩下進入安裝畫面。點選&lt;code&gt;繼續&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/W8RqENX.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;正常來說，用預設的位置就可以了。直接點選&lt;code&gt;安裝&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/hjC5NHa.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;輸入本機個人的&lt;code&gt;使用者名稱&lt;/code&gt;與&lt;code&gt;密碼&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/8J3rzMV.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這樣就安裝完成啦，點選&lt;code&gt;關閉&lt;/code&gt;就安裝結束了。&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;這點比安裝還要無聊，只要點想要快速瀏覽的檔案，按下&lt;code&gt;空白鍵&lt;/code&gt;。結束~~&lt;/p&gt;
+&lt;p&gt;真的結束了，我看不出還有什麼是需要報告的。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>純文字的力量!</title>
+      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <pubDate>Thu, 30 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <description>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
+&lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;網站架構&#34;&gt;網站架構&lt;/h2&gt;
+&lt;p&gt;這BLOG是用&lt;a href=&#34;http://hexo.io&#34;&gt;HEXO&lt;/a&gt;所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。&lt;/p&gt;
+&lt;p&gt;所以現在寫BLOG的流程是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用&lt;a href=&#34;https://typora.io&#34;&gt;typora&lt;/a&gt;與&lt;code&gt;markdown&lt;/code&gt;語法寫文章。&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&#34;https://filezilla-project.org&#34;&gt;Filezilla&lt;/a&gt;上傳到GCP。&lt;/li&gt;
+&lt;li&gt;從GCP執行編譯備份到&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;上。&lt;/li&gt;
+&lt;li&gt;再從GitHub備份到我的GCP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
+&lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;網站架構&#34;&gt;網站架構&lt;/h2&gt;
+&lt;p&gt;這BLOG是用&lt;a href=&#34;http://hexo.io&#34;&gt;HEXO&lt;/a&gt;所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。&lt;/p&gt;
+&lt;p&gt;所以現在寫BLOG的流程是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用&lt;a href=&#34;https://typora.io&#34;&gt;typora&lt;/a&gt;與&lt;code&gt;markdown&lt;/code&gt;語法寫文章。&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&#34;https://filezilla-project.org&#34;&gt;Filezilla&lt;/a&gt;上傳到GCP。&lt;/li&gt;
+&lt;li&gt;從GCP執行編譯備份到&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;上。&lt;/li&gt;
+&lt;li&gt;再從GitHub備份到我的GCP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。&lt;/p&gt;
+&lt;h2 id=&#34;新版網站的優點&#34;&gt;新版網站的優點&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;版面更加的簡單(其實以前就已經很簡單了)。&lt;/li&gt;
+&lt;li&gt;右側邊欄有TOC(Table of Content)。&lt;/li&gt;
+&lt;li&gt;直接點選TOC可以直接跳到文章的標題。&lt;/li&gt;
+&lt;li&gt;更神奇的是TOC會隨著文章卷動出現反白。&lt;/li&gt;
+&lt;li&gt;SEO好像做得更好了。&lt;/li&gt;
+&lt;li&gt;全純文字，不怕遇到駭客，假如要能駭進來，那要從Linux的底層進攻。安全性更高。&lt;/li&gt;
+&lt;li&gt;完全沒有資料庫作底層運算，所以不用擔心效能問題。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所以這個版本，一次解決了我多個問題。往後我還是一樣，以簡單為出發點。&lt;/p&gt;
+&lt;h2 id=&#34;純文字有何種力量&#34;&gt;純文字有何種力量?&lt;/h2&gt;
+&lt;p&gt;說了老半天文不對題，其實我就是想說明純文字之後，到底有何改變?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;寫文章時不用再費心編排格式。用&lt;code&gt;markdown&lt;/code&gt;寫完之後，直接編譯成&lt;code&gt;HTML&lt;/code&gt;格式，快速用方便。&lt;/li&gt;
+&lt;li&gt;文章的格式簡單、條理鮮明，利用標題與排列的方式，簡單就能表達出作者的文意。&lt;/li&gt;
+&lt;li&gt;容易閱讀，這是我最喜愛的部份。有些BLOG會做過多的修飾，讓多媒體的呈現更豐富，但那些東西其實只會使讀者分心。純文字化之後，沒有過多干擾，相對之下比較不容易分心。&lt;/li&gt;
+&lt;li&gt;假如在&lt;code&gt;Word&lt;/code&gt;上寫文章，複製出來的文字常常都帶有內碼。沒經驗的說可以試著用&lt;code&gt;Word&lt;/code&gt;寫段話，再轉貼到&lt;code&gt;outlook&lt;/code&gt;去試看看，通常會連內碼都帶過去了。假如對方不用&lt;code&gt;outlook&lt;/code&gt;來看的話，發生編碼錯誤的機率很高。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;純文字之旅&#34;&gt;純文字之旅&lt;/h2&gt;
+&lt;p&gt;從Wordpress移轉到HEXO，本身就是一個很大的挑戰。其實我不是科班出身的，對於&lt;code&gt;command line&lt;/code&gt;的操作能力也只是一般般而已，但是看到別人網站上受可移動的TOC一見傾心，下定決心一定要讓自己的網站與Wordpress網站有那不一樣的功能，就開始折騰了。花了三天研究該如何進行，又花了一個晚上把程式搞定滿再花一個晚上把文章搬家，我想以後應該不會再想這樣搞了吧! 還是乖乖的應用，留下有用的資料在茫茫的網海之中。&lt;/p&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

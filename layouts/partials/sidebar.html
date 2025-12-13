@@ -1,0 +1,138 @@
+<aside class="sidebar">
+    <!-- RSS 訂閱 -->
+    <div class="sidebar-section">
+        <h3>訂閱 Subscription</h3>
+        {{- with site.Home.OutputFormats.Get "rss" }}
+        <a href="{{ .RelPermalink }}" class="rss-link" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" height="1em"
+                style="vertical-align: text-bottom; margin-right: 4px;">
+                <path d="M4 11a9 9 0 0 1 9 9"></path>
+                <path d="M4 4a16 16 0 0 1 16 16"></path>
+                <circle cx="5" cy="19" r="1"></circle>
+            </svg>
+            RSS Feed
+        </a>
+        {{- end }}
+    </div>
+
+    <!-- Tags 區塊 -->
+    {{ if .Site.Taxonomies.tags }}
+    <div class="sidebar-section">
+        <h3>標籤 Tags</h3>
+        <div class="tag-cloud">
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            {{- with $.Site.GetPage (printf "/tags/%s" $name) }}
+            <a href="{{ .RelPermalink }}" class="tag-link">
+                {{ $name }} ({{ $taxonomy.Count }})
+            </a>
+            {{- end }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Categories 區塊 -->
+    {{ if .Site.Taxonomies.categories }}
+    <div class="sidebar-section">
+        <h3>分類 Categories</h3>
+        <div class="category-list">
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            {{- with $.Site.GetPage (printf "/categories/%s" $name) }}
+            <a href="{{ .RelPermalink }}" class="category-link">
+                {{ $name }} ({{ $taxonomy.Count }})
+            </a>
+            {{- end }}
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</aside>
+
+<style>
+    .sidebar {
+        padding: 16px;
+        background: var(--entry);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        position: sticky;
+        top: 80px;
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+    }
+
+    .sidebar-section {
+        margin-bottom: 24px;
+    }
+
+    .sidebar-section:last-child {
+        margin-bottom: 0;
+    }
+
+    .sidebar-section h3 {
+        font-size: 1rem;
+        margin-bottom: 12px;
+        color: var(--primary);
+        border-bottom: 2px solid var(--border);
+        padding-bottom: 6px;
+    }
+
+    .tag-cloud,
+    .category-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .rss-link {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        background: var(--code-bg);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        color: var(--content);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-weight: 500;
+        width: fit-content;
+    }
+
+    .rss-link:hover {
+        background: #f26522;
+        /* RSS standard orange */
+        color: white;
+        border-color: #f26522;
+        transform: translateY(-2px);
+    }
+
+    .tag-link,
+    .category-link {
+        display: inline-block;
+        padding: 4px 10px;
+        background: var(--code-bg);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        font-size: 0.85rem;
+        color: var(--content);
+        text-decoration: none;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+    }
+
+    .tag-link:hover,
+    .category-link:hover {
+        background: var(--tertiary);
+        border-color: var(--primary);
+        color: var(--primary);
+        transform: translateY(-2px);
+    }
+
+    @media (max-width: 1024px) {
+        .sidebar {
+            position: static;
+            max-height: none;
+            margin-top: 20px;
+        }
+    }
+</style>

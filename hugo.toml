@@ -1,0 +1,85 @@
+baseURL = 'https://yenjanw.github.io'
+
+post = "/:year/:month/:slug/"
+languageCode = 'zh-TW'
+title = 'YJ-OnLine'
+
+theme = 'PaperMod'
+
+# 摘要設定
+summaryLength = 300
+hasCJKLanguage = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[params]
+    title = "YJ-OnLine"
+    description = "第四次移Blog,YJOL V4.0"
+    dateFormat = "2006-01-02 15:04:05 UTC+8"
+    
+    # 顯示文章的 tags 和 categories
+    ShowBreadCrumbs = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowReadingTime = true
+    ShowShareButtons = false
+    
+    # 停用首篇文章的特殊樣式
+    disableSpecial1stPost = true
+    
+    # 摘要設定
+    ShowFullTextinRSS = true
+    
+    # TOC (目錄) 設定
+    ShowToc = true
+    TocOpen = true
+    
+    # 在首頁顯示文章的 tags
+    [params.homeInfoParams]
+        enabled = false
+    
+    # 啟用 tags 和 categories 的顯示
+    [params.profileMode]
+        enabled = false
+
+[[menu.main]]
+    name = "BLOG"
+    identifer = "posts"
+    weight = 1
+    url  = "/"
+
+[[menu.main]]
+    name = "About Me"
+    identifier = "about"
+    weight = 2
+    url = "/about-me/"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true

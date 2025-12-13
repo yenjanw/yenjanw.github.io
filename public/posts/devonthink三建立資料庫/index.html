@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>DEVONthink(三) | YJ-OnLine</title>
+<meta name="keywords" content="文件管理">
+<meta name="description" content="在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                DEVONthink(三)
+                <span class="entry-hint" title="Draft">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+                        <path
+                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                    </svg>
+                </span>
+            </h1>
+            <h2 class="post-subtitle">建立資料庫</h2>
+            <div class="post-meta">
+                <span title='2017-04-20 17:35:50'>
+                    2017-04-20
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%bb%ba%e7%ab%8b%e4%b8%80%e5%80%8b%e6%96%b0%e8%b3%87%e6%96%99%e5%ba%ab" aria-label="建立一個新資料庫">建立一個新資料庫</a></li>
+                <li>
+                    <a href="#%e8%b3%87%e6%96%99%e5%ba%ab%e5%b1%ac%e6%80%a7" aria-label="資料庫屬性">資料庫屬性</a><ul>
+                        
+                <li>
+                    <a href="#exclude-groups-from-tagging" aria-label="Exclude Groups from Tagging">Exclude Groups from Tagging</a></li>
+                <li>
+                    <a href="#share-database" aria-label="Share Database">Share Database</a></li>
+                <li>
+                    <a href="#create-spotlight-index" aria-label="Create Spotlight Index">Create Spotlight Index</a></li>
+                <li>
+                    <a href="#read-only" aria-label="Read Only">Read Only</a></li>
+                <li>
+                    <a href="#name" aria-label="Name">Name</a></li>
+                <li>
+                    <a href="#comments" aria-label="Comments">Comments</a></li>
+                <li>
+                    <a href="#protection" aria-label="Protection">Protection</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e9%99%90%e5%88%b6" aria-label="限制">限制</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p>在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。</p>
+<h2 id="建立一個新資料庫">建立一個新資料庫<a hidden class="anchor" aria-hidden="true" href="#建立一個新資料庫">#</a></h2>
+<ol>
+<li><code>File</code>-&gt;<code>New Database</code> ，點擊之後會出現一個對話視窗。</li>
+</ol>
+<p><img loading="lazy" src="http://i.imgur.com/5vNHQwb.png"></p>
+<ol start="2">
+<li>可以自行選擇存放的位置，但系統建議不要放在雲端同步的資料夾中，因為可能會有同步一半斷線造成資料損毀的風險。</li>
+<li><code>Create Spotlight Index</code>是讓Spotlight可以找到資料庫的內容，很實用，建議開啟。假如這資料庫中，包含了機敏性的資料，不希望被搜尋到，也可以取消他，看您個人的需求而定。</li>
+<li>點<code>Create</code>，就建立完成了一個新的空白資料庫。</li>
+</ol>
+<!-- more -->
+<h2 id="資料庫屬性">資料庫屬性<a hidden class="anchor" aria-hidden="true" href="#資料庫屬性">#</a></h2>
+<p>點選<code>File</code>-&gt;<code>Database Properties</code>-&gt;<code>Database Name</code>就可以得到資料庫的屬性資料，如下圖所示。</p>
+<p><img loading="lazy" src="http://i.imgur.com/Ajjf1Uz.png"></p>
+<p>這畫面可以看到資料庫內各種資料，比如有幾個Groups、HTML頁面有多少&hellip;等。這些資料都很直觀，就不詳述。針對裡面可以做修改的部份做個說明。</p>
+<h3 id="exclude-groups-from-tagging">Exclude Groups from Tagging<a hidden class="anchor" aria-hidden="true" href="#exclude-groups-from-tagging">#</a></h3>
+<p>一般而言，資料庫內的檔案，會依照Groups的方式來存放，但也可以用Tags的方式來存放。優點是可以將相近似的文件都放在一起，完全依照你的個人習慣來決定存放方式。原廠文件中沒有說明會不會影響效能，但一般而言效能差異應該不大。</p>
+<h3 id="share-database">Share Database<a hidden class="anchor" aria-hidden="true" href="#share-database">#</a></h3>
+<p>DEVONthink Pro Office版之後，可以建立Web Server，從遠端來存取資料。這選項是決定這資料庫是否可以在伺服器內被分享，若是機敏性資料，就建議不夕勾選。</p>
+<h3 id="create-spotlight-index">Create Spotlight Index<a hidden class="anchor" aria-hidden="true" href="#create-spotlight-index">#</a></h3>
+<p>如上面對Spotlight的敘述，若你在創建之後想要把它關掉，可以在這選擇。預設是開啟的。</p>
+<p>Spotlight要Indexing資料庫，通常是有排程的，當資料輸入之後不會馬上被執行。可以按<code>Rebuild</code>來強制執行Spotlight Indexing的工作。</p>
+<h3 id="read-only">Read Only<a hidden class="anchor" aria-hidden="true" href="#read-only">#</a></h3>
+<p>若是資料庫內的東西已經封存，未來也不希望被變動，不論是輸入、刪除、或變更，可以勾這選項來處理。</p>
+<h3 id="name">Name<a hidden class="anchor" aria-hidden="true" href="#name">#</a></h3>
+<p>在側邊欄的資料庫名稱，與檔案名稱可以不相同。若希望變動檔案名稱，可以從上面的資料庫路徑，找到檔案存放位置，在關閉後修改。重啟DEVONthink之後會<strong>自動</strong>捉到資料庫，可以不用再重新Open。</p>
+<h3 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h3>
+<p>對資料庫的內容簡述。</p>
+<h3 id="protection">Protection<a hidden class="anchor" aria-hidden="true" href="#protection">#</a></h3>
+<p>若希望做到資料庫加密，可以輸入User/Password來處理。如此在開啟DEVONthink時，會出現對話視窗要求你輸入帳號/密碼。如下圖:</p>
+<p><img loading="lazy" src="http://i.imgur.com/WtUBPE7.png"></p>
+<p>DEVONthink在資料加密上其實只有做到開啟加密而已，用Finder一樣可以開啟資料內容。若要做到真正的加密功能，建議可以參考建立加密磁碟的方式進行。</p>
+<blockquote>
+<ol>
+<li>開啟Mac的Disk Utility。</li>
+<li>新增一個空白的磁區。</li>
+<li>在新增磁區時選擇磁碟加密。</li>
+<li>建立完成後把該資料庫檔案Copy到新的磁區。</li>
+<li>再用DEVONthink開啟該資料庫。</li>
+</ol>
+</blockquote>
+<p>透過以上的方式，才可以確保資料庫的安全性。</p>
+<h2 id="限制">限制<a hidden class="anchor" aria-hidden="true" href="#限制">#</a></h2>
+<p>以DEVONthink在資料庫上的限制來說，基本上就是沒有限制。</p>
+<ol>
+<li>你可以無限建立資料庫。</li>
+<li>資料庫內容可以無限新增(Evernote有單檔大小限制)。</li>
+<li>資料庫檔案可以無限大。</li>
+</ol>
+<p>上述三點只取決在你的硬碟有多大而已，一般而言，是不需要這麼多的資料庫啦。但是假如你想為專案建立專屬的資料存放位置，這提供了你無限的可能。</p>
+<p>But&hellip;人生總是有這麼一個But&hellip;</p>
+<p>搜尋功能<strong>只能</strong>搜到該資料庫(正在瀏覽)的資料，並不會對所有已經開啟的資料庫做搜尋，所以這應該算是多資料庫的一種限制吧。</p>
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">文件管理</a></li>
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>DEVONthink(四)</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/">
+    <span class="title">Next »</span>
+    <br>
+    <span>DEVONthink(二)</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%bb%ba%e7%ab%8b%e4%b8%80%e5%80%8b%e6%96%b0%e8%b3%87%e6%96%99%e5%ba%ab" aria-label="建立一個新資料庫">建立一個新資料庫</a></li>
+                <li>
+                    <a href="#%e8%b3%87%e6%96%99%e5%ba%ab%e5%b1%ac%e6%80%a7" aria-label="資料庫屬性">資料庫屬性</a><ul>
+                        
+                <li>
+                    <a href="#exclude-groups-from-tagging" aria-label="Exclude Groups from Tagging">Exclude Groups from Tagging</a></li>
+                <li>
+                    <a href="#share-database" aria-label="Share Database">Share Database</a></li>
+                <li>
+                    <a href="#create-spotlight-index" aria-label="Create Spotlight Index">Create Spotlight Index</a></li>
+                <li>
+                    <a href="#read-only" aria-label="Read Only">Read Only</a></li>
+                <li>
+                    <a href="#name" aria-label="Name">Name</a></li>
+                <li>
+                    <a href="#comments" aria-label="Comments">Comments</a></li>
+                <li>
+                    <a href="#protection" aria-label="Protection">Protection</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e9%99%90%e5%88%b6" aria-label="限制">限制</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

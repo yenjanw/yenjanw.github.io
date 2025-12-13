@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>DEVONthink(二) | YJ-OnLine</title>
+<meta name="keywords" content="文件管理">
+<meta name="description" content="初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。
+以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。
+
+主視窗
+一開啟程式，就可以看到這主要的視窗介面。
+
+這畫面分成三個部份，上方的Toolbar、左邊的Sidebar、中央一大區塊為Views。
+Toolbar
+
+這裡可以讓你找到快速按鈕，讓您切換畫面或是快速的建立文件與分類。
+
+要更改可以從View-&gt;Customize Toolbar利用對話窗來拖拉放你要的東西，操作很像之前iWorks的方式，相當直覺。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                DEVONthink(二)
+                <span class="entry-hint" title="Draft">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+                        <path
+                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                    </svg>
+                </span>
+            </h1>
+            <h2 class="post-subtitle">操作介面</h2>
+            <div class="post-meta">
+                <span title='2017-04-20 17:35:50'>
+                    2017-04-20
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul><ul>
+                <li>
+                    <a href="#%e4%b8%bb%e8%a6%96%e7%aa%97" aria-label="主視窗">主視窗</a></li>
+                <li>
+                    <a href="#toolbar" aria-label="Toolbar">Toolbar</a></li>
+                <li>
+                    <a href="#sidebar" aria-label="Sidebar">Sidebar</a></li>
+                <li>
+                    <a href="#views" aria-label="Views">Views</a><ul>
+                        
+                <li>
+                    <a href="#icon-view-1" aria-label="Icon View (⌘1)">Icon View (⌘1)</a></li>
+                <li>
+                    <a href="#list-view-2" aria-label="List View (⌘2)">List View (⌘2)</a></li>
+                <li>
+                    <a href="#column-view-3" aria-label="Column View (⌘3)">Column View (⌘3)</a></li>
+                <li>
+                    <a href="#split-view-4" aria-label="Split View (⌘4)">Split View (⌘4)</a></li>
+                <li>
+                    <a href="#three-pane-view-5" aria-label="Three Pane View (⌘5)">Three Pane View (⌘5)</a></li>
+                <li>
+                    <a href="#tag-view-6" aria-label="Tag View (⌘6)">Tag View (⌘6)</a></li>
+                <li>
+                    <a href="#navigation-bar" aria-label="Navigation Bar">Navigation Bar</a></li></ul>
+                </li></ul>
+                    
+                <li>
+                    <a href="#%e9%a1%af%e7%a4%ba%e9%81%b8%e9%a0%85" aria-label="顯示選項">顯示選項</a><ul>
+                        
+                <li>
+                    <a href="#cover-flow-o" aria-label="Cover Flow (⌥⌘O)">Cover Flow (⌥⌘O)</a></li>
+                <li>
+                    <a href="#tags-t" aria-label="Tags (⌃⌥⌘T)">Tags (⌃⌥⌘T)</a></li>
+                <li>
+                    <a href="#details-l" aria-label="Details (⌥⌘L)">Details (⌥⌘L)</a></li>
+                <li>
+                    <a href="#widescreen-w" aria-label="Widescreen (⌥⌘W)">Widescreen (⌥⌘W)</a></li>
+                <li>
+                    <a href="#full-screen" aria-label="Full Screen">Full Screen</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e9%9d%a2%e7%89%88-panels" aria-label="面版 Panels">面版 Panels</a><ul>
+                        
+                <li>
+                    <a href="#information-i" aria-label="Information (⌘⇧I)">Information (⌘⇧I)</a></li>
+                <li>
+                    <a href="#properties-p" aria-label="Properties (⌘⌥⇧P)">Properties (⌘⌥⇧P)</a></li>
+                <li>
+                    <a href="#groups--tagsg" aria-label="Groups &amp; Tags(⌘⌃G)">Groups &amp; Tags(⌘⌃G)</a></li>
+                <li>
+                    <a href="#download-managerl" aria-label="Download Manager(⌘⌃L)">Download Manager(⌘⌃L)</a></li>
+                <li>
+                    <a href="#log" aria-label="Log">Log</a></li>
+                <li>
+                    <a href="#history" aria-label="History">History</a></li>
+                <li>
+                    <a href="#%e6%8a%bd%e5%b1%9c-drawers" aria-label="抽屜 Drawers">抽屜 Drawers</a></li>
+                <li>
+                    <a href="#see-also--classifys" aria-label="See Also &amp; Classify(⌘⌃S)">See Also &amp; Classify(⌘⌃S)</a></li>
+                <li>
+                    <a href="#concordance" aria-label="Concordance">Concordance</a></li>
+                <li>
+                    <a href="#document-windows" aria-label="Document Windows">Document Windows</a></li>
+                <li>
+                    <a href="#%e7%b5%90%e8%aa%9e" aria-label="結語">結語</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p>初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。</p>
+<p>以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。</p>
+<!-- more -->
+<h2 id="主視窗">主視窗<a hidden class="anchor" aria-hidden="true" href="#主視窗">#</a></h2>
+<p>一開啟程式，就可以看到這主要的視窗介面。</p>
+<p><img loading="lazy" src="http://i.imgur.com/nqAsQcs.png"></p>
+<p>這畫面分成三個部份，上方的Toolbar、左邊的Sidebar、中央一大區塊為Views。</p>
+<h2 id="toolbar">Toolbar<a hidden class="anchor" aria-hidden="true" href="#toolbar">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/Vt1iIZ7.png"></p>
+<p>這裡可以讓你找到快速按鈕，讓您切換畫面或是快速的建立文件與分類。</p>
+<p><img loading="lazy" src="http://i.imgur.com/KKd8XBP.png"></p>
+<p>要更改可以從<code>View</code>-&gt;<code>Customize Toolbar</code>利用對話窗來拖拉放你要的東西，操作很像之前iWorks的方式，相當直覺。</p>
+<h2 id="sidebar">Sidebar<a hidden class="anchor" aria-hidden="true" href="#sidebar">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/ozOozsv.png"></p>
+<p>這區塊是分類的快速點選區，有分成Globals、Open Database、Recent Database、Favorites與Smart Groups，前三項是Database的分類，後兩項是Groups。</p>
+<blockquote>
+<p>注意: 多個Database只在DEVONthink Professional版以上才有，若是使用DEVONthink Personal版只會有一個資料庫而已。</p>
+</blockquote>
+<p>假如覺得這區塊很礙眼，可以從<code>View</code>-&gt;<code>Hide Sidebar</code>把它關閉。</p>
+<h2 id="views">Views<a hidden class="anchor" aria-hidden="true" href="#views">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/vt0P6vz.png"></p>
+<p>在 Toolbar中有個可以切換View的選項按鈕，在DEVONthink中有六種瀏覽方式。前三項(Icon View、List View、Column View)很像Finder的方式。後三項(Split View、Three Pane View、Tag View)的方式，可以用另一種思維去看檔案，以獲得更多的資訊。</p>
+<h3 id="icon-view-1">Icon View (⌘1)<a hidden class="anchor" aria-hidden="true" href="#icon-view-1">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/it9Zet9.png"></p>
+<p>是不是很像Finder一樣啊?右上方還有拉Bar可以控制圖的大小，當檔案真的很多的時候，大小控制適當就很重要了。</p>
+<blockquote>
+<p>檔案的排序可以從<code>View</code>-&gt;<code>Sort</code>的底下去找，一般而言都是用名字排序，若有其他需求都可以從那去控制。</p>
+</blockquote>
+<h3 id="list-view-2">List View (⌘2)<a hidden class="anchor" aria-hidden="true" href="#list-view-2">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/8voZJ8F.png"></p>
+<p>預設會顯示Name、Modified、Kind、Size與URL，若要更改，可以在上面按右鍵來選取，當然大小也可以用拉的來調整。</p>
+<h3 id="column-view-3">Column View (⌘3)<a hidden class="anchor" aria-hidden="true" href="#column-view-3">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/C4MlCt9.png"></p>
+<p>這模式可以一直往下挖資料夾。上圖是只顯示三層而已，若資料很深，可以一直往下挖，個人最深是放到七層，試過沒有問題。</p>
+<blockquote>
+<p>官方的資料顯示，可以無限制的往下挖。</p>
+</blockquote>
+<p>下半部是你現在所處位置的Icon View，最下面一排還有<strong>Tag</strong>顯示(可以用<code>⌃⌥⌘T</code>來開啟或關閉)。</p>
+<p>這部份的排列一樣是從<code>View</code>-&gt;<code>Sort</code>的方式去設定。</p>
+<h3 id="split-view-4">Split View (⌘4)<a hidden class="anchor" aria-hidden="true" href="#split-view-4">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/1jBWKA5.png"></p>
+<p>分割視窗包含垂直的的Group列表與文件，在<code>Widescreen</code>模式下，右方還預設顯示文章內容。</p>
+<h3 id="three-pane-view-5">Three Pane View (⌘5)<a hidden class="anchor" aria-hidden="true" href="#three-pane-view-5">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/sq4MfnD.png"></p>
+<p>這有點像是Split View，將文件用List的方式呈現，並且在下方顯示文件內容。若是在<code>Widescreen</code>模式下，文件內容會顯示在右方。</p>
+<h3 id="tag-view-6">Tag View (⌘6)<a hidden class="anchor" aria-hidden="true" href="#tag-view-6">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/lAikCSQ.png"></p>
+<p>最後是Tag View，完全是以Tag的角度出發思考的設計介面，右方顯示資料庫內(<strong>現在所屬的資料庫</strong>)所有的Tag，點選後在左方顯示內容。完全打破Group的概念，只把相關的Tag拉出。</p>
+<p>所以前五項是以Group的角度去思考，最後一項是用Tag的角度去思考。至於何時要何種介面，這是有個人習慣的考量。現在內容尚屬於介紹的層級，我就先不去給各位先入為主的觀念，自己先去摸索是很重要的。</p>
+<h3 id="navigation-bar">Navigation Bar<a hidden class="anchor" aria-hidden="true" href="#navigation-bar">#</a></h3>
+<p><img loading="lazy" src="http://i.imgur.com/h1JpEec.png"></p>
+<p>在每一個編輯視窗，都會出現如上圖的導覽Bar，從左至右分別為上一頁、下一頁、網址、文章資訊、Reload、鎖定、前一個Highlight、後一個Highlight、文字分析(word)、See also與Classify、關鍵字、Tag Bar。</p>
+<p>這部份之後會列專文說明各個的用途，先了解有這些東西就好。</p>
+<h1 id="顯示選項">顯示選項<a hidden class="anchor" aria-hidden="true" href="#顯示選項">#</a></h1>
+<p>除了六個主視窗View的方式外，DEVONthink還有幾個不同的不同的顯示選項可以使用。以下介紹都加上快速鍵，可以自行開啟與關閉。</p>
+<h2 id="cover-flow-o">Cover Flow (⌥⌘O)<a hidden class="anchor" aria-hidden="true" href="#cover-flow-o">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/aOuOgSn.png"></p>
+<p>利用Mac本身的Cover Flow功能來顯示文件，多是用在顯示圖片的功能上，假如是顯示一般文件，也只有文件的縮圖，就如同Mac本身的功能相同。</p>
+<p>這種顯示方式只能用在<strong>Column、Split、Three Pane、Tag</strong>等模式上。</p>
+<h2 id="tags-t">Tags (⌃⌥⌘T)<a hidden class="anchor" aria-hidden="true" href="#tags-t">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/2cqq5GR.png"></p>
+<p>在文件的下方，會有Tags的顯示區域，可以直接點選更改成類似的Tag，或是在後面新增Tag的分類。</p>
+<p>DEVONthink會自動將Group加到Tags之中。假如是屬於Group的Tag，呈現<strong>灰色</strong>，若是不屬於Group的則呈現<strong>藍色</strong>。</p>
+<h2 id="details-l">Details (⌥⌘L)<a hidden class="anchor" aria-hidden="true" href="#details-l">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/PPHPSKs.png"></p>
+<p>只能用在Icon View模式，顯示更多的內容與資訊，這樣使得Icon View獲得如同List View的功能一樣。</p>
+<h2 id="widescreen-w">Widescreen (⌥⌘W)<a hidden class="anchor" aria-hidden="true" href="#widescreen-w">#</a></h2>
+<p>只能用在Split View與Three Pane View上，讓內容顯示在右側而非下方。預設是關閉的。因我的電腦畫面不夠寬，所以開啟不了這功能。就不再作截圖示範了。</p>
+<h2 id="full-screen">Full Screen<a hidden class="anchor" aria-hidden="true" href="#full-screen">#</a></h2>
+<p>全螢幕有兩種模式，一個是針對視窗的全螢幕(⌃⌘F)，另一種是針對文件的全螢幕(⌘F7)。</p>
+<p><img loading="lazy" src="http://i.imgur.com/wykSyhI.png"></p>
+<p>就如同Mac 10.11之後的全螢幕模式一般，把整個視窗填滿。</p>
+<p><img loading="lazy" src="http://i.imgur.com/rYjIfXy.png"></p>
+<p>只有文件顯示的部份填滿視窗，還蠻方便的，可以使所有的干擾都消除，達到Focus的效果。</p>
+<h1 id="面版-panels">面版 Panels<a hidden class="anchor" aria-hidden="true" href="#面版-panels">#</a></h1>
+<p>部份的視窗功能，在DEVONthink之中被稱作<code>Panels</code>，與一般的視窗功能上有一點點不太相同，通常可以提供一些特殊的功能，或者是額外的資訊。這些面版是相對於主視窗獨立而生的，不會依附著。以下就是一些特殊的面版介紹。</p>
+<h2 id="information-i">Information (⌘⇧I)<a hidden class="anchor" aria-hidden="true" href="#information-i">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/Epj9cQb.png"></p>
+<p>可以從<code>Tools</code>-&gt;<code>Show info</code>把它叫出來，有著文件的基本資訊。這些資訊也都可以修改的，未來會再詳述這些部份。</p>
+<h2 id="properties-p">Properties (⌘⌥⇧P)<a hidden class="anchor" aria-hidden="true" href="#properties-p">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/oJH3sOI.png"></p>
+<p>可以從<code>Tools</code>-&gt;<code>Show Properties</code>把它叫出來，這與一般的視窗也點不同，他是黑色且透明的。這裡可以輸入一些文件的meta data。</p>
+<h2 id="groups--tagsg">Groups &amp; Tags(⌘⌃G)<a hidden class="anchor" aria-hidden="true" href="#groups--tagsg">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/4CK1ZTO.png"></p>
+<p>可以從<code>Tools</code>-&gt;<code>Show Group &amp; Tags</code>把它叫出來，這裡擁有資料庫內所有的Group。有時候文件很多時，要做分類我習慣把這面版叫出來，直接用拖拉放的方式將文件移動位置。直接點選兩下，也可以顯示該Group視窗。</p>
+<h2 id="download-managerl">Download Manager(⌘⌃L)<a hidden class="anchor" aria-hidden="true" href="#download-managerl">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/tKEHTjv.png"></p>
+<p>可以從<code>Window</code>-&gt;<code>Download Manager</code>把它叫出來，當有下載時候，可以看出來這些動作。通常是利用DEVONthink內建的瀏覽器讀取網頁時，才會有下載的動作。這與Safari或是Firefox的運作原理相同。</p>
+<h2 id="log">Log<a hidden class="anchor" aria-hidden="true" href="#log">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/QyhBMbi.png"></p>
+<p>可以從<code>Window</code>-&gt;<code>Log</code>把它叫出來，當有發生需要你注意的項目時，這畫面會自行跳出來警告你。之前我曾把DEVONthink的data base檔案放在Google Drive同步的資料夾下，就一天到晚警告我這樣是不好的，一定要移離開該位置。</p>
+<h2 id="history">History<a hidden class="anchor" aria-hidden="true" href="#history">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/XekYFNS.png"></p>
+<p>這面版可以看到資料庫的運作過程，如上圖，這是近期運作的紀錄，資料庫寫入了很多的RSS資料。每次你新增或刪除資料的紀錄都會存放在這裡。</p>
+<h2 id="抽屜-drawers">抽屜 Drawers<a hidden class="anchor" aria-hidden="true" href="#抽屜-drawers">#</a></h2>
+<p>有一些視窗，它是依附著主視窗而生，這些在DEVONthink被稱作<code>Drawers</code>，下方就簡單說明一下。</p>
+<h2 id="see-also--classifys">See Also &amp; Classify(⌘⌃S)<a hidden class="anchor" aria-hidden="true" href="#see-also--classifys">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/dm4XcDh.png"></p>
+<p>可以從<code>Data</code>-&gt;<code>See Also &amp; Classify</code>把它叫出來，這是DEVONthink主要的功能之一，在See Also中，DEVONthink透過特殊的演算方式，找出相關的文章，這幾乎可以當作個人版的Wiki來使用了。</p>
+<p>而上方的是建議的Group，也是透過演算法建議有哪些Group適合這篇文章來放。</p>
+<blockquote>
+<p>官方網站說明這功能有人工智慧(AI)的能力，我還在慢慢訓練我的DEVONthink，看是否會越來越準確。</p>
+</blockquote>
+<h2 id="concordance">Concordance<a hidden class="anchor" aria-hidden="true" href="#concordance">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/PmLehYA.png"></p>
+<p>這個Drawer是計算著這文章中，相同的字句出現的次數，與字句的長度寬度。個人認為這部份以英文運作是很好的，但中文部份斷句還是不夠精確(<del>根本不及格</del>)。</p>
+<blockquote>
+<p>這功能要在DEVONthink Professional版以上才有。</p>
+</blockquote>
+<h2 id="document-windows">Document Windows<a hidden class="anchor" aria-hidden="true" href="#document-windows">#</a></h2>
+<p><img loading="lazy" src="http://i.imgur.com/yKacSa2.png"></p>
+<p>大部份在DEVONthink的文章，點選兩下就可以出現這一個視窗，可以用來編輯與修改文章的內容。假如只是要快速的查看內容的話，建議可以按一下<code>空白鍵</code>來<code>Quick Look</code>就可以了。</p>
+<p>假如是新增文章的話，是透過<code>Data</code>-&gt;<code>New</code>的方式，選擇要新增的文章格式。在DEVONthink中支援多種文件格式，最重要的是可以支援<code>Markdown</code>，這點對我來說非常重要。這部份內容未來也會再詳述。</p>
+<h2 id="結語">結語<a hidden class="anchor" aria-hidden="true" href="#結語">#</a></h2>
+<p>有沒有覺得這軟體功能真的很強大，居然零零總總的細項功能這麼得多，很多小細節都有顧到。這也是我推薦的原因。</p>
+<p>說明到現在，其實都還沒有將資料放到Database之中，所以內容還不算真正的開始呢(什麼?)。</p>
+<p>真的，DEVONthink真的很強大，強大到不知從何處起筆。從操作介面算是一個開始，而不是結束。慢慢得我會再新增一些近日使用上的心得，希望對已經在使用或是正在評估中的使用者有幫助。</p>
+
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">文件管理</a></li>
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>DEVONthink(三)</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/">
+    <span class="title">Next »</span>
+    <br>
+    <span>DEVONthink(一)</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul><ul>
+                <li>
+                    <a href="#%e4%b8%bb%e8%a6%96%e7%aa%97" aria-label="主視窗">主視窗</a></li>
+                <li>
+                    <a href="#toolbar" aria-label="Toolbar">Toolbar</a></li>
+                <li>
+                    <a href="#sidebar" aria-label="Sidebar">Sidebar</a></li>
+                <li>
+                    <a href="#views" aria-label="Views">Views</a><ul>
+                        
+                <li>
+                    <a href="#icon-view-1" aria-label="Icon View (⌘1)">Icon View (⌘1)</a></li>
+                <li>
+                    <a href="#list-view-2" aria-label="List View (⌘2)">List View (⌘2)</a></li>
+                <li>
+                    <a href="#column-view-3" aria-label="Column View (⌘3)">Column View (⌘3)</a></li>
+                <li>
+                    <a href="#split-view-4" aria-label="Split View (⌘4)">Split View (⌘4)</a></li>
+                <li>
+                    <a href="#three-pane-view-5" aria-label="Three Pane View (⌘5)">Three Pane View (⌘5)</a></li>
+                <li>
+                    <a href="#tag-view-6" aria-label="Tag View (⌘6)">Tag View (⌘6)</a></li>
+                <li>
+                    <a href="#navigation-bar" aria-label="Navigation Bar">Navigation Bar</a></li></ul>
+                </li></ul>
+                    
+                <li>
+                    <a href="#%e9%a1%af%e7%a4%ba%e9%81%b8%e9%a0%85" aria-label="顯示選項">顯示選項</a><ul>
+                        
+                <li>
+                    <a href="#cover-flow-o" aria-label="Cover Flow (⌥⌘O)">Cover Flow (⌥⌘O)</a></li>
+                <li>
+                    <a href="#tags-t" aria-label="Tags (⌃⌥⌘T)">Tags (⌃⌥⌘T)</a></li>
+                <li>
+                    <a href="#details-l" aria-label="Details (⌥⌘L)">Details (⌥⌘L)</a></li>
+                <li>
+                    <a href="#widescreen-w" aria-label="Widescreen (⌥⌘W)">Widescreen (⌥⌘W)</a></li>
+                <li>
+                    <a href="#full-screen" aria-label="Full Screen">Full Screen</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e9%9d%a2%e7%89%88-panels" aria-label="面版 Panels">面版 Panels</a><ul>
+                        
+                <li>
+                    <a href="#information-i" aria-label="Information (⌘⇧I)">Information (⌘⇧I)</a></li>
+                <li>
+                    <a href="#properties-p" aria-label="Properties (⌘⌥⇧P)">Properties (⌘⌥⇧P)</a></li>
+                <li>
+                    <a href="#groups--tagsg" aria-label="Groups &amp; Tags(⌘⌃G)">Groups &amp; Tags(⌘⌃G)</a></li>
+                <li>
+                    <a href="#download-managerl" aria-label="Download Manager(⌘⌃L)">Download Manager(⌘⌃L)</a></li>
+                <li>
+                    <a href="#log" aria-label="Log">Log</a></li>
+                <li>
+                    <a href="#history" aria-label="History">History</a></li>
+                <li>
+                    <a href="#%e6%8a%bd%e5%b1%9c-drawers" aria-label="抽屜 Drawers">抽屜 Drawers</a></li>
+                <li>
+                    <a href="#see-also--classifys" aria-label="See Also &amp; Classify(⌘⌃S)">See Also &amp; Classify(⌘⌃S)</a></li>
+                <li>
+                    <a href="#concordance" aria-label="Concordance">Concordance</a></li>
+                <li>
+                    <a href="#document-windows" aria-label="Document Windows">Document Windows</a></li>
+                <li>
+                    <a href="#%e7%b5%90%e8%aa%9e" aria-label="結語">結語</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

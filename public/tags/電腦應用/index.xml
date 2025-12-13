@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>電腦應用 on YJ-Online</title>
+    <link>http://localhost:1313/tags/%E9%9B%BB%E8%85%A6%E6%87%89%E7%94%A8/</link>
+    <description>Recent content in 電腦應用 on YJ-Online</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <atom:link href="http://localhost:1313/tags/%E9%9B%BB%E8%85%A6%E6%87%89%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DEVONthink(三)建立資料庫</title>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <description>&lt;h1 id=&#34;建立一個新資料庫&#34;&gt;建立一個新資料庫&lt;/h1&gt;
+&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;New Database&lt;/code&gt; ，點擊之後會出現一個對話視窗。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5vNHQwb.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;可以自行選擇存放的位置，但系統建議不要放在雲端同步的資料夾中，因為可能會有同步一半斷線造成資料損毀的風險。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Create Spotlight Index&lt;/code&gt;是讓Spotlight可以找到資料庫的內容，很實用，建議開啟。假如這資料庫中，包含了機敏性的資料，不希望被搜尋到，也可以取消他，看您個人的需求而定。&lt;/li&gt;
+&lt;li&gt;點&lt;code&gt;Create&lt;/code&gt;，就建立完成了一個新的空白資料庫。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;資料庫屬性&#34;&gt;資料庫屬性&lt;/h1&gt;
+&lt;p&gt;點選&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Properties&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Name&lt;/code&gt;就可以得到資料庫的屬性資料，如下圖所示。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Ajjf1Uz.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面可以看到資料庫內各種資料，比如有幾個Groups、HTML頁面有多少&amp;hellip;等。這些資料都很直觀，就不詳述。針對裡面可以做修改的部份做個說明。&lt;/p&gt;
+&lt;h2 id=&#34;exclude-groups-from-tagging&#34;&gt;Exclude Groups from Tagging&lt;/h2&gt;
+&lt;p&gt;一般而言，資料庫內的檔案，會依照Groups的方式來存放，但也可以用Tags的方式來存放。優點是可以將相近似的文件都放在一起，完全依照你的個人習慣來決定存放方式。原廠文件中沒有說明會不會影響效能，但一般而言效能差異應該不大。&lt;/p&gt;
+&lt;h2 id=&#34;share-database&#34;&gt;Share Database&lt;/h2&gt;
+&lt;p&gt;DEVONthink Pro Office版之後，可以建立Web Server，從遠端來存取資料。這選項是決定這資料庫是否可以在伺服器內被分享，若是機敏性資料，就建議不夕勾選。&lt;/p&gt;
+&lt;h2 id=&#34;create-spotlight-index&#34;&gt;Create Spotlight Index&lt;/h2&gt;
+&lt;p&gt;如上面對Spotlight的敘述，若你在創建之後想要把它關掉，可以在這選擇。預設是開啟的。&lt;/p&gt;
+&lt;p&gt;Spotlight要Indexing資料庫，通常是有排程的，當資料輸入之後不會馬上被執行。可以按&lt;code&gt;Rebuild&lt;/code&gt;來強制執行Spotlight Indexing的工作。&lt;/p&gt;
+&lt;h2 id=&#34;read-only&#34;&gt;Read Only&lt;/h2&gt;
+&lt;p&gt;若是資料庫內的東西已經封存，未來也不希望被變動，不論是輸入、刪除、或變更，可以勾這選項來處理。&lt;/p&gt;
+&lt;h2 id=&#34;name&#34;&gt;Name&lt;/h2&gt;
+&lt;p&gt;在側邊欄的資料庫名稱，與檔案名稱可以不相同。若希望變動檔案名稱，可以從上面的資料庫路徑，找到檔案存放位置，在關閉後修改。重啟DEVONthink之後會&lt;strong&gt;自動&lt;/strong&gt;捉到資料庫，可以不用再重新Open。&lt;/p&gt;
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+&lt;p&gt;對資料庫的內容簡述。&lt;/p&gt;
+&lt;h2 id=&#34;protection&#34;&gt;Protection&lt;/h2&gt;
+&lt;p&gt;若希望做到資料庫加密，可以輸入User/Password來處理。如此在開啟DEVONthink時，會出現對話視窗要求你輸入帳號/密碼。如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/WtUBPE7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink在資料加密上其實只有做到開啟加密而已，用Finder一樣可以開啟資料內容。若要做到真正的加密功能，建議可以參考建立加密磁碟的方式進行。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;開啟Mac的Disk Utility。&lt;/li&gt;
+&lt;li&gt;新增一個空白的磁區。&lt;/li&gt;
+&lt;li&gt;在新增磁區時選擇磁碟加密。&lt;/li&gt;
+&lt;li&gt;建立完成後把該資料庫檔案Copy到新的磁區。&lt;/li&gt;
+&lt;li&gt;再用DEVONthink開啟該資料庫。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;透過以上的方式，才可以確保資料庫的安全性。&lt;/p&gt;
+&lt;h1 id=&#34;限制&#34;&gt;限制&lt;/h1&gt;
+&lt;p&gt;以DEVONthink在資料庫上的限制來說，基本上就是沒有限制。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你可以無限建立資料庫。&lt;/li&gt;
+&lt;li&gt;資料庫內容可以無限新增(Evernote有單檔大小限制)。&lt;/li&gt;
+&lt;li&gt;資料庫檔案可以無限大。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上述三點只取決在你的硬碟有多大而已，一般而言，是不需要這麼多的資料庫啦。但是假如你想為專案建立專屬的資料存放位置，這提供了你無限的可能。&lt;/p&gt;
+&lt;p&gt;But&amp;hellip;人生總是有這麼一個But&amp;hellip;&lt;/p&gt;
+&lt;p&gt;搜尋功能&lt;strong&gt;只能&lt;/strong&gt;搜到該資料庫(正在瀏覽)的資料，並不會對所有已經開啟的資料庫做搜尋，所以這應該算是多資料庫的一種限制吧。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

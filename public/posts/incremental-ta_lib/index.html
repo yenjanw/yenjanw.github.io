@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Incremental Ta-Lib | YJ-OnLine</title>
+<meta name="keywords" content="">
+<meta name="description" content="最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件Ta-Lib這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/incremental-ta_lib/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/incremental-ta_lib/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                Incremental Ta-Lib
+                <span class="entry-hint" title="Draft">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+                        <path
+                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                    </svg>
+                </span>
+            </h1>
+            <div class="post-meta">
+                <span title='2017-04-03 17:35:50'>
+                    2017-04-03
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#ta-lib-%e6%85%a2%e7%9a%84%e5%8e%9f%e5%9b%a0" aria-label="Ta-Lib 慢的原因">Ta-Lib 慢的原因</a><ul>
+                        
+                <li>
+                    <a href="#example-numpy-vs-talib" aria-label="Example numpy vs talib">Example numpy vs talib</a></li>
+                <li>
+                    <a href="#example-talibmama" aria-label="Example talib.MAMA">Example talib.MAMA</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%a7%a3%e6%b1%ba%e6%96%b9%e6%a1%88" aria-label="解決方案">解決方案</a><ul>
+                        
+                <li>
+                    <a href="#example-tailmama" aria-label="Example tail.MAMA">Example tail.MAMA</a></li></ul>
+                </li>
+                <li>
+                    <a href="#tail-%e5%8f%af%e9%81%8b%e7%ae%97%e7%9a%84indicators" aria-label="tail 可運算的indicators">tail 可運算的indicators</a></li>
+                <li>
+                    <a href="#tail-%e5%ae%89%e8%a3%9d%e6%96%b9%e5%bc%8f" aria-label="tail 安裝方式">tail 安裝方式</a></li>
+                <li>
+                    <a href="#tail-%e7%9a%84%e6%9c%aa%e4%be%86" aria-label="tail 的未來">tail 的未來</a></li>
+                <li>
+                    <a href="#%e8%a3%9c%e5%85%85" aria-label="補充">補充</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p>最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件<a href="https://github.com/mrjbq7/ta-lib">Ta-Lib</a>這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。</p>
+<h2 id="ta-lib-慢的原因">Ta-Lib 慢的原因<a hidden class="anchor" aria-hidden="true" href="#ta-lib-慢的原因">#</a></h2>
+<p>其實Ta-Lib一點也不慢，這是用C++寫出來的應用，速度相當的快，只是在程式撰寫原理上，缺少了逐步加入資料的概念，每一次的計算，都要把資料全部加載，然後一次吐給你資料。若是計算SMA之類的資料，這樣的原則是OK的。比如說，計算股市的五分線，Ta-Lib會將資料轉成numpy的型式，然後每五筆資料計算一資平均值。因為是用C++所寫的，所以速度比numpy計算還快。</p>
+<h3 id="example-numpy-vs-talib">Example numpy vs talib<a hidden class="anchor" aria-hidden="true" href="#example-numpy-vs-talib">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> talib <span style="color:#66d9ef">as</span> ta 
+</span></span><span style="display:flex;"><span>tmp_data <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">%</span>timeit np<span style="color:#f92672">.</span>mean(tmp_data)
+</span></span><span style="display:flex;"><span><span style="color:#f92672">%</span>timeit talib<span style="color:#f92672">.</span>SMA(tmp_data)
+</span></span></code></pre></div><p>13.8 µs ± 7.73 µs per loop (mean ± std. dev. of 7 runs, 100000 loops each)<br>
+4.1 µs ± 1.9 µs per loop (mean ± std. dev. of 7 runs, 1000000 loops each)</p>
+<p>這數值是基於Intel 4790K的CPU所計算出來，可以看到numpy比talib慢了大約三倍。這呼應了talib其實是很快的，但我為何又說talib慢呢?<br>
+因為AI訓練時，time series資料是序列進來的，以下再做個範例。</p>
+<h3 id="example-talibmama">Example talib.MAMA<a hidden class="anchor" aria-hidden="true" href="#example-talibmama">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(<span style="color:#e6db74">&#39;dataset/2020_DN_MTX_5s.csv&#39;</span>) <span style="color:#75715e"># data 來自5秒小台指</span>
+</span></span><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;date&#39;</span>] <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>to_datetime(
+</span></span><span style="display:flex;"><span>            df[<span style="color:#e6db74">&#39;date&#39;</span>],
+</span></span><span style="display:flex;"><span>            format<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;%Y-%m-</span><span style="color:#e6db74">%d</span><span style="color:#e6db74"> %H:%M:%S&#39;</span>,
+</span></span><span style="display:flex;"><span>            infer_datetime_format<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, errors<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ignore&#39;</span>)
+</span></span><span style="display:flex;"><span>df_np <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(df) <span style="color:#75715e"># 為了加速indexing，將資料轉為numpy</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> talib
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span>start <span style="color:#f92672">=</span> time()
+</span></span><span style="display:flex;"><span>mama <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>fema <span style="color:#f92672">=</span> [] 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000000</span>):
+</span></span><span style="display:flex;"><span>    a, b <span style="color:#f92672">=</span> talib<span style="color:#f92672">.</span>MAMA(df_np[i:i<span style="color:#f92672">+</span><span style="color:#ae81ff">200</span>, <span style="color:#ae81ff">4</span>]<span style="color:#f92672">.</span>astype(float)) <span style="color:#75715e"># mama運算通常要到第兩百筆數值才會穩定</span>
+</span></span><span style="display:flex;"><span>    mama<span style="color:#f92672">.</span>append(a)
+</span></span><span style="display:flex;"><span>    fema<span style="color:#f92672">.</span>append(b)
+</span></span><span style="display:flex;"><span>print(time() <span style="color:#f92672">-</span> start)
+</span></span></code></pre></div><p>26.702403783798218
+這範例是計算1000000筆五秒小台指走勢的MAMA值，花了26.7秒。
+在ES計算時，假如一個迭代就是一百萬筆，那一個population就是計算超過26.7秒才會結束，若有20個population，那一個迭代就要將近10分鐘才算完，天啊!!!</p>
+<h2 id="解決方案">解決方案<a hidden class="anchor" aria-hidden="true" href="#解決方案">#</a></h2>
+<p>我試過用numpy來寫一個迭加運算的方式，速度也是慘不人睹，畢竟python在高速運算上還是有其極限。這時參考到Ta-Lib是用C++來改寫的，我也用了cython來改寫一個自己可以用的套件，名為tail(Technical Analysis Incremental Library)，已放上GitHub中，連結放於文末<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。
+來做個簡單測試:</p>
+<h3 id="example-tailmama">Example tail.MAMA<a hidden class="anchor" aria-hidden="true" href="#example-tailmama">#</a></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 數值同於上面的五秒小台指</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> util.indicators_C <span style="color:#f92672">import</span> MAMA
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> time <span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span>start <span style="color:#f92672">=</span> time()
+</span></span><span style="display:flex;"><span>MAMA <span style="color:#f92672">=</span> MAMA()
+</span></span><span style="display:flex;"><span>mama <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>fema <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000000</span>):
+</span></span><span style="display:flex;"><span>    a, b <span style="color:#f92672">=</span> MAMA<span style="color:#f92672">.</span>add_one(df_np[i, <span style="color:#ae81ff">4</span>]<span style="color:#f92672">.</span>astype(float))
+</span></span><span style="display:flex;"><span>    mama<span style="color:#f92672">.</span>append(a)
+</span></span><span style="display:flex;"><span>    fema<span style="color:#f92672">.</span>append(b)
+</span></span><span style="display:flex;"><span>print(time() <span style="color:#f92672">-</span> start)
+</span></span></code></pre></div><p>8.38700008392334<br>
+同樣一百萬筆資料，速度提升三倍有餘，意味著原本10分鐘算完一次迭代，現在只要三分鐘就可以結束，也代表一小時原本只有六次迭代，現在變成近二十次迭代，若是加上平行運算，速度可以再往上提升。</p>
+<h2 id="tail-可運算的indicators">tail 可運算的indicators<a hidden class="anchor" aria-hidden="true" href="#tail-可運算的indicators">#</a></h2>
+<ol>
+<li>MAMA</li>
+<li>HMA</li>
+<li>KAMA</li>
+<li>ADX</li>
+<li>STOCH(KD)</li>
+<li>RSI</li>
+<li>SAR</li>
+<li>EMA</li>
+<li>MACD</li>
+<li>ICHMOKU</li>
+<li>LLT</li>
+<li>WMA</li>
+</ol>
+<p>以上是暫時有用到的指標，主要應用於數值需要參考前值的計算，比如EMA就是一個例子，可以Google找到EMA每次計算結果不同的原因，在此就不多作綴述。若是上述indicator不知是啥，那本篇文章應該沒有幫助到你。</p>
+<h2 id="tail-安裝方式">tail 安裝方式<a hidden class="anchor" aria-hidden="true" href="#tail-安裝方式">#</a></h2>
+<p>在GitHub中已有簡單說明，但還是強調本機要先裝好cython，利用cython重新編譯成可執行的機碼，這樣才不會出錯。</p>
+<h2 id="tail-的未來">tail 的未來<a hidden class="anchor" aria-hidden="true" href="#tail-的未來">#</a></h2>
+<p>還沒想過是否要繼續發展這套件，畢竟只是我在AI訓練路上的一個小旁枝，只期望對大家是有幫助的而已，若是有人敲碗需要其他的指標，我可以花點時間多加進去。</p>
+<h2 id="補充">補充<a hidden class="anchor" aria-hidden="true" href="#補充">#</a></h2>
+<p>其實GitHub中有另外一個專案<a href="https://github.com/nardew/talipp">Talipp</a>我覺得也很不錯，可惜我自己的測試上，因為是用純python所撰寫，速度上真的不行，不是作者的錯，只是python速度慢的問題。所以我才另外寫一個簡單的tail來自己使用。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/yenjanw/tail">tail GitHub位置</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>快速顯示Markdown的.md檔 for MAC</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/">
+    <span class="title">Next »</span>
+    <br>
+    <span>如何在MAC中製作Windows 10的重灌USB</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#ta-lib-%e6%85%a2%e7%9a%84%e5%8e%9f%e5%9b%a0" aria-label="Ta-Lib 慢的原因">Ta-Lib 慢的原因</a><ul>
+                        
+                <li>
+                    <a href="#example-numpy-vs-talib" aria-label="Example numpy vs talib">Example numpy vs talib</a></li>
+                <li>
+                    <a href="#example-talibmama" aria-label="Example talib.MAMA">Example talib.MAMA</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%e8%a7%a3%e6%b1%ba%e6%96%b9%e6%a1%88" aria-label="解決方案">解決方案</a><ul>
+                        
+                <li>
+                    <a href="#example-tailmama" aria-label="Example tail.MAMA">Example tail.MAMA</a></li></ul>
+                </li>
+                <li>
+                    <a href="#tail-%e5%8f%af%e9%81%8b%e7%ae%97%e7%9a%84indicators" aria-label="tail 可運算的indicators">tail 可運算的indicators</a></li>
+                <li>
+                    <a href="#tail-%e5%ae%89%e8%a3%9d%e6%96%b9%e5%bc%8f" aria-label="tail 安裝方式">tail 安裝方式</a></li>
+                <li>
+                    <a href="#tail-%e7%9a%84%e6%9c%aa%e4%be%86" aria-label="tail 的未來">tail 的未來</a></li>
+                <li>
+                    <a href="#%e8%a3%9c%e5%85%85" aria-label="補充">補充</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

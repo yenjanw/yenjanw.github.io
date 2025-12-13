@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>網頁不適合透過行動裝置瀏覽 | YJ-OnLine</title>
+<meta name="keywords" content="">
+<meta name="description" content="經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別您的網頁不適合使用行動裝置瀏覽，針對這一點我覺得莫名奇妙
+
+因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?
+
+在Google相容性測試的檢查
+由檢查可以看到，有提到23資源遭到封鎖，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。
+
+相容性檢查的呈現頁面
+
+在手機上呈現都沒有問題
+
+找到問題的原因
+針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明
+
+這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                網頁不適合透過行動裝置瀏覽
+                <span class="entry-hint" title="Draft">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+                        <path
+                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+                    </svg>
+                </span>
+            </h1>
+            <div class="post-meta">
+                <span title='2017-03-13 00:00:00'>
+                    2017-03-13
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%9c%a8google%e7%9b%b8%e5%ae%b9%e6%80%a7%e6%b8%ac%e8%a9%a6%e7%9a%84%e6%aa%a2%e6%9f%a5" aria-label="在Google相容性測試的檢查">在Google相容性測試的檢查</a></li>
+                <li>
+                    <a href="#%e6%89%be%e5%88%b0%e5%95%8f%e9%a1%8c%e7%9a%84%e5%8e%9f%e5%9b%a0" aria-label="找到問題的原因">找到問題的原因</a></li>
+                <li>
+                    <a href="#%e7%82%ba%e4%bd%95%e8%a6%81%e8%ae%93%e8%a1%8c%e5%8b%95%e8%a3%9d%e7%bd%ae%e5%8f%af%e4%bb%a5%e7%80%8f%e8%a6%bd%e5%91%a2" aria-label="為何要讓行動裝置可以瀏覽呢?">為何要讓行動裝置可以瀏覽呢?</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p>經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別<strong>您的網頁不適合使用行動裝置瀏覽</strong>，針對這一點我覺得莫名奇妙
+<img alt="Google搜尋的結果" loading="lazy" src="http://i.imgur.com/xragLQ4.png">
+因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?</p>
+<!-- more -->
+<h2 id="在google相容性測試的檢查">在Google相容性測試的檢查<a hidden class="anchor" aria-hidden="true" href="#在google相容性測試的檢查">#</a></h2>
+<p>由檢查可以看到，有提到<strong>23資源遭到封鎖</strong>，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。
+<img alt="錯誤的訊息" loading="lazy" src="http://i.imgur.com/UnQYInM.png">
+相容性檢查的呈現頁面
+<img alt="錯誤的版型呈現" loading="lazy" src="http://i.imgur.com/jwZ54Al.png">
+在手機上呈現都沒有問題
+<img alt="手機上的版型呈現" loading="lazy" src="http://i.imgur.com/yNGUr6t.png"></p>
+<h2 id="找到問題的原因">找到問題的原因<a hidden class="anchor" aria-hidden="true" href="#找到問題的原因">#</a></h2>
+<p>針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明</p>
+<blockquote>
+<p>這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。</p>
+</blockquote>
+<p>因為Google並不是真的去我的網頁<strong>看</strong>網頁，只是派個Googlebot機器人去查而已，而這機器人會因為網站設定的<strong>robots.txt</strong>檔所限制它所能查看的資料，所以假如限制住了，當然就說版型不合啦。(說實話，還蠻笨的)</p>
+<p>所以我重新修改robots.txt之後，一切就正常了。也順便提交說明網頁已修改，請機器人再次來爬。
+<img alt="測試通過" loading="lazy" src="http://i.imgur.com/ZtFERNh.png"></p>
+<h2 id="為何要讓行動裝置可以瀏覽呢">為何要讓行動裝置可以瀏覽呢?<a hidden class="anchor" aria-hidden="true" href="#為何要讓行動裝置可以瀏覽呢">#</a></h2>
+<p>為的就是SEO(Search Engine Optimization)，因為以現在Google的策略是行動優先，未來假如沒有做好行動優化的頁面，基本上都會往後排名。像我那不適合行動的頁面，搜尋到已經是第三頁了，往過往的經驗，只有13%的人會按到第三頁，這就可以知道為何要爭第一頁了。
+並不是我的文章多有價值，一定要人找得到。那只是一種奇蒙子的問題而已</p>
+
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>Ulysses的Markdown功能</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%9c%a8google%e7%9b%b8%e5%ae%b9%e6%80%a7%e6%b8%ac%e8%a9%a6%e7%9a%84%e6%aa%a2%e6%9f%a5" aria-label="在Google相容性測試的檢查">在Google相容性測試的檢查</a></li>
+                <li>
+                    <a href="#%e6%89%be%e5%88%b0%e5%95%8f%e9%a1%8c%e7%9a%84%e5%8e%9f%e5%9b%a0" aria-label="找到問題的原因">找到問題的原因</a></li>
+                <li>
+                    <a href="#%e7%82%ba%e4%bd%95%e8%a6%81%e8%ae%93%e8%a1%8c%e5%8b%95%e8%a3%9d%e7%bd%ae%e5%8f%af%e4%bb%a5%e7%80%8f%e8%a6%bd%e5%91%a2" aria-label="為何要讓行動裝置可以瀏覽呢?">為何要讓行動裝置可以瀏覽呢?</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

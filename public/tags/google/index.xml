@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Google on YJ-Online</title>
+    <link>http://localhost:1313/tags/google/</link>
+    <description>Recent content in Google on YJ-Online</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GCP最低配置不適合HEXO壓縮</title>
+      <link>http://localhost:1313/posts/gcp%E6%9C%80%E4%BD%8E%E9%85%8D%E7%BD%AE%E4%B8%8D%E9%81%A9%E5%90%88hexo%E5%A3%93%E7%B8%AE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gcp%E6%9C%80%E4%BD%8E%E9%85%8D%E7%BD%AE%E4%B8%8D%E9%81%A9%E5%90%88hexo%E5%A3%93%E7%B8%AE/</guid>
+      <description>&lt;h1 id=&#34;差一點就當機了&#34;&gt;差一點就當機了&lt;/h1&gt;
+&lt;p&gt;利用&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/?hl=zh-TW&#34;&gt;Google PageSpeed Insight&lt;/a&gt;之中的服務，了解自己網站還有哪些是可以改善的部份，一直提示我網站的java script、CSS、HTML沒有做壓縮的動作，建議我執行。&lt;/p&gt;
+&lt;p&gt;我重新查了&lt;a href=&#34;https://hexo.io/plugins/&#34;&gt;HEXO Plugin&lt;/a&gt;的內容，找到了上述三種的壓縮方式，利用之後就gg了!&lt;/p&gt;
+&lt;h1 id=&#34;超高的系統使用率&#34;&gt;超高的系統使用率&lt;/h1&gt;
+&lt;p&gt;因為壓縮需要用到系統的CPU與HD交互運算，大家都知道，為了省錢，我所選擇的是GCP最低配置。當我一執行hexo內容更新時，哇! 如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/t9wBHTB.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Y5jjcYI.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;CPU使用率好像還好，但是HD使用率卻是高的嚇人。然後就一直出現錯誤的訊息，網站也不容易進入，最慘的是連SSH都進不去。好幾次我想要重新開機就好了，但是一直忍住。&lt;/p&gt;
+&lt;p&gt;看著HD讀取24M/s的使用，就知道一定是程式發生錯誤，造成系統這麼高的使用量(有高嗎?)。&lt;/p&gt;
+&lt;h1 id=&#34;刪除壓縮功能&#34;&gt;刪除壓縮功能&lt;/h1&gt;
+&lt;p&gt;好不容易SSH進入系統，把相關的minifier全都uninstall掉&lt;/p&gt;
+&lt;p&gt;​	npm uninstall  hexo-XXXX-minifier&lt;/p&gt;
+&lt;p&gt;執行完後，系統終於回覆正常了。&lt;/p&gt;
+&lt;p&gt;這經驗告訴我，若是要做JS、CSS、HTML壓縮的工作，建議拉回本機端來做。GCP最低配置不適合作壓縮的工作，真的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>網站管理出現怪怪的符號</title>
+      <link>http://localhost:1313/posts/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/</guid>
+      <description>&lt;p&gt;不要怪我用奇怪的圖作封面，我感覺被Google嘲笑了
+開站一天而已，登入到雲端後台，發現出現下圖
+&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/gL5ZWho.png&#34;&gt;
+再點進去看
+&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這樣的意思是我硬體消耗太多了嗎?，哈哈!
+實際上從系統上顯示的CPU使用率而言，最高不過也才25%而已。
+&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/OuHAZy3.png&#34;&gt;
+所以決定不去理會這樣的訊息。這是因為若調整成Google所建議的配置，一個月就差不多快一千元台幣的費用了，那一年不就破萬。
+這網站不太想以營利為目的，所以先維持原配置，再視狀況而定。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>網頁不適合透過行動裝置瀏覽</title>
+      <link>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
+      <description>&lt;p&gt;經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別&lt;strong&gt;您的網頁不適合使用行動裝置瀏覽&lt;/strong&gt;，針對這一點我覺得莫名奇妙
+&lt;img alt=&#34;Google搜尋的結果&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xragLQ4.png&#34;&gt;
+因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?&lt;/p&gt;
+&lt;h2 id=&#34;在google相容性測試的檢查&#34;&gt;在Google相容性測試的檢查&lt;/h2&gt;
+&lt;p&gt;由檢查可以看到，有提到&lt;strong&gt;23資源遭到封鎖&lt;/strong&gt;，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。
+&lt;img alt=&#34;錯誤的訊息&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/UnQYInM.png&#34;&gt;
+相容性檢查的呈現頁面
+&lt;img alt=&#34;錯誤的版型呈現&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/jwZ54Al.png&#34;&gt;
+在手機上呈現都沒有問題
+&lt;img alt=&#34;手機上的版型呈現&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/yNGUr6t.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;找到問題的原因&#34;&gt;找到問題的原因&lt;/h2&gt;
+&lt;p&gt;針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因為Google並不是真的去我的網頁&lt;strong&gt;看&lt;/strong&gt;網頁，只是派個Googlebot機器人去查而已，而這機器人會因為網站設定的&lt;strong&gt;robots.txt&lt;/strong&gt;檔所限制它所能查看的資料，所以假如限制住了，當然就說版型不合啦。(說實話，還蠻笨的)&lt;/p&gt;
+&lt;p&gt;所以我重新修改robots.txt之後，一切就正常了。也順便提交說明網頁已修改，請機器人再次來爬。
+&lt;img alt=&#34;測試通過&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/ZtFERNh.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;為何要讓行動裝置可以瀏覽呢&#34;&gt;為何要讓行動裝置可以瀏覽呢?&lt;/h2&gt;
+&lt;p&gt;為的就是SEO(Search Engine Optimization)，因為以現在Google的策略是行動優先，未來假如沒有做好行動優化的頁面，基本上都會往後排名。像我那不適合行動的頁面，搜尋到已經是第三頁了，往過往的經驗，只有13%的人會按到第三頁，這就可以知道為何要爭第一頁了。
+並不是我的文章多有價值，一定要人找得到。那只是一種奇蒙子的問題而已&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

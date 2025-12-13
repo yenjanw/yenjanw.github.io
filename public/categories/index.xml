@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on YJ-OnLine</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on YJ-OnLine</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 13 Dec 2025 17:35:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>個資法專欄</title>
+      <link>http://localhost:1313/categories/%E5%80%8B%E8%B3%87%E6%B3%95%E5%B0%88%E6%AC%84/</link>
+      <pubDate>Sat, 13 Dec 2025 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E5%80%8B%E8%B3%87%E6%B3%95%E5%B0%88%E6%AC%84/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devonthink</title>
+      <link>http://localhost:1313/categories/devonthink/</link>
+      <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/categories/devonthink/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>閒聊</title>
+      <link>http://localhost:1313/categories/%E9%96%92%E8%81%8A/</link>
+      <pubDate>Thu, 06 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E9%96%92%E8%81%8A/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>運動筆記</title>
+      <link>http://localhost:1313/categories/%E9%81%8B%E5%8B%95%E7%AD%86%E8%A8%98/</link>
+      <pubDate>Sun, 02 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E9%81%8B%E5%8B%95%E7%AD%86%E8%A8%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>http://localhost:1313/categories/markdown/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/markdown/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,1970 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>YJ-OnLine</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on YJ-OnLine</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 13 Dec 2025 17:35:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【合規分析】個資蒐集要件分析</title>
+      <link>http://localhost:1313/posts/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</link>
+      <pubDate>Sat, 13 Dec 2025 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
+      <description>&lt;p&gt;在執行個人資料盤點與適法性評估時，企業常習慣性選擇「當事人同意」作為法律依據。然而，依據《個人資料保護法》第19條，「與當事人有契約或類似契約之關係，且已採取適當之安全措施」 往往是更穩固且合適的選擇。&lt;/p&gt;
+&lt;p&gt;我們要回到個資保護最根本的邏輯：「合法性基礎」。非公務機關要處理個資，必須有一個合法的理由。這兩個條款代表了兩種截然不同的權利來源：
+兩者差異的核心在於資料處理的驅動力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;契約關係（交易驅動）： 基於「必要性」。為了履行對您的承諾（如：交付商品、支付薪資），企業「必須」處理您的資料。若無此資料，契約將無法執行。&lt;/li&gt;
+&lt;li&gt;同意（授權驅動）： 基於「自願性」。該資料處理對履行核心契約並非絕對必要，但企業「想要」進行（如：精準行銷、數據分析），因此需要當事人的額外授權。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded>&lt;p&gt;在執行個人資料盤點與適法性評估時，企業常習慣性選擇「當事人同意」作為法律依據。然而，依據《個人資料保護法》第19條，「與當事人有契約或類似契約之關係，且已採取適當之安全措施」 往往是更穩固且合適的選擇。&lt;/p&gt;
+&lt;p&gt;我們要回到個資保護最根本的邏輯：「合法性基礎」。非公務機關要處理個資，必須有一個合法的理由。這兩個條款代表了兩種截然不同的權利來源：
+兩者差異的核心在於資料處理的驅動力：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;契約關係（交易驅動）： 基於「必要性」。為了履行對您的承諾（如：交付商品、支付薪資），企業「必須」處理您的資料。若無此資料，契約將無法執行。&lt;/li&gt;
+&lt;li&gt;同意（授權驅動）： 基於「自願性」。該資料處理對履行核心契約並非絕對必要，但企業「想要」進行（如：精準行銷、數據分析），因此需要當事人的額外授權。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;適用情境與法律構成要件&#34;&gt;適用情境與法律構成要件&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;比較項目&lt;/th&gt;
+          &lt;th&gt;契約或類似契約&lt;/th&gt;
+          &lt;th&gt;經當事人同意&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;法源依據&lt;/td&gt;
+          &lt;td&gt;個資法第19條第1項第2款&lt;/td&gt;
+          &lt;td&gt;個資法第19條第1項第5款&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;核心定義&lt;/td&gt;
+          &lt;td&gt;基於雙方建立的法律關係，為履行該關係所必須之蒐集、處理及利用。&lt;/td&gt;
+          &lt;td&gt;基於當事人對特定目的之單獨授權。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;是否需要簽署「同意書」&lt;/td&gt;
+          &lt;td&gt;不需要。&lt;br&gt;只要契約成立（含口頭、書面、點擊條款），即自動取得合法性。&lt;/td&gt;
+          &lt;td&gt;需要。&lt;br&gt;必須有明確的「同意」意思表示（如主動勾選Checkbox）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;範圍限制&lt;/td&gt;
+          &lt;td&gt;嚴格限於「履行契約所必須」之最小範圍。&lt;/td&gt;
+          &lt;td&gt;限於「告知並取得同意」的特定目的範圍。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;撤回權利&lt;/td&gt;
+          &lt;td&gt;無任意撤回權。&lt;br&gt;只要契約關係存續，當事人原則上無法要求停止處理（否則構成違約或服務終止）。&lt;/td&gt;
+          &lt;td&gt;隨時可撤回。&lt;br&gt;當事人有權隨時取消同意，企業必須具備立即停止處理之機制。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;舉例&lt;/td&gt;
+          &lt;td&gt;網購為了送貨而蒐集地址。&lt;br&gt;銀行為了開戶而蒐集身分證。&lt;/td&gt;
+          &lt;td&gt;電商為「行銷」第三方產品而蒐集Email。&lt;br&gt;App 為改善體驗而蒐集使用行為數據。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;關鍵概念解析&#34;&gt;關鍵概念解析&lt;/h2&gt;
+&lt;h3 id=&#34;類似契約的深層意涵&#34;&gt;「類似契約」的深層意涵&lt;/h3&gt;
+&lt;p&gt;此條款賦予企業在正式簽約前的彈性空間，涵蓋「契約成立前之準備階段」：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;適用場景：求職者投遞履歷（尚未建立僱傭契約）、客戶詢價或索取型錄（尚未正式下單）。&lt;/li&gt;
+&lt;li&gt;合規價值：企業在磋商與談判階段即可合法處理個資，無需強迫對方先行簽署個資同意書，優化業務流程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;適當之安全措施的舉證責任&#34;&gt;「適當之安全措施」的舉證責任&lt;/h3&gt;
+&lt;p&gt;這是第2款特有的前提要件。由於未經當事人額外同意，法律要求企業承擔更高的保護義務：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;實務要求：企業需證明已導入符合個資法第27條及施行細則之安全措施（如TPIPAS標準）。&lt;/li&gt;
+&lt;li&gt;風險提示：若發生資料外洩且企業無法舉證已採取適當措施，則該次蒐集可能被視為「自始違法」，面臨行政裁罰與損害賠償風險。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;同意的嚴格標準個資法第7條&#34;&gt;「同意」的嚴格標準（個資法第7條）&lt;/h2&gt;
+&lt;p&gt;依據個資法第7條及國際趨勢（如GDPR），有效的同意必須符合以下三要素：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;告知後同意：須先行履行第8條告知義務（蒐集目的、類別、利用期間等）。&lt;/li&gt;
+&lt;li&gt;明確性：禁止使用「預設勾選」或隱晦的「概括性同意」。&lt;/li&gt;
+&lt;li&gt;單獨性：「核心服務」與「行銷利用」的同意應分開取得。不能強迫用戶為了使用服務就必須接受行銷廣告（禁止包裹式同意）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;企業決策建議路徑&#34;&gt;企業決策建議路徑&lt;/h2&gt;
+&lt;h3 id=&#34;優先適用契約關係推薦核心業務採用&#34;&gt;優先適用「契約關係」（推薦核心業務採用）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;適用情境：核心業務流程（如下單購買、物流配送、員工薪資轉帳）。&lt;/li&gt;
+&lt;li&gt;優點：
+&lt;ul&gt;
+&lt;li&gt;法律穩定性：排除當事人隨意要求刪除資料的風險，確保契約履行。&lt;/li&gt;
+&lt;li&gt;使用者體驗：減少干擾式彈跳視窗與繁瑣的勾選流程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;風險控管：必須嚴格界定「必要範圍」，嚴禁目的外利用（如：不得將物流配送資料轉售或用於非關聯之行銷）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;補充適用當事人同意推薦加值服務採用&#34;&gt;補充適用「當事人同意」（推薦加值服務採用）&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;適用情境：非核心業務、加值服務、行銷推廣、提供資料予第三方合作夥伴。
+&lt;ul&gt;
+&lt;li&gt;優點：法律依據明確，賦予企業處理「非必要資料」的合法權限。&lt;/li&gt;
+&lt;li&gt;管理成本：
+&lt;ul&gt;
+&lt;li&gt;需建立「同意管理機制」，精確記錄「誰、在何時、同意了什麼」。&lt;/li&gt;
+&lt;li&gt;需具備「撤回權響應機制」，一旦用戶撤回同意，系統需能即時阻斷資料利用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;常見稽核缺失&#34;&gt;常見稽核缺失&lt;/h2&gt;
+&lt;p&gt;在實務稽核中，我們常見以下違規樣態，請務必避免：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;強迫同意：
+&lt;ul&gt;
+&lt;li&gt;缺失樣態：在隱私權政策宣告「若您使用本服務，即代表您同意我們將資料用於行銷推廣」。&lt;/li&gt;
+&lt;li&gt;顧問分析：此舉混淆了第2款與第5款。使用服務是基於契約，行銷利用則需額外同意。強迫打包的同意條款，在法律上極可能被認定無效（顯失公平）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;欠乏安全措施導致合法性喪失：
+&lt;ul&gt;
+&lt;li&gt;缺失樣態：企業主張基於「契約關係」處理資料，但缺乏存取控制或加密機制，導致駭客入侵。&lt;/li&gt;
+&lt;li&gt;顧問分析：法院或主管機關可能認定因未符合「已採取適當之安全措施」之後段要件，導致蒐集行為自始不合法，企業將失去免責抗辯的基礎。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>【深度解析】企業個資保護鐵三角</title>
+      <link>http://localhost:1313/posts/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</link>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</guid>
+      <description>&lt;p&gt;在數位經濟時代，資料是企業最寶貴的資產之一，而個人資料的保護更是重中之重。隨著台灣《個人資料保護法》及各行業主管機關的法規日趨嚴謹，許多企業開始意識到，單憑IT部門的努力，已不足以應對複雜的個資保護挑戰。於是，「個人資料保護專責人員」、「管理人員」、「查核人員」這些名詞應運而生。&lt;/p&gt;
+&lt;p&gt;然而，許多企業主、法務、甚至IT人員，對於這三個角色的具體差異仍然一知半解：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;這三個職位有什麼不同？可以由同一個人擔任嗎？&lt;/li&gt;
+&lt;li&gt;我們公司需要設立哪些職位？法規有強制要求嗎？&lt;/li&gt;
+&lt;li&gt;他們分別需要具備什麼樣的知識和技能（學能）？&lt;/li&gt;
+&lt;li&gt;如何從零開始，在企業內部建立起這套制度？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文將為您徹底剖析這三個角色的本質區別，提供具體的建置建議，讓您一次搞懂企業個資保護的「治理鐵三角」。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;在數位經濟時代，資料是企業最寶貴的資產之一，而個人資料的保護更是重中之重。隨著台灣《個人資料保護法》及各行業主管機關的法規日趨嚴謹，許多企業開始意識到，單憑IT部門的努力，已不足以應對複雜的個資保護挑戰。於是，「個人資料保護專責人員」、「管理人員」、「查核人員」這些名詞應運而生。&lt;/p&gt;
+&lt;p&gt;然而，許多企業主、法務、甚至IT人員，對於這三個角色的具體差異仍然一知半解：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;這三個職位有什麼不同？可以由同一個人擔任嗎？&lt;/li&gt;
+&lt;li&gt;我們公司需要設立哪些職位？法規有強制要求嗎？&lt;/li&gt;
+&lt;li&gt;他們分別需要具備什麼樣的知識和技能（學能）？&lt;/li&gt;
+&lt;li&gt;如何從零開始，在企業內部建立起這套制度？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文將為您徹底剖析這三個角色的本質區別，提供具體的建置建議，讓您一次搞懂企業個資保護的「治理鐵三角」。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;主管機關的安維辦法&#34;&gt;主管機關的安維辦法&lt;/h2&gt;
+&lt;p&gt;多數主管機關（如金管會、衛福部、NCC等）發布的「個人資料檔案安全維護管理辦法」中，皆明確要求：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;配置相當資源及設立專責人員或組織：這直接對應了「管理人員」與「專責人員」的設立需求。法規強調「專責」，意在要求企業投入足夠心力，而非僅是名義上的指派。&lt;/li&gt;
+&lt;li&gt;個人資料保護導入、稽核及持續改善機制：這明確指出了PDCA循環的必要性，而「稽核機制」正是「查核人員」的核心職責。部分辦法更直接寫明應建立「內部稽核(internal     audit)制度」。&lt;/li&gt;
+&lt;li&gt;風險評鑑機制：這是「管理人員」的核心職責之一，用以決定資源投入的優先順序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;結論&lt;/strong&gt;：雖然法規未使用「管理、專責、查核」等精確詞彙，但其要求的職能已經完整涵蓋了這三個角色的核心任務。企業若想證明自己已採取「適當之安全維護措施」，建置這三種職能的角色是最佳的舉證方式。&lt;/p&gt;
+&lt;h2 id=&#34;為何需要這些角色&#34;&gt;為何需要這些角色？&lt;/h2&gt;
+&lt;p&gt;要理解這三個角色的差異，我們必須回歸問題的根本：&lt;strong&gt;為什麼法律會要求組織採取「適當的安全維護措施」？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;《個人資料保護法》第27條第1項要求「非公務機關應採行適當之安全維護措施，防止個人資料被竊取、竄改、毀損、滅失或洩漏。」&lt;/li&gt;
+&lt;li&gt;「適當」是什麼意思？這不是一個單一的行動，而是一個持續的管理循環。《個資法施行細則》第12條進一步定義了11項「適當」的措施，其中包含了「訂定個人資料保護方針」、「訂定個人資料檔案之安全維護計畫及業務終止後個人資料處理方法」、「定期檢視或稽核所定之前二款方針、計畫及方法是否落實」等要求。&lt;/li&gt;
+&lt;li&gt;這11項措施清楚地勾勒出一個管理體系（Management System）的輪廓，這個輪廓與國際上通行的PDCA（Plan-Do-Check-Act）持續改善循環完全吻合。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Plan (規劃)：需要有人來規劃與建立整個個資保護制度。這包括制定政策、評估風險、分配資源。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Do (執行)：需要有人來執行這些已規劃好的政策與程序，處理日常的個資相關作業。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check (查核)：需要有人來檢查制度是否被確實執行，以及執行的效果是否符合預期。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Act (行動)：需要有人根據檢查的結果，修正並改善整個制度。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;從這個最根本的PDCA循環中，三個角色的定位便清晰地浮現出來：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;個人資料保護管理人員&lt;/strong&gt;：制度的規劃者與建構者 (Plan     &amp;amp; Act)。他是整個個資保護管理系統（PIMS,     Personal Information Management System）的總設計師與負責人。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;個人資料保護專責人員&lt;/strong&gt;：制度的日常執行者 (Do)。他們是第一線處理個資事務、落實各項保護措施的骨幹。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;個人資料保護查核人員&lt;/strong&gt;：制度的監督者與驗證者     (Check)。他們是獨立的第三方（或內部獨立角色），用以確認制度是否有效運作。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這個「規劃-執行-查核」的職責分離（Segregation of Duties）原則，是現代管理制度與內部控制的核心，旨在避免「球員兼裁判」的利益衝突，確保制度的客觀性與有效性。&lt;/p&gt;
+&lt;h2 id=&#34;從不同視角剖析角色差異一表看懂三大角色&#34;&gt;從不同視角剖析角色差異：一表看懂三大角色&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;比較維度&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;個人資料保護管理人員 (Personal-data   Protection Manager)&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;個人資料保護專責人員 (Personal-data   Protection Specialist)&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;個人資料保護查核人員 (Personal-data   Protection Auditor)&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;核心定位&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;制度建構者&amp;amp;維運者&lt;/td&gt;
+          &lt;td&gt;制度執行者&amp;amp;維護者&lt;/td&gt;
+          &lt;td&gt;制度監督者&amp;amp;驗證者&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;PDCA&lt;/strong&gt; &lt;strong&gt;角色&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Plan (規劃) &amp;amp; Act (行動)&lt;/td&gt;
+          &lt;td&gt;Do (執行)&lt;/td&gt;
+          &lt;td&gt;Check (查核)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;比喻&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;建築師&amp;amp;專案經理  (設計藍圖、管理專案、確保資源到位)&lt;/td&gt;
+          &lt;td&gt;現場工程師&amp;amp;工班  (依藍圖施工、處理日常問題)&lt;/td&gt;
+          &lt;td&gt;獨立監工&amp;amp;品保稽查員   (查驗施工品質是否符合藍圖與法規)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;工作重心&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;策略層面、體系建立、風險管理、資源協調、持續改善&lt;/td&gt;
+          &lt;td&gt;操作層面、日常作業、事件處理、執行程序、使用者支援&lt;/td&gt;
+          &lt;td&gt;監督層面、合規性驗證、有效性評估、獨立報告&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;詳細職責技能與要求比較表&#34;&gt;詳細職責、技能與要求比較表&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;比較面向&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;個人資料保護管理人員&lt;/strong&gt; &lt;strong&gt;(Personal-data Protection Manager)&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;個人資料保護專責人員&lt;/strong&gt; &lt;strong&gt;(Personal-data Protection   Specialist)&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;個人資料保護查核人員&lt;/strong&gt; &lt;strong&gt;(Personal-data Protection Auditor)&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;主要職責&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1.   建立與維護PIMS：依據法規(如個人資料保護法)與標準(如ISO 27701、TPIPAS)，規劃、建置及維運組織的個人資料保護管理制度。  2.   風險評鑑與管理：主導個人資料風險評鑑(PIA/DPIA)，識別、分析及評估風險，並制定應對措施。  3.   政策與程序制定：撰寫、頒布及修訂個資保護政策、管理辦法、作業指導書等文件。  4.   資源規劃與協調：向高階管理層爭取預算、人力與技術資源，並協調跨部門合作。  5.   管理審查：定期召開管理審查會議，向高階主管報告PIMS的運作狀況、風險情勢與改善建議。  6.   推動持續改善：根據內部查核、外部稽核及管理審查的結果，推動制度的矯正與預防措施。  7.   規劃與推動內部教育訓練：制定年度個資保護教育訓練計畫，並向高階主管及各部門主管進行策略性宣導。  8.   重大事件應變總指揮：擔任重大個資外洩事件的應變總指揮或核心成員，協調法務、公關、IT等部門進行處理。  9.   對外溝通代表：作為與主管機關溝通的主要窗口，回應其調查或要求。&lt;/td&gt;
+          &lt;td&gt;1.   執行日常保護措施：落實存取控制、加密、資料銷毀等技術與組織措施。  2.   個資盤點與清冊維護：執行個人資料的盤點作業，並持續維護最新的個資檔案清冊。  3.   當事人權利行使應對：處理當事人提出之查詢、閱覽、複製、補充、更正、停止處理利用、刪除等請求。  4.   個資事故初步應變：作為第一線應變人員，在個資事故發生時，執行初步的損害控制、通報與紀錄。  5.   委外監督支援：協助監督受託機關(委外廠商)是否落實其監督責任，如檢視合約、查核紀錄等。  6.   維護作業紀錄：確實記錄所有個人資料的利用、處理、國際傳輸及當事人權利行使的軌跡。  7.   系統權限管理：根據職務需求，執行個資相關系統的帳號權限申請、變更與停用作業。  8.   內部諮詢與訓練執行：擔任員工日常個資作業的諮詢窗口，並協助執行新人訓練、年度線上課程等基礎教育訓練。&lt;/td&gt;
+          &lt;td&gt;1.   制定查核計畫：依據風險評估結果與管理要求，規劃年度或專案性的內部查核計畫，包含查核範圍、目的、準則與時程。   2.   執行查核程序：透過訪談、文件審閱、實地觀察、系統抽查等方式，蒐集客觀的查核證據。  3.   評估合規性與有效性：判斷PIMS的運作是否符合個人資料保護法、TPIPAS、ISO 27701及組織內部政策的要求(合規性)，並評估其達成保護目標的程度(有效性)。  4.   撰寫查核報告：將查核發現(Findings)，包含符合事項、待觀察事項(OFIs)與不符合事項(NCs)，撰寫成客觀、公正的查核報告。   5.   追蹤改善行動：追蹤不符合事項的矯正措施是否被有效執行並完成，以確保問題被根本解決。  6.   獨立性與客觀性維持：在整個查核過程中，保持獨立於受查單位之外的客觀立場，不受管理壓力影響。  7.   向權責單位報告：將查核結果直接向高階管理層或監督單位(如董事會、稽核室)報告。  8.   提供專業建議：基於查核發現，對制度的弱點與不足之處，提供具體的改善建議。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;組織定位&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;策略規劃單位或核心管理職 通常隸屬於法務、風控、資安或獨立的隱私辦公室(Privacy  Office)，具備協調跨部門資源的權力。&lt;/td&gt;
+          &lt;td&gt;業務執行單位或IT維運單位 通常散布在有人力資源、行銷、客服、IT等會大量處理個資的部門內，或由IT/資安人員兼任。&lt;/td&gt;
+          &lt;td&gt;獨立監督單位 必須獨立於PIMS的建置與執行單位之外。通常由稽核室、法遵部門人員擔任，或由其他部門具備資格的人員進行交叉查核。  &lt;strong&gt;絕對不能查核自己設計或執行的工作&lt;/strong&gt;。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;匯報對象&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;高階管理層 (CEO, COO)、法務長、資安長(CISO)或董事會下的風險管理委員會。&lt;/td&gt;
+          &lt;td&gt;部門主管、個資保護管理人員。&lt;/td&gt;
+          &lt;td&gt;高階管理層、董事會、稽核主管。 其報告路線應獨立於受查單位。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;所需學能 (硬實力)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1.    管理知識：專案管理、風險管理、PIMS建置方法論(如ISO  27701)、PDCA。   2.    法規知識：深入理解《個人資料保護法》、施行細則、GDPR、CBPR等國內外法規，以及各行業主管機關的安維辦法。   3.    技術理解：雖不需精通，但需廣泛理解網路架構、資料庫、加密、身份認證、安全開發(SSDLC)等資安概念，才能與IT有效溝通。   4.    業務流程知識：需了解公司核心業務流程，才能識別個資流向與風險。&lt;/td&gt;
+          &lt;td&gt;1.    法規知識：熟悉與日常作業相關的法規條文，如當事人權利、告知義務等。   2.    技術實作：具備操作特定資安工具(如DLP、加密軟體)、管理系統權限、安全刪除資料等實務技能。   3.    作業程序知識：精通公司內部制定的各項個資作業SOP。   4.    溝通與應對：能清晰地向當事人或內部員工解釋個資政策與程序。&lt;/td&gt;
+          &lt;td&gt;1.    查核/稽核專業：精通稽核方法論與技巧，包含查核規劃、證據蒐集、訪談技巧、報告撰寫。   2.    法規/標準知識：對查核準則(如個人資料保護法、TPIPAS、ISO 27701條文)有精確的理解與詮釋能力。   3.    邏輯分析與歸納：能從繁雜的證據中，識別出系統性的問題，並歸納出根本原因。   4.    客觀判斷力：能夠基於證據，做出公正、客觀且一致的符合性判斷。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;所需學能 (軟實力)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;領導力、策略思維、溝通協調能力、談判與說服力、專案管理能力、危機處理能力。&lt;/td&gt;
+          &lt;td&gt;細心、耐心、責任感、良好的溝通能力、客戶服務導向、團隊合作精神。&lt;/td&gt;
+          &lt;td&gt;獨立性、客觀性、正直誠信、批判性思維、觀察力、專業懷疑精神(Professional Skepticism)、良好的書面與口頭表達能力。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;績效指標 (KPIs)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1.   PIMS建置與驗證時程達成率   2.   風險評鑑與處置計畫完成率   3.   重大個資外洩事件數量 (越少越好)   4.   內部/外部稽核之不符合事項數量 (越少越好)   1.   5. 管理審查決議事項的完成率&lt;/td&gt;
+          &lt;td&gt;1.    當事人權利行使請求的處理時效與滿意度   2.    個資盤點清冊的準確性與更新頻率   3.    日常作業SOP的遵循率   4.    個資事故通報的及時性與正確性   5.    教育訓練的執行率與覆蓋率&lt;/td&gt;
+          &lt;td&gt;1.    年度查核計畫的完成率  2.    查核報告的及時性與品質   3.    提出之不符合事項的有效性 (是否切中要害)   4.    矯正措施追蹤與結案的完成率   5.    受查單位對查核過程與結果的回饋&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;潛在風險與挑戰&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;1.   資源不足：高層不支持，拿不到預算和人力。   2.   跨部門溝通障礙：業務單位不配合，IT部門有技術困難。   3.   法規變動快：難以即時跟上國內外新法規的要求。   4.   球員兼裁判：若同時兼任查核工作，將失去獨立性。&lt;/td&gt;
+          &lt;td&gt;1.   作業繁瑣重複：日常工作量大，容易產生倦怠與疏忽。   2.   應對當事人壓力：面對情緒激動或要求不合理的當事人。   3.   權責不清：在事故發生時，成為代罪羔羊。   2.   技能成長有限：長期專注於執行面，可能缺乏策略思維的培養。&lt;/td&gt;
+          &lt;td&gt;1.   獨立性受威脅：來自受查單位主管或高層的壓力，要求修改查核結果。   2.   查核範圍受限：被拒絕提供必要的資料或系統存取權限。   3.   專業能力不足：對新技術或複雜業務流程不熟，導致查核不夠深入。   4.   人際關係緊張：因常&amp;quot;找麻煩&amp;quot; 而被同事排擠。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;組織架構與建置路徑我的組織該如何開始&#34;&gt;組織架構與建置路徑：我的組織該如何開始？&lt;/h2&gt;
+&lt;p&gt;理解了三個角色的差異後，下一個關鍵問題是：&lt;strong&gt;「我的組織該如何配置這些角色？」&lt;/strong&gt; 這沒有單一的標準答案，取決於企業的規模、業務複雜度、處理的個資數量與敏感性。&lt;/p&gt;
+&lt;p&gt;以下為您提供三種不同規模組織的建置路徑，並分析其優劣。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;路徑一：微型&lt;/strong&gt;**/**&lt;strong&gt;新創企業的「務實合規」模式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;對於資源有限的微型或新創企業，目標是在符合法規最低要求的基礎上，以最經濟的方式起步。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;架構藍圖&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;角色&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;擔任人員&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;管理人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;通常由創辦人、執行長或具備管理職權的資深員工（如行政主管、IT主管）兼任。關鍵任務是意識到個資保護的重要性，並願意投入時間學習與規劃。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;專責人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;不設立專職。由各業務環節的負責人（如處理訂單的電商人員、管理人事資料的HR）直接承擔其業務範圍內的個資保護執行責任。管理人員需要對他們進行基礎的教育訓練。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;查核人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;這點最為棘手。最務實的做法是，由「管理人員」每年底進行一次自我檢視（Self-Assessment），誠實地對照法規與內部規定，記錄下落實情況與待辦事項。但必須認知到，這不具備獨立性，是權宜之計。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;優缺點&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;優點&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;缺點與風險&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;建議&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;·    &lt;strong&gt;成本極低&lt;/strong&gt;：無須增加新人事成本。  ·    &lt;strong&gt;決策快速&lt;/strong&gt;：權力集中，管理人員一聲令下即可推動。&lt;/td&gt;
+          &lt;td&gt;·    &lt;strong&gt;高度風險集中&lt;/strong&gt;：成敗繫於「管理人員」一身，若其專業不足或不夠投入，整個體系形同虛設。  ·    &lt;strong&gt;缺乏獨立監督&lt;/strong&gt;：「球員兼裁判」的極致，自我檢視很容易流於形式，無法發現真正的盲點。  ·    &lt;strong&gt;專業能力不足&lt;/strong&gt;：兼任人員通常缺乏系統性的個資保護與資安訓練，難以應對複雜的威脅或法規要求。  ·    &lt;strong&gt;法遵風險高&lt;/strong&gt;：雖然滿足了「有人負責」的表象，但可能經不起主管機關的實質檢查。&lt;/td&gt;
+          &lt;td&gt;此模式僅適用於創業初期、個資處理量極少的階段。一旦業務成長，就必須盡快朝路徑二邁進。管理人員至少應參加由個人資料管理人員課程或其他專業機構開設的基礎課程，獲取最基本的知識藍圖。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;路徑二：中大型企業的「標準制度」模式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這是最符合個人資料保護法與TPIPAS、ISO 27701等管理系統精神的標準架構，也是大多數有一定規模、希望建立穩健制度的企業應採取的模式。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;架構藍圖&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;角色&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;擔任人員&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;管理人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;設立專職的「個資保護經理/主任」或「資安長(CISO)」，直接向高階管理層（如總經理、法務長）匯報。此職位應被賦予足夠的權力與資源，以協調各部門。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;專責人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;在主要個資處理部門（如IT、HR、行銷、客服）中，指派或招募專職或兼職的個資保護專員。他們在業務上聽從部門主管，但在個資保護事務上，需接受「管理人員」的指導與監督（虛線報告關係）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;查核人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;由組織內獨立的稽核室或法遵部門人員擔任。稽核人員的訓練、計畫與執行，應獨立於管理人員與專責人員之外，其查核報告直接提交給董事會或總經理。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;優缺點&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;優點&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;缺點與風險&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;建議&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;·    &lt;strong&gt;職責分離明確&lt;/strong&gt;：完美體現「規劃、執行、查核」分離的內控原則，有效避免利益衝突。  ·    &lt;strong&gt;專業分工&lt;/strong&gt;：各角色可專注於自身領域，提升專業深度與執行品質。  ·    &lt;strong&gt;制度穩健&lt;/strong&gt;：符合國內外主流標準，易於通過驗證或主管機關查核。  ·    &lt;strong&gt;責任明確&lt;/strong&gt;：發生事故時，可依職責歸屬進行調查與究責。&lt;/td&gt;
+          &lt;td&gt;·    &lt;strong&gt;成本較高&lt;/strong&gt;：需要投入更多的人力與訓練成本。  ·    &lt;strong&gt;溝通成本增加&lt;/strong&gt;：跨部門協調需求高，若管理人員權力不足，可能推動困難。&lt;/td&gt;
+          &lt;td&gt;這是企業個資保護制度走向成熟的必經之路。導入初期，可先指派內部資深人員轉任，並積極尋求外部顧問與教育訓練資源。  成功的關鍵在於&lt;strong&gt;高階管理層的全力支持&lt;/strong&gt;。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;路徑三：大型&lt;/strong&gt;**/**&lt;strong&gt;跨國集團的「卓越治理」模式&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;對於業務遍及全球、資料處理極其複雜的大型集團，其架構更強調中央集權的策略指導與在地化的彈性執行。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;架構藍圖&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;角色&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;擔任人員&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;最高層級 (集團總部)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;設立「資料保護長 (DPO, Data Protection  Officer)」或「隱私長 (CPO, Chief Privacy Officer)」。此為集團最高隱私治理官員，負責制定全球統一的隱私策略與框架，直接向董事會或最高執行單位匯報。類似於「超級管理人員」。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;區域/國家層級&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;設立區域性的「個資保護管理人員」，負責將集團策略轉化為符合當地法規（如台灣個人資料保護法、歐盟GDPR）的具體制度。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;業務單位層級&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;在各事業群或重要產品線中，設置「業務單位專責人員」。他們是植入業務單位的種子，負責推動隱私工程化 (Privacy by Design)，並作為第一線的諮詢窗口。他們同時向業務主管與個資管理人員報告（矩陣式管理）。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;查核人員&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;由集團層級的「全球內部稽核 (Global Internal  Audit)」團隊負責，他們具備多國法規的查核能力，確保全球政策的一致性與在地法規的遵循性。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;優缺點&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;優點&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;缺點與風險&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;建議&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;·    &lt;strong&gt;全球視野與在地落實兼具&lt;/strong&gt;：能應對複雜的跨國法規環境。  ·    &lt;strong&gt;隱私文化深度融合&lt;/strong&gt;：將隱私保護內化為產品開發與業務流程的一部分。  ·    &lt;strong&gt;資源整合效益高&lt;/strong&gt;：可共享全球的專家資源、威脅情資與解決方案。&lt;/td&gt;
+          &lt;td&gt;·    &lt;strong&gt;架構複雜，溝通成本極高&lt;/strong&gt;：矩陣式管理容易產生多頭馬車的問題。  ·    &lt;strong&gt;建置與維運成本巨大&lt;/strong&gt;：需要龐大的專家團隊與支援系統。&lt;/td&gt;
+          &lt;td&gt;此模式適用於已具備成熟資安與法遵體系的跨國企業。其核心精神在於「治理 (Governance)」，不僅是管理，更是建立一套可自我調適、持續進化的生態系統。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;從合規到卓越建構企業的個資防護網&#34;&gt;從合規到卓越，建構企業的個資防護網&lt;/h2&gt;
+&lt;p&gt;回到我們最初的問題：「個人資料保護專責人員、管理人員、查核人員的區別是什麼？」&lt;/p&gt;
+&lt;p&gt;經過層層拆解與分析，我們可以得到一個根本性的結論：&lt;/p&gt;
+&lt;p&gt;這三個角色並非單純的職位名稱，它們代表了個資保護管理制度（PIMS）中不可或缺的三種核心職能：規劃與改善（Plan &amp;amp; Act）、日常執行（Do）、以及獨立監督（Check）。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;管理人員&lt;/strong&gt;是&lt;strong&gt;大腦&lt;/strong&gt;，負責思考、規劃、決策。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;專責人員&lt;/strong&gt;是&lt;strong&gt;雙手&lt;/strong&gt;，負責將大腦的指令付諸實行。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;查核人員&lt;/strong&gt;是&lt;strong&gt;眼睛&lt;/strong&gt;，負責獨立審視雙手的執行成果是否符合大腦的預期藍圖。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;一個健全的組織，需要大腦、雙手、眼睛各司其職，協同運作。&lt;/p&gt;
+&lt;p&gt;個人資料保護不僅僅是法規遵循的義務，更是企業贏得客戶信任、鞏固品牌商譽、在數位時代永續經營的基石。透過建立清晰的「管理-專責-查核」鐵三角，您的企業將能構建起一道堅實而有韌性的個資防護網，從被動的法規遵循，邁向主動的風險治理與商業卓越。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(五)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h1 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h1&gt;
+&lt;p&gt;我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。&lt;/p&gt;
+&lt;p&gt;文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的&lt;code&gt;圖書館系&lt;/code&gt;。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。&lt;em&gt;文件管理的目的，是為了快速搜尋&lt;/em&gt;，唯有能快速的找到所需的文件，才是好的管理方式。&lt;/p&gt;
+&lt;p&gt;有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&amp;hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h1 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h1&gt;
+&lt;p&gt;我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。&lt;/p&gt;
+&lt;p&gt;文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的&lt;code&gt;圖書館系&lt;/code&gt;。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。&lt;em&gt;文件管理的目的，是為了快速搜尋&lt;/em&gt;，唯有能快速的找到所需的文件，才是好的管理方式。&lt;/p&gt;
+&lt;p&gt;有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&amp;hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。&lt;/p&gt;
+&lt;p&gt;文件管理就在這時候發揮了應有的功能，將相類似的文件放在一起，就是基本的觀念。其實很多人都已經具備這基本的觀念了(&lt;del&gt;就像D槽用騎兵步兵兩資料夾來分類一樣&lt;/del&gt;)，會習慣將專案的文件放在一起，所有專案產生的文件，都放在同一個資料夾下，就是一個基本的概念。但是，在文件管理上，這還是不夠的。&lt;/p&gt;
+&lt;h2 id=&#34;同一資料夾下不超過十個檔案&#34;&gt;同一資料夾下不超過十個檔案&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;根據統計，只要一個資料夾內超過十個檔案，就會造成使用者失焦。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以我個人的經驗，資料夾真的只要有十個以上的檔案，我一定可以為它再做一次分類。但是這樣的好處是什麼呢?&lt;/p&gt;
+&lt;p&gt;在DEVONthink之中，Group路徑會被自動加上Tag之中，所以比如有一個人件叫&lt;code&gt;DEVONthink使用說明&lt;/code&gt;，它是放在&lt;code&gt;Plan&lt;/code&gt;-&amp;gt;&lt;code&gt;BLOG&lt;/code&gt;-&amp;gt;&lt;code&gt;YJOL&lt;/code&gt;之中，則在Tag中已被自動加入&lt;code&gt;Plan&lt;/code&gt;、&lt;code&gt;Blog&lt;/code&gt;、&lt;code&gt;YJOL&lt;/code&gt;等三個Tag。這最大的好處是大幅的加快搜尋速度。&lt;/p&gt;
+&lt;p&gt;當然啦，有些檔案真的已經被拆解到不知如何再歸類時，其實也不用一直揪結在這項原則之中。比如出遊的照片，已經依照旅遊的目的、時間、地點、場景&amp;hellip;分類，若還要再分類下去，真的蠻沒意義的。&lt;/p&gt;
+&lt;h2 id=&#34;建立gtd資料夾&#34;&gt;建立GTD資料夾&lt;/h2&gt;
+&lt;p&gt;在DEVONthink之中，每一個資料庫都預設&lt;code&gt;Inbox&lt;/code&gt;資料夾，這就是一估GTD概念的展現。只要將文件或檔案放進資料庫中，就會被先放到這&lt;code&gt;Inbox&lt;/code&gt;之中，好處是先執行現在的工作，不要為了分類檔案而分心，當工作告一段落或有空閒的時候，再執行檔案分類的拖拉放工作。如此就不會打斷現有的思緒。&lt;/p&gt;
+&lt;p&gt;更進一步可以建立如&lt;code&gt;Action&lt;/code&gt;、&lt;code&gt;ToDo&lt;/code&gt;、&lt;code&gt;Someday&lt;/code&gt;、&lt;code&gt;Archive&lt;/code&gt;之類的分類，來將工作的進度作進一步的規畫，體現GTD的精神。這部份可以在網路上找到更佳的文章，大部份都是利用Evernote來介紹GTD的相關資料。但是相信已經看過我前幾篇文章的朋友，已經知道Evernote能做的，DEVONthink都能做得到，甚至做得更好。所以只要將那些方法拿來直接套用就可以。&lt;/p&gt;
+&lt;h2 id=&#34;持續的力量&#34;&gt;持續的力量&lt;/h2&gt;
+&lt;p&gt;文件管理是一件持續的事，是一個無限迴圈。可以當你的功力夠深，只要一招半式，就可以打遍天下無敵手了。但是持續並不容易，需要的是紀律(&lt;del&gt;又不是在當兵&lt;/del&gt;)。所謂烈女只怕痴情郎，現在可能還無法體會出持續的好處，但未來一定會知道的(&lt;del&gt;廢話&lt;/del&gt;)。&lt;/p&gt;
+&lt;p&gt;好以成天就說到這裡~&lt;/p&gt;
+&lt;p&gt;喟~ DEVONthink在文件管理的方式都還沒有提到耶~&lt;/p&gt;
+&lt;p&gt;好像是厚! 以下開始說明DEVONthink在文件管理的方式。&lt;/p&gt;
+&lt;h1 id=&#34;devonthink的文件管理方式&#34;&gt;DEVONthink的文件管理方式&lt;/h1&gt;
+&lt;h2 id=&#34;何謂group--何謂tag-&#34;&gt;何謂Group ? 何謂Tag ?&lt;/h2&gt;
+&lt;p&gt;在說明DEVONthink的文件管理邏輯之前，先讓我們來討論一下Group與Tag之間的關係。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DEVONthink預設會將Group的層級自動加入Tag。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;若不想在Tag中加入Group的名字，可以在&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Info&lt;/code&gt;或&lt;code&gt;⇧⌘+I&lt;/code&gt;的方式叫出Group的內容，在&lt;code&gt;Tagging&lt;/code&gt;上打勾，將自動tag功能關閉。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Ju7Bqj8.png&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Group適合用在檔案本身邏輯清礎的場合，因為檔案只會存在一個單一的Group位置。當然可以利用DEVONthink的&lt;code&gt;replicate&lt;/code&gt;(不了解的可以查看&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;)功能，將檔案複製在另一個Group中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;反而言之，每一個Tag其實也是一個Group，一種排列的方式。這些Tag會在頂層與Inbox一同顯示。也可以用拖拉放的方式，將文字或檔案放入Tag之中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若在Group刪除檔案，因為檔案本身只屬一個Group，如此檔案就真的被刪除了。而通常一個檔案有多個Tag，所以在Tag之中刪除了檔案，該檔案會存在於另一個所屬的Tag之中，並不會被刪除。(有點繞舌)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用group管理&#34;&gt;使用Group管理&lt;/h2&gt;
+&lt;h3 id=&#34;建立新的group&#34;&gt;建立新的Group&lt;/h3&gt;
+&lt;p&gt;方法有下列幾種:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;從&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;-&amp;gt;&lt;code&gt;Group&lt;/code&gt;(⌘⇧+N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/CmaMxRA.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在Toolbar按下&lt;code&gt;New Group&lt;/code&gt;圖示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/v0NavHD.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;先選好要放在Group中的檔案，再按下&lt;code&gt;Group Item&lt;/code&gt;的按鈕。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/vTLsCqV.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;透過這方式執行，系統會建立一個新的Group，並將剛剛所選擇的檔案或文件，直接&amp;quot;&lt;strong&gt;移動&lt;/strong&gt;&amp;ldquo;到新的Group之中，因為是搬移的方式，所以舊的位置檔案會消失。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;透過右鍵，由&lt;code&gt;New&lt;/code&gt;-&amp;gt;&lt;code&gt;Group&lt;/code&gt;來新增。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/f7bkn5C.png&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;auto-group&#34;&gt;Auto Group&lt;/h3&gt;
+&lt;p&gt;這是DEVONthink比其他同類型產品強的地方之一。假如你有很多的檔案要處理，可以試著利用&lt;code&gt;Auto Group&lt;/code&gt;功能，來幫你節省時間。&lt;/p&gt;
+&lt;p&gt;基於DEVONthink自行的演算方式，所發展的AI(人工智慧Artificial Intelligence)來將檔案放入到適合的Group之中。可以透過&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Audo Group&lt;/code&gt;來實現這功能。&lt;/p&gt;
+&lt;p&gt;Auto Group會將剛剛所選的文件，在相同的Group之中再建立新的Group，並將檔案或文件移入。&lt;/p&gt;
+&lt;p&gt;我想要為這功能，說明一下它運作的原理與應用，但本篇文章只是說明的性質，所以作罷，未來再把這部份作詳細的介紹。&lt;/p&gt;
+&lt;h2 id=&#34;移動文件&#34;&gt;移動文件&lt;/h2&gt;
+&lt;p&gt;文件的移動可以透過以下的方式實現:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;拖拉放。BJ4&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;從Toolbar的&lt;code&gt;Action&lt;/code&gt;按鈕，選擇&lt;code&gt;Move To&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0NTSX5K.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在文件上按右鍵，選擇&lt;code&gt;Move To&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/gMDSQrV.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;當利用這方式來移動文件時，可以看到如下的圖示:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/1t0pmHo.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最上面的部份是這份檔案現在所屬的位置。下方是最近所選的位置，當太亂時，可以用&lt;code&gt;Clear Recent Destinations&lt;/code&gt;把它清除。而下半部是不同資料庫的位置，如我的圖所示，我兩個資料庫所有的第一層都會被顯示出來。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;提醒:移動之後，檔案的Group Tag也會被變動，改成新的位置Tag。再次說明，Tag顏色是灰色的，那是屬於Group所屬的Tag，我簡稱&lt;code&gt;Group Tag&lt;/code&gt;。而自己所設定的Tag是藍色的，我孤且稱作&lt;code&gt;Personal Tag&lt;/code&gt;。其實原廠並沒有這樣的稱呼方式，是我為了方便辨別而設的簡稱。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;classify&#34;&gt;Classify&lt;/h2&gt;
+&lt;p&gt;在中文真的沒有很好的稱呼來說明這動詞，我習慣稱為分類(Classify)。這是用在當文件建立時，在同資料夾下找不到很好可以共同組成資料夾的項目的狀況下，可以參考之前所建立的資料夾，是否有符合適合對應的項目。&lt;/p&gt;
+&lt;p&gt;這功能出現在當開啟文件時，打開&lt;code&gt;See Also&lt;/code&gt;的抽屜，在上半部顯示適合此文件的資料夾位置，用Score評分的方式來建議選項。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/DL8KoVY.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;選定確認的資料夾，按&lt;code&gt;⌃+C&lt;/code&gt;來將檔案移至該資料夾。&lt;/p&gt;
+&lt;h3 id=&#34;auto-classify&#34;&gt;Auto Classify&lt;/h3&gt;
+&lt;p&gt;與&lt;code&gt;Auto Group&lt;/code&gt;一樣的運算方式，透過DEVONthink專屬的AI演算方式，將文件自動移至適合的資料夾。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;Auto Group&lt;/code&gt;與&lt;code&gt;Auto Classify&lt;/code&gt;的差別在於，&lt;code&gt;Auto Group&lt;/code&gt;會將檔案放入新的Group之中，而&lt;code&gt;Auto Classify&lt;/code&gt;是將檔案放在&lt;strong&gt;已經&lt;/strong&gt;存在的Group中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這功能可以透過Toolbar上&lt;code&gt;Action&lt;/code&gt;按鈕，或是&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Auto Classify&lt;/code&gt;的方式進行。這功能現在我也不多做說明，因為會耗掉很長的篇幅，未來我會再找時間說明一下這功能。&lt;/p&gt;
+&lt;p&gt;其實&lt;code&gt;Auto Group&lt;/code&gt;與&lt;code&gt;Auto Classify&lt;/code&gt;都是DEVONthink之中殺手級的應用，非常快速的解決分類問題。但是，對，就是但是&amp;hellip;.這功能的演算是建立在文章的分析上，而文件的分析在中文斷字還非常的弱，所以這兩功能在中文環境下，變成殘廢級的功能，相當可惜。所以就算假如不知道是幹嘛用的也沒關係，反正中文環境上用不到。這要等原廠未來技術提昇之後再討論也是來得及的。&lt;/p&gt;
+&lt;h2 id=&#34;複製&#34;&gt;複製&lt;/h2&gt;
+&lt;p&gt;之前的文章&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;DEVONthink(一)初步認識&lt;/a&gt;已有提過Duplicate與Replicant之間的差別，這裡我就不再重覆。這裡我就說明這功能該如何操作。&lt;/p&gt;
+&lt;h3 id=&#34;duplicate&#34;&gt;Duplicate&lt;/h3&gt;
+&lt;p&gt;當我們選定了一個或多個文件時:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Duplicate&lt;/code&gt;這會複製文件在同一資料夾下。&lt;/li&gt;
+&lt;li&gt;按住Option(⌥)，然後移動到你想要複製的位置。&lt;/li&gt;
+&lt;li&gt;從Toolbar的&lt;code&gt;Action&lt;/code&gt;鈕，選&lt;code&gt;Duplicate to&lt;/code&gt;到指定的位置。&lt;/li&gt;
+&lt;li&gt;利用右鍵選&lt;code&gt;Duplicate to&lt;/code&gt;到指定的位置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;replicant&#34;&gt;Replicant&lt;/h3&gt;
+&lt;p&gt;這一項與上述Duplicate幾乎操作方式一樣，也是選定一個或多個文件，然後利用上述的方式操作。唯一差別只有第二點。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按住Option與Command鍵(⌥⌘)，然後移動到你想要複製的位置。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;其他的操作我就不再說明了。&lt;/p&gt;
+&lt;h2 id=&#34;使用tag管理&#34;&gt;使用Tag管理&lt;/h2&gt;
+&lt;p&gt;這與Group管理的方式幾乎相同，其實Tag管理已經在很多方面都得到實證，可以很方便的將文件資料作個分類。以下就簡單說明一下操作方式。&lt;/p&gt;
+&lt;h3 id=&#34;tag-bar&#34;&gt;Tag Bar&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/L0dFvAR.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;先打開一份文件。&lt;/li&gt;
+&lt;li&gt;選擇&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Tags&lt;/code&gt;或是&lt;code&gt;⌘⌥⌃+T&lt;/code&gt;開啟Tag Bar，如圖示的最下方。&lt;/li&gt;
+&lt;li&gt;可以在Tag Bar新增、修改或刪除本文件的Tag。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在Tag Bar有幾項是DEVONthink特有的功能，以下說明一下:&lt;/p&gt;
+&lt;h4 id=&#34;autocompletion&#34;&gt;Autocompletion&lt;/h4&gt;
+&lt;p&gt;在你Key入Tag的同時，DEVONthink會自動幫你找尋相關字串的Tag，可以自動完成輸入的文字，假如有符合，只要用選的就可以了。&lt;/p&gt;
+&lt;h4 id=&#34;pop-up-menu&#34;&gt;Pop-up Menu&lt;/h4&gt;
+&lt;p&gt;在Tag旁有一個&lt;code&gt;⋁&lt;/code&gt;的符號，點選之後有幾項功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reveal Tag: 顯示該Tag的位置，可以帶到該Tag的列表，快速找到相關同類型的文件。&lt;/li&gt;
+&lt;li&gt;Remove Tag: 看文字就知道是移除該Tag。&lt;/li&gt;
+&lt;li&gt;Related Tags: 列出相同類型的Tag，這是DEVONthink利用AI所計算出，相同類型的Tag。利用帶有相同Tag的文件共同去分析，相類似的Tag會一併在這顯示。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tag-list&#34;&gt;Tag List&lt;/h3&gt;
+&lt;p&gt;在資料庫內，預設會有一個Tags的列表，如同Group一樣被列在資料庫中。用這列表可以很方便的做幾件事情。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;重新命名: 當Tag被改名之後，在Tag內的文件也一併被改名，可以省去一個一個文件做修改的勞苦工作。&lt;/li&gt;
+&lt;li&gt;移除: 如同重新命名一樣，在同一資料庫中所有的文件同時被移除這一個Tag。&lt;/li&gt;
+&lt;li&gt;指定文件: 把文件拖拉放到該Tag之中，則文件就被新增該Tag。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這幾個功能，最重要的是可以批量化作業，一次選一堆Tag，或為一堆文件同時修改Tag時相當方便(遠目Evernote)。&lt;/p&gt;
+&lt;p&gt;我個人算是個Group控，Tag對我來說只是輔助功能而已，但以上幾些功能對Tag控應是相當的方便。它改善了多數文件管理軟體在這方面的缺點，但也相對的，對我這Group控第一次接觸DEVONthink時產生了困惱，不理解畫面為何要被設計成這麼複雜，不能簡單一點嗎? 就是因為功能眾多，要符合所有人的使用習慣是不可能的，所以剛接觸時會覺得顯示的很凌亂。不過DEVONthink也很貼心的知道這問題，所以假如自己不用的功能，都是有方法選擇關閉的，在&lt;code&gt;View&lt;/code&gt;內有很多選項就是在做這功能。&lt;/p&gt;
+&lt;h1 id=&#34;wiki&#34;&gt;Wiki&lt;/h1&gt;
+&lt;p&gt;這是DEVONthink最特別的我能之一，有點像是之前的&lt;a href=&#34;https://plausible.coop/voodoopad/&#34;&gt;Voodoopad&lt;/a&gt;的功能，DEVONthink能自動辨識文字中與其他文件檔名、Group、Tag相同的專有名詞。讓整份文件有如Wiki一樣的連結功能。&lt;/p&gt;
+&lt;h2 id=&#34;普通連結&#34;&gt;普通連結&lt;/h2&gt;
+&lt;p&gt;建立在資料庫文件內的相互連結，有幾種不同的方式可以進行:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在文件中先反白要建立連結的文字，透過右鍵選&lt;code&gt;Link to&lt;/code&gt;然後指定要連結的立置(可以是Group、Tag、或是文件)。&lt;/li&gt;
+&lt;li&gt;也可以直接在欲被連結的文件，選&lt;code&gt;Edit&lt;/code&gt;-&amp;gt;&lt;code&gt;Copy Item Link&lt;/code&gt;，這樣連結就被複製進剪貼簿中，然後在文件中貼上即可。&lt;/li&gt;
+&lt;li&gt;另外一種方式是，點選欲被連結的文件，利用&lt;code&gt;⌘⌥+拖&lt;/code&gt;的方式，放至文件內文之中，即可達到相同的效果。&lt;/li&gt;
+&lt;li&gt;若要移除連結，可以反白在藍色底線字上選擇&lt;code&gt;Format&lt;/code&gt;-&amp;gt;&lt;code&gt;Remove Link&lt;/code&gt;的方式，把連結移除掉。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;wikilink&#34;&gt;WikiLink&lt;/h2&gt;
+&lt;p&gt;當你的資料庫文件越來越多的時候，就能顯示出這功能的強大。前述的方式還是自行去建立連結，而這裡來說明DEVONthink自動幫你建立文件之間的連結。&lt;/p&gt;
+&lt;p&gt;這主要還是透過Group、Tag、與檔案名稱之間的比對，將文件內容對應到適合的位置，如此該文字下方會出現底線，可以連結到資料庫內的位置。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/BD2AY34.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;Preference&lt;/code&gt;-&amp;gt;&lt;code&gt;Editing&lt;/code&gt; 中可以設定開啟或關閉Wikilink的自動化功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Names and Aliases: 預設是這選項，DEVONthink會去比對文字與Group、Tag、檔案名稱相同的部份，檔案名稱會同時去比對檔案的暱稱(可以從文件的Info找到)。當有出現相同時，自動建立連結。&lt;/li&gt;
+&lt;li&gt;MashedWords adn Aliases: 這與上述不一樣的地方式，只會去比對一個連續的文字，且中間有大寫的字母，才會視為關鍵字，比如AppleScript(連續，中間有大寫)。&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t link to groups: 排除對group的比對工作。&lt;/li&gt;
+&lt;li&gt;Open new document in separate windows: 點選連結後，開啟新的視窗。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這是很實用的功能，可以快速建立個人的Wiki資料庫。但是(又來了)，因為中文斷字能力不足的關係，這功能在中文環境下，也是屬於半殘廢的狀態。不過英文環境就沒有這樣的問題，若你有很多的英文文件，你一定會發現這功能的威力。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;特殊操作方式&#34;&gt;特殊操作方式&lt;/h1&gt;
+&lt;h2 id=&#34;在資料庫間傳送檔案&#34;&gt;在資料庫間傳送檔案&lt;/h2&gt;
+&lt;p&gt;跨資料庫的文件傳送，一般而言只要用拖拉放即可，在此說明一些小小的訣竅，以方便作文件管理。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;當sidebar有顯示的狀態下(&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Sidebar&lt;/code&gt;)，將文件拖到資料庫中，會預設被放在該資料庫的&lt;code&gt;Inbox&lt;/code&gt;資料夾中。&lt;/li&gt;
+&lt;li&gt;當進行多量的移動時，建議開啟Groups &amp;amp; Tags面版(&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Gourps &amp;amp; Tags&lt;/code&gt;)，可以直接拖拉到指定的資料夾。&lt;/li&gt;
+&lt;li&gt;另外一種模式，對於畫面螢幕大的人，可以直接開啟另一個視窗去顯示資料庫位置(&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;New Window&lt;/code&gt;-&amp;gt;&lt;code&gt;DB Name&lt;/code&gt;)，讓拖拉放更有效率。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;合併與分割檔案&#34;&gt;合併與分割檔案&lt;/h2&gt;
+&lt;p&gt;基於某些特殊的目的，有時需要將文件合併或分割。例如當專案文件檔案要封存時，有時會想將所有的專案文件一併合成一個檔案，用一個檔名，以方便管理。在一般的檔案管理的場合，會以壓縮成zip的方式處理，但在DEVONthink之中就不用這麼麻煩了，只要將多個文件直接合併成一個文件就好啦!&lt;/p&gt;
+&lt;h3 id=&#34;合併-merge&#34;&gt;合併 Merge&lt;/h3&gt;
+&lt;p&gt;有些相同主題的文件是可以直接被合併的，在DEVONthink中有簡單的方式可以處理。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;選擇要合併的文件，可以兩個或是多個。按右鍵點選&lt;code&gt;Merge&lt;/code&gt;，如此就會出現新的已被合併的文件，預設的名稱如同&amp;quot;3 merged documents&amp;quot;就是三個被合併的文件，此時只要修改自己需要的名稱即可。&lt;/li&gt;
+&lt;li&gt;如同上述選好文件，在&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;Merge&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;同上述選好文件，在Toolbar中的&lt;code&gt;Action&lt;/code&gt;選&lt;code&gt;Metge&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;可以被合併的文件包括:圖片、文字(Plain, Rich Text)、PDF、sheet、Web pages等，都是可以被合併的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;有一點要留意的是，合併文件功能，並&lt;strong&gt;不會&lt;/strong&gt;把原有的文件刪除。所以原本文件都還保留著。&lt;/p&gt;
+&lt;h3 id=&#34;分割-split&#34;&gt;分割 Split&lt;/h3&gt;
+&lt;p&gt;有些文件內容過長，不方便管理，或是想要將被合併的文件拆解出來，將文件分割也是可以的。進行的方法略與合併不相同，首先要先開啟需被分割的文件，將游標移至欲分割的位置。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;按右鍵選&lt;code&gt;Split Document&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;在&lt;code&gt;Edit&lt;/code&gt;-&amp;gt;&lt;code&gt;Split Document&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;被分割出來的新文件，會是原文件名後面加上一個&lt;code&gt;2&lt;/code&gt;，就會知道此為原文件的分割文件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;分割文件功能，只能用在文字(Plain, Rich Text)與PDF檔，其他類型無法使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;文件管理結語&#34;&gt;文件管理結語&lt;/h1&gt;
+&lt;p&gt;從文中應該可以看出DEVONthink根本就是撒尿牛丸級的文件管理系統，幾乎什麼功能都有~~，只差中文斷字支援而已~~。我認為DEVONthink只是一種工具，就像Evernote一樣，也是一種工具，今天工具就是要拿來用，用的透，用的好，就是一種好工具。&lt;/p&gt;
+&lt;p&gt;至於文件管理有很多的方法與理論，我相信各種理論都可以在DEVONthink上得到實踐，找到合適的功能來做管理，這就是一個好工具所需具備的元素。不應該是人去適應工具，而應該是工具是因人的需求而被打造的。所以好的工具要想到人真正所需要的需求。&lt;/p&gt;
+&lt;p&gt;這一篇拖了一點時間才出來，因為上一個星期感冒，又是爬大山(&lt;del&gt;自找罪受&lt;/del&gt;)，導致一整個星期都提不起精神來寫點東西。下一篇會來介紹搜尋功能。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(四)</title>
+      <link>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Tue, 25 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;再次說明import-vs-index&#34;&gt;再次說明Import Vs. Index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Import&lt;/code&gt;是將文件/檔案複製一份進入資料庫中。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Index&lt;/code&gt;是將文件/檔案製作索引放入資料庫中。&lt;/li&gt;
+&lt;li&gt;Import文件/檔案進入資料庫後，會佔有空間，當檔案損毀時，就無法再救出來了。&lt;/li&gt;
+&lt;li&gt;Index並不會增大你的資料庫，且當資料庫檔案有損毀時，原檔並不會消失。&lt;/li&gt;
+&lt;li&gt;好像Index比Import還安全，但，其實資料庫並非這麼容易損毀(最少我沒遇過)。&lt;/li&gt;
+&lt;li&gt;Import的好處是，可以將資料庫檔直接放入隨身碟，往後你的所有資料就在這之中，可以隨易攜帶。且備份就只要備份這一個檔案，就全備份完畢，這是Index所做不到的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要選擇哪一種方式，就看您自己的需求去決定。這沒有絕對的標準答案。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;再次說明import-vs-index&#34;&gt;再次說明Import Vs. Index&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Import&lt;/code&gt;是將文件/檔案複製一份進入資料庫中。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Index&lt;/code&gt;是將文件/檔案製作索引放入資料庫中。&lt;/li&gt;
+&lt;li&gt;Import文件/檔案進入資料庫後，會佔有空間，當檔案損毀時，就無法再救出來了。&lt;/li&gt;
+&lt;li&gt;Index並不會增大你的資料庫，且當資料庫檔案有損毀時，原檔並不會消失。&lt;/li&gt;
+&lt;li&gt;好像Index比Import還安全，但，其實資料庫並非這麼容易損毀(最少我沒遇過)。&lt;/li&gt;
+&lt;li&gt;Import的好處是，可以將資料庫檔直接放入隨身碟，往後你的所有資料就在這之中，可以隨易攜帶。且備份就只要備份這一個檔案，就全備份完畢，這是Index所做不到的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要選擇哪一種方式，就看您自己的需求去決定。這沒有絕對的標準答案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的方式是，一般文件/檔案我全都用Import的方式。但是對於語音檔、影片、照片等，非常佔容量的檔案用Index。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;先決定文件要存在哪&#34;&gt;先決定文件要存在哪&lt;/h2&gt;
+&lt;h3 id=&#34;一放入inbox中&#34;&gt;一.放入Inbox中&lt;/h3&gt;
+&lt;p&gt;在系統設定內，選擇Import的頁籤可以看到相關的設定。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/LK72pXt.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;系統在GLOBALS有預設的Inbox，這Inbox是出現在Finder的側邊欄位，一般而言假如透過掃描器的文件檔、網站的截取、相關的Scripts所匯入的檔案、或者是拖拉放方式丟到Inbox的資料，都會先放到&lt;code&gt;GLOBAL&lt;/code&gt;-&amp;gt;&lt;code&gt;Inbox&lt;/code&gt;中。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Finder中的Inbox&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5TTGglA.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;圖中所示即是Finder中的Inbox資料夾，將檔案放在這裡，會自動被丟到Global的Inbox中。因為資料都自動被移走，所以這裡是_看不到檔案_的。&lt;/p&gt;
+&lt;h3 id=&#34;二放入指定的資料夾&#34;&gt;二.放入指定的資料夾&lt;/h3&gt;
+&lt;p&gt;假如是在開啟DEVONthink的狀況下，也可以直接拖拉放的方式直接將檔案放入指定的資料夾。所以這是相當自由的。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/4CK1ZTO.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;之前有提到的&lt;code&gt;Groups &amp;amp; Tags&lt;/code&gt;視窗，也適合用來拖拉放檔案。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;假如找不到剛才自己放的檔案，建議先看看Global Inbox的group。若是找不到，可以看一下&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;History&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Name&lt;/code&gt;來找一下剛剛匯入的位置。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;選一還是選二呢&#34;&gt;選一還是選二呢?&lt;/h2&gt;
+&lt;p&gt;這也是沒有對與錯的事，端看你的個人習慣。以GTD為出發點，建議用第一個方式，將資料先放入Inbox之中，往後再Review這些相關的檔案，再做分類的工作。&lt;/p&gt;
+&lt;p&gt;選二的缺點是會打斷現行的思序，但已經先做好資料夾的管理，所以未來就可以不用花時間處理。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我的習慣是選一，都先放入Inbox之中，一個星期會整理一次資料，順便Rwview文件。這議題已經在思考GTD的運作，建議可以參考網路上相關的文章，先建立起自己的模式。不論選哪一種模式，DEVONthink都可以做得到。以下文章會說明更多的匯入方式，可以提供個人使用上的參考。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;利用devonthink建立文件&#34;&gt;利用DEVONthink建立文件&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/VyV8Yzn.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;中，可以看到以上幾種可以建立的資料型態，以下作個簡單的說明。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;With Clipboard&lt;/code&gt;是直接新增現在系統簡貼簿中的文字。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Plain Text&lt;/code&gt;新增純文字檔案，至於什麼是存文字，請自行Google。&lt;a href=&#34;https://en.wikipedia.org/wiki/Plain_text&#34;&gt;Wiki&lt;/a&gt;說明。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Rich Text&lt;/code&gt;這也是自行Google的項目。&lt;a href=&#34;https://zh.wikipedia.org/wiki/RTF&#34;&gt;Wiki&lt;/a&gt;說明。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Formatted Note&lt;/code&gt;通常從截取下來的網頁，都是屬於這檔案類型。是可以被編輯的。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HTML Page&lt;/code&gt;這不用說明了吧，就HTML頁面。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Markdown Text&lt;/code&gt;副檔名為.md檔，就是大家耳聞的Markdown檔案，在撰寫時是Markdown原檔，觀看時可以利用右上方&lt;code&gt;Best Alternative&lt;/code&gt;按鈕切換成被編譯後的閱讀模式。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Sheet&lt;/code&gt;要先輸入Column的參數，如下圖。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/4dwrEK7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然後就能產生像Excel一樣的資料表，如何應用，請自行先想像。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/agYUbQ6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以透過按&lt;code&gt;New Record&lt;/code&gt;的方式來新增資料。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Bookmark&lt;/code&gt;DEVONthink是可以輸入Bookmark型式的資料，可以將Safari、Chrome、Firefox的Bookmark檔保存下來，直接點選連結，可以用內建的瀏覽器觀看網頁。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Feed&lt;/code&gt;在網路上所看到的RSS連結，可以由此輸入，支援OPML、RSS等常見的Feed格式。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;New From Template&lt;/code&gt;這能真的很方便，可以將常輸入的文件，先建立一份Template檔，未來直接用這方式來撰寫。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/uRtQaM5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這示範一份日常的電話紀錄，時間會自動被記下來，不用再手動方式輸入。&lt;/p&gt;
+&lt;p&gt;範本可以是任何型式的檔案，未來只要將檔案放進範本資料夾中，就可以從這裡被引用新增。&lt;/p&gt;
+&lt;h2 id=&#34;托拉放-drag-and-drop&#34;&gt;托拉放 Drag and Drop&lt;/h2&gt;
+&lt;p&gt;檔案或文件可以透過施拉放的方式，將資料Import進資料庫。可以拉到的地方包括:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dock Icon，直接拉到Dock上的DEVONthink程式，就可以自動匯入inbox之中。&lt;/li&gt;
+&lt;li&gt;Group或Tag，拉到所想要放的位置也會被匯入。&lt;/li&gt;
+&lt;li&gt;Group&amp;amp;Tags Panel，假如你有打開這面版，也是會被匯入指定的位置。&lt;/li&gt;
+&lt;li&gt;DEVONthink Window，這就是直接拉到該View的視窗中。&lt;/li&gt;
+&lt;li&gt;Global Inbox，這就是前面所說在Finder中的Inbox資料夾。在此說明一下特點。
+&lt;ul&gt;
+&lt;li&gt;前述的四種方式，被拖拉放之後是被Copy一份資料，原檔案持續存在著。而放在Finder Inbox中算是被移動到Inbox中，所以原檔案會消失。&lt;/li&gt;
+&lt;li&gt;拖到Global Inbox中，默認為放到主資料庫Inbox中，沒有如前四項有指定位置。&lt;/li&gt;
+&lt;li&gt;這是一種GTD的概念，先將文件存下來，日後再做管理的動作，將相同的事情同時執行，就是GTD的實踐。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;services-menu&#34;&gt;Services Menu&lt;/h2&gt;
+&lt;p&gt;在MacOS 10.6 Snow Lepard之後，提供了Service的方式，可以利用一些簡單的Scripts來達成複雜的工作。就如在Finder之中就可以找到Service的例子。如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xj2UjmY.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;當灌好DEVONthink之後，就已經自動將這功能寫入到服務選單之中。&lt;/p&gt;
+&lt;h2 id=&#34;sorter&#34;&gt;Sorter&lt;/h2&gt;
+&lt;p&gt;接下來說明一個令人又愛又恨的功能，有些人很愛，有些人卻又對這東西很反感。&lt;/p&gt;
+&lt;p&gt;在你的桌面上有一個常註的面版，可以隨易移動位置，可以任意放不同的資料夾作預設。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/jphXpdj.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我的習慣是把正在處理中的資料夾放入插槽中，當找到相關的資料，可以直接拖拉放至這裡，然後就會被放到指定的資料夾中。&lt;/p&gt;
+&lt;p&gt;使用情境比如正在寫論文，可以在網路上找到的資料，一股腦兒全放到論文資料夾中，未來就可以統一做整理。但有些人覺得這東西一直常註在桌面上很礙眼，所以如何應用，端看個人的使用習慣決定。&lt;/p&gt;
+&lt;h2 id=&#34;bookmarklets&#34;&gt;Bookmarklets&lt;/h2&gt;
+&lt;p&gt;在&lt;a href=&#34;http://www.devon-technologies.com/download/extras.html&#34;&gt;這裡&lt;/a&gt;可以找到DEVONthink的相關外掛，你可以將Bookmarklets直接拉到書籤之中，當未來找到想要存的網站資料，可以利用這方式直接將網頁存成想要的格式。現在有以下幾種格式可以選擇:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Clip to DEVONthink&lt;/li&gt;
+&lt;li&gt;Archive&lt;/li&gt;
+&lt;li&gt;Bookmark&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;PDF&lt;/li&gt;
+&lt;li&gt;PDF(paginated)&lt;/li&gt;
+&lt;li&gt;Selection&lt;/li&gt;
+&lt;li&gt;Text&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;把這幾項集合成一個Bookmarklet資料夾，點選執行，也是很簡單的一種做法。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/3422B9V.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;從email內新增&#34;&gt;從Email內新增&lt;/h2&gt;
+&lt;p&gt;DEVONthink Pro版以上，可以直接與Apple Mail做整合。好處是:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;將專案文件一起存放。&lt;/li&gt;
+&lt;li&gt;利用DEVONthink來整理專案檔案，也可以使用See Also、Tag、Replicant的方式管理email的訊息。&lt;/li&gt;
+&lt;li&gt;最大的好處是，DEVONthink真的運算很快且有彈性，在搜尋上可以很快的找到自己要的檔案。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/cR4bfhT.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink支援Apple Mail、Microsoft Outlook、Unix Mailbox等三種信箱。不過我已經轉到Airmail使用已經太久了，所以這部份我幾乎都不是用此方式操作。至於如何用Airmail來匯入，因這不是內建的主要服務，未來再找時間說明。&lt;/p&gt;
+&lt;h2 id=&#34;利用pdf選單&#34;&gt;利用PDF選單&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/12RnTG6.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在預設的列印功能中，左下角會有PDF字樣，可以利用已經自動幫你設好的PDF Scripts將文件直接輸出成PDF檔，並放入DEVONthink之中。&lt;/p&gt;
+&lt;p&gt;圖中因為我有灌個人版與Pro版兩種(試用)，所以會出現兩個Scripts。若只有裝過一種DEVONthink，就不會與我相同的呈現畫面。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;可以應用在Safari列印網頁時，選擇網印網站，將網站存成PDF檔，並置入DEVONthink之中。好處是保留了網站原本的排版模式，所以若有這方面的需求，可以選擇此方法輸入。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;利用內建瀏覽器&#34;&gt;利用內建瀏覽器&lt;/h2&gt;
+&lt;p&gt;DEVONthink已內建與Safari相同的WebKit引擎，所以用內建的瀏覽器，理論上所看到的與Safari是完全相同。一樣可以用來截取網頁，可以選擇適合的格式存放，如Plain text、Rich text、Formated Note、或是直接存成HTML檔。&lt;/p&gt;
+&lt;p&gt;因為操作方式太直覺了，我就懶得介紹啦。&lt;/p&gt;
+&lt;h2 id=&#34;利用rss-feeds&#34;&gt;利用RSS Feeds&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/CNB6Ijv.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink內建RSS訂閱器，透過&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;-&amp;gt;&lt;code&gt;Feed&lt;/code&gt;可以開啟對話視窗。你只要將Feed放入，往後就會開始訂閱。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Z74rPdJ.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;相關Feed的設定，可以在&lt;code&gt;Preference&lt;/code&gt;找以找到設定參數。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Check for update: 檢索的時間差，可以隨自己喜愛設定時間。&lt;/li&gt;
+&lt;li&gt;Skip duplicates: 因為很多Feed可能都是轉貼相同的來源，DEVONthink很聰明的，可以命令他判斷相同的文件。如此在讀到相同的文章時，會自動捨棄掉。&lt;/li&gt;
+&lt;li&gt;Convert categories to tags: 這不用說明了，就Tags會自動包含group的性質。&lt;/li&gt;
+&lt;li&gt;Remove articles: 這假如不選，資料就會一直被截取出來且存在資料庫中，除非自己刪除，不然不會消失。可以隨自己喜愛的方式去設定。&lt;/li&gt;
+&lt;li&gt;Also unread articles: 自動刪除時，會不會也刪除掉未讀的文章，預設是關閉。&lt;/li&gt;
+&lt;li&gt;Feed Style Sheet: 選擇不同的CSS去格式化你的Feed，一般選Default.css即可，除非有特別需求，不然不用動這一項。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我會習慣有興趣的Feed文章，直接拖拉放至Inbox中，這可以很方便做歸檔的動作。剩下文章就不去理他，於指定的時間就會自動被丟到垃圾筒中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;結語&#34;&gt;結語&lt;/h2&gt;
+&lt;p&gt;零零總總寫了這麼多的方式做檔案/文件的輸入，最大的心得就是，DEVONthink根本就是個垃圾筒，不論何種方式都有辦法把檔案置入。有時甚至比內建的垃圾筒還要不挑檔案。&lt;/p&gt;
+&lt;p&gt;我把DEVONthink定義為我的Data Warehouse，把所有的文件都放置於此，利用程式快速的搜尋功能，快速的建立我的個人知識資料庫。&lt;/p&gt;
+&lt;p&gt;接下來將說明的是如何管理這個資料庫。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(三)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <description>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;
+&lt;h2 id=&#34;建立一個新資料庫&#34;&gt;建立一個新資料庫&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;New Database&lt;/code&gt; ，點擊之後會出現一個對話視窗。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5vNHQwb.png&#34;&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;可以自行選擇存放的位置，但系統建議不要放在雲端同步的資料夾中，因為可能會有同步一半斷線造成資料損毀的風險。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Create Spotlight Index&lt;/code&gt;是讓Spotlight可以找到資料庫的內容，很實用，建議開啟。假如這資料庫中，包含了機敏性的資料，不希望被搜尋到，也可以取消他，看您個人的需求而定。&lt;/li&gt;
+&lt;li&gt;點&lt;code&gt;Create&lt;/code&gt;，就建立完成了一個新的空白資料庫。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;資料庫屬性&#34;&gt;資料庫屬性&lt;/h2&gt;
+&lt;p&gt;點選&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Properties&lt;/code&gt;-&amp;gt;&lt;code&gt;Database Name&lt;/code&gt;就可以得到資料庫的屬性資料，如下圖所示。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Ajjf1Uz.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面可以看到資料庫內各種資料，比如有幾個Groups、HTML頁面有多少&amp;hellip;等。這些資料都很直觀，就不詳述。針對裡面可以做修改的部份做個說明。&lt;/p&gt;
+&lt;h3 id=&#34;exclude-groups-from-tagging&#34;&gt;Exclude Groups from Tagging&lt;/h3&gt;
+&lt;p&gt;一般而言，資料庫內的檔案，會依照Groups的方式來存放，但也可以用Tags的方式來存放。優點是可以將相近似的文件都放在一起，完全依照你的個人習慣來決定存放方式。原廠文件中沒有說明會不會影響效能，但一般而言效能差異應該不大。&lt;/p&gt;
+&lt;h3 id=&#34;share-database&#34;&gt;Share Database&lt;/h3&gt;
+&lt;p&gt;DEVONthink Pro Office版之後，可以建立Web Server，從遠端來存取資料。這選項是決定這資料庫是否可以在伺服器內被分享，若是機敏性資料，就建議不夕勾選。&lt;/p&gt;
+&lt;h3 id=&#34;create-spotlight-index&#34;&gt;Create Spotlight Index&lt;/h3&gt;
+&lt;p&gt;如上面對Spotlight的敘述，若你在創建之後想要把它關掉，可以在這選擇。預設是開啟的。&lt;/p&gt;
+&lt;p&gt;Spotlight要Indexing資料庫，通常是有排程的，當資料輸入之後不會馬上被執行。可以按&lt;code&gt;Rebuild&lt;/code&gt;來強制執行Spotlight Indexing的工作。&lt;/p&gt;
+&lt;h3 id=&#34;read-only&#34;&gt;Read Only&lt;/h3&gt;
+&lt;p&gt;若是資料庫內的東西已經封存，未來也不希望被變動，不論是輸入、刪除、或變更，可以勾這選項來處理。&lt;/p&gt;
+&lt;h3 id=&#34;name&#34;&gt;Name&lt;/h3&gt;
+&lt;p&gt;在側邊欄的資料庫名稱，與檔案名稱可以不相同。若希望變動檔案名稱，可以從上面的資料庫路徑，找到檔案存放位置，在關閉後修改。重啟DEVONthink之後會&lt;strong&gt;自動&lt;/strong&gt;捉到資料庫，可以不用再重新Open。&lt;/p&gt;
+&lt;h3 id=&#34;comments&#34;&gt;Comments&lt;/h3&gt;
+&lt;p&gt;對資料庫的內容簡述。&lt;/p&gt;
+&lt;h3 id=&#34;protection&#34;&gt;Protection&lt;/h3&gt;
+&lt;p&gt;若希望做到資料庫加密，可以輸入User/Password來處理。如此在開啟DEVONthink時，會出現對話視窗要求你輸入帳號/密碼。如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/WtUBPE7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;DEVONthink在資料加密上其實只有做到開啟加密而已，用Finder一樣可以開啟資料內容。若要做到真正的加密功能，建議可以參考建立加密磁碟的方式進行。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;開啟Mac的Disk Utility。&lt;/li&gt;
+&lt;li&gt;新增一個空白的磁區。&lt;/li&gt;
+&lt;li&gt;在新增磁區時選擇磁碟加密。&lt;/li&gt;
+&lt;li&gt;建立完成後把該資料庫檔案Copy到新的磁區。&lt;/li&gt;
+&lt;li&gt;再用DEVONthink開啟該資料庫。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;透過以上的方式，才可以確保資料庫的安全性。&lt;/p&gt;
+&lt;h2 id=&#34;限制&#34;&gt;限制&lt;/h2&gt;
+&lt;p&gt;以DEVONthink在資料庫上的限制來說，基本上就是沒有限制。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;你可以無限建立資料庫。&lt;/li&gt;
+&lt;li&gt;資料庫內容可以無限新增(Evernote有單檔大小限制)。&lt;/li&gt;
+&lt;li&gt;資料庫檔案可以無限大。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;上述三點只取決在你的硬碟有多大而已，一般而言，是不需要這麼多的資料庫啦。但是假如你想為專案建立專屬的資料存放位置，這提供了你無限的可能。&lt;/p&gt;
+&lt;p&gt;But&amp;hellip;人生總是有這麼一個But&amp;hellip;&lt;/p&gt;
+&lt;p&gt;搜尋功能&lt;strong&gt;只能&lt;/strong&gt;搜到該資料庫(正在瀏覽)的資料，並不會對所有已經開啟的資料庫做搜尋，所以這應該算是多資料庫的一種限制吧。&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(二)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
+      <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
+      <description>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
+&lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;主視窗&#34;&gt;主視窗&lt;/h2&gt;
+&lt;p&gt;一開啟程式，就可以看到這主要的視窗介面。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/nqAsQcs.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面分成三個部份，上方的Toolbar、左邊的Sidebar、中央一大區塊為Views。&lt;/p&gt;
+&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Vt1iIZ7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這裡可以讓你找到快速按鈕，讓您切換畫面或是快速的建立文件與分類。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/KKd8XBP.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;要更改可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Customize Toolbar&lt;/code&gt;利用對話窗來拖拉放你要的東西，操作很像之前iWorks的方式，相當直覺。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
+&lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;主視窗&#34;&gt;主視窗&lt;/h2&gt;
+&lt;p&gt;一開啟程式，就可以看到這主要的視窗介面。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/nqAsQcs.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這畫面分成三個部份，上方的Toolbar、左邊的Sidebar、中央一大區塊為Views。&lt;/p&gt;
+&lt;h2 id=&#34;toolbar&#34;&gt;Toolbar&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Vt1iIZ7.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這裡可以讓你找到快速按鈕，讓您切換畫面或是快速的建立文件與分類。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/KKd8XBP.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;要更改可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Customize Toolbar&lt;/code&gt;利用對話窗來拖拉放你要的東西，操作很像之前iWorks的方式，相當直覺。&lt;/p&gt;
+&lt;h2 id=&#34;sidebar&#34;&gt;Sidebar&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/ozOozsv.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這區塊是分類的快速點選區，有分成Globals、Open Database、Recent Database、Favorites與Smart Groups，前三項是Database的分類，後兩項是Groups。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意: 多個Database只在DEVONthink Professional版以上才有，若是使用DEVONthink Personal版只會有一個資料庫而已。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;假如覺得這區塊很礙眼，可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Hide Sidebar&lt;/code&gt;把它關閉。&lt;/p&gt;
+&lt;h2 id=&#34;views&#34;&gt;Views&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/vt0P6vz.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 Toolbar中有個可以切換View的選項按鈕，在DEVONthink中有六種瀏覽方式。前三項(Icon View、List View、Column View)很像Finder的方式。後三項(Split View、Three Pane View、Tag View)的方式，可以用另一種思維去看檔案，以獲得更多的資訊。&lt;/p&gt;
+&lt;h3 id=&#34;icon-view-1&#34;&gt;Icon View (⌘1)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/it9Zet9.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;是不是很像Finder一樣啊?右上方還有拉Bar可以控制圖的大小，當檔案真的很多的時候，大小控制適當就很重要了。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;檔案的排序可以從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Sort&lt;/code&gt;的底下去找，一般而言都是用名字排序，若有其他需求都可以從那去控制。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;list-view-2&#34;&gt;List View (⌘2)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/8voZJ8F.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;預設會顯示Name、Modified、Kind、Size與URL，若要更改，可以在上面按右鍵來選取，當然大小也可以用拉的來調整。&lt;/p&gt;
+&lt;h3 id=&#34;column-view-3&#34;&gt;Column View (⌘3)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/C4MlCt9.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這模式可以一直往下挖資料夾。上圖是只顯示三層而已，若資料很深，可以一直往下挖，個人最深是放到七層，試過沒有問題。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官方的資料顯示，可以無限制的往下挖。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下半部是你現在所處位置的Icon View，最下面一排還有&lt;strong&gt;Tag&lt;/strong&gt;顯示(可以用&lt;code&gt;⌃⌥⌘T&lt;/code&gt;來開啟或關閉)。&lt;/p&gt;
+&lt;p&gt;這部份的排列一樣是從&lt;code&gt;View&lt;/code&gt;-&amp;gt;&lt;code&gt;Sort&lt;/code&gt;的方式去設定。&lt;/p&gt;
+&lt;h3 id=&#34;split-view-4&#34;&gt;Split View (⌘4)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/1jBWKA5.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;分割視窗包含垂直的的Group列表與文件，在&lt;code&gt;Widescreen&lt;/code&gt;模式下，右方還預設顯示文章內容。&lt;/p&gt;
+&lt;h3 id=&#34;three-pane-view-5&#34;&gt;Three Pane View (⌘5)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/sq4MfnD.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這有點像是Split View，將文件用List的方式呈現，並且在下方顯示文件內容。若是在&lt;code&gt;Widescreen&lt;/code&gt;模式下，文件內容會顯示在右方。&lt;/p&gt;
+&lt;h3 id=&#34;tag-view-6&#34;&gt;Tag View (⌘6)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lAikCSQ.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;最後是Tag View，完全是以Tag的角度出發思考的設計介面，右方顯示資料庫內(&lt;strong&gt;現在所屬的資料庫&lt;/strong&gt;)所有的Tag，點選後在左方顯示內容。完全打破Group的概念，只把相關的Tag拉出。&lt;/p&gt;
+&lt;p&gt;所以前五項是以Group的角度去思考，最後一項是用Tag的角度去思考。至於何時要何種介面，這是有個人習慣的考量。現在內容尚屬於介紹的層級，我就先不去給各位先入為主的觀念，自己先去摸索是很重要的。&lt;/p&gt;
+&lt;h3 id=&#34;navigation-bar&#34;&gt;Navigation Bar&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/h1JpEec.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在每一個編輯視窗，都會出現如上圖的導覽Bar，從左至右分別為上一頁、下一頁、網址、文章資訊、Reload、鎖定、前一個Highlight、後一個Highlight、文字分析(word)、See also與Classify、關鍵字、Tag Bar。&lt;/p&gt;
+&lt;p&gt;這部份之後會列專文說明各個的用途，先了解有這些東西就好。&lt;/p&gt;
+&lt;h1 id=&#34;顯示選項&#34;&gt;顯示選項&lt;/h1&gt;
+&lt;p&gt;除了六個主視窗View的方式外，DEVONthink還有幾個不同的不同的顯示選項可以使用。以下介紹都加上快速鍵，可以自行開啟與關閉。&lt;/p&gt;
+&lt;h2 id=&#34;cover-flow-o&#34;&gt;Cover Flow (⌥⌘O)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/aOuOgSn.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;利用Mac本身的Cover Flow功能來顯示文件，多是用在顯示圖片的功能上，假如是顯示一般文件，也只有文件的縮圖，就如同Mac本身的功能相同。&lt;/p&gt;
+&lt;p&gt;這種顯示方式只能用在&lt;strong&gt;Column、Split、Three Pane、Tag&lt;/strong&gt;等模式上。&lt;/p&gt;
+&lt;h2 id=&#34;tags-t&#34;&gt;Tags (⌃⌥⌘T)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/2cqq5GR.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在文件的下方，會有Tags的顯示區域，可以直接點選更改成類似的Tag，或是在後面新增Tag的分類。&lt;/p&gt;
+&lt;p&gt;DEVONthink會自動將Group加到Tags之中。假如是屬於Group的Tag，呈現&lt;strong&gt;灰色&lt;/strong&gt;，若是不屬於Group的則呈現&lt;strong&gt;藍色&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;details-l&#34;&gt;Details (⌥⌘L)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/PPHPSKs.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;只能用在Icon View模式，顯示更多的內容與資訊，這樣使得Icon View獲得如同List View的功能一樣。&lt;/p&gt;
+&lt;h2 id=&#34;widescreen-w&#34;&gt;Widescreen (⌥⌘W)&lt;/h2&gt;
+&lt;p&gt;只能用在Split View與Three Pane View上，讓內容顯示在右側而非下方。預設是關閉的。因我的電腦畫面不夠寬，所以開啟不了這功能。就不再作截圖示範了。&lt;/p&gt;
+&lt;h2 id=&#34;full-screen&#34;&gt;Full Screen&lt;/h2&gt;
+&lt;p&gt;全螢幕有兩種模式，一個是針對視窗的全螢幕(⌃⌘F)，另一種是針對文件的全螢幕(⌘F7)。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/wykSyhI.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;就如同Mac 10.11之後的全螢幕模式一般，把整個視窗填滿。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/rYjIfXy.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;只有文件顯示的部份填滿視窗，還蠻方便的，可以使所有的干擾都消除，達到Focus的效果。&lt;/p&gt;
+&lt;h1 id=&#34;面版-panels&#34;&gt;面版 Panels&lt;/h1&gt;
+&lt;p&gt;部份的視窗功能，在DEVONthink之中被稱作&lt;code&gt;Panels&lt;/code&gt;，與一般的視窗功能上有一點點不太相同，通常可以提供一些特殊的功能，或者是額外的資訊。這些面版是相對於主視窗獨立而生的，不會依附著。以下就是一些特殊的面版介紹。&lt;/p&gt;
+&lt;h2 id=&#34;information-i&#34;&gt;Information (⌘⇧I)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Epj9cQb.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show info&lt;/code&gt;把它叫出來，有著文件的基本資訊。這些資訊也都可以修改的，未來會再詳述這些部份。&lt;/p&gt;
+&lt;h2 id=&#34;properties-p&#34;&gt;Properties (⌘⌥⇧P)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/oJH3sOI.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Properties&lt;/code&gt;把它叫出來，這與一般的視窗也點不同，他是黑色且透明的。這裡可以輸入一些文件的meta data。&lt;/p&gt;
+&lt;h2 id=&#34;groups--tagsg&#34;&gt;Groups &amp;amp; Tags(⌘⌃G)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/4CK1ZTO.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Tools&lt;/code&gt;-&amp;gt;&lt;code&gt;Show Group &amp;amp; Tags&lt;/code&gt;把它叫出來，這裡擁有資料庫內所有的Group。有時候文件很多時，要做分類我習慣把這面版叫出來，直接用拖拉放的方式將文件移動位置。直接點選兩下，也可以顯示該Group視窗。&lt;/p&gt;
+&lt;h2 id=&#34;download-managerl&#34;&gt;Download Manager(⌘⌃L)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/tKEHTjv.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Window&lt;/code&gt;-&amp;gt;&lt;code&gt;Download Manager&lt;/code&gt;把它叫出來，當有下載時候，可以看出來這些動作。通常是利用DEVONthink內建的瀏覽器讀取網頁時，才會有下載的動作。這與Safari或是Firefox的運作原理相同。&lt;/p&gt;
+&lt;h2 id=&#34;log&#34;&gt;Log&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/QyhBMbi.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Window&lt;/code&gt;-&amp;gt;&lt;code&gt;Log&lt;/code&gt;把它叫出來，當有發生需要你注意的項目時，這畫面會自行跳出來警告你。之前我曾把DEVONthink的data base檔案放在Google Drive同步的資料夾下，就一天到晚警告我這樣是不好的，一定要移離開該位置。&lt;/p&gt;
+&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/XekYFNS.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這面版可以看到資料庫的運作過程，如上圖，這是近期運作的紀錄，資料庫寫入了很多的RSS資料。每次你新增或刪除資料的紀錄都會存放在這裡。&lt;/p&gt;
+&lt;h2 id=&#34;抽屜-drawers&#34;&gt;抽屜 Drawers&lt;/h2&gt;
+&lt;p&gt;有一些視窗，它是依附著主視窗而生，這些在DEVONthink被稱作&lt;code&gt;Drawers&lt;/code&gt;，下方就簡單說明一下。&lt;/p&gt;
+&lt;h2 id=&#34;see-also--classifys&#34;&gt;See Also &amp;amp; Classify(⌘⌃S)&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/dm4XcDh.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;可以從&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;See Also &amp;amp; Classify&lt;/code&gt;把它叫出來，這是DEVONthink主要的功能之一，在See Also中，DEVONthink透過特殊的演算方式，找出相關的文章，這幾乎可以當作個人版的Wiki來使用了。&lt;/p&gt;
+&lt;p&gt;而上方的是建議的Group，也是透過演算法建議有哪些Group適合這篇文章來放。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官方網站說明這功能有人工智慧(AI)的能力，我還在慢慢訓練我的DEVONthink，看是否會越來越準確。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;concordance&#34;&gt;Concordance&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/PmLehYA.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這個Drawer是計算著這文章中，相同的字句出現的次數，與字句的長度寬度。個人認為這部份以英文運作是很好的，但中文部份斷句還是不夠精確(&lt;del&gt;根本不及格&lt;/del&gt;)。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這功能要在DEVONthink Professional版以上才有。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;document-windows&#34;&gt;Document Windows&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/yKacSa2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;大部份在DEVONthink的文章，點選兩下就可以出現這一個視窗，可以用來編輯與修改文章的內容。假如只是要快速的查看內容的話，建議可以按一下&lt;code&gt;空白鍵&lt;/code&gt;來&lt;code&gt;Quick Look&lt;/code&gt;就可以了。&lt;/p&gt;
+&lt;p&gt;假如是新增文章的話，是透過&lt;code&gt;Data&lt;/code&gt;-&amp;gt;&lt;code&gt;New&lt;/code&gt;的方式，選擇要新增的文章格式。在DEVONthink中支援多種文件格式，最重要的是可以支援&lt;code&gt;Markdown&lt;/code&gt;，這點對我來說非常重要。這部份內容未來也會再詳述。&lt;/p&gt;
+&lt;h2 id=&#34;結語&#34;&gt;結語&lt;/h2&gt;
+&lt;p&gt;有沒有覺得這軟體功能真的很強大，居然零零總總的細項功能這麼得多，很多小細節都有顧到。這也是我推薦的原因。&lt;/p&gt;
+&lt;p&gt;說明到現在，其實都還沒有將資料放到Database之中，所以內容還不算真正的開始呢(什麼?)。&lt;/p&gt;
+&lt;p&gt;真的，DEVONthink真的很強大，強大到不知從何處起筆。從操作介面算是一個開始，而不是結束。慢慢得我會再新增一些近日使用上的心得，希望對已經在使用或是正在評估中的使用者有幫助。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>DEVONthink(一)</title>
+      <link>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
+      <pubDate>Tue, 18 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
+      <description>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ithelp.ithome.com.tw/articles/10117041&#34;&gt;Evernote 被駭啦!! 有用Evernote 的粉絲請儘快更換密碼喔!!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些相關的新聞讓我一直對大象很沒有信心，雖然他們最近已經搬到GCP，同步速度已經快上很多，甚至以台灣而言，它是最快的雲端筆記平台(&lt;del&gt;最快洩漏機密的平台&lt;/del&gt;)。但是在資料安全性上的疑慮，讓我不得不放棄這好用的平台當作我的資料最後集散地，現在也只當作捉文章的工具而已(文後說明)。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ithelp.ithome.com.tw/articles/10117041&#34;&gt;Evernote 被駭啦!! 有用Evernote 的粉絲請儘快更換密碼喔!!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些相關的新聞讓我一直對大象很沒有信心，雖然他們最近已經搬到GCP，同步速度已經快上很多，甚至以台灣而言，它是最快的雲端筆記平台(&lt;del&gt;最快洩漏機密的平台&lt;/del&gt;)。但是在資料安全性上的疑慮，讓我不得不放棄這好用的平台當作我的資料最後集散地，現在也只當作捉文章的工具而已(文後說明)。&lt;/p&gt;
+&lt;p&gt;用Google搜尋&lt;code&gt;Evernote 替代方案&lt;/code&gt;、&lt;code&gt;Evernote 取代&lt;/code&gt;這些字眼，就可以看到想要逃離的人真的很多，最多是轉到OneNote去，但是OneNote的同步速度，真的讓人懷疑這是微軟的服務嗎?以服務為導向，號稱擁抱雲端的公司，速度慢到令人髮指，根本就是覺得反正你也沒有地方逃的老大心態。曾經我已經放棄了離開Evernote的想法，但是每過一段時間，就會開始找替代方案。為了終止這無趣的行為，決定全部都轉到自己電腦上來管，但這又產生了檔案管理的問題，一直找不到很好的方式來處理。就在萬念俱灰的情況下，讓我找到了DEVONthink…&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;devonthink是什麼&#34;&gt;DEVONthink是什麼?&lt;/h2&gt;
+&lt;p&gt;這問題其實不太好回答，因為不論用Evernote或是OneNote來比擬都不太對，也不是一個很好的形容方式，我用一些簡單的說明，看會不會好一點幫助了解。&lt;/p&gt;
+&lt;h3 id=&#34;1-是一個檔案與媒體的管理與瀏覽工具&#34;&gt;1. 是一個檔案與媒體的管理與瀏覽工具&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/OihLWqd.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;就像Finder一個，DEVONthink可以用資料夾的方式垂直管理電腦中的各種檔案，且這些檔案都可以透過內建的程式直接開啟。有點類似像iTunes或iPhoto一樣的管理方式，但是功能更加強大，算是一種整合型的工具。&lt;/p&gt;
+&lt;p&gt;你可以直接開啟存在裡面的資料，不論是文件(如:Word、Excel、PowerPoing、Pages、Number、Keynote、txt&amp;hellip;)、音樂(aac、mp3&amp;hellip;)、影片(如mp4&amp;hellip;)，幾乎只要在Finder中能打開的檔案，但DEVONthink都可以打開。而且整合Finder的Quick Look功能，按個&lt;code&gt;空白鍵&lt;/code&gt;就可以直接預覽。&lt;/p&gt;
+&lt;h3 id=&#34;2-思考片斷的儲存地&#34;&gt;2. 思考片斷的儲存地&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/K8oiAVX.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在網路的世界中，我們常常看到有用的資料，但現在又沒有時間讀，這已經有很多的應用，比如&lt;a href=&#34;http://instapaper.com&#34;&gt;Instapaper&lt;/a&gt;、&lt;a href=&#34;http://getpocket.com&#34;&gt;Pocket&lt;/a&gt;。但這些Read it later的應用有一個很大的問題，就是無法將文件存回本地端。而DEVONthink在這部份就很強，它可以應用Instapaper的截取技術，只取文字的部份存到裡面，另外再作語意分析，可以快速的將回傳的文章分類好(Auto Classify功能)。除些之外，內建的文字編輯器，可以支援純文字(Plain Text)、Rich Text、Sheet或是Markdown，尤其是Markdown的支援，這是Evernote所沒有的功能。&lt;/p&gt;
+&lt;p&gt;如此而言，DEVONthink已經可以將各種文字型的檔案，都存在資料庫中，這是相當好用的。&lt;/p&gt;
+&lt;h3 id=&#34;3-文件的儲存地&#34;&gt;3. 文件的儲存地&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/5msN5nR.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;文件最重要的就是管理，人們往往會花很多的時間在管理與分類上。DEVONthink了解這是一件很浪費時間的事，所以利用自行開發的演算法，可以一鍵自動分類或是分到不用資料夾中。未來要找這些資料，也可以利用搜尋的方式處理。好的，這有什麼了不起?大象也是做得到。&lt;/p&gt;
+&lt;p&gt;DEVONthink更強大的是建立個人的Wiki資料庫。在文件開啟後，有see also功能，會利用文件中相關的字辭與整個文件資料庫做比對，列出相近似的文章。另外文件也都做到內文的檢索，是故不是比對文件標題而已哦，是連上述支援的檔案內文，或是文字化的PDF內文都會被比對出來。&lt;/p&gt;
+&lt;p&gt;再者，資料夾可無限擴充層級，也是我最欣賞的一點。Evernote只能做到兩層的管理，常常讓我在分類上很苦惱，分類學應該是「當一個資料夾內超過十份文件，就代表可以繼續分類下去」，而Evernote只會讓我把相似但又不相同的東西放在一起。例如我有個登山的入山證申請資料，在我的資料庫就是被歸到&lt;code&gt;Archive&lt;/code&gt;-&amp;gt;&lt;code&gt;Mountain&lt;/code&gt;-&amp;gt;&lt;code&gt;南湖群峰&lt;/code&gt;-&amp;gt;&lt;code&gt;南湖大山申請資料&lt;/code&gt;，在Evernote之中在&lt;code&gt;Mountain&lt;/code&gt;階層就結束了。當然我可以利用Tag的方式將文件再做橫向維度的分類，但既然我可以用資料夾就分好了，為何我還要去遷就於軟體的限制呢?&lt;/p&gt;
+&lt;h3 id=&#34;4-資料庫&#34;&gt;4. 資料庫&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Pe0oIrQ.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;假如以結構化的資料庫關念來管理檔案，那就是役於物的限制。在DEVONthink之中，提供了很方便管理文件方法，加入了Duplicate與Replicant的觀念，這也是市面上其他檔案軟體所沒有的功能。另外這算是一個本機端的軟體，以檔案管理的原則，提供了Importing與Indexing兩種方式將資料存入，交互靈活運用，可以有千變萬化的方式作資料管理。這兩個是相似但不相同的概念。有一些觀念是必需要先了解的。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Importing&lt;/code&gt;是將檔案複製一份到資料庫中，&lt;code&gt;Indexing&lt;/code&gt;只會做索引，並不會移動檔案。&lt;/li&gt;
+&lt;li&gt;部份人以為DEVONthink是將檔案都放成一個資料庫檔案，所以當資料庫檔案損壞時，所有的資料將全部消失。這可以說是對，也算不對。其實DEVONthink只是將檔案包裏起來而已，也沒有做壓縮的動作，所以就算檔案開不起來，其實都還是可以救回原始的資料。假如真的很擔心的話，建議可以盡量用&lt;code&gt;indexing&lt;/code&gt;的方式將文件放入資料庫中，這樣文件就根本沒有移動過。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Duplicate&lt;/code&gt;與&lt;code&gt;Replicant&lt;/code&gt;都可以將文件做複製的動作，但Duplicate複製完就是兩個完全獨立的文件，修改任一個檔案，都不會影響到另一個。而Replicant卻是修改完後，另一個也跟著變動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;現在我習慣直接將資料存入DEVONthink之中，並且直接編輯，編輯完也是直接按儲存而已。反正資料庫已經連結雲端作備份了，怎麼運作，就不是我要去擔心的事。&lt;/p&gt;
+&lt;p&gt;這部份還有很多可以介紹的，留作未來的主題吧。&lt;/p&gt;
+&lt;h3 id=&#34;5-瀏覽器與rss訂閱器&#34;&gt;5. 瀏覽器與RSS訂閱器&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/f1dnXgL.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;雖然在_Take Control of Getting Started with DEVONthink 2_這本書中有提到，盡量不是將DEVONthink作為RSS的閱讀或訂閱器使用，但是現在我的應用是將我在&lt;a href=&#34;http://feedly.com&#34;&gt;Feedly&lt;/a&gt;中的所有RSS連結直接給DEVONthink使用，好處是當看到有意義的文章，或未來可能會用到的資訊，我就將文放到指定的資料夾中，作為個人資料庫，不用再經過轉檔或截取的動作，一個拖拉放就搞定了。&lt;/p&gt;
+&lt;p&gt;有一些RSS只提供摘要，若點入要開啟瀏覽器也算很麻煩的事，所以這部份DEVONthink可以用內建的Browser搞定，不用再另外開啟程式與畫面，也當然沒有其他分頁之類的惱人問題，算是相當方便。&lt;/p&gt;
+&lt;h1 id=&#34;devonthink缺點&#34;&gt;DEVONthink缺點&lt;/h1&gt;
+&lt;p&gt;秉持著雞蛋裡要挑出骨頭的個性，在這軟體中，其是存在著一些缺點，讓我不得不注意到。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;畫面很老派，感覺像是在用早期的ERP軟體一樣的界面。不用我這外貌協會成員來看，都會覺得畫面一點都不吸引人，雖然沒有炫麗的畫面與操作模式，但功能都很實用。期望下一版可以再更好看一點。&lt;/li&gt;
+&lt;li&gt;中文斷字能力不足，這影響到Classify與Search的能力。中文的文章，&lt;code&gt;Auto Classify&lt;/code&gt;幾乎變成個廢物，連同&lt;code&gt;See also&lt;/code&gt;功能都有點影響。所以在中文使用環境中，DEVONthink的功力算是只剩六成而已。這點可能會讓很多人對此產品沒有信心，這部份現在無解，只待未來改版時再期待改進。&lt;/li&gt;
+&lt;li&gt;利用Instapaper截取網站時，常常都會找一堆無用的資訊都拉進來，把畫面變得很不易閱讀。這問題的解法，我是利用Evernote做為網站截取的主要工具，待上傳到Inbox資料夾之後，再同步到DEVONthink之中。看似繞了一個圈，但最少解決了問題。&lt;/li&gt;
+&lt;/ol&gt;</content:encoded>
+    </item>
+    <item>
+      <title>幸福其實就在轉念之間~</title>
+      <link>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
+      <pubDate>Thu, 06 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lGfQGcX.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;很久以前看過的四格漫畫，在不同的時間看會有不同的領悟。&lt;/p&gt;
+&lt;p&gt;我稍微為英文不好的人做個翻譯&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;左&lt;/th&gt;
+          &lt;th&gt;右&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;上&lt;/td&gt;
+          &lt;td&gt;凡人:「我要幸福!」&lt;/td&gt;
+          &lt;td&gt;佛把「我要幸福」取下。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下&lt;/td&gt;
+          &lt;td&gt;佛:「首先把&amp;quot;我&amp;quot;去掉，那是自我。再把&amp;quot;要&amp;quot;去掉，那是慾望。」&lt;/td&gt;
+          &lt;td&gt;佛:「現在你只剩下&amp;quot;幸福&amp;quot;了」&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</description>
+      <content:encoded>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lGfQGcX.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;很久以前看過的四格漫畫，在不同的時間看會有不同的領悟。&lt;/p&gt;
+&lt;p&gt;我稍微為英文不好的人做個翻譯&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;左&lt;/th&gt;
+          &lt;th&gt;右&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;上&lt;/td&gt;
+          &lt;td&gt;凡人:「我要幸福!」&lt;/td&gt;
+          &lt;td&gt;佛把「我要幸福」取下。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;下&lt;/td&gt;
+          &lt;td&gt;佛:「首先把&amp;quot;我&amp;quot;去掉，那是自我。再把&amp;quot;要&amp;quot;去掉，那是慾望。」&lt;/td&gt;
+          &lt;td&gt;佛:「現在你只剩下&amp;quot;幸福&amp;quot;了」&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;我想要就代表我沒有&#34;&gt;「我想要」就代表「我沒有」&lt;/h2&gt;
+&lt;p&gt;以前我老師曾說過他經歷的一個故事。大陸剛改革開放的時候，台灣人開始可以去大陸遊玩，老師也是當時一同去&lt;del&gt;反攻大陸&lt;/del&gt;玩的一員。他經過一家藝品商店，看著店上掛著員工守則，最令他印像深刻的是第五條的條文:「不可以打客戶」。嚇!這代表這間店的店員會打客戶的意思嗎?&lt;/p&gt;
+&lt;p&gt;人都會去追求自己所沒有的事物，會講出來或寫下來的，都是自己所沒有的。比如:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我要有錢&lt;/li&gt;
+&lt;li&gt;我要買BENZ&lt;/li&gt;
+&lt;li&gt;我要出國玩&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;會說「我要有錢」，就代表自己現在沒錢~~(廢話)~~。就是因為「沒有」，才會想要「有」。同理，會說「我要幸福」，就代表自己不幸福。雖然一個是物質上，一個是心靈上，但套用在言語或思想上，都是相同的文法。佛教導我們不要「自我」，拿掉「慾望」，才能夠有真正的「幸福」。這已經有禪的境界了，我無法再繼續解釋下去，只能靠領悟。越解釋只會越搞不懂而已。&lt;/p&gt;
+&lt;p&gt;很久以前就看過這四格漫畫，當時覺得這根本是個文字遊戲，但隨著年紀越大，社會歷練越來越多，就越能體會這意境。&lt;/p&gt;
+&lt;p&gt;好的，更深入一點探究，那幸福到底在哪裡??&lt;/p&gt;
+&lt;h2 id=&#34;其實幸福就在我們身邊&#34;&gt;其實幸福就在我們身邊&lt;/h2&gt;
+&lt;p&gt;我用一張基督教的圖來說明&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/aLm7OQ3.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我是拜佛的，但是智慧的表達，其實在每個宗教與經典都是一樣的，所以直接借用來表示這意境。&lt;/p&gt;
+&lt;p&gt;按慣例，作個簡單的翻譯:&lt;/p&gt;
+&lt;p&gt;「看來神離我很遠」&lt;/p&gt;
+&lt;p&gt;「神離我太遠了，我根本什麼都看不到」(其實神就在你身邊)&lt;/p&gt;
+&lt;p&gt;把神換成佛祖、換成阿拉、換成智慧、換成幸福&amp;hellip;.你可以換成任何東西，都是一樣的概念。我覺得圖可以再更進一步，因為其實神、佛祖&amp;hellip;是在我們的心裡面，但是「心裡」實在太難表達了，很難用漫畫方式表達，&lt;del&gt;二度空間是有他的極限的&lt;/del&gt;，畫在身邊其實也差不多，但層次上有些許不同。&lt;/p&gt;
+&lt;p&gt;我們常常會覺得幸福離我們很遠，其實幸福一直都在我們身邊，只是我們看不到而已。是真的看不到嗎?還是自己不願意去看，去觀察。一定要折騰自己用望遠鏡去找尋遠方，因為我們一直覺得那東西很遠。轉念之間，在自己的身邊細細的觀察，每個人都可以找到自己的幸福的。&lt;/p&gt;
+&lt;h2 id=&#34;每日造句&#34;&gt;每日造句&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;我要「      」，請把&lt;code&gt;我要&lt;/code&gt;刪除，就會發現你其實擁有「       」。 (空隔內可填入任何東西。)&lt;/li&gt;
+&lt;li&gt;「    」其實就在我身邊。 (空隔內可填入任何東西。)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以前有本書，叫作&lt;a href=&#34;http://www.books.com.tw/products/0010369914&#34;&gt;祕密&lt;/a&gt;，其實只是告訴了我們宇宙中的一股神奇力量，但是要如何把這股力量納為己用，書中著墨的並不多。所以就看了另一本書尋求&amp;quot;答案&amp;quot;(這本書現在找不到了)，我整本書看完，就覺得自己被作者忽悠了，因為&amp;quot;答案&amp;quot;其實在&amp;quot;祕密&amp;quot;之中(好奇怪的文法)。減少負面的思考其實並沒有用，多增加正面的思考方式，才是&amp;quot;祕密&amp;quot;的&amp;quot;答案&amp;quot;(好繞舌哦)。&lt;/p&gt;
+&lt;p&gt;上述兩個造句，就是幸福的答案，這就是佛所教導我們的智慧。&lt;/p&gt;</content:encoded>
+    </item>
+    <item>
+      <title>快速顯示Markdown的.md檔 for MAC</title>
+      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
+&lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
+&lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
+&lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
+&lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;軟體資訊&#34;&gt;軟體資訊&lt;/h2&gt;
+&lt;p&gt;軟體名稱：InkMark
+軟體版本：v1.0
+軟體語言：英文
+軟體費用：免費
+檔案大小：66kb
+系統支援：Mac OS 10.11以上
+官方網站：http://inkmarkapp.com/markdown-quick-look-plugin-mac-os-x/
+軟體下載：&lt;a href=&#34;https://inkmarkapp.com/downloads/QLMarkdown.mpkg.zip&#34;&gt;點我&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;安裝&#34;&gt;安裝&lt;/h2&gt;
+&lt;p&gt;沒啥好寫的，解壓縮後出現QLMarkdown.mpkg檔。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;點兩下進入安裝畫面。&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/HxoiVLb.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;點兩下進入安裝畫面。點選&lt;code&gt;繼續&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/W8RqENX.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;正常來說，用預設的位置就可以了。直接點選&lt;code&gt;安裝&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/hjC5NHa.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;輸入本機個人的&lt;code&gt;使用者名稱&lt;/code&gt;與&lt;code&gt;密碼&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/8J3rzMV.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;這樣就安裝完成啦，點選&lt;code&gt;關閉&lt;/code&gt;就安裝結束了。&lt;/p&gt;
+&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;
+&lt;p&gt;這點比安裝還要無聊，只要點想要快速瀏覽的檔案，按下&lt;code&gt;空白鍵&lt;/code&gt;。結束~~&lt;/p&gt;
+&lt;p&gt;真的結束了，我看不出還有什麼是需要報告的。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Incremental Ta-Lib</title>
+      <link>http://localhost:1313/posts/incremental-ta_lib/</link>
+      <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/incremental-ta_lib/</guid>
+      <description>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;
+&lt;h2 id=&#34;ta-lib-慢的原因&#34;&gt;Ta-Lib 慢的原因&lt;/h2&gt;
+&lt;p&gt;其實Ta-Lib一點也不慢，這是用C++寫出來的應用，速度相當的快，只是在程式撰寫原理上，缺少了逐步加入資料的概念，每一次的計算，都要把資料全部加載，然後一次吐給你資料。若是計算SMA之類的資料，這樣的原則是OK的。比如說，計算股市的五分線，Ta-Lib會將資料轉成numpy的型式，然後每五筆資料計算一資平均值。因為是用C++所寫的，所以速度比numpy計算還快。&lt;/p&gt;
+&lt;h3 id=&#34;example-numpy-vs-talib&#34;&gt;Example numpy vs talib&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; talib &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; ta 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tmp_data &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;random&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;randint(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;timeit np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;mean(tmp_data)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt;timeit talib&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;SMA(tmp_data)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;13.8 µs ± 7.73 µs per loop (mean ± std. dev. of 7 runs, 100000 loops each)&lt;br&gt;
+4.1 µs ± 1.9 µs per loop (mean ± std. dev. of 7 runs, 1000000 loops each)&lt;/p&gt;
+&lt;p&gt;這數值是基於Intel 4790K的CPU所計算出來，可以看到numpy比talib慢了大約三倍。這呼應了talib其實是很快的，但我為何又說talib慢呢?&lt;br&gt;
+因為AI訓練時，time series資料是序列進來的，以下再做個範例。&lt;/p&gt;
+&lt;h3 id=&#34;example-talibmama&#34;&gt;Example talib.MAMA&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;dataset/2020_DN_MTX_5s.csv&amp;#39;&lt;/span&gt;) &lt;span style=&#34;color:#75715e&#34;&gt;# data 來自5秒小台指&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;df[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date&amp;#39;&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;to_datetime(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            df[&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date&amp;#39;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;%Y-%m-&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;%d&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt; %H:%M:%S&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            infer_datetime_format&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;, errors&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ignore&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;df_np &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;array(df) &lt;span style=&#34;color:#75715e&#34;&gt;# 為了加速indexing，將資料轉為numpy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; talib
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; time &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;start &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; time()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mama &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fema &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [] 
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1000000&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    a, b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; talib&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MAMA(df_np[i:i&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;astype(float)) &lt;span style=&#34;color:#75715e&#34;&gt;# mama運算通常要到第兩百筆數值才會穩定&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    mama&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(a)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fema&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(time() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; start)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;26.702403783798218
+這範例是計算1000000筆五秒小台指走勢的MAMA值，花了26.7秒。
+在ES計算時，假如一個迭代就是一百萬筆，那一個population就是計算超過26.7秒才會結束，若有20個population，那一個迭代就要將近10分鐘才算完，天啊!!!&lt;/p&gt;
+&lt;h2 id=&#34;解決方案&#34;&gt;解決方案&lt;/h2&gt;
+&lt;p&gt;我試過用numpy來寫一個迭加運算的方式，速度也是慘不人睹，畢竟python在高速運算上還是有其極限。這時參考到Ta-Lib是用C++來改寫的，我也用了cython來改寫一個自己可以用的套件，名為tail(Technical Analysis Incremental Library)，已放上GitHub中，連結放於文末&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。
+來做個簡單測試:&lt;/p&gt;
+&lt;h3 id=&#34;example-tailmama&#34;&gt;Example tail.MAMA&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 數值同於上面的五秒小台指&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; util.indicators_C &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; MAMA
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; time &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; time
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;start &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; time()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MAMA &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; MAMA()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mama &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fema &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1000000&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    a, b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; MAMA&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;add_one(df_np[i, &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;]&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;astype(float))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    mama&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(a)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    fema&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(b)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(time() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; start)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;8.38700008392334&lt;br&gt;
+同樣一百萬筆資料，速度提升三倍有餘，意味著原本10分鐘算完一次迭代，現在只要三分鐘就可以結束，也代表一小時原本只有六次迭代，現在變成近二十次迭代，若是加上平行運算，速度可以再往上提升。&lt;/p&gt;
+&lt;h2 id=&#34;tail-可運算的indicators&#34;&gt;tail 可運算的indicators&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;MAMA&lt;/li&gt;
+&lt;li&gt;HMA&lt;/li&gt;
+&lt;li&gt;KAMA&lt;/li&gt;
+&lt;li&gt;ADX&lt;/li&gt;
+&lt;li&gt;STOCH(KD)&lt;/li&gt;
+&lt;li&gt;RSI&lt;/li&gt;
+&lt;li&gt;SAR&lt;/li&gt;
+&lt;li&gt;EMA&lt;/li&gt;
+&lt;li&gt;MACD&lt;/li&gt;
+&lt;li&gt;ICHMOKU&lt;/li&gt;
+&lt;li&gt;LLT&lt;/li&gt;
+&lt;li&gt;WMA&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以上是暫時有用到的指標，主要應用於數值需要參考前值的計算，比如EMA就是一個例子，可以Google找到EMA每次計算結果不同的原因，在此就不多作綴述。若是上述indicator不知是啥，那本篇文章應該沒有幫助到你。&lt;/p&gt;
+&lt;h2 id=&#34;tail-安裝方式&#34;&gt;tail 安裝方式&lt;/h2&gt;
+&lt;p&gt;在GitHub中已有簡單說明，但還是強調本機要先裝好cython，利用cython重新編譯成可執行的機碼，這樣才不會出錯。&lt;/p&gt;
+&lt;h2 id=&#34;tail-的未來&#34;&gt;tail 的未來&lt;/h2&gt;
+&lt;p&gt;還沒想過是否要繼續發展這套件，畢竟只是我在AI訓練路上的一個小旁枝，只期望對大家是有幫助的而已，若是有人敲碗需要其他的指標，我可以花點時間多加進去。&lt;/p&gt;
+&lt;h2 id=&#34;補充&#34;&gt;補充&lt;/h2&gt;
+&lt;p&gt;其實GitHub中有另外一個專案&lt;a href=&#34;https://github.com/nardew/talipp&#34;&gt;Talipp&lt;/a&gt;我覺得也很不錯，可惜我自己的測試上，因為是用純python所撰寫，速度上真的不行，不是作者的錯，只是python速度慢的問題。所以我才另外寫一個簡單的tail來自己使用。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/yenjanw/tail&#34;&gt;tail GitHub位置&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</content:encoded>
+    </item>
+    <item>
+      <title>如何在MAC中製作Windows 10的重灌USB</title>
+      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
+      <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
+      <description>&lt;p&gt;最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，&lt;strong&gt;電腦是拿來用的，不是拿來折騰的&lt;/strong&gt;。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
+灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
+以下記錄一下這次的心得。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，&lt;strong&gt;電腦是拿來用的，不是拿來折騰的&lt;/strong&gt;。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
+灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
+以下記錄一下這次的心得。&lt;/p&gt;
+&lt;h2 id=&#34;環境&#34;&gt;環境&lt;/h2&gt;
+&lt;h3 id=&#34;作業系統&#34;&gt;作業系統&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MacOS 10.15.4 Catalina&lt;/li&gt;
+&lt;li&gt;Windows10檔案: &lt;a href=&#34;https://www.microsoft.com/zh-tw/software-download/vlacademicwindows10iso&#34;&gt;Win10_Edu_1909_Chinese(Traditional)_x64.iso&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;軟體&#34;&gt;軟體&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bootcamp&lt;/li&gt;
+&lt;li&gt;balenaEthcer 1.5.71&lt;/li&gt;
+&lt;li&gt;unetbootin&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usb&#34;&gt;USB&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Transcend 8GB USB Disk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;pc主機板&#34;&gt;PC主機板&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gigabyte G1-Sniper-H6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;cpu&#34;&gt;CPU&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Intel-4790k&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;用boot-camp-assistant製作&#34;&gt;用Boot Camp Assistant製作&lt;/h2&gt;
+&lt;p&gt;USB可以跑完，程式完整，但不能開機。&lt;/p&gt;
+&lt;h2 id=&#34;用ubnet&#34;&gt;用ubnet&lt;/h2&gt;
+&lt;p&gt;可以跑完，可以開機，但安裝會報錯，有一個檔案無法正常讀取。&lt;/p&gt;
+&lt;h2 id=&#34;作個撒尿牛丸&#34;&gt;作個撒尿牛丸&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;先將USB格式化成exfat&lt;/li&gt;
+&lt;li&gt;再用bootcamp安裝windows程式&lt;/li&gt;
+&lt;li&gt;再跑一次ubnet，一路按跳過，最後製作開機檔
+完工~&lt;/li&gt;
+&lt;/ul&gt;</content:encoded>
+    </item>
+    <item>
+      <title>我的推薦標準</title>
+      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
+      <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
+      <description>&lt;p&gt;往後我會在BLOG中放上一些我曾經去過、吃過、玩過、看過、聽過的地方、餐廳、樂園、電影、音樂。(國中學的錯綜句法)有人會以為我推薦的東西有何特別，其實沒有。為此我說明一下我的評分標準，其實很簡單，只有幾項而已，免得讓人會錯義，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下次不會再來&lt;/li&gt;
+&lt;li&gt;值得一吃、玩、看、聽，但不一定會有下次&lt;/li&gt;
+&lt;li&gt;下次還是會來吃、玩、看、聽&lt;/li&gt;
+&lt;li&gt;會推薦別人來吃、玩、看、聽&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;這樣說明可能還是會看不懂，以下就作個簡單的舉例:&lt;/p&gt;
+&lt;h2 id=&#34;1下次不會再來&#34;&gt;1.下次不會再來&lt;/h2&gt;
+&lt;p&gt;這就是所謂的地雷，以吃而言，可能是餐點、可能是服務、可能是價位等因素，造成我個人決不會再來吃。舉例來說，民雄鵝肉算有名的吧，但我下次決不會再去，因為服務上讓我非常不爽，擺明了就是不爽吃就不要來吃的感覺，反正不差我這一個客戶。這種服務態度基本上，真的不差我這一個客戶。所以對於不重視客戶的店家，我也沒有必要重視他。&lt;br&gt;
+其實我很少會講這方面的店家，畢竟商譽建立不易，但有時候真的把我惹毛了，不在網路這公開場合不吐為快不行。大學時期室友曾經在便當內吃到蟑螂，我與他一同去理論，反而被訓了一頓。所以我就在BBS上公開這段故事，深怕有人遇到一樣的遭遇，一個月之後便當店就關門大吉，失去了我們學校學生這穩定的客戶，但便當街真的不用混了。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;往後我會在BLOG中放上一些我曾經去過、吃過、玩過、看過、聽過的地方、餐廳、樂園、電影、音樂。(國中學的錯綜句法)有人會以為我推薦的東西有何特別，其實沒有。為此我說明一下我的評分標準，其實很簡單，只有幾項而已，免得讓人會錯義，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下次不會再來&lt;/li&gt;
+&lt;li&gt;值得一吃、玩、看、聽，但不一定會有下次&lt;/li&gt;
+&lt;li&gt;下次還是會來吃、玩、看、聽&lt;/li&gt;
+&lt;li&gt;會推薦別人來吃、玩、看、聽&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;這樣說明可能還是會看不懂，以下就作個簡單的舉例:&lt;/p&gt;
+&lt;h2 id=&#34;1下次不會再來&#34;&gt;1.下次不會再來&lt;/h2&gt;
+&lt;p&gt;這就是所謂的地雷，以吃而言，可能是餐點、可能是服務、可能是價位等因素，造成我個人決不會再來吃。舉例來說，民雄鵝肉算有名的吧，但我下次決不會再去，因為服務上讓我非常不爽，擺明了就是不爽吃就不要來吃的感覺，反正不差我這一個客戶。這種服務態度基本上，真的不差我這一個客戶。所以對於不重視客戶的店家，我也沒有必要重視他。&lt;br&gt;
+其實我很少會講這方面的店家，畢竟商譽建立不易，但有時候真的把我惹毛了，不在網路這公開場合不吐為快不行。大學時期室友曾經在便當內吃到蟑螂，我與他一同去理論，反而被訓了一頓。所以我就在BBS上公開這段故事，深怕有人遇到一樣的遭遇，一個月之後便當店就關門大吉，失去了我們學校學生這穩定的客戶，但便當街真的不用混了。&lt;/p&gt;
+&lt;h2 id=&#34;2-值得一吃玩看聽但不一定會有下次&#34;&gt;2. 值得一吃、玩、看、聽，但不一定會有下次&lt;/h2&gt;
+&lt;p&gt;這情況常常發生，不過大多是CP值不夠的狀況。有些很有名的店家，很多部落客大推，但我覺得與價位上並不成正比，我就會下這段評語。但好不好，很好，只是我&lt;strong&gt;不一定&lt;/strong&gt;會再來。
+有些電影也是這種情況，劇情上沒有動人的詩篇，沒有讓人可以回憶的橋段，但聲光效果真的是棒啊。這種大多是爽片，當爽片看就不會失望，打發時間也很好。舉例來說多年前有片&lt;strong&gt;300壯士:斯巴達的逆襲&lt;/strong&gt;就是標準的爽片，很值得去電影院看。然後呢?沒有然後了! 我連DVD都不會想收藏。&lt;/p&gt;
+&lt;h2 id=&#34;3-下次還是會來吃玩看聽&#34;&gt;3. 下次還是會來吃、玩、看、聽&lt;/h2&gt;
+&lt;p&gt;沒有了上述兩項的缺點，就會屬於這一項。就好像中午常去吃午餐的地方，好吃嗎?其實也還好，價位上可以接受，但是推薦別人說非吃不可嗎?也不置於會做這種事。
+電影上而言，有些影片真的是很好看，我個人會一再重覆的看，無聊用來打發時間，就像第四台常常會撥的&lt;strong&gt;九品芝麻官&lt;/strong&gt;，內容上其實已經看到爛，但很怪的是只要重播，我又不小心轉台轉到，我還是會看(很怪厚)。基本上已題材已經是不討驗的，劇情有時在不同的心境下，會有不同的體語。&lt;/p&gt;
+&lt;h2 id=&#34;4-會推薦別人來吃玩看聽&#34;&gt;4. 會推薦別人來吃、玩、看、聽&lt;/h2&gt;
+&lt;p&gt;這一項對我來說是很少的。以吃的而言，只要能吃的我都會吃。以電影而言，我也很少叫人一定要看。以音樂而言，自己聽聽就好啦，有必要做多餘的推薦嗎?以遊樂而言，這更是每個人的體驗都不同，推薦了有人體驗不好，反而不好意思。&lt;br&gt;
+好的，那為何還會有這一項?主要是內心有時會阻止不了想要推薦給別人的衝動，這樣的體驗我就會推。啥意思?&lt;br&gt;
+吃的方面舉例就如&lt;strong&gt;東一排骨&lt;/strong&gt;，我從排骨飯60元吃到現在150元一客，但我就是喜愛這樣的紛圍，吃要到那附近，剛好要吃中餐或晚餐，我只會想到這一家店。有帶朋友就一起去，沒帶朋友自己也會去吃。有人問西門町有啥好吃的，那附近我也只會說這一間。其實他們生意很好，並不會因為我少推薦就會倒閉關門，但是我就愛那一味。沒吃過嗎?&lt;strong&gt;快去吃!&lt;/strong&gt;&lt;br&gt;
+電影上就如&lt;strong&gt;阿甘正傳&lt;/strong&gt;，有人沒看過，我就會捉著他肩膀搖著說:「&lt;strong&gt;快去看!&lt;/strong&gt;」。不懂我的意思嗎?你一定沒看過!!&lt;strong&gt;快去看!!&lt;/strong&gt;&lt;br&gt;
+音樂上我曾推薦多人聽「&lt;strong&gt;歌劇魅影&lt;/strong&gt;」，尤其是Sarah Brightman在1984年的版本。從Sarah唱出第一句&lt;strong&gt;Think of me&lt;/strong&gt;之後，我就不自覺得聽完全劇。甚至在大學其間買了Sarah的Timeless專輯，聽完第一首&lt;strong&gt;Time to say goodbye&lt;/strong&gt;之後我就出去約會。但是約會時坐在公園的長凳上，眼中看的是自己的女友，腦中卻飄蕩著Sarah的聲音，久久揮散不去。不懂我在說什麼的，&lt;strong&gt;快去聽!&lt;/strong&gt;&lt;br&gt;
+在報名了合歡山馬拉松，也順利完賽之後，那美景真的是讓人無法忘懷。武嶺很多人都去過，但是從清境到武嶺這中間的路程，有幾人是有慢慢走完，並看著藍天白雲的風景，享受風吹草低見牛羊的景色呢?(過譽了)這段路真的值得以品茗的心境慢慢品嘗。這段路要跑完真的很辛苦，但是為了美景付出是絕對值得的。沒能力跑的，報名慢慢走完也不錯。沒看過台灣最美的公路嗎?&lt;strong&gt;快去報名!&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;充滿個人因素的推薦&#34;&gt;充滿個人因素的推薦&lt;/h2&gt;
+&lt;p&gt;我的推薦文章，充斥滿滿的主觀意見，推薦本來就不是客觀的。&lt;br&gt;
+不過不用擔心，我很少推薦的。所以會有&lt;strong&gt;第四項推薦別人&lt;/strong&gt;是很難得的，大多了不起就是寫寫心得而已，能排上第三等就已經算很好了。但是當我阻止不了內心的衝動，我還是會不推不快的。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>我的馬拉松賽事評分標準</title>
+      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
+      <pubDate>Sun, 02 Apr 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://tw.running.biji.co&#34;&gt;運動筆記&lt;/a&gt;有個功能就是為賽事評分，這目的也是讓主辦單位知道舉辦之後大家的感想，立意良好。但是評比本來就是主觀的，加上有些人是來亂的，畢竟現在賽事這麼多，但跑者的數量又不是無限的，很容易變成搶人比人氣的現象出現。&lt;/p&gt;
+&lt;p&gt;當然每個人參加馬拉松的目的都是不一樣的，有的人是為了賺錢(?)、有的人是為了肯定自我、有的人是為了身體健康、有的人是為了參賽禮而報名、有的人是為了交朋友(&lt;del&gt;結交正妹&lt;/del&gt;)、有的人是為了吃更多(&lt;del&gt;山豬肉&lt;/del&gt;)、有的人是為了跑而跑(百馬跑者)、有的人是&lt;a href=&#34;http://tw.running.biji.co/index.php?q=review&amp;amp;act=detail&amp;amp;id=29531&amp;amp;subtitle=%E3%80%90%E8%B7%91%E6%AD%A5%E7%85%A7%E7%89%87%E6%95%85%E4%BA%8B%E3%80%91%E5%90%89%E9%9B%B7%E7%B1%B3%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E8%B7%91Remy+cours+pour+Taiwan&#34;&gt;為台灣而跑&lt;/a&gt;(棒棒)&amp;hellip;.反正一百個人，有一百零一種理由，出發點都不相同，目的也不相同，怎麼可能會有相同的標準呢?&lt;/p&gt;
+&lt;p&gt;不相同就不相同吧，也沒有必要為了這種事情去統一規格。我個人比較龜毛，針對評分有一套自己的標準，在這提出大家參考看看，以避免在打星星時失去了客觀的評判。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;評分項目&#34;&gt;評分項目&lt;/h2&gt;
+&lt;p&gt;總共有六個評分項目，其實一場比賽好不好，真的不是由這六個項目可以去評斷的，但這資訊真的可以提供給主辦單位，更重要的是以往要報名的跑友一個實質參考的依據。&lt;/p&gt;
+&lt;h3 id=&#34;補給品&#34;&gt;補給品&lt;/h3&gt;
+&lt;p&gt;我遇過全馬跑友只為了吃而跑的，吃得不好絕不報名。我先拉出五星的標準，我想田中馬應該不會有人有意見吧，有山豬肉可以吃，再跟我說補給不好，那請不要來報名馬拉松了。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&#34;http://tw.running.biji.co&#34;&gt;運動筆記&lt;/a&gt;有個功能就是為賽事評分，這目的也是讓主辦單位知道舉辦之後大家的感想，立意良好。但是評比本來就是主觀的，加上有些人是來亂的，畢竟現在賽事這麼多，但跑者的數量又不是無限的，很容易變成搶人比人氣的現象出現。&lt;/p&gt;
+&lt;p&gt;當然每個人參加馬拉松的目的都是不一樣的，有的人是為了賺錢(?)、有的人是為了肯定自我、有的人是為了身體健康、有的人是為了參賽禮而報名、有的人是為了交朋友(&lt;del&gt;結交正妹&lt;/del&gt;)、有的人是為了吃更多(&lt;del&gt;山豬肉&lt;/del&gt;)、有的人是為了跑而跑(百馬跑者)、有的人是&lt;a href=&#34;http://tw.running.biji.co/index.php?q=review&amp;amp;act=detail&amp;amp;id=29531&amp;amp;subtitle=%E3%80%90%E8%B7%91%E6%AD%A5%E7%85%A7%E7%89%87%E6%95%85%E4%BA%8B%E3%80%91%E5%90%89%E9%9B%B7%E7%B1%B3%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E8%B7%91Remy+cours+pour+Taiwan&#34;&gt;為台灣而跑&lt;/a&gt;(棒棒)&amp;hellip;.反正一百個人，有一百零一種理由，出發點都不相同，目的也不相同，怎麼可能會有相同的標準呢?&lt;/p&gt;
+&lt;p&gt;不相同就不相同吧，也沒有必要為了這種事情去統一規格。我個人比較龜毛，針對評分有一套自己的標準，在這提出大家參考看看，以避免在打星星時失去了客觀的評判。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;評分項目&#34;&gt;評分項目&lt;/h2&gt;
+&lt;p&gt;總共有六個評分項目，其實一場比賽好不好，真的不是由這六個項目可以去評斷的，但這資訊真的可以提供給主辦單位，更重要的是以往要報名的跑友一個實質參考的依據。&lt;/p&gt;
+&lt;h3 id=&#34;補給品&#34;&gt;補給品&lt;/h3&gt;
+&lt;p&gt;我遇過全馬跑友只為了吃而跑的，吃得不好絕不報名。我先拉出五星的標準，我想田中馬應該不會有人有意見吧，有山豬肉可以吃，再跟我說補給不好，那請不要來報名馬拉松了。&lt;/p&gt;
+&lt;p&gt;以下列出各星標準:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;星等&lt;/th&gt;
+          &lt;th&gt;標準&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️&lt;/td&gt;
+          &lt;td&gt;平地馬補給點超過五公里，山地馬補給點超過四公里。補給不足，跑到快缺水而亡。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;補給足夠或補給點距離合理，但是食鹽、水、運動飲料三項目缺少任一項，都列入二星等級。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;補給足夠，中規中矩，該給的食鹽、水、運動飲料都有，其實一律奉欠。跑協舉辦的大多是這等級。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;補給足夠，除了食鹽、水、運動飲料外，加上地方性的特產，或是熱食(&lt;del&gt;滷味&lt;/del&gt;)飲料(&lt;del&gt;紅酒、啤酒&lt;/del&gt;)的補給物資。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;田中馬級，不懂請GOOGLE爬文。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;紀念品衣服&#34;&gt;紀念品/衣服&lt;/h3&gt;
+&lt;p&gt;衣服對我來說，穿的舒服就好了，畢竟我不是女生，這麼講就衣服的剪裁與設計，在我眼中一件衣服，不過是個等邊的矩形而已(&lt;del&gt;被揍&lt;/del&gt;)。所以這項目我在評分，就以有沒有完賽衣作一個標準。&lt;/p&gt;
+&lt;p&gt;紀念品真的是五花八門，你需要的/剛好沒有的，不論是腰帶、帽子、腰包、背包、水壺、鞋子、紀念米…無論什麼，我都看過有比賽送過，有的品質也真的很好。我曾經兩年前得到賽事紀念品-Camelbak噴射水壺，就是我自行車運動的好幫手。所以這個項目應該算是很主觀的。&lt;/p&gt;
+&lt;p&gt;獎牌設計，這很主觀。我參加過最令我折服的是合歡山馬拉松，把武嶺的牌樓直接做才獎牌，掛在脖子上還很重，一整個覺得我的努力是有代價的。基本上每場賽事都會有獎牌，而獎牌設計我當作是一個很重要的加分項目。&lt;/p&gt;
+&lt;p&gt;另外特別的是，完賽的飲食也列入這項目之中，想當然爾，也是主觀的。我偏好的是便當，一個便當就可以把我全馬的熱量損失給打發了，其實真的要求不高(當然便當也有好吃與難吃的分別)。我不愛的是給個餐券的那種，給個一百元餐券，後面有路邊攤，請自行解決。乍看之下好像選擇性變多，但實際上路邊攤此時都會故意漲價，一個豬血糕很三十元變四十元，餐券面額五十元一張，還不能退費，買兩隻還要補三十元。搞這麼麻煩做啥呢?&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;星等&lt;/th&gt;
+          &lt;th&gt;標準&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️&lt;/td&gt;
+          &lt;td&gt;無比賽衣(已很少賽事如此)、贈品一律奉欠、賽後無適當飲食(要你拍拍屁股趕快回家去)。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有比賽衣、贈品缺乏、賽後給個餐券或麵包打發。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有比賽衣、贈品適中(不多不少，自己不需要，丟了又可惜)、賽後飲食普通。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有比賽衣無完賽衣、贈品豐富(你不需要的)、賽後熱食。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有比賽衣與完賽衣、贈品豐富(你需要的)、賽後熱食。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;賽道風景&#34;&gt;賽道/風景&lt;/h3&gt;
+&lt;p&gt;這項目很重要，沒有好風景/地標，說實在話跑起來真得很沒意思，在家或健身房的跑步機跑跑打發時間，或許還比較有運動效果。&lt;/p&gt;
+&lt;p&gt;國內馬拉松風景好的，通常是在山上，當然這種山地馬不是一般人在未訓練之下可以跑的，但為了好的風景，再累也是值得的。我評風景第一的是合歡山的無敵山景，加上藍天白雲與高山清新的空氣，真的是值得回味的賽道。講了最好的，當然要講最差的，最差的當然就是繞圈圈的賽道，42K相同的路跑了三四回，你不煩我都覺得無聊。假如是在田徑場的那種，真得是需要專業的跑者，才有意志力跑完。&lt;/p&gt;
+&lt;p&gt;交管我列入這項目之中，最好的當然是全程交管，沒有汽機車在你一旁噴煙，尤其是當你在大口喘氣的同時，沒有卡車的廢氣提供充份的有毒物質讓你吸的那種。有得賽道規畫是全程沒汽車，但是會要停紅綠燈，走走停停是最累人的。基本上只要讓我停二次以上的紅綠燈，風景再好，我都會評在兩星以下。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;星等&lt;/th&gt;
+          &lt;th&gt;標準&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️&lt;/td&gt;
+          &lt;td&gt;風景普通、相同的景色要看三四回、人擠人、有紅綠燈、人車同道(跑步機都贏以上敘述)。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;風景普通、路線有重覆、人車同道、可能要停紅綠燈。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;風景普通、路線不重覆、交管普通、人車分離但同道、不停紅綠燈。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;無敵海景/山景、路線不重覆、交管不夠、人車同道、不停紅綠燈。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;無敵海景/山景、路線不重覆、全程交管、人車不同道、不停紅綠燈。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;報名流程&#34;&gt;報名流程&lt;/h3&gt;
+&lt;p&gt;流程其實沒有什麼好說明的，說實話這也不是一般人關心的焦點。熱門的賽事一定是要抽簽才能跑的，難道抽不到就說流程差嗎?最多就是自己的人品不夠好而已。所以抽不抽簽真的不該影響流程的星等排序。&lt;/p&gt;
+&lt;p&gt;其實在網路風行的時代中，大多報名流程都是在水準之上了啦。這決定在流程的使用者經驗的好壞。當然也有爛的，以下就為這部份作個分級。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;星等&lt;/th&gt;
+          &lt;th&gt;標準&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️&lt;/td&gt;
+          &lt;td&gt;無網路平台報名，或是剛好你要報的項目沒有網路平台可用，一定要現場報名或通信報名。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有網路平台報名，但一定要現場繳費。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有網路平台報名，只有匯款繳費。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有網路平台報名，無信用卡，但有多種繳費方式。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有網路平台報名，有信用卡*與其他多種繳費方式。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;*信用卡還有分能不能在網路上刷的。像我用的是MAC電腦，有遇過IE Only的信用卡機制，忙乎半天，決定放棄。&lt;/p&gt;
+&lt;h3 id=&#34;成績證明&#34;&gt;成績/證明&lt;/h3&gt;
+&lt;p&gt;這項目算是好評分的，有得賽事不惜成本，途中有多個電子檢核點，成績單也列出個檢核點的成績，這當然就是最好的樣本。當然我也參加過折返點是用信物作依據的，最高紀錄是拿了三個信物在手上跑回終點。&lt;/p&gt;
+&lt;p&gt;列印成績證名與否，這網路上爭論不休。很多人覺得要環保，所以建議採網路形式提供。我個人的意見是，難道網路提供就不印了嗎?難道網路提供就真的環保嗎?我繳了錢，舉辦單位一句環保就不印，其實只是節省了他們的成本，與環保一點相關都沒有，那是騙人的話術而已。&lt;/p&gt;
+&lt;p&gt;以上說明，就是這項目的評分標準，很簡單吧。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;星等&lt;/th&gt;
+          &lt;th&gt;標準&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️&lt;/td&gt;
+          &lt;td&gt;無成績證明，折返點只提供信物(甚至連信物都沒有，天知道有沒有切西瓜)。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;只提供網路成績證明(回家自己印)。檢核點若有採電子式，但沒有印在成績證明上。或只有信物檢核而已。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;只提紙本或只提供網路成績證明，無電子檢核點，採信物作依據。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有提供紙本/網路成績證明，有四個以上電子檢核點，但無印在成績上。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;⭐️⭐️⭐️⭐️⭐️&lt;/td&gt;
+          &lt;td&gt;有提供紙本/網路成績證明，有四個以上電子檢核點、且列印檢核點時間在成績證明上。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;參加費用&#34;&gt;參加費用&lt;/h3&gt;
+&lt;p&gt;原本應該列在第一項的，但我個人認為這是最後一項，因為這是上述五項的總評分。&lt;/p&gt;
+&lt;p&gt;以往馬拉松有政府在推廣的時代，參加費用真的很便宜，全馬最多就四五百元就打死了，但是現在很少有看到低於一千元的全馬賽事。這個項目完全就是CP值(cost/price)的展現，所以算是前面五個項目的綜合評分與價錢之間的比值。&lt;/p&gt;
+&lt;p&gt;一場全馬就算低於五百元，但不論補給品、紀念品、風景、報名流程、成績證明等假如項項不合格，我一樣會認為不值得參賽，因為CP值太低了。再便宜的垃圾賽事，還是垃圾賽事。&lt;/p&gt;
+&lt;p&gt;主辦單位是有成本的壓力的，提供什麼樣的補給，就收怎麼樣的錢。有的廠商用意在推廣品牌知名度，不惜重本，常常這種賽事場場爆滿。有的是為了要賺錢的，想當然爾，能cost down的部份就cost down，最後品質也不怎麼樣。&lt;/p&gt;
+&lt;p&gt;所以這一項的標準與我的前文&lt;a href=&#34;http://www.yjol.org/2017/03/13/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/&#34;&gt;我的推薦標準&lt;/a&gt;相同，對我來說五顆星就是我會推薦人參加，一顆星就是未來我絕不參加，甚至該主辦單位列為拒絕往來戶。在前五項評分差的，也是有可能會獲得我的推薦，而分數高的，有時下次絕不再來(&lt;del&gt;雖然很少，但還是有可能會發生&lt;/del&gt;)。&lt;/p&gt;
+&lt;p&gt;所以收費評分真的很重要嗎?我覺得主辦單位的用心與氛圍才是主要的。這項目我就不再列表說明了。&lt;/p&gt;
+&lt;h2 id=&#34;一樣是主觀的評斷&#34;&gt;一樣是主觀的評斷&lt;/h2&gt;
+&lt;p&gt;以上只是我的評分標準，真的賽事好不好，其實就看主辦單位的用心與跑者的感受就知道了。&lt;/p&gt;
+&lt;p&gt;更最重要的是，除了這些評分外，看看其他跑友的留言，避開地雷賽事。沒查文就報名，我也踩過地雷，到現在錢都還沒退回來，我也只能當作被騙了。假如擔心的話，可以盡量報名那些已經舉辦多年的老賽事，畢竟舉辦經驗比較多，會減少錯誤發生的機率，當然&lt;a href=&#34;http://www.appledaily.com.tw/realtimenews/article/new/20170212/1054407/&#34;&gt;意外&lt;/a&gt;還是有可能會發生的，那只能靠人品與平常多燒香去避免了。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>純文字的力量!</title>
+      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <pubDate>Thu, 30 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <description>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
+&lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;網站架構&#34;&gt;網站架構&lt;/h2&gt;
+&lt;p&gt;這BLOG是用&lt;a href=&#34;http://hexo.io&#34;&gt;HEXO&lt;/a&gt;所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。&lt;/p&gt;
+&lt;p&gt;所以現在寫BLOG的流程是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用&lt;a href=&#34;https://typora.io&#34;&gt;typora&lt;/a&gt;與&lt;code&gt;markdown&lt;/code&gt;語法寫文章。&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&#34;https://filezilla-project.org&#34;&gt;Filezilla&lt;/a&gt;上傳到GCP。&lt;/li&gt;
+&lt;li&gt;從GCP執行編譯備份到&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;上。&lt;/li&gt;
+&lt;li&gt;再從GitHub備份到我的GCP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
+&lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;網站架構&#34;&gt;網站架構&lt;/h2&gt;
+&lt;p&gt;這BLOG是用&lt;a href=&#34;http://hexo.io&#34;&gt;HEXO&lt;/a&gt;所架出來的，不過我跟大家不一樣的地方是，編譯我放在GCP雲端上執行。為何不在近端執行就好了呢? 因為我電腦的變動性，說實話會比伺服器還快得多，哪天資料全不見了，會欲哭無淚哦。&lt;/p&gt;
+&lt;p&gt;所以現在寫BLOG的流程是:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;用&lt;a href=&#34;https://typora.io&#34;&gt;typora&lt;/a&gt;與&lt;code&gt;markdown&lt;/code&gt;語法寫文章。&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&#34;https://filezilla-project.org&#34;&gt;Filezilla&lt;/a&gt;上傳到GCP。&lt;/li&gt;
+&lt;li&gt;從GCP執行編譯備份到&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;上。&lt;/li&gt;
+&lt;li&gt;再從GitHub備份到我的GCP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好處是我的文件在三個地方都有備份，一份在電腦、一份在GitHub、一份在GCP，所以假如文章再會不見，那應該是火星人進攻地球的時候才會發生吧。&lt;/p&gt;
+&lt;h2 id=&#34;新版網站的優點&#34;&gt;新版網站的優點&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;版面更加的簡單(其實以前就已經很簡單了)。&lt;/li&gt;
+&lt;li&gt;右側邊欄有TOC(Table of Content)。&lt;/li&gt;
+&lt;li&gt;直接點選TOC可以直接跳到文章的標題。&lt;/li&gt;
+&lt;li&gt;更神奇的是TOC會隨著文章卷動出現反白。&lt;/li&gt;
+&lt;li&gt;SEO好像做得更好了。&lt;/li&gt;
+&lt;li&gt;全純文字，不怕遇到駭客，假如要能駭進來，那要從Linux的底層進攻。安全性更高。&lt;/li&gt;
+&lt;li&gt;完全沒有資料庫作底層運算，所以不用擔心效能問題。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;所以這個版本，一次解決了我多個問題。往後我還是一樣，以簡單為出發點。&lt;/p&gt;
+&lt;h2 id=&#34;純文字有何種力量&#34;&gt;純文字有何種力量?&lt;/h2&gt;
+&lt;p&gt;說了老半天文不對題，其實我就是想說明純文字之後，到底有何改變?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;寫文章時不用再費心編排格式。用&lt;code&gt;markdown&lt;/code&gt;寫完之後，直接編譯成&lt;code&gt;HTML&lt;/code&gt;格式，快速用方便。&lt;/li&gt;
+&lt;li&gt;文章的格式簡單、條理鮮明，利用標題與排列的方式，簡單就能表達出作者的文意。&lt;/li&gt;
+&lt;li&gt;容易閱讀，這是我最喜愛的部份。有些BLOG會做過多的修飾，讓多媒體的呈現更豐富，但那些東西其實只會使讀者分心。純文字化之後，沒有過多干擾，相對之下比較不容易分心。&lt;/li&gt;
+&lt;li&gt;假如在&lt;code&gt;Word&lt;/code&gt;上寫文章，複製出來的文字常常都帶有內碼。沒經驗的說可以試著用&lt;code&gt;Word&lt;/code&gt;寫段話，再轉貼到&lt;code&gt;outlook&lt;/code&gt;去試看看，通常會連內碼都帶過去了。假如對方不用&lt;code&gt;outlook&lt;/code&gt;來看的話，發生編碼錯誤的機率很高。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;純文字之旅&#34;&gt;純文字之旅&lt;/h2&gt;
+&lt;p&gt;從Wordpress移轉到HEXO，本身就是一個很大的挑戰。其實我不是科班出身的，對於&lt;code&gt;command line&lt;/code&gt;的操作能力也只是一般般而已，但是看到別人網站上受可移動的TOC一見傾心，下定決心一定要讓自己的網站與Wordpress網站有那不一樣的功能，就開始折騰了。花了三天研究該如何進行，又花了一個晚上把程式搞定滿再花一個晚上把文章搬家，我想以後應該不會再想這樣搞了吧! 還是乖乖的應用，留下有用的資料在茫茫的網海之中。&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Evernote替代方案</title>
+      <link>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Thu, 23 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;列出我的需求:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;要能多種裝置同步，尤其是iOS與MAC之間的溝通。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;列出我的需求:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;要能多種裝置同步，尤其是iOS與MAC之間的溝通。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;資訊保密上不要有問題，最好有二階段認證的方式登入。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;隱私權上可以受到保障。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;最好可以支援Markdown的寫作方式。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;檔案上傳不要有空間限制，且能保存各型式的檔案。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;有分享功能。&lt;/p&gt;
+&lt;p&gt;說來說去，這些功能好像Evernote就只有第四項做不到而已，應該還是留在Evernote之中啊!但是為了個人隱私權的悍衛，不能低頭!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;先分析evernote的功能&#34;&gt;先分析Evernote的功能&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/tyfPgO3.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我所會用到的功能，大致上不會脫離記事、語音、影片、圖片&amp;amp;照片、檔案與網頁截取，其中又以網頁截取佔了一大部份。
+以圖中的內容可以發現到，這每一個都是一種檔案或資料結構，分散在我們硬碟之中。除了網頁截取功能之外，其他幾乎都是自己所創作出來的東西。Evernote只是將它們整合到雲端而已，加上文字說明與Tag功能，讓未來尋找資料時可以更加方便。這些工作以Mac而言，其實Smart Folder自己也是可以設定得出來，但我過去太依賴Evernote幫我整理，就像一個垃圾筒一樣，所有東西都丟到裡面去，等到有需要就用搜尋功能來挖垃圾筒。你說不是嗎?&lt;/p&gt;
+&lt;h3 id=&#34;記事&#34;&gt;記事&lt;/h3&gt;
+&lt;p&gt;其實我在Evernote上的寫作很少，主要原因就是太麻煩了，對我來說我只要一個單純的寫作環境，所以Markdown是必需的，但是大象始終就是不肯將這功能加入。其實不加入Markdown寫作，Evernote應該是有苦衷的，畢竟他們所用的ENEX格式是一種特規，基於HTML的格式而產生的，若要改成純文字模式的md方式會有技術上的困難。對我來說，困難是他家的事，我只要有符合我要的東西才是重要的。&lt;/p&gt;
+&lt;h3 id=&#34;語音影片&#34;&gt;語音、影片&lt;/h3&gt;
+&lt;p&gt;用語音輸入的機會其實並不高，因為我都會盡量採用文字的方式作輸入，但偶而還是會用此功能。綜觀我現在近三千筆的資料，語音的不份不超過十筆，所以這可以不用思考。
+影片的部份算是檔案的特例，要能播放就可以了。&lt;/p&gt;
+&lt;h3 id=&#34;檔案&#34;&gt;檔案&lt;/h3&gt;
+&lt;p&gt;含蓋我所有會用到的文件格式，其中又以M$的Word、Power Point、Excel等格式，是很少會使用上的，我的作業集中在Mac上，所以相對之下Pages、Keynote、Numbers的檔案我就很常會想要輸入到Evernote之中，只是Evernote當作一般的檔案，無法作預覽與索引的功能。
+PDF檔是網路上傳遞的標準，這就佔了很大的一個部份。所以替代方案一定要能夠支援才可以。&lt;/p&gt;
+&lt;h3 id=&#34;網頁截取&#34;&gt;網頁截取&lt;/h3&gt;
+&lt;p&gt;這幾乎是我用Evernote的主要功能。近三千份文件內，有超過二千五百件是屬於這種型式而來。雖然現在已經有很多read it later的服務，比如instapaper、Pocket等，但是對於截取回來的資料都沒有很方便的管理模式，畢竟他們只是做很基本的read it later而已。
+網頁截取重點在於能截取簡化的文件，我要的不是網頁的所有元素，只要將文字與圖片截取即可。&lt;/p&gt;
+&lt;h2 id=&#34;替代方案&#34;&gt;替代方案&lt;/h2&gt;
+&lt;h3 id=&#34;onenote&#34;&gt;Onenote&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/pUEjkAt.jpeg&#34;&gt;
+Microsoft提供的&lt;strong&gt;Onenote&lt;/strong&gt;其實功能相當完整，是取代Evernote的最佳解決方式。但是&amp;hellip;但是&amp;hellip;但是&amp;hellip;我的使用經驗上非常差，主要是Onenote的資料是放在Onedrive之中，而台灣連接Onedrive的速度只能用&lt;strong&gt;可悲&lt;/strong&gt;二字，同步到天荒地老的畫面久久不在腦海裡消失。
+Onenote在寫作的方式很像熟悉的Word一樣，與Evernote的寫作經驗是完全不相同的。一個是以文字為基礎的架構，一個是以網頁語言為基礎的架構。
+這已經是替代方案中，最接近Evernote的方案了，但是執行速度上，完全是&lt;strong&gt;悲劇&lt;/strong&gt;。直接淘汰!&lt;/p&gt;
+&lt;h3 id=&#34;google-keep&#34;&gt;Google Keep&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/DpiWqXa.png&#34;&gt;
+Google以強大的搜尋能力起家，他們家多數的產品也是以搜尋作為服務的基底，但Keep上也是維持這樣的服務特色。不但支援Web，連iOS、Android都有支援，所以算是一個很好的跟平台，但是要完全取代Evernote看似又不可能，怎麼說呢?
+Keep定位在一個輕量化的記事&lt;/p&gt;
+&lt;h3 id=&#34;備忘錄mac-and-ios&#34;&gt;備忘錄(Mac and iOS)&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/MUC0bVx.png&#34;&gt;
+在蘋果的裝置中，備忘錄真的很好用，可以放進各種文字、語音、影片，甚至部份的檔案都可以放(如PDF)。最大好處是Evernote所產生的enex檔也可以直接匯入，理論上就已經是很適合的替代方案。
+但是(又來&lt;strong&gt;但是&lt;/strong&gt;了)不能做Markdown，且當文件量很大時，同步與軟體的執行上就會發生緩慢的狀況，畢竟名字就已經跟你說是&lt;strong&gt;備忘錄&lt;/strong&gt;了，有什麼好執著的呢?
+且只有在Apple上能用，當離開了蘋果的世界，這些東西都會消失不見，完全無法使用，不符合我跨平台的需求。&lt;/p&gt;
+&lt;h3 id=&#34;bear&#34;&gt;Bear&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/FvfRN3V.jpeg&#34;&gt;
+在Mac的世界中，義大利人寫了一個Bear的應用，界面簡單而美觀，有符合我這外貌協會成員的需求。支援Markdown的輸入，是一個很好做筆記的軟體，假如我當初沒有用Evernote作為我筆記軟體，現在又不用有搬家需求的話，個人覺得它比Evernote在輸入上好非常多。
+這軟體我沒有用很久，原因是找不到搬家的方法，只是單純喜歡它的Markdown輸入環境而已。另外網頁截取也找不到方法，所以評估完就沒有繼續玩下去了。&lt;/p&gt;
+&lt;h3 id=&#34;devonthink&#34;&gt;DEVONthink&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/YlqL1jE.png&#34;&gt;
+這東西根本就是核彈級的應用，以功能性而言，完爆Evernote，在機器學習上比Evernote還要完整。舉例而言，當我輸入完一篇文章，它會分析我文章中的字句，將文章與其他文章作比對，在See also的功能上就會把相關的內容都提供出來，所以假如只是把這當筆記軟體來看，已經是太小看它的功能了，這完全就是一個知識管理層級的產品。
+除了它是單機版軟體外，沒有Web界面，幾乎找不到缺點。真的要說嘴的話，就是界面的美觀性沒有達到我的要求，畢竟這是德國人寫的軟體，當然是以實用性與穩定性為優先考量，美觀通常是最後才要求的東西。&lt;/p&gt;
+&lt;h3 id=&#34;比較&#34;&gt;比較&lt;/h3&gt;
+&lt;p&gt;我將這幾項最近用過的替代方案作個簡單的比較表如下
+&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/oVXLVYK.jpeg&#34;&gt;
+備註1: 分享不是分享到FB、Twitter之類的功能，而是以能共同編輯文章為出發點的考量。
+備註2: 機器學習在於能不能找到相關文章，其實Devonthink做得比Evernote還要好。
+備註3: 隱私權項目以過去是否有隱私權問題發生，最還登入有二階段認證為主。Devonthink因是本機應用，網路只是備份的地方，所以不會有任何人看到我的內容，所以列為安全。&lt;/p&gt;
+&lt;p&gt;綜觀下來，我並沒有把付不付錢，有沒有月費年費當作我的評量項目，畢竟開公司提供服務就是要賺錢，雖然免費的最好，但有時免費反而是最貴，相信大家長久以來都有這樣的感觸。&lt;/p&gt;
+&lt;h2 id=&#34;我的選擇&#34;&gt;我的選擇&lt;/h2&gt;
+&lt;p&gt;沒有完美的取代方式，畢竟Evernote已經發展了這麼久，功能性已經相當完全，最近又把伺服器搬到GCP(Google Cloud Platform)之中，在台灣的同步速度，完全不是Onenote可以望其項背。但是這間公司真的對我來說有太多的疑慮了，哪天被出賣了都不知道。今天可以開放給員工看，改天就可以開放給政府看，之後開放給大家看我都不意外。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第一捨棄: 假如硬要選擇的話，Onenote我會先捨棄掉，畢竟同步的效率實在太差了，看著同步圈圈一直轉，根本不知何時才會結束。且我只是同步近三千筆資料而已，改天同步三萬筆資料還得了。&lt;/li&gt;
+&lt;li&gt;第二捨棄: Google Kepp與Bear是我在這步的選擇，因為無法做搬家的動作。其實也不能這麼說，一篇一篇慢慢複製貼上，上是可以做得到。假如我只有三百篇記事需要處理，我或許會選擇這一選項。&lt;/li&gt;
+&lt;li&gt;第三捨棄: Apple備忘錄，望名如其名，就真的只是備忘錄而已，要做為筆記這種吃重的工作，現在還不夠資格的。輸入上也沒有Markdown，也如同Onenote一般，同步是最大的問題。另外以知識管理的角度，它只能做到搜尋的功能，所以只能說，就做好備忘錄吧。
+最後只剩下Devonthink這單機版軟體作選擇了，我已先完成了搬家的手續，最近我會好好花時間研究一下這軟體的操作，順便理解在知識管理上能幫助到我們什麼。&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Evernote 搬家到 DEVONthink</title>
+      <link>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
+      <pubDate>Mon, 20 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
+      <description>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
+&lt;li&gt;已安裝 Devonthink&lt;/li&gt;
+&lt;li&gt;沒有了&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;操作過程&#34;&gt;操作過程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打開Devonthink，File -&amp;gt; Import -&amp;gt; Note from Evernote
+&lt;img alt=&#34;Evernote_T0_Devonthink&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0zfLxbC.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選擇想要匯入的資料夾
+&lt;img alt=&#34;Note from Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/3W6ZcRS.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結束，是不是超級簡單啊?! 連TAG都幫您一同移轉過來了，完全無痛轉移。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      <content:encoded>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
+&lt;li&gt;已安裝 Devonthink&lt;/li&gt;
+&lt;li&gt;沒有了&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;操作過程&#34;&gt;操作過程&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;打開Devonthink，File -&amp;gt; Import -&amp;gt; Note from Evernote
+&lt;img alt=&#34;Evernote_T0_Devonthink&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/0zfLxbC.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;選擇想要匯入的資料夾
+&lt;img alt=&#34;Note from Evernote&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/3W6ZcRS.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;結束，是不是超級簡單啊?! 連TAG都幫您一同移轉過來了，完全無痛轉移。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>Ulysses的Markdown功能</title>
+      <link>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
+      <description>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
+&lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;思續不會終斷
+當我們人在寫作的時候，其實思續都是沈浸在文章之中，但是當要為某一句話作排版時，雙手就很自然的要去碰滑鼠或是觸控版，這時候的注意力就會分散，以致於思續不集中。但是利用Markdown的方式，可以很順利的集中在文章之中而不會被其他的事務所影響。&lt;/li&gt;
+&lt;li&gt;功能簡單
+其實Markdown也只有25種類型，需要記憶的並不多，且常用的其實只有那幾種而已。常用到的功能也不到十種，負擔不會太大，不會因為要學習一個新的輸入方式就要花額外的精力去練習||比我學嘸蝦米還簡單||。&lt;/li&gt;
+&lt;li&gt;語法通用
+已經有很多的APP都有支援這種語法，算是蠻直覺的，只要學一套就可以通用到每一個APP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以往我在寫文章會習慣利用Evernote的界面來輸入，但是總是覺得很麻煩，因為Evernote的語法畢竟是利用HTML的方式所撰寫，所以假如是習慣HTML語法的人才會覺得方便。但我從最早是從用Word開始寫文章的(雖然Word真的很爛)，習慣的操作方式已經被定型了，這讓我在使用Evernote時倍感難用。而Ulysses的簡面真的很簡單，就是一個像備忘錄一樣的界面，不用去管字的大小、字體的樣式，只要順從心意去輸入想要的文字就好。這讓我的注意力集中在畫面之中，算是我學嘸蝦米之後(從此視線不在注視著選字)的另外一次進階改變。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
+&lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;思續不會終斷
+當我們人在寫作的時候，其實思續都是沈浸在文章之中，但是當要為某一句話作排版時，雙手就很自然的要去碰滑鼠或是觸控版，這時候的注意力就會分散，以致於思續不集中。但是利用Markdown的方式，可以很順利的集中在文章之中而不會被其他的事務所影響。&lt;/li&gt;
+&lt;li&gt;功能簡單
+其實Markdown也只有25種類型，需要記憶的並不多，且常用的其實只有那幾種而已。常用到的功能也不到十種，負擔不會太大，不會因為要學習一個新的輸入方式就要花額外的精力去練習||比我學嘸蝦米還簡單||。&lt;/li&gt;
+&lt;li&gt;語法通用
+已經有很多的APP都有支援這種語法，算是蠻直覺的，只要學一套就可以通用到每一個APP之中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;以往我在寫文章會習慣利用Evernote的界面來輸入，但是總是覺得很麻煩，因為Evernote的語法畢竟是利用HTML的方式所撰寫，所以假如是習慣HTML語法的人才會覺得方便。但我從最早是從用Word開始寫文章的(雖然Word真的很爛)，習慣的操作方式已經被定型了，這讓我在使用Evernote時倍感難用。而Ulysses的簡面真的很簡單，就是一個像備忘錄一樣的界面，不用去管字的大小、字體的樣式，只要順從心意去輸入想要的文字就好。這讓我的注意力集中在畫面之中，算是我學嘸蝦米之後(從此視線不在注視著選字)的另外一次進階改變。&lt;/p&gt;
+&lt;p&gt;說了這麼多，那到底通用的Markdown有哪些型式呢?&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;標題:
+標題就是在第一個字前面加入#井字號，Ulysses可以接受到六個層級的標題，視乎你加入多少井字號，就算是第幾層。開始時會有點不習慣，記得在輸入完的井字後面加入一個&lt;em&gt;空隔&lt;/em&gt;比如:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
+&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
+&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
+&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
+&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
+&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;分隔線:
+這是由四個減號所構成，只要在行的開頭加入——即可。比如:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;粗體字:
+只要在要粗體字的句子前後加入米字號兩個&lt;code&gt;##&lt;/code&gt;就可以。比如:
+&lt;strong&gt;粗體字&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;強調:
+在要強調的字我們通常會希望用不同的顏色表示，只要在要強調的句字前後加上一個米字號&lt;code&gt;*&lt;/code&gt;即可。比如:
+&lt;em&gt;強調&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;排序清單:
+有排序的清單，像是&lt;code&gt;1.&lt;/code&gt; &lt;code&gt;2.&lt;/code&gt; &lt;code&gt;3.&lt;/code&gt; &lt;code&gt;4.&lt;/code&gt; 之類的符號，就是在行的開頭加入1. 2. 3. 4. 的方式就可以辦到，一樣記得，在點的後面要加入一個空隔。比如:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第一點&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第二點&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第三點&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第四點
+…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;無排序的清單:
+這更簡單，在行的最前面加入一個減號&lt;code&gt;-&lt;/code&gt;就可以了，一樣的是在減號後面要留空隔。比如:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;第一點&lt;/li&gt;
+&lt;li&gt;第二點&lt;/li&gt;
+&lt;li&gt;第三點&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;引用:
+對於引用的文句，可在開頭加入一個大於符號&lt;code&gt;&amp;gt;&lt;/code&gt;，如此整個段落就會被視為引用的文章。比如:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用文章，呈現也會加入底免，視不同的軟體有不同的呈現方式。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;8&#34;&gt;
+&lt;li&gt;連結:
+有時文章需要引用外部或是內部的連結，可以透過&lt;/li&gt;
+&lt;/ol&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>網頁不適合透過行動裝置瀏覽</title>
+      <link>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
+      <description>&lt;p&gt;經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別&lt;strong&gt;您的網頁不適合使用行動裝置瀏覽&lt;/strong&gt;，針對這一點我覺得莫名奇妙
+&lt;img alt=&#34;Google搜尋的結果&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xragLQ4.png&#34;&gt;
+因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;在google相容性測試的檢查&#34;&gt;在Google相容性測試的檢查&lt;/h2&gt;
+&lt;p&gt;由檢查可以看到，有提到&lt;strong&gt;23資源遭到封鎖&lt;/strong&gt;，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。
+&lt;img alt=&#34;錯誤的訊息&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/UnQYInM.png&#34;&gt;
+相容性檢查的呈現頁面
+&lt;img alt=&#34;錯誤的版型呈現&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/jwZ54Al.png&#34;&gt;
+在手機上呈現都沒有問題
+&lt;img alt=&#34;手機上的版型呈現&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/yNGUr6t.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;找到問題的原因&#34;&gt;找到問題的原因&lt;/h2&gt;
+&lt;p&gt;針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別&lt;strong&gt;您的網頁不適合使用行動裝置瀏覽&lt;/strong&gt;，針對這一點我覺得莫名奇妙
+&lt;img alt=&#34;Google搜尋的結果&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xragLQ4.png&#34;&gt;
+因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;在google相容性測試的檢查&#34;&gt;在Google相容性測試的檢查&lt;/h2&gt;
+&lt;p&gt;由檢查可以看到，有提到&lt;strong&gt;23資源遭到封鎖&lt;/strong&gt;，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。
+&lt;img alt=&#34;錯誤的訊息&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/UnQYInM.png&#34;&gt;
+相容性檢查的呈現頁面
+&lt;img alt=&#34;錯誤的版型呈現&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/jwZ54Al.png&#34;&gt;
+在手機上呈現都沒有問題
+&lt;img alt=&#34;手機上的版型呈現&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/yNGUr6t.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;找到問題的原因&#34;&gt;找到問題的原因&lt;/h2&gt;
+&lt;p&gt;針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因為Google並不是真的去我的網頁&lt;strong&gt;看&lt;/strong&gt;網頁，只是派個Googlebot機器人去查而已，而這機器人會因為網站設定的&lt;strong&gt;robots.txt&lt;/strong&gt;檔所限制它所能查看的資料，所以假如限制住了，當然就說版型不合啦。(說實話，還蠻笨的)&lt;/p&gt;
+&lt;p&gt;所以我重新修改robots.txt之後，一切就正常了。也順便提交說明網頁已修改，請機器人再次來爬。
+&lt;img alt=&#34;測試通過&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/ZtFERNh.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;為何要讓行動裝置可以瀏覽呢&#34;&gt;為何要讓行動裝置可以瀏覽呢?&lt;/h2&gt;
+&lt;p&gt;為的就是SEO(Search Engine Optimization)，因為以現在Google的策略是行動優先，未來假如沒有做好行動優化的頁面，基本上都會往後排名。像我那不適合行動的頁面，搜尋到已經是第三頁了，往過往的經驗，只有13%的人會按到第三頁，這就可以知道為何要爭第一頁了。
+並不是我的文章多有價值，一定要人找得到。那只是一種奇蒙子的問題而已&lt;/p&gt;
+</content:encoded>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about-me/</link>
+      <pubDate>Tue, 07 Mar 2017 17:35:50 +0800</pubDate>
+      <guid>http://localhost:1313/about-me/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;為什麼呢?
+其實也不能說是突然之間，這想法已經在我腦海中出現過無數次，只是因為我個人生性比較懶，一直都提不起興緻來做這件事，外加上工作繁忙的因素，所以這個計劃就一直&lt;em&gt;拖延&lt;/em&gt;下去。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;這是一個什麼樣內容的Blog?
+我這個人其實很不專注，常常&lt;strong&gt;閃神&lt;/strong&gt;，喜愛的東西與興趣很多樣化。之前思考的是做個專門主題性的內容，比如:電腦類、網路類、GTD、Coding、登山類、遊記類、歷史類、科學類、財經類、美食類、運動類、攝影類、產品推薦類、藝術類、音樂類、音響類&amp;hellip;..(發現我興趣也蠻廣的)，以上都是我可以專注去經營的類型。但是只專注在一個類型上，又與我&lt;strong&gt;不專注&lt;/strong&gt;的個性不合。所以最後決定給我的BLOG來個特殊的分類—雜記類(就是全都摻在一起的&lt;strong&gt;撒尿牛丸&lt;/strong&gt;)。反正都有分類與搜功能，您只要看自己喜愛或是有幫助的東西就可以了。至於喜愛找專版的請左轉離開&lt;/p&gt;</description>
+      <content:encoded>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;為什麼呢?
+其實也不能說是突然之間，這想法已經在我腦海中出現過無數次，只是因為我個人生性比較懶，一直都提不起興緻來做這件事，外加上工作繁忙的因素，所以這個計劃就一直&lt;em&gt;拖延&lt;/em&gt;下去。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;這是一個什麼樣內容的Blog?
+我這個人其實很不專注，常常&lt;strong&gt;閃神&lt;/strong&gt;，喜愛的東西與興趣很多樣化。之前思考的是做個專門主題性的內容，比如:電腦類、網路類、GTD、Coding、登山類、遊記類、歷史類、科學類、財經類、美食類、運動類、攝影類、產品推薦類、藝術類、音樂類、音響類&amp;hellip;..(發現我興趣也蠻廣的)，以上都是我可以專注去經營的類型。但是只專注在一個類型上，又與我&lt;strong&gt;不專注&lt;/strong&gt;的個性不合。所以最後決定給我的BLOG來個特殊的分類—雜記類(就是全都摻在一起的&lt;strong&gt;撒尿牛丸&lt;/strong&gt;)。反正都有分類與搜功能，您只要看自己喜愛或是有幫助的東西就可以了。至於喜愛找專版的請左轉離開&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;多久會更新一次?
+就因為我閃神的個性，所以做事情都很隨性的，不喜歡有壓力，不會有固定的更新時間，只會當有想要寫東西的時候才會放上文章。畢竟要固定一段時間，甚至是每天更新，那真的是很煩人且會死掉無數腦細胞的工作。反正現代人看Blog都是用RSS的方式在看，所以有更新時自然就會出現，也不常逛我的網站。可以建議用&lt;a href=&#34;https://feedly.com&#34;&gt;Feedly&lt;/a&gt;之類的RSS服務來閱讀，也不會有多餘的版面來煩人。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blog走向?
+我是一個不愛看廣告的人，所以相對下在網站的經營上，也不希望有太多煩人的廣告(最好是沒有)。但是人都是需要存活的，所以未來真的會以完全無廣告的方式持續經營嗎?&lt;strong&gt;我不能確定&lt;/strong&gt;。如上述所言，反正會看到我文章的人，多是利用Feed的方式訂閱，所以通常也是看不到廣告的。想要利用Blog賺錢，這真的需要花很大的精力才有辦法做到，以我的經營理念上，我想是不可能的。而未來假如真的有廣告出現，那也只是為了維持網站持續性而已，不會是為了生活，所以要不要友善點擊，對我來說一點都不重要。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;我到底是誰?
+這問題問的好啊!我已經找答案找了二十來年，只為了想要認識我到底是誰?
+簡單來說我是一個多種矛盾的綜合體。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;喜歡新的科技，又熱愛歷史事物。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;喜歡宅在家裡，又熱愛旅遊各國。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;喜歡安靜看書，又熱愛跑步健身。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;喜歡古典音樂，又熱愛飆車聲浪。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;喜歡美味食物，又熱愛瘦身減肥。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;喜歡雜亂無章，又熱愛整齊化一。
+假如你真的知道我是誰的話，請跟我說一聲。&lt;br&gt;
+&lt;strong&gt;因為我也想知道&lt;/strong&gt;，呵呵!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+    </item>
+  </channel>
+</rss>

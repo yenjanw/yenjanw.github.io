@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>網路 on YJ-Online</title>
+    <link>http://localhost:1313/tags/%E7%B6%B2%E8%B7%AF/</link>
+    <description>Recent content in 網路 on YJ-Online</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh-TW</language>
+    <atom:link href="http://localhost:1313/tags/%E7%B6%B2%E8%B7%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GCP最低配置不適合HEXO壓縮</title>
+      <link>http://localhost:1313/posts/gcp%E6%9C%80%E4%BD%8E%E9%85%8D%E7%BD%AE%E4%B8%8D%E9%81%A9%E5%90%88hexo%E5%A3%93%E7%B8%AE/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gcp%E6%9C%80%E4%BD%8E%E9%85%8D%E7%BD%AE%E4%B8%8D%E9%81%A9%E5%90%88hexo%E5%A3%93%E7%B8%AE/</guid>
+      <description>&lt;h1 id=&#34;差一點就當機了&#34;&gt;差一點就當機了&lt;/h1&gt;
+&lt;p&gt;利用&lt;a href=&#34;https://developers.google.com/speed/pagespeed/insights/?hl=zh-TW&#34;&gt;Google PageSpeed Insight&lt;/a&gt;之中的服務，了解自己網站還有哪些是可以改善的部份，一直提示我網站的java script、CSS、HTML沒有做壓縮的動作，建議我執行。&lt;/p&gt;
+&lt;p&gt;我重新查了&lt;a href=&#34;https://hexo.io/plugins/&#34;&gt;HEXO Plugin&lt;/a&gt;的內容，找到了上述三種的壓縮方式，利用之後就gg了!&lt;/p&gt;
+&lt;h1 id=&#34;超高的系統使用率&#34;&gt;超高的系統使用率&lt;/h1&gt;
+&lt;p&gt;因為壓縮需要用到系統的CPU與HD交互運算，大家都知道，為了省錢，我所選擇的是GCP最低配置。當我一執行hexo內容更新時，哇! 如下圖:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/t9wBHTB.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Y5jjcYI.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;CPU使用率好像還好，但是HD使用率卻是高的嚇人。然後就一直出現錯誤的訊息，網站也不容易進入，最慘的是連SSH都進不去。好幾次我想要重新開機就好了，但是一直忍住。&lt;/p&gt;
+&lt;p&gt;看著HD讀取24M/s的使用，就知道一定是程式發生錯誤，造成系統這麼高的使用量(有高嗎?)。&lt;/p&gt;
+&lt;h1 id=&#34;刪除壓縮功能&#34;&gt;刪除壓縮功能&lt;/h1&gt;
+&lt;p&gt;好不容易SSH進入系統，把相關的minifier全都uninstall掉&lt;/p&gt;
+&lt;p&gt;​	npm uninstall  hexo-XXXX-minifier&lt;/p&gt;
+&lt;p&gt;執行完後，系統終於回覆正常了。&lt;/p&gt;
+&lt;p&gt;這經驗告訴我，若是要做JS、CSS、HTML壓縮的工作，建議拉回本機端來做。GCP最低配置不適合作壓縮的工作，真的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>網站載入應是有再快一點</title>
+      <link>http://localhost:1313/posts/%E7%B6%B2%E7%AB%99%E8%BC%89%E5%85%A5%E6%87%89%E6%98%AF%E6%9C%89%E5%86%8D%E5%BF%AB%E4%B8%80%E9%BB%9E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%B6%B2%E7%AB%99%E8%BC%89%E5%85%A5%E6%87%89%E6%98%AF%E6%9C%89%E5%86%8D%E5%BF%AB%E4%B8%80%E9%BB%9E/</guid>
+      <description>&lt;h1 id=&#34;載入首頁居然高達87mb&#34;&gt;載入首頁居然高達8.7MB&lt;/h1&gt;
+&lt;p&gt;其實網站也沒啥人在看，SEO也普普，也沒有什麼吸引人的人章，這裡只是我實作BLOG的一個場所而已，但是我對效率與使用者經驗還是很在乎的。&lt;/p&gt;
+&lt;p&gt;前幾天，利用&lt;a href=&#34;https://tools.pingdom.com&#34;&gt;pingdom&lt;/a&gt;測試了一下網站的載入需要多久的時間，在Google Cloud Platform的加持下，速度是還蠻不錯的。從美國San Jose載入網站只要四秒鐘左右，但是載入的容量嚇到我了，沒啥內容的網站居然高達8.7MB(真的是&lt;del&gt;87&lt;/del&gt;)。讓我重新再審視一下到底是哪裡出錯了。&lt;/p&gt;
+&lt;h1 id=&#34;開始網站優化&#34;&gt;開始網站優化&lt;/h1&gt;
+&lt;p&gt;整個網站都是用&lt;a href=&#34;http://hexp.io&#34;&gt;HEXO&lt;/a&gt;產生出靜態的html檔，然後再上傳到我的GCP之中，開始查看有沒有相關的Plugin可以幫助我將生成的容量減少。&lt;/p&gt;
+&lt;p&gt;先說明我現有的配置&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    &amp;#34;hexo&amp;#34;: &amp;#34;^3.2.0&amp;#34;,
+    &amp;#34;hexo-deployer-git&amp;#34;: &amp;#34;^0.2.0&amp;#34;,
+    &amp;#34;hexo-generator-amp&amp;#34;: &amp;#34;^2.0.12&amp;#34;,
+    &amp;#34;hexo-generator-archive&amp;#34;: &amp;#34;^0.1.4&amp;#34;,
+    &amp;#34;hexo-generator-category&amp;#34;: &amp;#34;^0.1.3&amp;#34;,
+    &amp;#34;hexo-generator-feed&amp;#34;: &amp;#34;^1.2.0&amp;#34;,
+    &amp;#34;hexo-generator-index&amp;#34;: &amp;#34;^0.2.0&amp;#34;,
+    &amp;#34;hexo-generator-search&amp;#34;: &amp;#34;^2.0.0&amp;#34;,
+    &amp;#34;hexo-generator-searchdb&amp;#34;: &amp;#34;^1.0.3&amp;#34;,
+    &amp;#34;hexo-generator-seo-friendly-sitemap&amp;#34;: &amp;#34;0.0.20&amp;#34;,
+    &amp;#34;hexo-generator-tag&amp;#34;: &amp;#34;^0.2.0&amp;#34;,
+    &amp;#34;hexo-imgur&amp;#34;: &amp;#34;0.0.2&amp;#34;,
+    &amp;#34;hexo-server&amp;#34;: &amp;#34;^0.2.0&amp;#34;,
+    &amp;#34;minimatch&amp;#34;: &amp;#34;^3.0.3&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;第一步減少圖檔的載入&#34;&gt;第一步:減少圖檔的載入&lt;/h2&gt;
+&lt;p&gt;每一個頁面，載入的所需時間是不相同的，最在意是首頁的部份，怎麼會需要高達8.7MB呢?&lt;/p&gt;
+&lt;p&gt;原來是我沒有做摘要，就是因為沒有摘要的因素，所以首頁幾乎是把我所有的文章都讀了出來，相當然圖檔也全讀出來。這解決方法有三種。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在文章的&lt;code&gt;front-mater&lt;/code&gt;中加入&lt;code&gt;description&lt;/code&gt;的描述，也就是在YAML之中寫入文章的摘要，這樣生成文章就會有簡單的描述文字只顯示在首頁之中。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用主題&lt;strong&gt;NEXT&lt;/strong&gt;的功能，在&lt;code&gt;/themes/[主題]/_config.yml&lt;/code&gt;之中加入:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;auto_excerpt:
+enable: true
+length: 150&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;這樣就會自動生成150字的摘要，若要更多的字數，可自行更改。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在文章之中加入&lt;code&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;的字串，如此生成HTML時，就會知道哪些是摘要，哪些是內文。最大好處是可以自己控制文章的摘要，不用被固定的字數所限制。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;因為我的文章還不多，畢竟是還在與GCP之間的磨合期，所以改每篇文章其實還好，我就利用這方式，將每個文章都加入了摘要字串。&lt;/p&gt;
+&lt;p&gt;光是利用這方式，載入已由8.7MB下降到2.2MB，功效不可謂不大。&lt;/p&gt;
+&lt;h2 id=&#34;第二步壓縮程式碼&#34;&gt;第二步:壓縮程式碼&lt;/h2&gt;
+&lt;p&gt;其實在&lt;a href=&#34;https://hexo.io/plugins/&#34;&gt;HEXO plugin&lt;/a&gt;的部份有很多的可以壓縮的方式說明，我最後選定的是neat的方式進行，因為可以有參數作設定。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先安裝&lt;code&gt;hexo-neat&lt;/code&gt;到系統中&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install hero-neat  —save
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在hexo下的配置，將以下屬性輸入&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hexo-neat
+
+neat_enable: true
+
+neat_html:
+  enable: true
+  exclude:
+
+neat_css:
+  enable: true
+  exclude:
+- &amp;#39;*.min.css&amp;#39;
+
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+- &amp;#39;*.min.js&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其中可以針對html、css、js分別作設定，但我執行js的部份就是會一直出現執行過久的狀況(畢竟我選的是最低階的伺服器)，在省錢第一的原則下，又不想太麻煩，所以就把js的部份取消了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
