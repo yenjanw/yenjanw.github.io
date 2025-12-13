@@ -2,7 +2,7 @@
 title = 'DEVONthink(五)'
 subtitle = '文件管理'
 date = '2017-05-05T17:35:50+08:00'
-draft = true
+draft = false
 tags = ['文件管理']
 categories = ['DEVONthink']
 +++

@@ -2,7 +2,7 @@
 title = 'DEVONthink(二)'
 subtitle = '操作介面'
 date = '2017-04-20T17:35:50+08:00'
-draft = true
+draft = false
 tags = ['文件管理']
 categories = ['DEVONthink']
 +++

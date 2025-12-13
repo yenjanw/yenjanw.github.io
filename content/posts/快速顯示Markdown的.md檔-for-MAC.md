@@ -2,7 +2,7 @@
 title = '快速顯示Markdown的.md檔 for MAC'
 subtitle = 'Quick Look'
 date = '2017-04-06'
-draft = true
+draft = false
 tags = ['MAC', 'Quick Look', 'Markdown']
 +++
 

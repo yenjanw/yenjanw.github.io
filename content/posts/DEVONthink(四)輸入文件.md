@@ -2,7 +2,7 @@
 title = 'DEVONthink(四)'
 subtitle = '輸入文件/檔案'
 date = '2017-04-25T17:35:50+08:00'
-draft = true
+draft = false
 tags = ['文件管理']
 categories = ['DevonThink']
 +++

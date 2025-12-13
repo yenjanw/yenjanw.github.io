@@ -1,6 +1,6 @@
 +++
 date = '2017-04-03T17:35:50+08:00'
-draft = true
+draft = false
 title = 'Incremental Ta-Lib'
 +++
 
