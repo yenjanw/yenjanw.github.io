@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Quick Look on YJ-OnLine</title>
-    <link>http://localhost:1313/tags/quick-look/</link>
+    <link>https://yenjanw.github.io/tags/quick-look/</link>
     <description>Recent content in Quick Look on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Thu, 06 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/quick-look/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yenjanw.github.io/tags/quick-look/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>快速顯示Markdown的.md檔 for MAC</title>
-      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <link>https://yenjanw.github.io/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <guid>https://yenjanw.github.io/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
       <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
 &lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
 &lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>

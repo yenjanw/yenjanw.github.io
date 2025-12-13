@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>網頁不適合透過行動裝置瀏覽 | YJ-OnLine</title>
 <meta name="keywords" content="">
 <meta name="description" content="經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別您的網頁不適合使用行動裝置瀏覽，針對這一點我覺得莫名奇妙
@@ -23,16 +23,16 @@
 
 這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
+<link rel="canonical" href="https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.7de8d3c900487d2794bfaa4d744699471530aab973ba50d51f2e746dbd867a45.css" integrity="sha256-fejTyQBIfSeUv6pNdEaZRxUwqrlzulDVHy50bb2GekU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://yenjanw.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://yenjanw.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://yenjanw.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://yenjanw.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://yenjanw.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
+<link rel="alternate" hreflang="en" href="https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
 <noscript>
     <style>
         #theme-toggle,
@@ -84,13 +84,91 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/">
+  <meta property="og:site_name" content="YJ-OnLine">
+  <meta property="og:title" content="網頁不適合透過行動裝置瀏覽">
+  <meta property="og:description" content="經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別您的網頁不適合使用行動裝置瀏覽，針對這一點我覺得莫名奇妙 因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?
+在Google相容性測試的檢查 由檢查可以看到，有提到23資源遭到封鎖，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。 相容性檢查的呈現頁面 在手機上呈現都沒有問題 找到問題的原因 針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明
+這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。">
+  <meta property="og:locale" content="zh-TW">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2017-03-13T00:00:00+00:00">
+    <meta property="article:modified_time" content="2017-03-13T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="網頁不適合透過行動裝置瀏覽">
+<meta name="twitter:description" content="經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別您的網頁不適合使用行動裝置瀏覽，針對這一點我覺得莫名奇妙
+
+因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?
+
+在Google相容性測試的檢查
+由檢查可以看到，有提到23資源遭到封鎖，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。
+
+相容性檢查的呈現頁面
+
+在手機上呈現都沒有問題
+
+找到問題的原因
+針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明
+
+這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://yenjanw.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "網頁不適合透過行動裝置瀏覽",
+      "item": "https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "網頁不適合透過行動裝置瀏覽",
+  "name": "網頁不適合透過行動裝置瀏覽",
+  "description": "經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別您的網頁不適合使用行動裝置瀏覽，針對這一點我覺得莫名奇妙 因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?\n在Google相容性測試的檢查 由檢查可以看到，有提到23資源遭到封鎖，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。 相容性檢查的呈現頁面 在手機上呈現都沒有問題 找到問題的原因 針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明\n這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別您的網頁不適合使用行動裝置瀏覽，針對這一點我覺得莫名奇妙 因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?\n在Google相容性測試的檢查 由檢查可以看到，有提到23資源遭到封鎖，再點選進去看是哪23項資源，幾乎都是與版型相關的CSS設定，那當然不符合啦。 相容性檢查的呈現頁面 在手機上呈現都沒有問題 找到問題的原因 針對封鎖的資源查詢可能發生的原因，依照Google說明頁面找到的說明\n這裡的資源指的是頁面所包含的外部資源，例如圖片、CSS 或指令碼檔案。如果 robots.txt 檔案禁止 Googlebot 存取資源，測試結果頁面就會顯示「封鎖的資源」警告。視遭封鎖的資源而定，這可能會對網頁帶來很大的影響。舉例來說，如果有一張大型圖片遭到封鎖，儘管頁面看似適合透過行動裝置瀏覽，實際上卻可能不是如此；如果遭到封鎖的是 CSS 檔案，則可能會導致網頁套用不正確的字型樣式 (例如字體太小，不適合在行動裝置上閱讀)。這類情況會影響到行動裝置可用性得分和 Google 檢索您網頁的能力，因此您必須確保 robots.txt 檔案不會禁止 Googlebot 存取重要資源。\n因為Google並不是真的去我的網頁看網頁，只是派個Googlebot機器人去查而已，而這機器人會因為網站設定的robots.txt檔所限制它所能查看的資料，所以假如限制住了，當然就說版型不合啦。(說實話，還蠻笨的)\n所以我重新修改robots.txt之後，一切就正常了。也順便提交說明網頁已修改，請機器人再次來爬。 為何要讓行動裝置可以瀏覽呢? 為的就是SEO(Search Engine Optimization)，因為以現在Google的策略是行動優先，未來假如沒有做好行動優化的頁面，基本上都會往後排名。像我那不適合行動的頁面，搜尋到已經是第三頁了，往過往的經驗，只有13%的人會按到第三頁，這就可以知道為何要爭第一頁了。 並不是我的文章多有價值，一定要人找得到。那只是一種奇蒙子的問題而已\n",
+  "wordCount" : "858",
+  "inLanguage": "en",
+  "datePublished": "2017-03-13T00:00:00Z",
+  "dateModified": "2017-03-13T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yenjanw.github.io/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "YJ-OnLine",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yenjanw.github.io/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <a href="https://yenjanw.github.io/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -116,12 +194,12 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="BLOG">
+                <a href="https://yenjanw.github.io/" title="BLOG">
                     <span>BLOG</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about-me/" title="About Me">
+                <a href="https://yenjanw.github.io/about-me/" title="About Me">
                     <span>About Me</span>
                 </a>
             </li>
@@ -133,15 +211,9 @@
 <div class="post-container">
     <article class="post-single">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <div class="breadcrumbs"><a href="https://yenjanw.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://yenjanw.github.io/posts/">Posts</a></div>
             <h1 class="post-title entry-hint-parent">
                 網頁不適合透過行動裝置瀏覽
-                <span class="entry-hint" title="Draft">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-                        <path
-                            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-                    </svg>
-                </span>
             </h1>
             <div class="post-meta">
                 <span title='2017-03-13 00:00:00'>
@@ -198,7 +270,7 @@
             <ul class="post-tags">
             </ul>
 <nav class="paginav">
-  <a class="prev" href="http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/">
+  <a class="prev" href="https://yenjanw.github.io/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/">
     <span class="title">« Prev</span>
     <br>
     <span>Ulysses的Markdown功能</span>
@@ -234,7 +306,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+        <span>&copy; 2025 <a href="https://yenjanw.github.io/">YJ-OnLine</a></span> · 
 
     <span>
         Powered by

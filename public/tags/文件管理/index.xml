@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文件管理 on YJ-OnLine</title>
-    <link>http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+    <link>https://yenjanw.github.io/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
     <description>Recent content in 文件管理 on YJ-OnLine</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>zh-TW</language>
     <lastBuildDate>Fri, 05 May 2017 17:35:50 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yenjanw.github.io/tags/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DEVONthink(五)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <link>https://yenjanw.github.io/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://yenjanw.github.io/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h1 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h1&gt;
+&lt;h2 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h2&gt;
 &lt;p&gt;我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。&lt;/p&gt;
 &lt;p&gt;文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的&lt;code&gt;圖書館系&lt;/code&gt;。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。&lt;em&gt;文件管理的目的，是為了快速搜尋&lt;/em&gt;，唯有能快速的找到所需的文件，才是好的管理方式。&lt;/p&gt;
 &lt;p&gt;有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&amp;hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
 &lt;!-- more --&gt;
-&lt;h1 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h1&gt;
+&lt;h2 id=&#34;文件整理是個哲學層次問題&#34;&gt;文件整理是個哲學層次問題&lt;/h2&gt;
 &lt;p&gt;我習慣是難聽的先說。假如你的文件都是英文體系的資料，那DEVONthink真的會幫你節省很多的時間。而DEVONthink直到現在，在中文的斷字上還是有很大的問題，簡單來說就是它還不懂中文，所以有一項功能在中文環境上幾乎完全沒有作用。這部份我會在文後再作說明。&lt;/p&gt;
 &lt;p&gt;文件管理真的是一門哲學上的問題，要將文件分類，甚至大學還有開設專門的&lt;code&gt;圖書館系&lt;/code&gt;。在我末進大學之前，就一直在想這學系出路就是個圖書館管理員嗎?後來出了社會，工作了幾年，當自己的文件累積的越來越多之後，發現管理真的是一門學問。&lt;em&gt;文件管理的目的，是為了快速搜尋&lt;/em&gt;，唯有能快速的找到所需的文件，才是好的管理方式。&lt;/p&gt;
 &lt;p&gt;有人說，用搜尋功能不就解決了嗎?沒錯，這關念完全正確，不用管理就是最好的管理。讓文件全都散成一團，只要搜尋功能夠強，就可以很快的找到所需的文件。But&amp;hellip;人生總是有這一個But，假如你要搜尋時，腦袋一片空白，連個關鍵字都沒有，那是要如何下搜尋的指令呢?我們都知道Google的搜尋功能很強大吧，但是連你要找的關鍵字是什麼都很模糊的時候，強大的搜尋也是幫不上忙的。&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;p&gt;好以成天就說到這裡~&lt;/p&gt;
 &lt;p&gt;喟~ DEVONthink在文件管理的方式都還沒有提到耶~&lt;/p&gt;
 &lt;p&gt;好像是厚! 以下開始說明DEVONthink在文件管理的方式。&lt;/p&gt;
-&lt;h1 id=&#34;devonthink的文件管理方式&#34;&gt;DEVONthink的文件管理方式&lt;/h1&gt;
+&lt;h2 id=&#34;devonthink的文件管理方式&#34;&gt;DEVONthink的文件管理方式&lt;/h2&gt;
 &lt;h2 id=&#34;何謂group--何謂tag-&#34;&gt;何謂Group ? 何謂Tag ?&lt;/h2&gt;
 &lt;p&gt;在說明DEVONthink的文件管理邏輯之前，先讓我們來討論一下Group與Tag之間的關係。&lt;/p&gt;
 &lt;ul&gt;
@@ -170,7 +170,7 @@
 &lt;/ul&gt;
 &lt;p&gt;這幾個功能，最重要的是可以批量化作業，一次選一堆Tag，或為一堆文件同時修改Tag時相當方便(遠目Evernote)。&lt;/p&gt;
 &lt;p&gt;我個人算是個Group控，Tag對我來說只是輔助功能而已，但以上幾些功能對Tag控應是相當的方便。它改善了多數文件管理軟體在這方面的缺點，但也相對的，對我這Group控第一次接觸DEVONthink時產生了困惱，不理解畫面為何要被設計成這麼複雜，不能簡單一點嗎? 就是因為功能眾多，要符合所有人的使用習慣是不可能的，所以剛接觸時會覺得顯示的很凌亂。不過DEVONthink也很貼心的知道這問題，所以假如自己不用的功能，都是有方法選擇關閉的，在&lt;code&gt;View&lt;/code&gt;內有很多選項就是在做這功能。&lt;/p&gt;
-&lt;h1 id=&#34;wiki&#34;&gt;Wiki&lt;/h1&gt;
+&lt;h2 id=&#34;wiki&#34;&gt;Wiki&lt;/h2&gt;
 &lt;p&gt;這是DEVONthink最特別的我能之一，有點像是之前的&lt;a href=&#34;https://plausible.coop/voodoopad/&#34;&gt;Voodoopad&lt;/a&gt;的功能，DEVONthink能自動辨識文字中與其他文件檔名、Group、Tag相同的專有名詞。讓整份文件有如Wiki一樣的連結功能。&lt;/p&gt;
 &lt;h2 id=&#34;普通連結&#34;&gt;普通連結&lt;/h2&gt;
 &lt;p&gt;建立在資料庫文件內的相互連結，有幾種不同的方式可以進行:&lt;/p&gt;
@@ -194,7 +194,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;這是很實用的功能，可以快速建立個人的Wiki資料庫。但是(又來了)，因為中文斷字能力不足的關係，這功能在中文環境下，也是屬於半殘廢的狀態。不過英文環境就沒有這樣的問題，若你有很多的英文文件，你一定會發現這功能的威力。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;特殊操作方式&#34;&gt;特殊操作方式&lt;/h1&gt;
+&lt;h2 id=&#34;特殊操作方式&#34;&gt;特殊操作方式&lt;/h2&gt;
 &lt;h2 id=&#34;在資料庫間傳送檔案&#34;&gt;在資料庫間傳送檔案&lt;/h2&gt;
 &lt;p&gt;跨資料庫的文件傳送，一般而言只要用拖拉放即可，在此說明一些小小的訣竅，以方便作文件管理。&lt;/p&gt;
 &lt;ul&gt;
@@ -223,7 +223,7 @@
 &lt;ul&gt;
 &lt;li&gt;分割文件功能，只能用在文字(Plain, Rich Text)與PDF檔，其他類型無法使用。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;文件管理結語&#34;&gt;文件管理結語&lt;/h1&gt;
+&lt;h2 id=&#34;文件管理結語&#34;&gt;文件管理結語&lt;/h2&gt;
 &lt;p&gt;從文中應該可以看出DEVONthink根本就是撒尿牛丸級的文件管理系統，幾乎什麼功能都有~~，只差中文斷字支援而已~~。我認為DEVONthink只是一種工具，就像Evernote一樣，也是一種工具，今天工具就是要拿來用，用的透，用的好，就是一種好工具。&lt;/p&gt;
 &lt;p&gt;至於文件管理有很多的方法與理論，我相信各種理論都可以在DEVONthink上得到實踐，找到合適的功能來做管理，這就是一個好工具所需具備的元素。不應該是人去適應工具，而應該是工具是因人的需求而被打造的。所以好的工具要想到人真正所需要的需求。&lt;/p&gt;
 &lt;p&gt;這一篇拖了一點時間才出來，因為上一個星期感冒，又是爬大山(&lt;del&gt;自找罪受&lt;/del&gt;)，導致一整個星期都提不起精神來寫點東西。下一篇會來介紹搜尋功能。&lt;/p&gt;
@@ -231,9 +231,9 @@
     </item>
     <item>
       <title>DEVONthink(四)</title>
-      <link>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
+      <link>https://yenjanw.github.io/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 25 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://yenjanw.github.io/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -389,9 +389,9 @@
     </item>
     <item>
       <title>DEVONthink(三)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <link>https://yenjanw.github.io/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <guid>https://yenjanw.github.io/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
       <description>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;
 &lt;h2 id=&#34;建立一個新資料庫&#34;&gt;建立一個新資料庫&lt;/h2&gt;
@@ -449,9 +449,9 @@
     </item>
     <item>
       <title>DEVONthink(二)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
+      <link>https://yenjanw.github.io/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
+      <guid>https://yenjanw.github.io/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
       <description>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
 &lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -517,7 +517,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/h1JpEec.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在每一個編輯視窗，都會出現如上圖的導覽Bar，從左至右分別為上一頁、下一頁、網址、文章資訊、Reload、鎖定、前一個Highlight、後一個Highlight、文字分析(word)、See also與Classify、關鍵字、Tag Bar。&lt;/p&gt;
 &lt;p&gt;這部份之後會列專文說明各個的用途，先了解有這些東西就好。&lt;/p&gt;
-&lt;h1 id=&#34;顯示選項&#34;&gt;顯示選項&lt;/h1&gt;
+&lt;h2 id=&#34;顯示選項&#34;&gt;顯示選項&lt;/h2&gt;
 &lt;p&gt;除了六個主視窗View的方式外，DEVONthink還有幾個不同的不同的顯示選項可以使用。以下介紹都加上快速鍵，可以自行開啟與關閉。&lt;/p&gt;
 &lt;h2 id=&#34;cover-flow-o&#34;&gt;Cover Flow (⌥⌘O)&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/aOuOgSn.png&#34;&gt;&lt;/p&gt;
@@ -538,7 +538,7 @@
 &lt;p&gt;就如同Mac 10.11之後的全螢幕模式一般，把整個視窗填滿。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/rYjIfXy.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;只有文件顯示的部份填滿視窗，還蠻方便的，可以使所有的干擾都消除，達到Focus的效果。&lt;/p&gt;
-&lt;h1 id=&#34;面版-panels&#34;&gt;面版 Panels&lt;/h1&gt;
+&lt;h2 id=&#34;面版-panels&#34;&gt;面版 Panels&lt;/h2&gt;
 &lt;p&gt;部份的視窗功能，在DEVONthink之中被稱作&lt;code&gt;Panels&lt;/code&gt;，與一般的視窗功能上有一點點不太相同，通常可以提供一些特殊的功能，或者是額外的資訊。這些面版是相對於主視窗獨立而生的，不會依附著。以下就是一些特殊的面版介紹。&lt;/p&gt;
 &lt;h2 id=&#34;information-i&#34;&gt;Information (⌘⇧I)&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/Epj9cQb.png&#34;&gt;&lt;/p&gt;
@@ -585,9 +585,9 @@
     </item>
     <item>
       <title>DEVONthink(一)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
+      <link>https://yenjanw.github.io/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
       <pubDate>Tue, 18 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
+      <guid>https://yenjanw.github.io/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
       <description>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
@@ -631,7 +631,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/f1dnXgL.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;雖然在_Take Control of Getting Started with DEVONthink 2_這本書中有提到，盡量不是將DEVONthink作為RSS的閱讀或訂閱器使用，但是現在我的應用是將我在&lt;a href=&#34;http://feedly.com&#34;&gt;Feedly&lt;/a&gt;中的所有RSS連結直接給DEVONthink使用，好處是當看到有意義的文章，或未來可能會用到的資訊，我就將文放到指定的資料夾中，作為個人資料庫，不用再經過轉檔或截取的動作，一個拖拉放就搞定了。&lt;/p&gt;
 &lt;p&gt;有一些RSS只提供摘要，若點入要開啟瀏覽器也算很麻煩的事，所以這部份DEVONthink可以用內建的Browser搞定，不用再另外開啟程式與畫面，也當然沒有其他分頁之類的惱人問題，算是相當方便。&lt;/p&gt;
-&lt;h1 id=&#34;devonthink缺點&#34;&gt;DEVONthink缺點&lt;/h1&gt;
+&lt;h2 id=&#34;devonthink缺點&#34;&gt;DEVONthink缺點&lt;/h2&gt;
 &lt;p&gt;秉持著雞蛋裡要挑出骨頭的個性，在這軟體中，其是存在著一些缺點，讓我不得不注意到。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;畫面很老派，感覺像是在用早期的ERP軟體一樣的界面。不用我這外貌協會成員來看，都會覺得畫面一點都不吸引人，雖然沒有炫麗的畫面與操作模式，但功能都很實用。期望下一版可以再更好看一點。&lt;/li&gt;
