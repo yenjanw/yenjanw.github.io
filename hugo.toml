@@ -23,6 +23,7 @@ hasCJKLanguage = true
     title = "YJ-OnLine"
     description = "第四次移Blog,YJOL V4.0"
     dateFormat = "2006-01-02 15:04:05 UTC+8"
+    googleAnalytics = "G-V1K5KSWK13"
     
     # 顯示文章的 tags 和 categories
     ShowBreadCrumbs = true
