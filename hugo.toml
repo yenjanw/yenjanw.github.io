@@ -1,6 +1,5 @@
 baseURL = 'https://www.yjho.me'
 
-post = "/:year/:month/:slug/"
 languageCode = 'zh-TW'
 title = 'YJ-OnLine'
 
@@ -9,6 +8,9 @@ theme = 'PaperMod'
 # 摘要設定
 summaryLength = 300
 hasCJKLanguage = true
+
+[permalinks]
+  post = "/:year/:month/:slug/"
 
 [taxonomies]
   tag = "tags"
