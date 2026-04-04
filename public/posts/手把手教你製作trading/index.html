@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>手把手教你製作Trading Gym Env | YJ-OnLine</title>
+<meta name="keywords" content="AI, Stocks, OpenAI, Gym">
+<meta name="description" content="網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!)
+本篇就初步介紹如何製作個人的Trading Gym。">
+<meta name="author" content="map[disablespecial1stpost:true name:YJ showfulltextinrss:true showtoc:true tocopen:true]">
+<link rel="canonical" href="http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7a5bd5658edb019b766c433cb564a048ce9e30e8b88c480508f72a602099956a.css" integrity="sha256-elvVZY7bAZt2bEM8tWSgSM6eMOi4jEgFCPcqYCCZlWo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/dp_column/" title="個資法專欄">
+                    <span>個資法專欄</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">首頁</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <h1 class="post-title entry-hint-parent">
+                手把手教你製作Trading Gym Env
+            </h1>
+            <div class="post-meta">
+                <span title='2021-02-08 00:00:00'>
+                    2021-02-08
+                </span>
+
+</div>
+        </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目錄</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%bc%b7%e5%8c%96%e5%ad%b8%e7%bf%92reinforcement-learningrl%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5" aria-label="強化學習(Reinforcement Learning，RL)的基本概念">強化學習(Reinforcement Learning，RL)的基本概念</a></li>
+                <li>
+                    <a href="#gym%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5" aria-label="Gym的基本概念">Gym的基本概念</a></li>
+                <li>
+                    <a href="#gym%e5%85%a7%e9%83%a8%e6%9e%b6%e6%a7%8b" aria-label="gym內部架構">gym內部架構</a></li>
+                <li>
+                    <a href="#%e6%89%93%e9%80%a0trading-gym" aria-label="打造Trading Gym">打造Trading Gym</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5-%e5%ae%9a%e7%be%a9%e7%92%b0%e5%a2%83%e5%80%bcobs" aria-label="第二步: 定義環境值obs">第二步: 定義環境值obs</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5-%e5%ae%9a%e7%be%a9%e5%9f%b7%e8%a1%8c%e8%a1%8c%e7%82%ba" aria-label="第三步: 定義執行行為">第三步: 定義執行行為</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5-%e5%ae%9a%e7%be%a9%e9%81%8a%e6%88%b2%e7%b5%90%e6%9d%9f" aria-label="第四步: 定義遊戲結束">第四步: 定義遊戲結束</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%ba%94%e6%ad%a5-%e9%87%8d%e6%96%b0%e9%96%8b%e5%a7%8b%e6%95%b8%e5%80%bc%e5%88%9d%e5%a7%8b%e5%8c%96" aria-label="第五步: 重新開始(數值初始化)">第五步: 重新開始(數值初始化)</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e5%85%ad%e6%ad%a5-%e5%ae%9a%e7%be%a9%e9%81%8a%e6%88%b2%e6%ad%a5%e9%a9%9f" aria-label="第六步: 定義遊戲步驟">第六步: 定義遊戲步驟</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%b8%83%e6%ad%a5-%e6%8a%8a%e9%81%8a%e6%88%b2render%e5%87%ba%e4%be%86" aria-label="第七步: 把遊戲render出來">第七步: 把遊戲render出來</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e5%85%ab%e6%ad%a5-%e9%81%8a%e6%88%b2%e9%97%9c%e9%96%89" aria-label="第八步: 遊戲關閉">第八步: 遊戲關閉</a></li>
+                <li>
+                    <a href="#%e5%be%8c%e8%a9%b1" aria-label="後話">後話</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+        <div class="post-content"><p>網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!)
+本篇就初步介紹如何製作個人的Trading Gym。</p>
+<h2 id="強化學習reinforcement-learningrl的基本概念">強化學習(Reinforcement Learning，RL)的基本概念<a hidden class="anchor" aria-hidden="true" href="#強化學習reinforcement-learningrl的基本概念">#</a></h2>
+<p>這就要先從強化學習的概念說起
+<img alt="RL" loading="lazy" src="/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/ReinforcementLearning.jpg">
+其實就只是agent與Environment(以下簡稱env)之間的交互作用而已，env提供Observation(觀察值，以下簡稱obs)，agent根據obs計算出action給env，env再提供reward與obs給Agent，進入無限循環。
+用流程步驟來看:</p>
+<ol>
+<li>env產出obs給agent</li>
+<li>agent產出action給env</li>
+<li>env同時產出obs、reward給agent
+更多的資訊，建議可以參考李弘毅老師的youtube，將說明的更清楚。</li>
+</ol>
+<h2 id="gym的基本概念">Gym的基本概念<a hidden class="anchor" aria-hidden="true" href="#gym的基本概念">#</a></h2>
+<p>接下來從Gym官網的Example Code了解</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> gym
+</span></span><span style="display:flex;"><span>env <span style="color:#f92672">=</span> gym<span style="color:#f92672">.</span>make(<span style="color:#e6db74">&#34;CartPole-v1&#34;</span>)
+</span></span><span style="display:flex;"><span>observation <span style="color:#f92672">=</span> env<span style="color:#f92672">.</span>reset()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000</span>):
+</span></span><span style="display:flex;"><span>    env<span style="color:#f92672">.</span>render()
+</span></span><span style="display:flex;"><span>    action <span style="color:#f92672">=</span> env<span style="color:#f92672">.</span>action_space<span style="color:#f92672">.</span>sample() <span style="color:#75715e"># your agent here (this takes random actions)</span>
+</span></span><span style="display:flex;"><span>    observation, reward, done, info <span style="color:#f92672">=</span> env<span style="color:#f92672">.</span>step(action)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> done:
+</span></span><span style="display:flex;"><span>      observation <span style="color:#f92672">=</span> env<span style="color:#f92672">.</span>reset()
+</span></span><span style="display:flex;"><span>    env<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><p>從程式解讀，gym可以提供幾個主要的功能</p>
+<ol>
+<li>第一個obs是從env.reset()產出</li>
+<li>剛產出的obs餵給agent，產出action</li>
+<li>action餵給env.step()產出obs、reward、done、info，此中done == True是遊戲結束的訊號，用來告訴agent已經Game Over了。info是用來提供訊息給外部的管道，一般都是用dict方式呈現。</li>
+</ol>
+<p>gym是不是與強化學習流程相同啊?這流程是gym仿RL流程的程式寫法，這是制式的規則，幾乎所有的RL訓練都可依這準則去運算，所以只要仿造gym內部的構造，在外部使用時只要呼叫這幾個function就可以做各種的強化學習訓練了。</p>
+<h2 id="gym內部架構">gym內部架構<a hidden class="anchor" aria-hidden="true" href="#gym內部架構">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> gym
+</span></span><span style="display:flex;"><span>env <span style="color:#f92672">=</span> gym<span style="color:#f92672">.</span>make(<span style="color:#e6db74">&#39;CartPole-v0&#39;</span>)
+</span></span><span style="display:flex;"><span>env<span style="color:#f92672">.</span>reset()
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000</span>):
+</span></span><span style="display:flex;"><span>    env<span style="color:#f92672">.</span>render()
+</span></span><span style="display:flex;"><span>    env<span style="color:#f92672">.</span>step(env<span style="color:#f92672">.</span>action_space<span style="color:#f92672">.</span>sample()) <span style="color:#75715e"># take a random action</span>
+</span></span><span style="display:flex;"><span>env<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><p>從Example Code了解:</p>
+<ol>
+<li>environment
+<ul>
+<li>reset: 用來重置遊戲。</li>
+<li>render: 用來畫出或呈現遊戲畫面，以股市為例，就是畫出走勢線圖。</li>
+<li>step: 用來輸入action，是agent與env的交互作用重要的函數。</li>
+</ul>
+</li>
+<li>Observations
+<ul>
+<li>step輸入action之後會產出obs、reward、done、info</li>
+<li>obs: 下一步的環境觀察值</li>
+<li>reward: action之後的獎勵值</li>
+<li>done: 遊戲是否結束。當等於True時，代表已經Game Over。</li>
+<li>info: env傳遞出來的資訊，要用dict的結構呈現，一般而言多用render來呈現agent與env之間的互動，若有必要，可另外要匯出的數值。</li>
+</ul>
+</li>
+<li>Spaces
+這部份是要給agent知道，他要運算數值的範圍。包含action_space與observation_space。
+<ul>
+<li>action_space: 有discrete與continues(在stable-baselines中稱為box)兩種。前程為離散，後者為連續。</li>
+<li>observation_space: 環境值的結構。
+這部份在應用時會說明用法。</li>
+</ul>
+</li>
+</ol>
+<h2 id="打造trading-gym">打造Trading Gym<a hidden class="anchor" aria-hidden="true" href="#打造trading-gym">#</a></h2>
+<p>第一步: 定義環境</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> gym
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> gym <span style="color:#f92672">import</span> spaces
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>BUY <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>SELL <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>HOLD <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">StockTradingEnv</span>(gym<span style="color:#f92672">.</span>Env):
+</span></span><span style="display:flex;"><span>    metadata <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;render.modes&#39;</span>: [<span style="color:#e6db74">&#39;human&#39;</span>, <span style="color:#e6db74">&#39;system&#39;</span>, <span style="color:#e6db74">&#39;none&#39;</span>]}
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self, df, initial_balance<span style="color:#f92672">=</span><span style="color:#ae81ff">10000</span>, tax<span style="color:#f92672">=</span><span style="color:#ae81ff">0.00002</span>, commission<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>):
+</span></span><span style="display:flex;"><span>        super(StockTradingEnv, self)<span style="color:#f92672">.</span><span style="color:#a6e22e">__init__</span>()
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>initial_balance <span style="color:#f92672">=</span> initial_balance
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>balance <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>initial_balance
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>tax <span style="color:#f92672">=</span> tax
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>commission <span style="color:#f92672">=</span> commission
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>fillna(method<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ffill&#39;</span>)<span style="color:#f92672">.</span>reset_index()
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>obs_shape <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>action_space <span style="color:#f92672">=</span> spaces<span style="color:#f92672">.</span>Discrete(<span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>observation_space <span style="color:#f92672">=</span> spaces<span style="color:#f92672">.</span>Box(low<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>, high<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>, shape<span style="color:#f92672">=</span>self<span style="color:#f92672">.</span>obs_shape, dtype<span style="color:#f92672">=</span>np<span style="color:#f92672">.</span>float16)
+</span></span></code></pre></div><ol>
+<li>首先載入gym套件(癈話!)</li>
+<li>交易很簡單，不過就是買、賣、與等待(又一個癈話!)。先宣告三個常數，用來代表這三個action。</li>
+<li>定義一個繼承自gym.Env的class</li>
+<li>inital_balance是初始資金，而手中的現金也等同初始資金。</li>
+<li>tax是交易稅。commission是手續費。一般的機器學習，初始時習慣只看漲跌，並沒有計算交易稅與手續費，常常當真正應用時，一直虧到脫褲，就是因為沒有在初始訓練時，就將交易成本的因素算入。我的概念是，沒有包含交易成本，只單看漲跌的模型是沒有意義的模型，畢竟與現實狀況不合，根本只是浪費電去訓練一個沒有的東西。在此先以台指期貨的稅為萬分之二、手續費為100元為舉例，當要換成其他交易標的時，記得要修改哦!</li>
+<li>current_step是定義現在運算到第幾步，於index數值用。</li>
+<li>我的架構是從外部傳入一個dataframe，就是指數的資料表，所以先將df中的空值再dropna一次，若值為空，就取前值代替(“ffill”)，避免運算過程出錯。因為有可能數值被drop掉，所以順便重設index。</li>
+<li>obs_shape是之後產出obs值的shape，以stable-baselines而言，obs要用array的格式，所以先將shape設好，之後reshape為這個形狀。</li>
+<li>acdtion_space的語法如程式碼，在此先用離散的方式運算，結果只有三種可能(BUY、SELL、HOLD)。</li>
+<li>observation_space定義了觀察值的範圍，語法如範例。</li>
+</ol>
+<h2 id="第二步-定義環境值obs">第二步: 定義環境值obs<a hidden class="anchor" aria-hidden="true" href="#第二步-定義環境值obs">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">next_observation</span>(self):
+</span></span><span style="display:flex;"><span>    obs <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>] <span style="color:#f92672">*</span> <span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span>    obs[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;open&#39;</span>] <span style="color:#f92672">-</span> 
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#39;open&#39;</span>]
+</span></span><span style="display:flex;"><span>    obs[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;high&#39;</span>] <span style="color:#f92672">-</span> 
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#39;high&#39;</span>]
+</span></span><span style="display:flex;"><span>    obs[<span style="color:#ae81ff">2</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;low&#39;</span>] <span style="color:#f92672">-</span> 
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#39;low&#39;</span>]
+</span></span><span style="display:flex;"><span>    obs[<span style="color:#ae81ff">3</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;clos&#39;</span>] <span style="color:#f92672">-</span> 
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#39;close&#39;</span>]
+</span></span><span style="display:flex;"><span>    obs[<span style="color:#ae81ff">4</span>] <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;volume&#39;</span>] <span style="color:#f92672">-</span> 
+</span></span><span style="display:flex;"><span>                self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>][<span style="color:#e6db74">&#39;volume&#39;</span>] 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> np<span style="color:#f92672">.</span>reshape(obs, self<span style="color:#f92672">.</span>obs_shape)
+</span></span></code></pre></div><p>這一步是一門學問，股市的數值真的多如牛毛，我在此只舉例OHLC加上Volume的變化量去做RL訓練。其他很多的文章有在介紹這部份，其實有幾個準則可以依循。</p>
+<ol>
+<li>數值未來是會重覆出現的，這意思是若訓練是用真實數值，那未來創新高或是創新低時，在訓練值之外，那就超出AI能處理的範圍了。</li>
+<li>新數值產生時，是可以直接套用的。其他文章中有用上minmax的方式去限制數值的最高與最低值，等同第一點一樣，當創新高或新低時，模型也直接宣告無效。訓練時的最高與最低，不代表真實交易中的最高最低。</li>
+<li>數值區間要在前項observation_space的範圍之內。</li>
+<li>數值不要太過集中或分散，最好是常態分佈。</li>
+</ol>
+<h2 id="第三步-定義執行行為">第三步: 定義執行行為<a hidden class="anchor" aria-hidden="true" href="#第三步-定義執行行為">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">take_action</span>(self, action):
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>gain <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> action <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">and</span> self<span style="color:#f92672">.</span>held <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>mean <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;close&#39;</span>]
+</span></span><span style="display:flex;"><span>        cost <span style="color:#f92672">=</span> price <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>tax <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>commission 
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>balance <span style="color:#f92672">-=</span> cost
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elif</span> action <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>gain <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;close&#39;</span>] <span style="color:#f92672">-</span> self<span style="color:#f92672">.</span>mean <span style="color:#f92672">-</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;close</span>
+</span></span><span style="display:flex;"><span>    ] <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>tax <span style="color:#f92672">-</span> self<span style="color:#f92672">.</span>commission)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>balance <span style="color:#f92672">+=</span> self<span style="color:#f92672">.</span>gain
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">pass</span>
+</span></span></code></pre></div><p>這環結定義了交易策略，只示範了買賣一次，一次一單位，只做單方向的作法。買的時候是當時間的成交價，但其實這是有問題的(?)，原因我會之後再詳述，現在只是範例作法，不對每一個細項探討，畢竟本篇文章是定位在初入門的階段。應用在股票有股票的作法，應用在期貨有期貨的做法，每一種的交易策略都有不同。</p>
+<h2 id="第四步-定義遊戲結束">第四步: 定義遊戲結束<a hidden class="anchor" aria-hidden="true" href="#第四步-定義遊戲結束">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">done</span>(self):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">==</span> len(self<span style="color:#f92672">.</span>df):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">True</span>
+</span></span></code></pre></div><p>當輸入的樣本跑到最後一筆時，就遊戲結束。</p>
+<h2 id="第五步-重新開始數值初始化">第五步: 重新開始(數值初始化)<a hidden class="anchor" aria-hidden="true" href="#第五步-重新開始數值初始化">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">reset</span>(self):
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>initial_balance <span style="color:#f92672">=</span> <span style="color:#ae81ff">10000</span>
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>mean <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>balance <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>initial_balance 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>next_observation
+</span></span></code></pre></div><p>遊戲重置，把變動的數值歸零。對交易而言，就是把初始資金回復，並返回第一個觀察值。</p>
+<h2 id="第六步-定義遊戲步驟">第六步: 定義遊戲步驟<a hidden class="anchor" aria-hidden="true" href="#第六步-定義遊戲步驟">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">step</span>(self, action):
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>take_action(action)
+</span></span><span style="display:flex;"><span>    self<span style="color:#f92672">.</span>current_step <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>next_ovservation(), self<span style="color:#f92672">.</span>gain, self<span style="color:#f92672">.</span>done(), []
+</span></span></code></pre></div><p>執行步驟就是執行agent所交付的action，並返回obs、reward、done、info。</p>
+<h2 id="第七步-把遊戲render出來">第七步: 把遊戲render出來<a hidden class="anchor" aria-hidden="true" href="#第七步-把遊戲render出來">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">render</span>(self):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;step: &#39;</span> <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>current_step)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;balance: &#39;</span> <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>balance)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;current_price: &#39;</span> <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>df<span style="color:#f92672">.</span>iloc[self<span style="color:#f92672">.</span>current_step][<span style="color:#e6db74">&#39;close&#39;</span>])
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#39;bought_price: &#39;</span> <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>mean)
+</span></span></code></pre></div><h2 id="第八步-遊戲關閉">第八步: 遊戲關閉<a hidden class="anchor" aria-hidden="true" href="#第八步-遊戲關閉">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">close</span>(self):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
+</span></span></code></pre></div><p>有時，遊戲關閉要把一些程序結束，或是關閉一些正在執行的步驟，都可以放在這裡。因為範例中並沒有用什麼平行運算的function，也就沒東西可執行，所以放個pass就可以了。</p>
+<h2 id="後話">後話<a hidden class="anchor" aria-hidden="true" href="#後話">#</a></h2>
+<p>以上算是簡略到不能再簡略的說明自己打造Trading Gym的方法，其實每一個環結都有很多東西可以說明，畢竟RL是一門易入難深的學問，水很深的，坑也很多。若想要更進一步討論，幾乎都可以成為獨立的一篇文章用以討論。
+我只能算是半桶水，既不是資訊科班出身，也不從事證券交易的事業，我就當純學術研究在把玩RL而已。但也相信因為我這樣背景，也講不出只有資深的programmer能說出的話，理論上可以更符合初學者能聽得懂的語言來溝通。</p>
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="http://localhost:1313/tags/ai/">AI</a></li>
+                <li><a href="http://localhost:1313/tags/stocks/">Stocks</a></li>
+                <li><a href="http://localhost:1313/tags/openai/">OpenAI</a></li>
+                <li><a href="http://localhost:1313/tags/gym/">Gym</a></li>
+            </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">
+    <span class="title">下一頁 »</span>
+    <br>
+    <span>DEVONthink(五)</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+    <aside class="toc-side">
+        <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">目錄</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%e5%bc%b7%e5%8c%96%e5%ad%b8%e7%bf%92reinforcement-learningrl%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5" aria-label="強化學習(Reinforcement Learning，RL)的基本概念">強化學習(Reinforcement Learning，RL)的基本概念</a></li>
+                <li>
+                    <a href="#gym%e7%9a%84%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5" aria-label="Gym的基本概念">Gym的基本概念</a></li>
+                <li>
+                    <a href="#gym%e5%85%a7%e9%83%a8%e6%9e%b6%e6%a7%8b" aria-label="gym內部架構">gym內部架構</a></li>
+                <li>
+                    <a href="#%e6%89%93%e9%80%a0trading-gym" aria-label="打造Trading Gym">打造Trading Gym</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5-%e5%ae%9a%e7%be%a9%e7%92%b0%e5%a2%83%e5%80%bcobs" aria-label="第二步: 定義環境值obs">第二步: 定義環境值obs</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5-%e5%ae%9a%e7%be%a9%e5%9f%b7%e8%a1%8c%e8%a1%8c%e7%82%ba" aria-label="第三步: 定義執行行為">第三步: 定義執行行為</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5-%e5%ae%9a%e7%be%a9%e9%81%8a%e6%88%b2%e7%b5%90%e6%9d%9f" aria-label="第四步: 定義遊戲結束">第四步: 定義遊戲結束</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%ba%94%e6%ad%a5-%e9%87%8d%e6%96%b0%e9%96%8b%e5%a7%8b%e6%95%b8%e5%80%bc%e5%88%9d%e5%a7%8b%e5%8c%96" aria-label="第五步: 重新開始(數值初始化)">第五步: 重新開始(數值初始化)</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e5%85%ad%e6%ad%a5-%e5%ae%9a%e7%be%a9%e9%81%8a%e6%88%b2%e6%ad%a5%e9%a9%9f" aria-label="第六步: 定義遊戲步驟">第六步: 定義遊戲步驟</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e4%b8%83%e6%ad%a5-%e6%8a%8a%e9%81%8a%e6%88%b2render%e5%87%ba%e4%be%86" aria-label="第七步: 把遊戲render出來">第七步: 把遊戲render出來</a></li>
+                <li>
+                    <a href="#%e7%ac%ac%e5%85%ab%e6%ad%a5-%e9%81%8a%e6%88%b2%e9%97%9c%e9%96%89" aria-label="第八步: 遊戲關閉">第八步: 遊戲關閉</a></li>
+                <li>
+                    <a href="#%e5%be%8c%e8%a9%b1" aria-label="後話">後話</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+    </aside>
+</div>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '複製';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已複製！';
+            setTimeout(() => {
+                copybutton.innerHTML = '複製';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

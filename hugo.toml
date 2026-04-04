@@ -32,6 +32,9 @@ hasCJKLanguage = true
     ShowReadingTime = true
     ShowShareButtons = false
     
+    [params.author]
+        name = "YJ"
+
     # 停用首篇文章的特殊樣式
     disableSpecial1stPost = true
     

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>資訊安全不等於個資安全 | YJ-OnLine</title>
+<meta name="keywords" content="ISMS, PIMS">
+<meta name="description" content="從事個人資料保護工作一段時間了，最常被詢問的是ISO 27001做好，不就等於把個資保護好了嗎? 其實差異還蠻大的!!不論是在法源依據、認證組織與施行方式等全都不同，更重要的是法遵的問題。
+先說明一下，以現行中華民國的法律而言，假如資訊安全沒有做好，公司也不是「資通安全法」中所定義的機關組織，那最多就是洩漏了營業祕密。公司不會因為洩漏了營業祕密而犯法或是處以行政罰鍰。">
+<meta name="author" content="map[disablespecial1stpost:true name:YJ showfulltextinrss:true showtoc:true tocopen:true]">
+<link rel="canonical" href="http://localhost:1313/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7a5bd5658edb019b766c433cb564a048ce9e30e8b88c480508f72a602099956a.css" integrity="sha256-elvVZY7bAZt2bEM8tWSgSM6eMOi4jEgFCPcqYCCZlWo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/dp_column/" title="個資法專欄">
+                    <span>個資法專欄</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://localhost:1313/">首頁</a>&nbsp;»&nbsp;<a href="http://localhost:1313/dp_column/">個資法專欄</a></div>
+            <h1 class="post-title entry-hint-parent">
+                資訊安全不等於個資安全
+            </h1>
+            <div class="post-meta">
+                <span title='2022-04-22 00:00:00'>
+                    2022-04-22
+                </span>
+
+</div>
+        </header> 
+        <div class="post-content"><p>從事個人資料保護工作一段時間了，最常被詢問的是ISO 27001做好，不就等於把個資保護好了嗎? 其實差異還蠻大的!!不論是在法源依據、認證組織與施行方式等全都不同，更重要的是法遵的問題。
+先說明一下，以現行中華民國的法律而言，假如資訊安全沒有做好，公司也不是「資通安全法」中所定義的機關組織，那最多就是洩漏了營業祕密。公司不會因為洩漏了營業祕密而犯法或是處以行政罰鍰。</p>
+<p>但是公司在個資保護不周全，導致個資外洩，不論洩漏的是公司的員工個資或是客戶的個資，那就犯了「個人資料保護法」，每筆最低500元、最高20000元的處罰。就以電商舉例，今天若事實認定為會員的資料庫外洩10,000筆，那最高可以處以新台幣2億元(嚇!!)。
+接下來我來分析，為何做好了資訊安全不等於做好個資安全，用更實際的方式做比較。</p>
+<h2 id="標的物不同">標的物不同<a hidden class="anchor" aria-hidden="true" href="#標的物不同">#</a></h2>
+<p>在資訊安全面向，保護的主要是資訊設備內所擁有的資料，不論採用何種制度，重點都是在於用什麼方式去保護資訊資料。
+而個資安全面向，保護的主要是個人資料，只要是可以被直接或間接與「人」相連結的，都可以被稱為個資。個資法第二條有詳細定義「個人資料」:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>個人資料:指自然人之姓名、出生年月日、國民身分證統一編號、護照號碼、特徵、指紋、婚姻、家庭、教育、職業、病歷、醫療、基因、性生活、健康檢查、犯罪前科、聯絡方式、財務情況、社會活動及其他得以直接或間接方式識別該個人之資料。
+</span></span></code></pre></div><p>個資有包含存放於紙本上與資訊系統中，資訊系統中的個資在個資法中定義為「個人資料檔案」:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>個人資料檔案:指依系統建立而得以自動化機器或其他非自動化方式檢索、整理之個人資料之集合。
+</span></span></code></pre></div><h2 id="制度面不同">制度面不同<a hidden class="anchor" aria-hidden="true" href="#制度面不同">#</a></h2>
+<p>因此，制度就走上了兩個面向，一般而言資訊安全制度稱為ISMS(Information Security Management System)，個人資料保護制度稱為PIMS(Personal Information Management System)。ISMS現在的主力的國際制度為ISO 27001。而PIMS因為有各國不同的法律規定，所以有很多不同的制度，還沒有統一且單一獨強的國際制度與標章，就以有法遵性來說，台灣現在有符合個人資料保護法的法遵制度只有經濟部主導的TPIPAS與APEC成員國內通行的CBPR這兩種制度。 兩者的關係如圖:</p>
+<p><img alt="ISMS vs. PIMS" loading="lazy" src="/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/ismsvspims.webp">
+兩者之間是有相互重疊的部份，這也是大家常常會誤會做好資訊安全就等於做好個資安全的一個誤區。</p>
+<p>盤點物不同
+開始導入ISMS或PIMS制度後，延伸標的物不同，就在盤點資產項目中顯現出差異。ISMS盤點的是資訊資產，PIMS盤點的是個資資產的生命週期(蒐集、處理、利用、銷毀)。</p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>資訊安全 (ISMS)</th>
+          <th>個資安全 (PIMS)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>盤點項目</td>
+          <td>資訊資產</td>
+          <td>個人資料</td>
+      </tr>
+      <tr>
+          <td>盤點重點</td>
+          <td>資訊設備</td>
+          <td>個人資料生命週期</td>
+      </tr>
+      <tr>
+          <td>風險</td>
+          <td>資安風險</td>
+          <td>個資風險</td>
+      </tr>
+      <tr>
+          <td>法律面</td>
+          <td>資通安全法 (限定公務機關)</td>
+          <td>個人資料保護法 (全體國民)</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="結論">結論<a hidden class="anchor" aria-hidden="true" href="#結論">#</a></h2>
+<p>兩種不同的制度，不能拿來互相比擬，做好資訊保護最多只在資訊類的個人資料有保護好，但是實際會洩漏的個資是很多的，在實體上的紙本沒有好好保存，一樣是會產生個資風險。
+有很多台灣的公司標榜通過ISO27001就表示已做好個資保護，這實際上是一個認知誤區。歐盟在2016年制定了GDPR(General Data Protection Regulation)著眼於保護個人資料，並沒有制法規定資安，由此可知著眼在於你我的個資保護，而不是資安。若是以個資保護的觀點出發，簡單來說:</p>
+<blockquote>
+<p>&ldquo;資安是一種手段，個資保護才是目的&rdquo;</p>
+</blockquote>
+<h2 id="後記">後記<a hidden class="anchor" aria-hidden="true" href="#後記">#</a></h2>
+<p>本文中提到各種制度、標章、國際標準，未來再用幾篇文章來說明其差異。</p>
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="http://localhost:1313/tags/isms/">ISMS</a></li>
+                <li><a href="http://localhost:1313/tags/pims/">PIMS</a></li>
+            </ul>
+
+        </footer>
+    </article>
+
+    
+</div>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '複製';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已複製！';
+            setTimeout(() => {
+                copybutton.innerHTML = '複製';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

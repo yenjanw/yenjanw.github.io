@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Stocks on YJ-OnLine</title>
+    <link>http://localhost:1313/tags/stocks/</link>
+    <description>Recent content in Stocks on YJ-OnLine</description>
+    <generator>Hugo -- 0.160.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手把手教你製作Trading Gym Env</title>
+      <link>http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/</guid>
+      <description>&lt;p&gt;網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!)
+本篇就初步介紹如何製作個人的Trading Gym。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

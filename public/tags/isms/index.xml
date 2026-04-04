@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ISMS on YJ-OnLine</title>
+    <link>http://localhost:1313/tags/isms/</link>
+    <description>Recent content in ISMS on YJ-OnLine</description>
+    <generator>Hugo -- 0.160.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/isms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>資訊安全不等於個資安全</title>
+      <link>http://localhost:1313/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/</link>
+      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/</guid>
+      <description>&lt;p&gt;從事個人資料保護工作一段時間了，最常被詢問的是ISO 27001做好，不就等於把個資保護好了嗎? 其實差異還蠻大的!!不論是在法源依據、認證組織與施行方式等全都不同，更重要的是法遵的問題。
+先說明一下，以現行中華民國的法律而言，假如資訊安全沒有做好，公司也不是「資通安全法」中所定義的機關組織，那最多就是洩漏了營業祕密。公司不會因為洩漏了營業祕密而犯法或是處以行政罰鍰。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
