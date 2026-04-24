@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Devonthink on YJ-OnLine</title>
+    <title>DevonThink on YJ-OnLine</title>
     <link>http://localhost:1313/categories/devonthink/</link>
-    <description>Recent content in Devonthink on YJ-OnLine</description>
+    <description>Recent content in DevonThink on YJ-OnLine</description>
     <generator>Hugo -- 0.160.0</generator>
     <language>zh-TW</language>
     <lastBuildDate>Fri, 05 May 2017 17:35:50 +0800</lastBuildDate>
