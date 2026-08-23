@@ -3,6 +3,9 @@
 /* 直接覆寫 PaperMod 的 CSS 變數，這是最根本的解法 */
 :root {
     --main-width: 1400px !important;
+    /* 正文字級放大，中文長文較好讀 */
+    --font-size: 22px;
+    --line-height: 1.8;
 }
 
 /* 強制覆寫 .main 寬度作為雙重保險 */
@@ -41,7 +44,7 @@ header.header {
 
 /* --- Subtitle 樣式 --- */
 .entry-subtitle {
-    font-size: 20px;
+    font-size: 22px;
     /* 稍微加大一點搭配 Title */
     color: var(--primary);
     /* 改用主色 */
@@ -49,13 +52,13 @@ header.header {
     /* 稍微刷淡一點點，不做全黑 */
     margin: 4px 0 12px 0;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.5;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     /* 配合標題使用 Sans-Serif */
 }
 
 .post-subtitle {
-    font-size: 24px;
+    font-size: 26px;
     color: var(--secondary);
     margin: 10px 0 20px 0;
     font-weight: normal;
@@ -96,8 +99,7 @@ header.header {
     padding: 15px;
     margin: 0;
     border: 1px solid var(--border);
-    font-size: 14px;
-    /* 稍微縮小 TOC 字體 */
+    font-size: 16px;
 }
 
 .toc-side summary {
@@ -153,21 +155,31 @@ header.header {
 
 /* --- Medium.com 風格排版 (Typography) --- */
 
-:root {
-    /* 基礎字體大小設為 20px (Medium 風格) */
-    --font-size: 20px;
-    --line-height: 1.6;
-    /* 讓行距更寬鬆 */
-}
-
 body {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
     /* 內文使用 Serif 襯線體 (類似 Medium 的 Charter/Georgia) */
-    font-family: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
+    font-family: "Charter", "Bitstream Charter", "Sitka Text", "Songti TC", "Noto Serif TC", Cambria, serif;
     /* 微調字距 */
-    letter-spacing: -0.003em;
+    letter-spacing: 0.01em;
     /* 優化文字渲染 */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.post-content {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}
+
+/* 導覽與麵包屑略放大，避免正文放大後介面顯得過小 */
+.nav,
+.logo,
+#menu a,
+.post-meta,
+.breadcrumbs,
+.breadcrumbs a {
+    font-size: 18px;
 }
 
 /* 標題使用 Sans-Serif 無襯線體 (乾淨俐落) */
@@ -187,16 +199,35 @@ h6 {
 
 /* 文章標題特別加大 */
 .post-title {
-    font-size: 42px;
-    line-height: 1.2;
+    font-size: 46px;
+    line-height: 1.25;
     margin-bottom: 10px;
 }
 
 /* 段落間距 */
-.post-content p {
-    margin-bottom: 2em;
+.post-content p,
+.post-content li {
+    font-size: inherit;
+    line-height: inherit;
     font-weight: 400;
     color: var(--content);
+}
+
+.post-content p {
+    margin-bottom: 1.6em;
+}
+
+/* 內文小標至少不小於正文 */
+.post-content h4 {
+    font-size: 1.2em;
+}
+
+.post-content h5 {
+    font-size: 1.1em;
+}
+
+.post-content h6 {
+    font-size: 1em;
 }
 
 /* 引用區塊樣式 (Blockquote) */
@@ -212,7 +243,7 @@ h6 {
 .post-content pre,
 .post-content code {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 /* --- List View Specifics (Medium Style) --- */
@@ -230,7 +261,7 @@ h6 {
 
 /* 列表標題 (Sans-Serif, Bold) */
 .entry-header h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.2;
     margin-top: 0;
@@ -241,8 +272,8 @@ h6 {
 /* 列表摘要 (Serif, Readable) */
 .entry-content {
     font-family: "Charter", "Bitstream Charter", "Sitka Text", Cambria, serif;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.7;
     color: var(--secondary);
     margin-top: 8px;
 }
@@ -250,7 +281,26 @@ h6 {
 /* 列表 Metadata (Date, etc.) - Small Sans-Serif */
 .entry-footer {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: var(--secondary);
     margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+    :root {
+        --font-size: 19px;
+        --line-height: 1.75;
+    }
+
+    .post-title {
+        font-size: 32px;
+    }
+
+    .entry-header h2 {
+        font-size: 24px;
+    }
+
+    .entry-content {
+        font-size: 18px;
+    }
 }
