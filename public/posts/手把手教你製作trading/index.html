@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>手把手教你製作Trading Gym Env | YJ-OnLine</title>
 <meta name="keywords" content="AI, Stocks, OpenAI, Gym">
 <meta name="description" content="網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!)
 本篇就初步介紹如何製作個人的Trading Gym。">
 <meta name="author" content="map[disablespecial1stpost:true name:YJ showfulltextinrss:true showtoc:true tocopen:true]">
-<link rel="canonical" href="http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.7a5bd5658edb019b766c433cb564a048ce9e30e8b88c480508f72a602099956a.css" integrity="sha256-elvVZY7bAZt2bEM8tWSgSM6eMOi4jEgFCPcqYCCZlWo=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.963c9092a34b2c8f5fcce7e754eeb480617988308d5f20ad061c56eef4b80d26.css" integrity="sha256-ljyQkqNLLI9fzOfnVO60gGF5iDCNXyCtBhxW7vS4DSY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.yjho.me/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.yjho.me/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.yjho.me/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.yjho.me/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.yjho.me/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
+<link rel="alternate" hreflang="en" href="https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
 <noscript>
     <style>
         #theme-toggle,
@@ -72,12 +72,92 @@
     }
 
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V1K5KSWK13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V1K5KSWK13');
+</script>
+<meta property="og:url" content="https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/">
+  <meta property="og:site_name" content="YJ-OnLine">
+  <meta property="og:title" content="手把手教你製作Trading Gym Env">
+  <meta property="og:description" content="網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!) 本篇就初步介紹如何製作個人的Trading Gym。">
+  <meta property="og:locale" content="zh-TW">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-02-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-02-08T00:00:00+00:00">
+    <meta property="article:tag" content="AI">
+    <meta property="article:tag" content="Stocks">
+    <meta property="article:tag" content="OpenAI">
+    <meta property="article:tag" content="Gym">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="手把手教你製作Trading Gym Env">
+<meta name="twitter:description" content="網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!)
+本篇就初步介紹如何製作個人的Trading Gym。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://www.yjho.me/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "手把手教你製作Trading Gym Env",
+      "item": "https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "手把手教你製作Trading Gym Env",
+  "name": "手把手教你製作Trading Gym Env",
+  "description": "網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!) 本篇就初步介紹如何製作個人的Trading Gym。\n",
+  "keywords": [
+    "AI", "Stocks", "OpenAI", "Gym"
+  ],
+  "articleBody": "網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!) 本篇就初步介紹如何製作個人的Trading Gym。\n強化學習(Reinforcement Learning，RL)的基本概念 這就要先從強化學習的概念說起 其實就只是agent與Environment(以下簡稱env)之間的交互作用而已，env提供Observation(觀察值，以下簡稱obs)，agent根據obs計算出action給env，env再提供reward與obs給Agent，進入無限循環。 用流程步驟來看:\nenv產出obs給agent agent產出action給env env同時產出obs、reward給agent 更多的資訊，建議可以參考李弘毅老師的youtube，將說明的更清楚。 Gym的基本概念 接下來從Gym官網的Example Code了解\nimport gym env = gym.make(\"CartPole-v1\") observation = env.reset() for _ in range(1000): env.render() action = env.action_space.sample() # your agent here (this takes random actions) observation, reward, done, info = env.step(action) if done: observation = env.reset() env.close() 從程式解讀，gym可以提供幾個主要的功能\n第一個obs是從env.reset()產出 剛產出的obs餵給agent，產出action action餵給env.step()產出obs、reward、done、info，此中done == True是遊戲結束的訊號，用來告訴agent已經Game Over了。info是用來提供訊息給外部的管道，一般都是用dict方式呈現。 gym是不是與強化學習流程相同啊?這流程是gym仿RL流程的程式寫法，這是制式的規則，幾乎所有的RL訓練都可依這準則去運算，所以只要仿造gym內部的構造，在外部使用時只要呼叫這幾個function就可以做各種的強化學習訓練了。\ngym內部架構 import gym env = gym.make('CartPole-v0') env.reset() for _ in range(1000): env.render() env.step(env.action_space.sample()) # take a random action env.close() 從Example Code了解:\nenvironment reset: 用來重置遊戲。 render: 用來畫出或呈現遊戲畫面，以股市為例，就是畫出走勢線圖。 step: 用來輸入action，是agent與env的交互作用重要的函數。 Observations step輸入action之後會產出obs、reward、done、info obs: 下一步的環境觀察值 reward: action之後的獎勵值 done: 遊戲是否結束。當等於True時，代表已經Game Over。 info: env傳遞出來的資訊，要用dict的結構呈現，一般而言多用render來呈現agent與env之間的互動，若有必要，可另外要匯出的數值。 Spaces 這部份是要給agent知道，他要運算數值的範圍。包含action_space與observation_space。 action_space: 有discrete與continues(在stable-baselines中稱為box)兩種。前程為離散，後者為連續。 observation_space: 環境值的結構。 這部份在應用時會說明用法。 打造Trading Gym 第一步: 定義環境\nimport gym import pandas as pd import numpy as np from gym import spaces BUY = 0 SELL = 1 HOLD = 2 class StockTradingEnv(gym.Env): metadata = {'render.modes': ['human', 'system', 'none']} def __init__(self, df, initial_balance=10000, tax=0.00002, commission=100): super(StockTradingEnv, self).__init__() self.initial_balance = initial_balance self.balance = self.initial_balance self.tax = tax self.commission = commission self.current_step = 1 self.df = df.fillna(method='ffill').reset_index() self.obs_shape = (1, 5) self.action_space = spaces.Discrete(3) self.observation_space = spaces.Box(low=0, high=100, shape=self.obs_shape, dtype=np.float16) 首先載入gym套件(癈話!) 交易很簡單，不過就是買、賣、與等待(又一個癈話!)。先宣告三個常數，用來代表這三個action。 定義一個繼承自gym.Env的class inital_balance是初始資金，而手中的現金也等同初始資金。 tax是交易稅。commission是手續費。一般的機器學習，初始時習慣只看漲跌，並沒有計算交易稅與手續費，常常當真正應用時，一直虧到脫褲，就是因為沒有在初始訓練時，就將交易成本的因素算入。我的概念是，沒有包含交易成本，只單看漲跌的模型是沒有意義的模型，畢竟與現實狀況不合，根本只是浪費電去訓練一個沒有的東西。在此先以台指期貨的稅為萬分之二、手續費為100元為舉例，當要換成其他交易標的時，記得要修改哦! current_step是定義現在運算到第幾步，於index數值用。 我的架構是從外部傳入一個dataframe，就是指數的資料表，所以先將df中的空值再dropna一次，若值為空，就取前值代替(“ffill”)，避免運算過程出錯。因為有可能數值被drop掉，所以順便重設index。 obs_shape是之後產出obs值的shape，以stable-baselines而言，obs要用array的格式，所以先將shape設好，之後reshape為這個形狀。 acdtion_space的語法如程式碼，在此先用離散的方式運算，結果只有三種可能(BUY、SELL、HOLD)。 observation_space定義了觀察值的範圍，語法如範例。 第二步: 定義環境值obs def next_observation(self): obs = [0] * 5 obs[0] = self.df.iloc[self.current_step]['open'] - self.df.iloc[self.current_step - 1]['open'] obs[1] = self.df.iloc[self.current_step]['high'] - self.df.iloc[self.current_step - 1]['high'] obs[2] = self.df.iloc[self.current_step]['low'] - self.df.iloc[self.current_step - 1]['low'] obs[3] = self.df.iloc[self.current_step]['clos'] - self.df.iloc[self.current_step - 1]['close'] obs[4] = self.df.iloc[self.current_step]['volume'] - self.df.iloc[self.current_step - 1]['volume'] return np.reshape(obs, self.obs_shape) 這一步是一門學問，股市的數值真的多如牛毛，我在此只舉例OHLC加上Volume的變化量去做RL訓練。其他很多的文章有在介紹這部份，其實有幾個準則可以依循。\n數值未來是會重覆出現的，這意思是若訓練是用真實數值，那未來創新高或是創新低時，在訓練值之外，那就超出AI能處理的範圍了。 新數值產生時，是可以直接套用的。其他文章中有用上minmax的方式去限制數值的最高與最低值，等同第一點一樣，當創新高或新低時，模型也直接宣告無效。訓練時的最高與最低，不代表真實交易中的最高最低。 數值區間要在前項observation_space的範圍之內。 數值不要太過集中或分散，最好是常態分佈。 第三步: 定義執行行為 def take_action(self, action): self.gain = 0 if action == 0 and self.held != 0: self.mean = self.df.iloc[self.current_step]['close'] cost = price * self.tax + self.commission self.balance -= cost elif action == 1: self.gain = self.df.iloc[self.current_step]['close'] - self.mean - self.df.iloc[self.current_step]['close ] * self.tax - self.commission) self.balance += self.gain else: pass 這環結定義了交易策略，只示範了買賣一次，一次一單位，只做單方向的作法。買的時候是當時間的成交價，但其實這是有問題的(?)，原因我會之後再詳述，現在只是範例作法，不對每一個細項探討，畢竟本篇文章是定位在初入門的階段。應用在股票有股票的作法，應用在期貨有期貨的做法，每一種的交易策略都有不同。\n第四步: 定義遊戲結束 def done(self): if self.current_step == len(self.df): return True 當輸入的樣本跑到最後一筆時，就遊戲結束。\n第五步: 重新開始(數值初始化) def reset(self): self.current_step = 1 self.initial_balance = 10000 self.mean = 0 self.balance = self.initial_balance return self.next_observation 遊戲重置，把變動的數值歸零。對交易而言，就是把初始資金回復，並返回第一個觀察值。\n第六步: 定義遊戲步驟 def step(self, action): self.take_action(action) self.current_step += 1 return self.next_ovservation(), self.gain, self.done(), [] 執行步驟就是執行agent所交付的action，並返回obs、reward、done、info。\n第七步: 把遊戲render出來 def render(self): print('step: ' + self.current_step) print('balance: ' + self.balance) print('current_price: ' + self.df.iloc[self.current_step]['close']) print('bought_price: ' + self.mean) 第八步: 遊戲關閉 def close(self): pass 有時，遊戲關閉要把一些程序結束，或是關閉一些正在執行的步驟，都可以放在這裡。因為範例中並沒有用什麼平行運算的function，也就沒東西可執行，所以放個pass就可以了。\n後話 以上算是簡略到不能再簡略的說明自己打造Trading Gym的方法，其實每一個環結都有很多東西可以說明，畢竟RL是一門易入難深的學問，水很深的，坑也很多。若想要更進一步討論，幾乎都可以成為獨立的一篇文章用以討論。 我只能算是半桶水，既不是資訊科班出身，也不從事證券交易的事業，我就當純學術研究在把玩RL而已。但也相信因為我這樣背景，也講不出只有資深的programmer能說出的話，理論上可以更符合初學者能聽得懂的語言來溝通。\n",
+  "wordCount" : "3051",
+  "inLanguage": "en",
+  "datePublished": "2021-02-08T00:00:00Z",
+  "dateModified": "2021-02-08T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": {"disablespecial1stpost":true,"name":"YJ","showfulltextinrss":true,"showtoc":true,"tocopen":true}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "YJ-OnLine",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.yjho.me/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <a href="https://www.yjho.me/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -103,17 +183,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="BLOG">
+                <a href="https://www.yjho.me/" title="BLOG">
                     <span>BLOG</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/dp_column/" title="個資法專欄">
+                <a href="https://www.yjho.me/dp_column/" title="個資法專欄">
                     <span>個資法專欄</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about-me/" title="About Me">
+                <a href="https://www.yjho.me/about-me/" title="About Me">
                     <span>About Me</span>
                 </a>
             </li>
@@ -125,7 +205,7 @@
 <div class="post-container">
     <article class="post-single">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">首頁</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <div class="breadcrumbs"><a href="https://www.yjho.me/">首頁</a>&nbsp;»&nbsp;<a href="https://www.yjho.me/posts/">Posts</a></div>
             <h1 class="post-title entry-hint-parent">
                 手把手教你製作Trading Gym Env
             </h1>
@@ -347,18 +427,11 @@
 
         <footer class="post-footer">
             <ul class="post-tags">
-                <li><a href="http://localhost:1313/tags/ai/">AI</a></li>
-                <li><a href="http://localhost:1313/tags/stocks/">Stocks</a></li>
-                <li><a href="http://localhost:1313/tags/openai/">OpenAI</a></li>
-                <li><a href="http://localhost:1313/tags/gym/">Gym</a></li>
+                <li><a href="https://www.yjho.me/tags/ai/">AI</a></li>
+                <li><a href="https://www.yjho.me/tags/stocks/">Stocks</a></li>
+                <li><a href="https://www.yjho.me/tags/openai/">OpenAI</a></li>
+                <li><a href="https://www.yjho.me/tags/gym/">Gym</a></li>
             </ul>
-<nav class="paginav">
-  <a class="next" href="http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/">
-    <span class="title">下一頁 »</span>
-    <br>
-    <span>DEVONthink(五)</span>
-  </a>
-</nav>
 
         </footer>
     </article>
@@ -407,7 +480,7 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2026 <a href="http://localhost:1313/">YJ-OnLine</a></span> · 
+    <span>&copy; 2026 <a href="https://www.yjho.me/">YJ-OnLine</a></span> · 
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">

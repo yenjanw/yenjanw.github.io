@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CBPR on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/cbpr/</link>
+    <description>Recent content in CBPR on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/cbpr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>臺灣個資管理制度整合與國際標準的整合</title>
+      <link>https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/</guid>
+      <description>&lt;p&gt;一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。&lt;/p&gt;
+&lt;p&gt;這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一三套制度各自管什麼&#34;&gt;一、三套制度各自管什麼&lt;/h2&gt;
+&lt;h3 id=&#34;11-tpipas台灣本地法遵的骨架&#34;&gt;1.1 TPIPAS：台灣本地法遵的骨架&lt;/h3&gt;
+&lt;p&gt;TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

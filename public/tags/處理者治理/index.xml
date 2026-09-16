@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>處理者治理 on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/%E8%99%95%E7%90%86%E8%80%85%E6%B2%BB%E7%90%86/</link>
+    <description>Recent content in 處理者治理 on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/%E8%99%95%E7%90%86%E8%80%85%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>當處理者成為漏洞：跨國供應鏈個資治理的現在與未來</title>
+      <link>https://www.yjho.me/dp_column/2026-04-21_%E8%99%95%E7%90%86%E8%80%85%E6%B2%BB%E7%90%86%E8%B7%A8%E5%9C%8B%E4%BE%9B%E6%87%89%E9%8F%88%E5%80%8B%E8%B3%87%E9%A2%A8%E9%9A%AA/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-21_%E8%99%95%E7%90%86%E8%80%85%E6%B2%BB%E7%90%86%E8%B7%A8%E5%9C%8B%E4%BE%9B%E6%87%89%E9%8F%88%E5%80%8B%E8%B3%87%E9%A2%A8%E9%9A%AA/</guid>
+      <description>&lt;h2 id=&#34;一個常被忽略的洩漏環節&#34;&gt;一個常被忽略的洩漏環節&lt;/h2&gt;
+&lt;p&gt;2025 年，某家台灣半導體供應商的雲端資料處理者遭到勒索軟體攻擊，數萬筆客戶訂單與員工身份資料外洩。事後調查發現：這家處理者同時替十幾家台灣企業處理資料，但沒有一家控制者曾在合約中約定「處理者事故發生後的通報時效」——導致多數母公司是在新聞報導後才得知，而非依賴處理者的正式通知。&lt;/p&gt;
+&lt;p&gt;這不是個案。在個人資料管理系統（Personal Information Management System, PIMS）中，處理者（Processor）治理是最容易被空洞化的環節：合約裡寫得完整，實際上卻從未執行。當事故發生，監理機關裁罰的對象是控制者（Controller），而非處理者。處理者的過失，最終由控制者承擔。&lt;/p&gt;
+&lt;p&gt;本文以 2026 年初的研究發現為基礎，深度解析：處理者治理的七個強制條款、各國制度差異、為何多數企業的處理者稽核形同虛設，以及台灣跨國企業該如何建立可執行的處理者治理系統。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>臺灣個資管理制度整合與國際標準的整合 | YJ-OnLine</title>
+<meta name="keywords" content="個資法, ISO 27701, TPIPAS, CBPR, 隱私管理系統, 企業合規">
+<meta name="description" content="一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。
+這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。
+
+一、三套制度各自管什麼
+1.1 TPIPAS：台灣本地法遵的骨架
+TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。">
+<meta name="author" content="map[disablespecial1stpost:true name:YJ showfulltextinrss:true showtoc:true tocopen:true]">
+<link rel="canonical" href="https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.963c9092a34b2c8f5fcce7e754eeb480617988308d5f20ad061c56eef4b80d26.css" integrity="sha256-ljyQkqNLLI9fzOfnVO60gGF5iDCNXyCtBhxW7vS4DSY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.yjho.me/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.yjho.me/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.yjho.me/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.yjho.me/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.yjho.me/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V1K5KSWK13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V1K5KSWK13');
+</script>
+<meta property="og:url" content="https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/">
+  <meta property="og:site_name" content="YJ-OnLine">
+  <meta property="og:title" content="臺灣個資管理制度整合與國際標準的整合">
+  <meta property="og:description" content="一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。
+這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。
+一、三套制度各自管什麼 1.1 TPIPAS：台灣本地法遵的骨架 TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。">
+  <meta property="og:locale" content="zh-TW">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="dp_column">
+    <meta property="article:published_time" content="2026-05-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-05T00:00:00+00:00">
+    <meta property="article:tag" content="個資法">
+    <meta property="article:tag" content="ISO 27701">
+    <meta property="article:tag" content="TPIPAS">
+    <meta property="article:tag" content="CBPR">
+    <meta property="article:tag" content="隱私管理系統">
+    <meta property="article:tag" content="企業合規">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="臺灣個資管理制度整合與國際標準的整合">
+<meta name="twitter:description" content="一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。
+這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。
+
+一、三套制度各自管什麼
+1.1 TPIPAS：台灣本地法遵的骨架
+TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "個資法專欄",
+      "item": "https://www.yjho.me/dp_column/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "臺灣個資管理制度整合與國際標準的整合",
+      "item": "https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "臺灣個資管理制度整合與國際標準的整合",
+  "name": "臺灣個資管理制度整合與國際標準的整合",
+  "description": "一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。\n這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。\n一、三套制度各自管什麼 1.1 TPIPAS：台灣本地法遵的骨架 TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。\n",
+  "keywords": [
+    "個資法", "ISO 27701", "TPIPAS", "CBPR", "隱私管理系統", "企業合規"
+  ],
+  "articleBody": "一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。\n這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。\n一、三套制度各自管什麼 1.1 TPIPAS：台灣本地法遵的骨架 TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。\nTPIPAS 的價值不在於「國際辨識度最高」，而在於它貼近台灣個資法的語言。資料盤點、告知程序、當事人權利、特種個資、委外監督、事故應變、內部評量與管理審查，都是台灣企業面對主管機關或客戶稽核時會被要求拿出證據的項目。\n需要注意的是，官方網站已放出 TPIPAS:2021+ 修正草案與實務指引，但截至本文日期，正式驗證仍應確認官網公告版本。若直接把「2021+ 草案」寫成已全面取代 TPIPAS:2021，會太早。\n1.2 ISO/IEC 27701:2025：可獨立運作的 PIMS 標準 ISO/IEC 27701:2025 的正式名稱是「Information security, cybersecurity and privacy protection - Privacy information management systems - Requirements and guidance」。這一點很重要：2025 版已不是 2019 版那種依附 ISO/IEC 27001 與 ISO/IEC 27002 的隱私擴充標準，而是可單獨使用的隱私資訊管理系統（PIMS）標準。\n換句話說，企業不必先取得 ISO/IEC 27001:2022，才有資格導入或申請 ISO/IEC 27701:2025。若公司本來就有 ISO 27001，兩套管理系統可以整合，稽核與文件也能共用；但這是效率問題，不是新版 27701 的前置門檻。\n27701:2025 同時涵蓋 PII controller 與 PII processor。對 SaaS、雲端服務、代營運、集團共享服務中心來說，這比單純的本地個資法文件更有用，因為客戶通常會問：是否只依客戶指示處理資料、是否管控次處理者、事故後多久通知客戶、契約終止後資料怎麼返還或刪除。\n1.3 Global CBPR：跨境資料流通的問責認證 Global CBPR（Cross-Border Privacy Rules）原本來自 APEC CBPR 的制度經驗，但現在由 Global CBPR Forum 推動，已不再限於 APEC。Forum 於 2022 年由澳洲、加拿大、日本、韓國、墨西哥、菲律賓、新加坡、台灣（Forum 使用 Chinese Taipei 名稱）與美國等當時參與 APEC CBPR 的司法管轄區成立；截至本文日期，會員名單還包括 Dubai International Financial Centre（DIFC），另有 Bermuda、Nigeria、Mauritius、United Kingdom 等 associate。\n因此，不能再把 CBPR 簡化成「APEC 9 國通行證」，也不應把紐西蘭列為目前 Global CBPR Forum 會員。它比較準確的定位，是一套由認可 Accountability Agent 審查企業隱私政策與實務流程的問責認證。\n2026 年 3 月 Global CBPR Forum 更新 Global CBPR System Program Requirements，將要求從 50 項擴為 57 項，新增 Preventing Harm 原則下的 5 項要求：敏感資料額外保護、兒童資料辨識與適當法源或家長同意、風險評估與風險降低，以及重大可能危害情境下對受影響個人的事故通知。新版要求自 2027 年 4 月 1 日起適用於新申請與再認證。\n二、核心差異對照 面向 TPIPAS ISO/IEC 27701:2025 Global CBPR 主要用途 台灣個資法遵與 dp.mark 建立 PIMS，支援 controller / processor 隱私治理 跨境資料流通下的問責認證 制度性質 台灣本地驗證制度 ISO 管理系統標準，可獨立使用 Global CBPR Forum 認證機制 驗證方式 向 TPIPAS 維運機構申請，由外部驗證機構進行書審、實審與授證審查 由認證機構依 27701:2025 稽核；可與 ISO 27001 整合，但非必要前提 由 Forum-recognized Accountability Agent 審查與持續監督 主要證據 個資檔案清冊、個資管理手冊、告知與權利程序、委外監督、事故紀錄、內部評量 PIMS 政策、隱私風險評估、處理活動紀錄、controller / processor 控制、Statement of Applicability Intake Questionnaire、隱私政策、處理活動紀錄、風險評估、事故通知與問責文件 適合優先處理的情境 台灣主管機關、國內標案、在地客戶稽核 跨國客戶、供應鏈盡調、SaaS 或雲端服務 需要向 Forum 會員司法管轄區客戶說明跨境資料保護能力 常見誤解 通過 TPIPAS 就等於拿到 CBPR 2025 版仍必須先有 ISO 27001 CBPR 可以取代所有跨境傳輸法律工具 三、可以共用的文件，不必重做三次 三套制度有不少重疊。企業最不該做的，是讓法務、資安、隱私團隊各寫一套文件，最後內容相近、欄位不同、維護責任不清。\n建議先建立一份「共同底稿」，至少包含這幾類資料：\n文件或流程 TPIPAS 用途 ISO 27701 用途 Global CBPR 用途 個資檔案清冊與資料流程圖 界定納入管理的個資檔案與流程 作為處理活動紀錄與風險評估基礎 回答資料來源、利用目的、揭露對象與跨境流向 隱私政策與告知範本 支援個資法第 8、9 條告知 支援 PIMS 對外溝通與透明性要求 對應 Notice、Choice、Access and Correction 當事人權利處理程序 查詢、閱覽、補充、更正、停止與刪除 支援資料主體請求管理 對應 Access and Correction 隱私風險評估 對接 TPIPAS 風險管理與安全措施 PIMS 風險評估與風險處理 對應新版 Preventing Harm 的風險要求 委外與供應商管理 選任、契約、監督與事故回報 processor / sub-processor 管理 對應 Accountability 與 accountable transfer 事故應變程序 個資事故紀錄、通知與通報準備 事件處理與持續改善 對應受影響個人通知與補救說明 實務上，這份共同底稿可以採 TPIPAS 的本地法遵架構作主軸，再加上兩個欄位：「ISO 27701 對應控制」與「Global CBPR 對應題項」。這樣做的好處不是為了表格漂亮，而是日後稽核時能追得出同一份證據到底支援哪幾個要求。\n四、真正不能混在一起的缺口 4.1 TPIPAS 不能替代 processor 對客戶的承諾 TPIPAS 有委外監督要求，對台灣企業作為委託人管理供應商很有幫助。但如果企業本身是 SaaS 服務商、雲端代管商或集團內共享服務單位，它在客戶資料上常常是 processor。這時只拿 TPIPAS 文件是不夠的，還要補上對客戶的資料處理協議（DPA）與 processor 作業程序。\n至少應補齊這些點：只依客戶書面指示處理、次處理者管理、事故通知客戶、協助客戶回應當事人權利、資料返還或刪除、稽核權與證據提供。這些內容會同時被 ISO 27701 與跨國客戶盡調追問。\n4.2 ISO 27701 不是台灣法規對照表 ISO 27701 的強項是管理系統與國際語言，不是逐條對應台灣個資法。台灣企業若只做 ISO 27701，仍要另外確認個資法第 3 條當事人權利、第 6 條特種個資、第 8、9 條告知、第 12 條事故通知、第 21 條國際傳輸限制，以及 114 年 11 月 11 日公布但施行日期未定的第 20-1 條安全維護事項。\n這也是 TPIPAS 仍有價值的原因。它把台灣法遵、內部文件與稽核證據放在同一個制度裡，面對國內主管機關或客戶稽核時比較容易說清楚。\n4.3 Global CBPR 不是萬用跨境傳輸許可 CBPR 可以降低跨境資料流通的信任成本，但它不是 GDPR 的 SCCs，也不是中國個資出境標準合同，更不是任何國家的自動合法化工具。拿到 CBPR，仍要回到資料流向地的法律要求。\n比較務實的用法是：把 CBPR 當作跨境隱私問責證明，搭配各地法定工具使用。對美國、新加坡、日本、韓國、菲律賓等 Global CBPR Forum 會員市場，它有較高的溝通價值；對歐盟、中國或尚未參與 Forum 的東協市場，仍要以當地法令與契約工具為主。\n五、跨境情境下的搭配方式 目的地 CBPR 可用性 建議做法 美國、加拿大、墨西哥 Forum 會員 Global CBPR 可作為客戶盡調與跨境問責證明；仍需處理州法、契約與產業法要求 日本 Forum 會員 可把 CBPR 作為補強證明，但仍需檢核 APPI 對第三方提供與跨境移轉的要求 新加坡 Forum 會員，IMDA 為認可 AA 可搭配 PDPA transfer limitation obligation 與資料處理契約使用 韓國 Forum 會員 可作為跨境隱私治理證據，仍需檢核 PIPA 及委外/境外移轉要求 菲律賓 Forum 會員 可納入 CBPR 路徑；仍須檢核菲律賓 Data Privacy Act 與 NPC 要求 泰國、馬來西亞、越南等東協市場 目前不因 APEC 身分自動取得 Global CBPR 互通效果 以當地個資法與 ASEAN Model Contractual Clauses 作主要工具 歐盟 非 Forum 會員；英國目前為 associate，不等於歐盟可用 以 GDPR SCCs、BCRs 或其他 GDPR Art. 46 工具為主；ISO 27701 只能作為治理證據 中國 非 Forum 會員 依 PIPL 評估安全評估、個資出境標準合同備案、個資保護認證等路徑 六、建置順序建議 第一階段：先把台灣本地基礎補齊 如果企業主要營運與資料主體都在台灣，建議先用 TPIPAS 或等同的內部架構補齊底盤。重點不是先拿標章，而是先把會被反覆追問的證據做起來：\n個資檔案清冊與資料流程圖。 告知範本與當事人權利處理程序。 特種個資、行銷、國際傳輸與保存刪除規則。 委外契約與供應商監督紀錄。 事故應變、通知、通報與事後改善紀錄。 第 20-1 條安全維護事項雖已公布但施行日期未定，企業仍應先按草案方向準備。等主管機關的安全維護及管理機制辦法落地後，再做一次差距檢查。\n第二階段：補資訊安全底盤，但不要誤寫成 27701 前置門檻 ISO/IEC 27001:2022 對資安治理、風險評估、存取控制、供應商管理、事件管理與營運韌性很有幫助。對要接國際客戶的企業來說，它通常也比單獨的隱私證明更容易被採購與資安團隊理解。\n實務上不宜再寫「必須先取得 ISO 27001，才能申請 ISO 27701:2025」。正確說法是：兩者可以整合，且已有 ISO 27001 的企業導入 27701 通常成本較低；若企業沒有 ISO 27001，也可以評估直接建立 27701:2025 PIMS。正式申請前，仍應向認證機構確認 27701:2025 的認證與轉版安排。\n第三階段：把 ISO 27701 當作國際客戶語言 導入 27701 時，請先做角色盤點：哪些活動是 controller，哪些活動是 processor，哪些是共同控制或委外。很多公司卡住不是因為不懂標準，而是資料流程裡角色混亂，導致 DPA、告知文件、事故通知與刪除責任都寫不清楚。\n若企業已有 TPIPAS 底稿，27701 的導入重點會落在 PIMS 治理、隱私風險處理、控制適用性說明、處理者義務、次處理者管理與跨境資料揭露證據。\n第四階段：有跨境商務需求時再上 Global CBPR CBPR 不必每家公司都做。它適合三種情境：\n客戶或平台明確要求 CBPR。 資料會在 Forum 會員司法管轄區間移動，且需要一套共同問責語言。 公司想把隱私治理能力放進海外採購、供應鏈或市場信任文件。 若要申請，建議從現在就用新版要求做差距檢查，尤其是敏感資料、兒童資料、風險評估與事故通知。\n七、常見誤區 誤區一：把 ISO 27701:2019 的說法套到 2025 版 2019 版是 ISO 27001/27002 的擴充標準；2025 版是獨立 PIMS 標準。若內部簡報還寫「必須依附 ISO 27001」、「Clause 7 就是 processor 要求」、「ISO 27001 + 27701 雙軌稽核是前提」，就要先確認到底是在談哪一版。\n誤區二：把 TPIPAS 證書寫成 CBPR 的替代品 TPIPAS 官網確實有 APEC/Global CBPR 相關文件，兩套制度也能共用很多證據。但 TPIPAS 通過不等於取得 Global CBPR。CBPR 要向認可 Accountability Agent 申請，且認證狀態應以 Global CBPR Forum 目錄為準。\n誤區三：引用 114 年修法時忘記「施行日期未定」 個資法第 12 條、第 20-1 條、第 21 條、第 22 條等 114 年 11 月 11 日修正公布條文，截至本文日期仍標示施行日期未定。比較準確的寫法是「已公布、企業應預作準備」，不能寫成所有新義務已全面生效。\n誤區四：把 CBPR 寫成跨境萬用通行證 CBPR 是一套有用的問責認證，不是所有國家的跨境傳輸合法依據。對 EU、中國、或尚未參與 Forum 的市場，仍要回到 GDPR SCCs、中國 PIPL 出境機制、當地個資法或契約工具。\n八、實務行動清單 若要在短時間內把三套制度整合起來，可以照這個順序做：\n先完成個資檔案清冊與資料流向盤點，標示資料主體、資料類別、目的、保存期限、接收者與跨境流向。 建立 TPIPAS 導向的個資管理手冊與程序，先滿足台灣法遵與稽核證據需求。 建立一份整合控制矩陣，把同一份證據對應到 TPIPAS、ISO 27701 與 Global CBPR。 盤點每個處理活動的角色：controller、processor、共同控制或委外。 對 processor 活動補 DPA、次處理者管理、事故通知、返還刪除與稽核權條款。 若海外客戶重視資安成熟度，同步規劃 ISO 27001；但不要把它寫成 27701:2025 的必備前置條件。 導入 ISO 27701:2025 時，向認證機構確認新版認證與轉版安排。 有 Global CBPR 需求者，直接用 57 項新版 Program Requirements 做差距分析，避免 2027 年再補文件。 更新跨境傳輸矩陣：Forum 會員市場、歐盟、中國、東協其他市場分開處理。 每年至少做一次內部評量、管理審查與事故演練，讓證據保持可用，而不是只在申請證書前整理一次。 九、參考來源 ISO/IEC 27701:2025：ISO 官網，https://www.iso.org/standard/27701 ISO/IEC 27701:2019：ISO 官網，https://www.iso.org/standard/71670.html SGS: The key changes in ISO/IEC 27701:2025，https://www.sgs.com/-/media/sgscorp/documents/corporate/white-papers/sgs-ba-the-key-changes-in-isoiec-27701-2025-en.cdn.en-AO.pdf DNV: Revision of ISO/IEC 27701，https://www.dnv.com/assurance/Management-Systems/new-iso/transition/revision-of-iso-iec-27701/ TPIPAS 官網：制度文件、驗證流程與驗證機構名單，https://www.tpipas.org.tw/ 個人資料保護法：個人資料保護委員會籌備處主管法規共用系統，https://law.pdpc.gov.tw/ Global CBPR Forum: Members \u0026 Associates、Program Requirements、2026 update，https://www.globalcbpr.org/ ",
+  "wordCount" : "5322",
+  "inLanguage": "en",
+  "datePublished": "2026-05-05T00:00:00Z",
+  "dateModified": "2026-05-05T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": {"disablespecial1stpost":true,"name":"YJ","showfulltextinrss":true,"showtoc":true,"tocopen":true}
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "YJ-OnLine",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.yjho.me/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.yjho.me/" accesskey="h" title="YJ-OnLine (Alt + H)">YJ-OnLine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.yjho.me/" title="BLOG">
+                    <span>BLOG</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yjho.me/dp_column/" title="個資法專欄">
+                    <span>個資法專欄</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.yjho.me/about-me/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<div class="post-container">
+    <article class="post-single">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="https://www.yjho.me/">首頁</a>&nbsp;»&nbsp;<a href="https://www.yjho.me/dp_column/">個資法專欄</a></div>
+            <h1 class="post-title entry-hint-parent">
+                臺灣個資管理制度整合與國際標準的整合
+            </h1>
+            <h2 class="post-subtitle">TPIPAS、ISO 27701 與 Global CBPR 的實務分工</h2>
+            <div class="post-meta">
+                <span title='2026-05-05 00:00:00'>
+                    2026-05-05
+                </span>
+
+</div>
+        </header> 
+        <div class="post-content"><p>一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。</p>
+<p>這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。</p>
+<!-- more -->
+<h2 id="一三套制度各自管什麼">一、三套制度各自管什麼<a hidden class="anchor" aria-hidden="true" href="#一三套制度各自管什麼">#</a></h2>
+<h3 id="11-tpipas台灣本地法遵的骨架">1.1 TPIPAS：台灣本地法遵的骨架<a hidden class="anchor" aria-hidden="true" href="#11-tpipas台灣本地法遵的骨架">#</a></h3>
+<p>TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。</p>
+<p>TPIPAS 的價值不在於「國際辨識度最高」，而在於它貼近台灣個資法的語言。資料盤點、告知程序、當事人權利、特種個資、委外監督、事故應變、內部評量與管理審查，都是台灣企業面對主管機關或客戶稽核時會被要求拿出證據的項目。</p>
+<p>需要注意的是，官方網站已放出 TPIPAS:2021+ 修正草案與實務指引，但截至本文日期，正式驗證仍應確認官網公告版本。若直接把「2021+ 草案」寫成已全面取代 TPIPAS:2021，會太早。</p>
+<h3 id="12-isoiec-277012025可獨立運作的-pims-標準">1.2 ISO/IEC 27701:2025：可獨立運作的 PIMS 標準<a hidden class="anchor" aria-hidden="true" href="#12-isoiec-277012025可獨立運作的-pims-標準">#</a></h3>
+<p>ISO/IEC 27701:2025 的正式名稱是「Information security, cybersecurity and privacy protection - Privacy information management systems - Requirements and guidance」。這一點很重要：2025 版已不是 2019 版那種依附 ISO/IEC 27001 與 ISO/IEC 27002 的隱私擴充標準，而是可單獨使用的隱私資訊管理系統（PIMS）標準。</p>
+<p>換句話說，企業不必先取得 ISO/IEC 27001:2022，才有資格導入或申請 ISO/IEC 27701:2025。若公司本來就有 ISO 27001，兩套管理系統可以整合，稽核與文件也能共用；但這是效率問題，不是新版 27701 的前置門檻。</p>
+<p>27701:2025 同時涵蓋 PII controller 與 PII processor。對 SaaS、雲端服務、代營運、集團共享服務中心來說，這比單純的本地個資法文件更有用，因為客戶通常會問：是否只依客戶指示處理資料、是否管控次處理者、事故後多久通知客戶、契約終止後資料怎麼返還或刪除。</p>
+<h3 id="13-global-cbpr跨境資料流通的問責認證">1.3 Global CBPR：跨境資料流通的問責認證<a hidden class="anchor" aria-hidden="true" href="#13-global-cbpr跨境資料流通的問責認證">#</a></h3>
+<p>Global CBPR（Cross-Border Privacy Rules）原本來自 APEC CBPR 的制度經驗，但現在由 Global CBPR Forum 推動，已不再限於 APEC。Forum 於 2022 年由澳洲、加拿大、日本、韓國、墨西哥、菲律賓、新加坡、台灣（Forum 使用 Chinese Taipei 名稱）與美國等當時參與 APEC CBPR 的司法管轄區成立；截至本文日期，會員名單還包括 Dubai International Financial Centre（DIFC），另有 Bermuda、Nigeria、Mauritius、United Kingdom 等 associate。</p>
+<p>因此，不能再把 CBPR 簡化成「APEC 9 國通行證」，也不應把紐西蘭列為目前 Global CBPR Forum 會員。它比較準確的定位，是一套由認可 Accountability Agent 審查企業隱私政策與實務流程的問責認證。</p>
+<p>2026 年 3 月 Global CBPR Forum 更新 Global CBPR System Program Requirements，將要求從 50 項擴為 57 項，新增 Preventing Harm 原則下的 5 項要求：敏感資料額外保護、兒童資料辨識與適當法源或家長同意、風險評估與風險降低，以及重大可能危害情境下對受影響個人的事故通知。新版要求自 2027 年 4 月 1 日起適用於新申請與再認證。</p>
+<h2 id="二核心差異對照">二、核心差異對照<a hidden class="anchor" aria-hidden="true" href="#二核心差異對照">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>面向</th>
+					<th>TPIPAS</th>
+					<th>ISO/IEC 27701:2025</th>
+					<th>Global CBPR</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>主要用途</td>
+					<td>台灣個資法遵與 dp.mark</td>
+					<td>建立 PIMS，支援 controller / processor 隱私治理</td>
+					<td>跨境資料流通下的問責認證</td>
+			</tr>
+			<tr>
+					<td>制度性質</td>
+					<td>台灣本地驗證制度</td>
+					<td>ISO 管理系統標準，可獨立使用</td>
+					<td>Global CBPR Forum 認證機制</td>
+			</tr>
+			<tr>
+					<td>驗證方式</td>
+					<td>向 TPIPAS 維運機構申請，由外部驗證機構進行書審、實審與授證審查</td>
+					<td>由認證機構依 27701:2025 稽核；可與 ISO 27001 整合，但非必要前提</td>
+					<td>由 Forum-recognized Accountability Agent 審查與持續監督</td>
+			</tr>
+			<tr>
+					<td>主要證據</td>
+					<td>個資檔案清冊、個資管理手冊、告知與權利程序、委外監督、事故紀錄、內部評量</td>
+					<td>PIMS 政策、隱私風險評估、處理活動紀錄、controller / processor 控制、Statement of Applicability</td>
+					<td>Intake Questionnaire、隱私政策、處理活動紀錄、風險評估、事故通知與問責文件</td>
+			</tr>
+			<tr>
+					<td>適合優先處理的情境</td>
+					<td>台灣主管機關、國內標案、在地客戶稽核</td>
+					<td>跨國客戶、供應鏈盡調、SaaS 或雲端服務</td>
+					<td>需要向 Forum 會員司法管轄區客戶說明跨境資料保護能力</td>
+			</tr>
+			<tr>
+					<td>常見誤解</td>
+					<td>通過 TPIPAS 就等於拿到 CBPR</td>
+					<td>2025 版仍必須先有 ISO 27001</td>
+					<td>CBPR 可以取代所有跨境傳輸法律工具</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="三可以共用的文件不必重做三次">三、可以共用的文件，不必重做三次<a hidden class="anchor" aria-hidden="true" href="#三可以共用的文件不必重做三次">#</a></h2>
+<p>三套制度有不少重疊。企業最不該做的，是讓法務、資安、隱私團隊各寫一套文件，最後內容相近、欄位不同、維護責任不清。</p>
+<p>建議先建立一份「共同底稿」，至少包含這幾類資料：</p>
+<table>
+	<thead>
+			<tr>
+					<th>文件或流程</th>
+					<th>TPIPAS 用途</th>
+					<th>ISO 27701 用途</th>
+					<th>Global CBPR 用途</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>個資檔案清冊與資料流程圖</td>
+					<td>界定納入管理的個資檔案與流程</td>
+					<td>作為處理活動紀錄與風險評估基礎</td>
+					<td>回答資料來源、利用目的、揭露對象與跨境流向</td>
+			</tr>
+			<tr>
+					<td>隱私政策與告知範本</td>
+					<td>支援個資法第 8、9 條告知</td>
+					<td>支援 PIMS 對外溝通與透明性要求</td>
+					<td>對應 Notice、Choice、Access and Correction</td>
+			</tr>
+			<tr>
+					<td>當事人權利處理程序</td>
+					<td>查詢、閱覽、補充、更正、停止與刪除</td>
+					<td>支援資料主體請求管理</td>
+					<td>對應 Access and Correction</td>
+			</tr>
+			<tr>
+					<td>隱私風險評估</td>
+					<td>對接 TPIPAS 風險管理與安全措施</td>
+					<td>PIMS 風險評估與風險處理</td>
+					<td>對應新版 Preventing Harm 的風險要求</td>
+			</tr>
+			<tr>
+					<td>委外與供應商管理</td>
+					<td>選任、契約、監督與事故回報</td>
+					<td>processor / sub-processor 管理</td>
+					<td>對應 Accountability 與 accountable transfer</td>
+			</tr>
+			<tr>
+					<td>事故應變程序</td>
+					<td>個資事故紀錄、通知與通報準備</td>
+					<td>事件處理與持續改善</td>
+					<td>對應受影響個人通知與補救說明</td>
+			</tr>
+	</tbody>
+</table>
+<p>實務上，這份共同底稿可以採 TPIPAS 的本地法遵架構作主軸，再加上兩個欄位：「ISO 27701 對應控制」與「Global CBPR 對應題項」。這樣做的好處不是為了表格漂亮，而是日後稽核時能追得出同一份證據到底支援哪幾個要求。</p>
+<h2 id="四真正不能混在一起的缺口">四、真正不能混在一起的缺口<a hidden class="anchor" aria-hidden="true" href="#四真正不能混在一起的缺口">#</a></h2>
+<h3 id="41-tpipas-不能替代-processor-對客戶的承諾">4.1 TPIPAS 不能替代 processor 對客戶的承諾<a hidden class="anchor" aria-hidden="true" href="#41-tpipas-不能替代-processor-對客戶的承諾">#</a></h3>
+<p>TPIPAS 有委外監督要求，對台灣企業作為委託人管理供應商很有幫助。但如果企業本身是 SaaS 服務商、雲端代管商或集團內共享服務單位，它在客戶資料上常常是 processor。這時只拿 TPIPAS 文件是不夠的，還要補上對客戶的資料處理協議（DPA）與 processor 作業程序。</p>
+<p>至少應補齊這些點：只依客戶書面指示處理、次處理者管理、事故通知客戶、協助客戶回應當事人權利、資料返還或刪除、稽核權與證據提供。這些內容會同時被 ISO 27701 與跨國客戶盡調追問。</p>
+<h3 id="42-iso-27701-不是台灣法規對照表">4.2 ISO 27701 不是台灣法規對照表<a hidden class="anchor" aria-hidden="true" href="#42-iso-27701-不是台灣法規對照表">#</a></h3>
+<p>ISO 27701 的強項是管理系統與國際語言，不是逐條對應台灣個資法。台灣企業若只做 ISO 27701，仍要另外確認個資法第 3 條當事人權利、第 6 條特種個資、第 8、9 條告知、第 12 條事故通知、第 21 條國際傳輸限制，以及 114 年 11 月 11 日公布但施行日期未定的第 20-1 條安全維護事項。</p>
+<p>這也是 TPIPAS 仍有價值的原因。它把台灣法遵、內部文件與稽核證據放在同一個制度裡，面對國內主管機關或客戶稽核時比較容易說清楚。</p>
+<h3 id="43-global-cbpr-不是萬用跨境傳輸許可">4.3 Global CBPR 不是萬用跨境傳輸許可<a hidden class="anchor" aria-hidden="true" href="#43-global-cbpr-不是萬用跨境傳輸許可">#</a></h3>
+<p>CBPR 可以降低跨境資料流通的信任成本，但它不是 GDPR 的 SCCs，也不是中國個資出境標準合同，更不是任何國家的自動合法化工具。拿到 CBPR，仍要回到資料流向地的法律要求。</p>
+<p>比較務實的用法是：把 CBPR 當作跨境隱私問責證明，搭配各地法定工具使用。對美國、新加坡、日本、韓國、菲律賓等 Global CBPR Forum 會員市場，它有較高的溝通價值；對歐盟、中國或尚未參與 Forum 的東協市場，仍要以當地法令與契約工具為主。</p>
+<h2 id="五跨境情境下的搭配方式">五、跨境情境下的搭配方式<a hidden class="anchor" aria-hidden="true" href="#五跨境情境下的搭配方式">#</a></h2>
+<table>
+	<thead>
+			<tr>
+					<th>目的地</th>
+					<th>CBPR 可用性</th>
+					<th>建議做法</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>美國、加拿大、墨西哥</td>
+					<td>Forum 會員</td>
+					<td>Global CBPR 可作為客戶盡調與跨境問責證明；仍需處理州法、契約與產業法要求</td>
+			</tr>
+			<tr>
+					<td>日本</td>
+					<td>Forum 會員</td>
+					<td>可把 CBPR 作為補強證明，但仍需檢核 APPI 對第三方提供與跨境移轉的要求</td>
+			</tr>
+			<tr>
+					<td>新加坡</td>
+					<td>Forum 會員，IMDA 為認可 AA</td>
+					<td>可搭配 PDPA transfer limitation obligation 與資料處理契約使用</td>
+			</tr>
+			<tr>
+					<td>韓國</td>
+					<td>Forum 會員</td>
+					<td>可作為跨境隱私治理證據，仍需檢核 PIPA 及委外/境外移轉要求</td>
+			</tr>
+			<tr>
+					<td>菲律賓</td>
+					<td>Forum 會員</td>
+					<td>可納入 CBPR 路徑；仍須檢核菲律賓 Data Privacy Act 與 NPC 要求</td>
+			</tr>
+			<tr>
+					<td>泰國、馬來西亞、越南等東協市場</td>
+					<td>目前不因 APEC 身分自動取得 Global CBPR 互通效果</td>
+					<td>以當地個資法與 ASEAN Model Contractual Clauses 作主要工具</td>
+			</tr>
+			<tr>
+					<td>歐盟</td>
+					<td>非 Forum 會員；英國目前為 associate，不等於歐盟可用</td>
+					<td>以 GDPR SCCs、BCRs 或其他 GDPR Art. 46 工具為主；ISO 27701 只能作為治理證據</td>
+			</tr>
+			<tr>
+					<td>中國</td>
+					<td>非 Forum 會員</td>
+					<td>依 PIPL 評估安全評估、個資出境標準合同備案、個資保護認證等路徑</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="六建置順序建議">六、建置順序建議<a hidden class="anchor" aria-hidden="true" href="#六建置順序建議">#</a></h2>
+<h3 id="第一階段先把台灣本地基礎補齊">第一階段：先把台灣本地基礎補齊<a hidden class="anchor" aria-hidden="true" href="#第一階段先把台灣本地基礎補齊">#</a></h3>
+<p>如果企業主要營運與資料主體都在台灣，建議先用 TPIPAS 或等同的內部架構補齊底盤。重點不是先拿標章，而是先把會被反覆追問的證據做起來：</p>
+<ol>
+<li>個資檔案清冊與資料流程圖。</li>
+<li>告知範本與當事人權利處理程序。</li>
+<li>特種個資、行銷、國際傳輸與保存刪除規則。</li>
+<li>委外契約與供應商監督紀錄。</li>
+<li>事故應變、通知、通報與事後改善紀錄。</li>
+</ol>
+<p>第 20-1 條安全維護事項雖已公布但施行日期未定，企業仍應先按草案方向準備。等主管機關的安全維護及管理機制辦法落地後，再做一次差距檢查。</p>
+<h3 id="第二階段補資訊安全底盤但不要誤寫成-27701-前置門檻">第二階段：補資訊安全底盤，但不要誤寫成 27701 前置門檻<a hidden class="anchor" aria-hidden="true" href="#第二階段補資訊安全底盤但不要誤寫成-27701-前置門檻">#</a></h3>
+<p>ISO/IEC 27001:2022 對資安治理、風險評估、存取控制、供應商管理、事件管理與營運韌性很有幫助。對要接國際客戶的企業來說，它通常也比單獨的隱私證明更容易被採購與資安團隊理解。</p>
+<p>實務上不宜再寫「必須先取得 ISO 27001，才能申請 ISO 27701:2025」。正確說法是：兩者可以整合，且已有 ISO 27001 的企業導入 27701 通常成本較低；若企業沒有 ISO 27001，也可以評估直接建立 27701:2025 PIMS。正式申請前，仍應向認證機構確認 27701:2025 的認證與轉版安排。</p>
+<h3 id="第三階段把-iso-27701-當作國際客戶語言">第三階段：把 ISO 27701 當作國際客戶語言<a hidden class="anchor" aria-hidden="true" href="#第三階段把-iso-27701-當作國際客戶語言">#</a></h3>
+<p>導入 27701 時，請先做角色盤點：哪些活動是 controller，哪些活動是 processor，哪些是共同控制或委外。很多公司卡住不是因為不懂標準，而是資料流程裡角色混亂，導致 DPA、告知文件、事故通知與刪除責任都寫不清楚。</p>
+<p>若企業已有 TPIPAS 底稿，27701 的導入重點會落在 PIMS 治理、隱私風險處理、控制適用性說明、處理者義務、次處理者管理與跨境資料揭露證據。</p>
+<h3 id="第四階段有跨境商務需求時再上-global-cbpr">第四階段：有跨境商務需求時再上 Global CBPR<a hidden class="anchor" aria-hidden="true" href="#第四階段有跨境商務需求時再上-global-cbpr">#</a></h3>
+<p>CBPR 不必每家公司都做。它適合三種情境：</p>
+<ol>
+<li>客戶或平台明確要求 CBPR。</li>
+<li>資料會在 Forum 會員司法管轄區間移動，且需要一套共同問責語言。</li>
+<li>公司想把隱私治理能力放進海外採購、供應鏈或市場信任文件。</li>
+</ol>
+<p>若要申請，建議從現在就用新版要求做差距檢查，尤其是敏感資料、兒童資料、風險評估與事故通知。</p>
+<h2 id="七常見誤區">七、常見誤區<a hidden class="anchor" aria-hidden="true" href="#七常見誤區">#</a></h2>
+<h3 id="誤區一把-iso-277012019-的說法套到-2025-版">誤區一：把 ISO 27701:2019 的說法套到 2025 版<a hidden class="anchor" aria-hidden="true" href="#誤區一把-iso-277012019-的說法套到-2025-版">#</a></h3>
+<p>2019 版是 ISO 27001/27002 的擴充標準；2025 版是獨立 PIMS 標準。若內部簡報還寫「必須依附 ISO 27001」、「Clause 7 就是 processor 要求」、「ISO 27001 + 27701 雙軌稽核是前提」，就要先確認到底是在談哪一版。</p>
+<h3 id="誤區二把-tpipas-證書寫成-cbpr-的替代品">誤區二：把 TPIPAS 證書寫成 CBPR 的替代品<a hidden class="anchor" aria-hidden="true" href="#誤區二把-tpipas-證書寫成-cbpr-的替代品">#</a></h3>
+<p>TPIPAS 官網確實有 APEC/Global CBPR 相關文件，兩套制度也能共用很多證據。但 TPIPAS 通過不等於取得 Global CBPR。CBPR 要向認可 Accountability Agent 申請，且認證狀態應以 Global CBPR Forum 目錄為準。</p>
+<h3 id="誤區三引用-114-年修法時忘記施行日期未定">誤區三：引用 114 年修法時忘記「施行日期未定」<a hidden class="anchor" aria-hidden="true" href="#誤區三引用-114-年修法時忘記施行日期未定">#</a></h3>
+<p>個資法第 12 條、第 20-1 條、第 21 條、第 22 條等 114 年 11 月 11 日修正公布條文，截至本文日期仍標示施行日期未定。比較準確的寫法是「已公布、企業應預作準備」，不能寫成所有新義務已全面生效。</p>
+<h3 id="誤區四把-cbpr-寫成跨境萬用通行證">誤區四：把 CBPR 寫成跨境萬用通行證<a hidden class="anchor" aria-hidden="true" href="#誤區四把-cbpr-寫成跨境萬用通行證">#</a></h3>
+<p>CBPR 是一套有用的問責認證，不是所有國家的跨境傳輸合法依據。對 EU、中國、或尚未參與 Forum 的市場，仍要回到 GDPR SCCs、中國 PIPL 出境機制、當地個資法或契約工具。</p>
+<h2 id="八實務行動清單">八、實務行動清單<a hidden class="anchor" aria-hidden="true" href="#八實務行動清單">#</a></h2>
+<p>若要在短時間內把三套制度整合起來，可以照這個順序做：</p>
+<ol>
+<li>先完成個資檔案清冊與資料流向盤點，標示資料主體、資料類別、目的、保存期限、接收者與跨境流向。</li>
+<li>建立 TPIPAS 導向的個資管理手冊與程序，先滿足台灣法遵與稽核證據需求。</li>
+<li>建立一份整合控制矩陣，把同一份證據對應到 TPIPAS、ISO 27701 與 Global CBPR。</li>
+<li>盤點每個處理活動的角色：controller、processor、共同控制或委外。</li>
+<li>對 processor 活動補 DPA、次處理者管理、事故通知、返還刪除與稽核權條款。</li>
+<li>若海外客戶重視資安成熟度，同步規劃 ISO 27001；但不要把它寫成 27701:2025 的必備前置條件。</li>
+<li>導入 ISO 27701:2025 時，向認證機構確認新版認證與轉版安排。</li>
+<li>有 Global CBPR 需求者，直接用 57 項新版 Program Requirements 做差距分析，避免 2027 年再補文件。</li>
+<li>更新跨境傳輸矩陣：Forum 會員市場、歐盟、中國、東協其他市場分開處理。</li>
+<li>每年至少做一次內部評量、管理審查與事故演練，讓證據保持可用，而不是只在申請證書前整理一次。</li>
+</ol>
+<h2 id="九參考來源">九、參考來源<a hidden class="anchor" aria-hidden="true" href="#九參考來源">#</a></h2>
+<ul>
+<li>ISO/IEC 27701:2025：ISO 官網，https://www.iso.org/standard/27701</li>
+<li>ISO/IEC 27701:2019：ISO 官網，https://www.iso.org/standard/71670.html</li>
+<li>SGS: The key changes in ISO/IEC 27701:2025，https://www.sgs.com/-/media/sgscorp/documents/corporate/white-papers/sgs-ba-the-key-changes-in-isoiec-27701-2025-en.cdn.en-AO.pdf</li>
+<li>DNV: Revision of ISO/IEC 27701，https://www.dnv.com/assurance/Management-Systems/new-iso/transition/revision-of-iso-iec-27701/</li>
+<li>TPIPAS 官網：制度文件、驗證流程與驗證機構名單，https://www.tpipas.org.tw/</li>
+<li>個人資料保護法：個人資料保護委員會籌備處主管法規共用系統，https://law.pdpc.gov.tw/</li>
+<li>Global CBPR Forum: Members &amp; Associates、Program Requirements、2026 update，https://www.globalcbpr.org/</li>
+</ul>
+
+
+        </div>
+
+        <footer class="post-footer">
+            <ul class="post-tags">
+                <li><a href="https://www.yjho.me/tags/%E5%80%8B%E8%B3%87%E6%B3%95/">個資法</a></li>
+                <li><a href="https://www.yjho.me/tags/iso-27701/">ISO 27701</a></li>
+                <li><a href="https://www.yjho.me/tags/tpipas/">TPIPAS</a></li>
+                <li><a href="https://www.yjho.me/tags/cbpr/">CBPR</a></li>
+                <li><a href="https://www.yjho.me/tags/%E9%9A%B1%E7%A7%81%E7%AE%A1%E7%90%86%E7%B3%BB%E7%B5%B1/">隱私管理系統</a></li>
+                <li><a href="https://www.yjho.me/tags/%E4%BC%81%E6%A5%AD%E5%90%88%E8%A6%8F/">企業合規</a></li>
+            </ul>
+<nav class="paginav">
+  <a class="prev" href="https://www.yjho.me/dp_column/2026-08-21_%E5%A7%94%E5%A4%96%E7%9B%A3%E7%9D%A3%E8%88%87%E5%9C%8B%E9%9A%9B%E5%82%B3%E8%BC%B8%E7%9B%A3%E7%9D%A3%E5%85%A9%E5%A5%97%E7%BE%A9%E5%8B%99%E4%B8%8D%E8%83%BD%E5%AF%AB%E6%88%90%E5%90%8C%E4%B8%80%E4%BB%BD%E5%90%88%E7%B4%84%E6%A2%9D%E6%AC%BE/">
+    <span class="title">« 上一頁</span>
+    <br>
+    <span>委外監督與國際傳輸監督：兩套義務不能寫成同一份合約條款</span>
+  </a>
+  <a class="next" href="https://www.yjho.me/dp_column/2026-05-01_%E5%B0%B1%E6%A5%AD%E9%9A%B1%E7%A7%81%E8%88%87ai%E8%87%AA%E5%8B%95%E5%8C%96%E6%B1%BA%E7%AD%96%E5%90%88%E8%A6%8F/">
+    <span class="title">下一頁 »</span>
+    <br>
+    <span>當 AI 面臨自動化決策</span>
+  </a>
+</nav>
+
+        </footer>
+    </article>
+
+    
+</div>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2026 <a href="https://www.yjho.me/">YJ-OnLine</a></span> · 
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '複製';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已複製！';
+            setTimeout(() => {
+                copybutton.innerHTML = '複製';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script></body>
+
+</html>

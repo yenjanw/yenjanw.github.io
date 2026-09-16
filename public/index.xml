@@ -2,17 +2,243 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>YJ-OnLine</title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.yjho.me/</link>
     <description>Recent content on YJ-OnLine</description>
-    <generator>Hugo -- 0.160.0</generator>
+    <generator>Hugo -- 0.166.0</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 14:00:00 +0800</lastBuildDate>
+    <atom:link href="https://www.yjho.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>寫給那五秒鐘的沉默：《從合規到治理》，一本回答「為什麼」的個資法導入指南</title>
+      <link>https://www.yjho.me/dp_column/2026-09-16_%E5%BE%9E%E5%90%88%E8%A6%8F%E5%88%B0%E6%B2%BB%E7%90%86%E5%87%BA%E7%89%88%E5%AF%AB%E7%B5%A6%E9%82%A3%E4%BA%94%E7%A7%92%E9%90%98%E7%9A%84%E6%B2%89%E9%BB%98/</link>
+      <pubDate>Wed, 16 Sep 2026 14:00:00 +0800</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-09-16_%E5%BE%9E%E5%90%88%E8%A6%8F%E5%88%B0%E6%B2%BB%E7%90%86%E5%87%BA%E7%89%88%E5%AF%AB%E7%B5%A6%E9%82%A3%E4%BA%94%E7%A7%92%E9%90%98%E7%9A%84%E6%B2%89%E9%BB%98/</guid>
+      <description>&lt;p&gt;某個星期二下午兩點，三位檢查官走進你的會議室。寒暄兩句之後，其中一位翻開你們公司的個人資料檔案安全維護計畫，問了一個問題：「這份計畫有對應到施行細則第 12 條第 2 項的十一款嗎？」&lt;/p&gt;
+&lt;p&gt;會議室安靜了五秒鐘。&lt;/p&gt;
+&lt;p&gt;這是《從合規到治理：台灣個資法全方位導入指南》第一章的開場。書裡接著寫：這本書是寫給這五秒鐘的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>被指派負責個資的那一天，你需要的是一本可以照著做的手冊：《從零到合規》出版了</title>
+      <link>https://www.yjho.me/dp_column/2026-09-16_%E5%BE%9E%E9%9B%B6%E5%88%B0%E5%90%88%E8%A6%8F%E5%87%BA%E7%89%88%E8%A2%AB%E6%8C%87%E6%B4%BE%E8%B2%A0%E8%B2%AC%E5%80%8B%E8%B3%87%E7%9A%84%E9%82%A3%E4%B8%80%E5%A4%A9/</link>
+      <pubDate>Wed, 16 Sep 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-09-16_%E5%BE%9E%E9%9B%B6%E5%88%B0%E5%90%88%E8%A6%8F%E5%87%BA%E7%89%88%E8%A2%AB%E6%8C%87%E6%B4%BE%E8%B2%A0%E8%B2%AC%E5%80%8B%E8%B3%87%E7%9A%84%E9%82%A3%E4%B8%80%E5%A4%A9/</guid>
+      <description>&lt;p&gt;「去把個資法要求該做的做一做。」主管一句話，你成了公司的個資負責人。然後呢？&lt;/p&gt;
+&lt;p&gt;這是《從零到合規：個人資料保護制度的第一本實作手冊》開場的第一句話，也是我在顧問工作裡聽過最多次的一句話。說這句話的主管通常不是不在乎，而是他也不知道「該做的」到底有哪些。被點名的那個人多半來自行政、人資、資訊或品保，手上沒有法務背景，也沒有資安編制，只有一封轉寄的主管機關公文，以及一個模糊的期限。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>當事人要求查詢個資時，身分驗證怎麼做才不會變成另一個風險</title>
+      <link>https://www.yjho.me/dp_column/20260915_%E7%95%B6%E4%BA%8B%E4%BA%BA%E6%AC%8A%E5%88%A9%E8%AB%8B%E6%B1%82%E8%BA%AB%E5%88%86%E9%A9%97%E8%AD%89/</link>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/20260915_%E7%95%B6%E4%BA%8B%E4%BA%BA%E6%AC%8A%E5%88%A9%E8%AB%8B%E6%B1%82%E8%BA%AB%E5%88%86%E9%A9%97%E8%AD%89/</guid>
+      <description>企業處理個資查詢、更正或代理請求時，既要避免把資料交給冒名者，也不能用過度索資把合法請求人擋在門外。本文整理一套可執行的身分驗證與請求紀錄流程。</description>
+    </item>
+    <item>
+      <title>個資保存期限怎麼訂：從資料清冊走到真正刪除</title>
+      <link>https://www.yjho.me/dp_column/20260913_%E5%80%8B%E8%B3%87%E4%BF%9D%E5%AD%98%E6%9C%9F%E9%99%90%E8%88%87%E5%88%AA%E9%99%A4%E6%B2%BB%E7%90%86/</link>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/20260913_%E5%80%8B%E8%B3%87%E4%BF%9D%E5%AD%98%E6%9C%9F%E9%99%90%E8%88%87%E5%88%AA%E9%99%A4%E6%B2%BB%E7%90%86/</guid>
+      <description>企業常知道個資不該永久保存，卻不知道如何把保存期限寫進資料清冊、系統規則、備份與委外流程。本文整理從目的、法定義務到刪除驗證的實務做法。</description>
+    </item>
+    <item>
+      <title>ISO/IEC 27701:2025 驗證機構怎麼選：企業不能只看證書和品牌</title>
+      <link>https://www.yjho.me/dp_column/20260911_iso27701%E9%A9%97%E8%AD%89%E6%A9%9F%E6%A7%8B%E6%80%8E%E9%BA%BC%E9%81%B8/</link>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/20260911_iso27701%E9%A9%97%E8%AD%89%E6%A9%9F%E6%A7%8B%E6%80%8E%E9%BA%BC%E9%81%B8/</guid>
+      <description>從 ISO/IEC 27706:2025、TAF 認證範圍與稽核證據出發，說明企業選擇 ISO/IEC 27701 驗證機構時應查什麼、問什麼，以及哪些採購誤區最容易造成錯誤期待。</description>
+    </item>
+    <item>
+      <title>個資事件的第一個小時：把通報壓力轉成可執行的應變流程</title>
+      <link>https://www.yjho.me/dp_column/20260909_%E5%80%8B%E8%B3%87%E4%BA%8B%E4%BB%B6%E7%AC%AC%E4%B8%80%E5%80%8B%E5%B0%8F%E6%99%82/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/20260909_%E5%80%8B%E8%B3%87%E4%BA%8B%E4%BB%B6%E7%AC%AC%E4%B8%80%E5%80%8B%E5%B0%8F%E6%99%82/</guid>
+      <description>從事件發現、證據保存、風險判斷到對外溝通，建立企業可以在第一個小時內啟動的個資事件應變流程。</description>
+    </item>
+    <item>
+      <title>委外監督與國際傳輸監督：兩套義務不能寫成同一份合約條款</title>
+      <link>https://www.yjho.me/dp_column/2026-08-21_%E5%A7%94%E5%A4%96%E7%9B%A3%E7%9D%A3%E8%88%87%E5%9C%8B%E9%9A%9B%E5%82%B3%E8%BC%B8%E7%9B%A3%E7%9D%A3%E5%85%A9%E5%A5%97%E7%BE%A9%E5%8B%99%E4%B8%8D%E8%83%BD%E5%AF%AB%E6%88%90%E5%90%8C%E4%B8%80%E4%BB%BD%E5%90%88%E7%B4%84%E6%A2%9D%E6%AC%BE/</link>
+      <pubDate>Fri, 21 Aug 2026 01:12:42 +0800</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-08-21_%E5%A7%94%E5%A4%96%E7%9B%A3%E7%9D%A3%E8%88%87%E5%9C%8B%E9%9A%9B%E5%82%B3%E8%BC%B8%E7%9B%A3%E7%9D%A3%E5%85%A9%E5%A5%97%E7%BE%A9%E5%8B%99%E4%B8%8D%E8%83%BD%E5%AF%AB%E6%88%90%E5%90%8C%E4%B8%80%E4%BB%BD%E5%90%88%E7%B4%84%E6%A2%9D%E6%AC%BE/</guid>
+      <description>&lt;p&gt;審查委外合約時，最容易出錯的不是漏看條款，而是把條款對到錯的法源。一份寫著「應約定個人資料處理之範圍、類別、特定目的、期間、地區、對象及方式」的檢核意見，看起來完全合規，卻可能引錯依據——因為這七項要素出自國際傳輸的監督規定，不是委外監督的規定。委外監督在施行細則裡只要求前四項，多出來的「地區、對象、方式」是跨境情境才有的要求。條文長得像，義務並不相同。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一三個條文一組幾乎相同的詞&#34;&gt;一、三個條文，一組幾乎相同的詞&lt;/h2&gt;
+&lt;p&gt;「範圍、類別、特定目的、期間、地區、對象、方式」這串用語，在個資法體系裡至少出現在三個層級，而且每一處要求的組合都不一樣。&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;條文&lt;/th&gt;
+					&lt;th&gt;規範情境&lt;/th&gt;
+					&lt;th&gt;要素組合&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;個資法第 8 條第 1 項第 3 款、第 4 款&lt;/td&gt;
+					&lt;td&gt;向當事人蒐集時的告知義務&lt;/td&gt;
+					&lt;td&gt;個人資料之類別；利用之期間、地區、對象及方式&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;個資法施行細則第 8 條第 2 項第 1 款&lt;/td&gt;
+					&lt;td&gt;委託他人蒐集、處理或利用時的監督&lt;/td&gt;
+					&lt;td&gt;預定蒐集、處理或利用之範圍、類別、特定目的&lt;strong&gt;及其期間&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;各業別安維辦法之國際傳輸條款第 1 款&lt;/td&gt;
+					&lt;td&gt;國際傳輸時對資料接收方的監督&lt;/td&gt;
+					&lt;td&gt;預定處理或利用之範圍、類別、特定目的、期間、&lt;strong&gt;地區、對象及方式&lt;/strong&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;以《製造業及技術服務業個人資料檔案安全維護管理辦法》為例，該辦法第 9 條第 1 款所列的正是七項要素；《數位經濟相關產業個人資料檔案安全維護管理辦法》第 10 條第 1 款用語相同。相對地，施行細則第 8 條第 2 項第 1 款只有四項，沒有地區、對象、方式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>臺灣個資管理制度整合與國際標準的整合</title>
+      <link>https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/</guid>
+      <description>&lt;p&gt;一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。&lt;/p&gt;
+&lt;p&gt;這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一三套制度各自管什麼&#34;&gt;一、三套制度各自管什麼&lt;/h2&gt;
+&lt;h3 id=&#34;11-tpipas台灣本地法遵的骨架&#34;&gt;1.1 TPIPAS：台灣本地法遵的骨架&lt;/h3&gt;
+&lt;p&gt;TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>當 AI 面臨自動化決策</title>
+      <link>https://www.yjho.me/dp_column/2026-05-01_%E5%B0%B1%E6%A5%AD%E9%9A%B1%E7%A7%81%E8%88%87ai%E8%87%AA%E5%8B%95%E5%8C%96%E6%B1%BA%E7%AD%96%E5%90%88%E8%A6%8F/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-05-01_%E5%B0%B1%E6%A5%AD%E9%9A%B1%E7%A7%81%E8%88%87ai%E8%87%AA%E5%8B%95%E5%8C%96%E6%B1%BA%E7%AD%96%E5%90%88%E8%A6%8F/</guid>
+      <description>&lt;p&gt;場景一：你在人力銀行投了履歷，系統幾秒後回覆：「感謝您應徵，此職缺已找到合適人選。」你不知道的是，這份履歷可能從來沒有被任何人類看過。招募系統已經根據學歷、工作經驗、語意特徵，甚至履歷中的空白期與用字模式，替你打了分數，然後把你的檔案歸類到「不優先考慮」。&lt;/p&gt;
+&lt;p&gt;場景二：你任職的公司上線了一套新的「智慧考勤系統」，用臉部辨識取代傳統打卡鐘。人力資源部門說這是「提升效率」。但沒有人清楚說明，影像資料會不會被上傳到雲端、供應商位於哪個國家、臉部特徵模板會保存多久，或者離職後是否會刪除。&lt;/p&gt;
+&lt;p&gt;場景三：公司引進 AI 績效評估系統，每週根據鍵盤輸入節奏、會議參與率、電子郵件回覆速度與任務系統紀錄，自動計算「組織貢獻指數」。你的年終獎金、晉升機會，甚至是否被列入改善名單，都可能受一個你從未看過、也難以挑戰的模型影響。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>台灣跨國企業的跨境傳輸合規全景</title>
+      <link>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</guid>
+      <description>&lt;p&gt;某個下午，台北總部收到中國子公司的資安通報：內部人力資源（Human Resources, HR）系統疑似遭入侵，受影響資料包含台灣派駐人員、中國當地員工，以及少量歐洲子公司借調員工資料。&lt;/p&gt;
+&lt;p&gt;這時候，問題不只是「要不要通知當事人」。法務、資安與人資很快會被一串更麻煩的問題追著跑：中國子公司把員工資料同步回台灣，是不是符合中國《個人信息保護法》（Personal Information Protection Law, PIPL）的資料出境規則？歐洲借調員工資料曾經傳到台灣總部，當時有沒有歐盟《一般資料保護規則》（General Data Protection Regulation, GDPR）的傳輸工具？台灣母公司把資料放在新加坡雲端區域，是否觸發新加坡《個人資料保護法》（Personal Data Protection Act, PDPA）或其他供應商所在地的要求？如果外洩發生在跨國系統，通報時鐘要從哪一個法域開始算？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>跨境資料傳輸與資料在地化</title>
+      <link>https://www.yjho.me/dp_column/2026-04-28_%E8%B7%A8%E5%A2%83%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8%E8%88%87%E5%9C%A8%E5%9C%B0%E5%8C%96%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-28_%E8%B7%A8%E5%A2%83%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8%E8%88%87%E5%9C%A8%E5%9C%B0%E5%8C%96%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文更新時間：2026-04-28。跨境資料法規變動很快，本文供企業盤點合規風險使用；個案仍應以主管機關最新公告及當地法律意見為準。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;資料放在哪裡，早就不只是資訊部門的架構選擇。&lt;/p&gt;
+&lt;p&gt;台灣母公司想把中國廠員工薪資資料匯回總部；越南子公司把門禁紀錄同步到台灣的人資系統；歐洲客戶資料放在美國雲端服務；印尼平台的使用者資料備份到新加坡。這些動作在工程上可能只是同步、備份或遠端存取，在法律上卻可能已經構成跨境傳輸。&lt;/p&gt;
+&lt;p&gt;企業常見的誤解是：「資料存在雲端，不算出境。」實務上正好相反。只要資料被傳到境外伺服器、由境外人員可存取，或由境外服務商處理，都可能被當作跨境資料流動來看待。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;先把幾個名詞講清楚&#34;&gt;先把幾個名詞講清楚&lt;/h2&gt;
+&lt;p&gt;資料在地化（Data Localization）是指法律要求特定資料必須存放、處理或保留在本國境內。跨境資料傳輸（Cross-border Data Transfer）則是資料離開某個法域，或由境外接收者、處理者取得存取權。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>資料在地化不等於資安</title>
+      <link>https://www.yjho.me/dp_column/2026-04-26_%E8%B3%87%E6%96%99%E5%9C%A8%E5%9C%B0%E5%8C%96%E4%B8%8D%E7%AD%89%E6%96%BC%E8%B3%87%E5%AE%89_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E4%B8%89%E5%B1%A4%E6%B2%BB%E7%90%86%E5%AF%A6%E6%88%B0/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-26_%E8%B3%87%E6%96%99%E5%9C%A8%E5%9C%B0%E5%8C%96%E4%B8%8D%E7%AD%89%E6%96%BC%E8%B3%87%E5%AE%89_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E4%B8%89%E5%B1%A4%E6%B2%BB%E7%90%86%E5%AF%A6%E6%88%B0/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;把資料留在本地，不會自動讓你更安全；它只會把你的治理問題，從「跨境」改成「境內也失控」。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這兩年很多企業面對跨境與 AI 專案時，第一個直覺都是：「那就不要出境」。
+但實務上，資料在地化（data localisation）只能解決一部分監理可近性問題，無法取代流程治理、權限治理與證據治理。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一問題背景監理疊加企業卻還在單點解題&#34;&gt;一、問題背景：監理疊加，企業卻還在單點解題&lt;/h2&gt;
+&lt;p&gt;今天的難題不是單一法規，而是多套規範同時施壓：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;台灣《個人資料保護法》第 19 條要求，企業若以契約關係蒐集/處理個資，仍須「採取適當之安全措施」。&lt;/li&gt;
+&lt;li&gt;歐盟跨境傳輸若無適足性決定，實務上常需採用 Standard Contractual Clauses（SCC）等合法機制。&lt;/li&gt;
+&lt;li&gt;AI 專案又帶來額外風險分類與治理義務（例如 AI Act 的分階段適用節奏）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;結果是什麼？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法務在做法條對照&lt;/li&gt;
+&lt;li&gt;IT 在做系統上線&lt;/li&gt;
+&lt;li&gt;內稽在補證據&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;三邊都努力，但沒有共同控制底圖，最後就會變成「文件看起來有做，事件來時不會動」。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI素養義務已上路，個資治理要從文件合規走向營運控制</title>
+      <link>https://www.yjho.me/dp_column/2026-04-25_ai%E7%B4%A0%E9%A4%8A%E7%BE%A9%E5%8B%99%E5%B7%B2%E4%B8%8A%E8%B7%AF_%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E8%A6%81%E5%BE%9E%E6%96%87%E4%BB%B6%E5%90%88%E8%A6%8F%E8%B5%B0%E5%90%91%E7%87%9F%E9%81%8B%E6%8E%A7%E5%88%B6/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-25_ai%E7%B4%A0%E9%A4%8A%E7%BE%A9%E5%8B%99%E5%B7%B2%E4%B8%8A%E8%B7%AF_%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E8%A6%81%E5%BE%9E%E6%96%87%E4%BB%B6%E5%90%88%E8%A6%8F%E8%B5%B0%E5%90%91%E7%87%9F%E9%81%8B%E6%8E%A7%E5%88%B6/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;2026 年還把 AI 合規當成「法務文件專案」的企業，風險不在法條不熟，而在治理系統不會動。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這一波監理變化已經不是「預告」，而是「分階段生效」。如果你的團隊還停在彙整法規摘要，卻沒有把流程、角色與證據鏈接進日常營運，真正的斷點會出現在跨境傳輸、當事人權利請求（DSR）與 AI 專案上線的交會點。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一問題背景&#34;&gt;一、問題背景&lt;/h2&gt;
+&lt;p&gt;法規壓力已經從「知道」進入「做到」從歐盟執委會 AI Act 官方說明可看到一個很關鍵的時間結構：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI Act 於 2024-08-01 生效，原則上 2 年後（2026-08-02）全面適用。&lt;/li&gt;
+&lt;li&gt;但部分義務提前適用：
+&lt;ul&gt;
+&lt;li&gt;禁止性 AI 實務與 AI literacy（AI 素養）義務：2025-02-02 起適用&lt;/li&gt;
+&lt;li&gt;GPAI 模型治理義務：2025-08-02 起適用&lt;/li&gt;
+&lt;li&gt;部分嵌入式高風險 AI 系統有更長過渡期（至 2027-08-02）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這代表企業不能再用「等全面上路再說」當策略，因為某些義務其實已經在跑。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>跨境與AI時代的個資治理控制矩陣</title>
+      <link>https://www.yjho.me/dp_column/2026-04-24_%E5%88%A5%E6%8A%8A%E5%90%88%E8%A6%8F%E5%81%9A%E6%88%90%E6%96%87%E4%BB%B6%E5%B1%95_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E6%8E%A7%E5%88%B6%E7%9F%A9%E9%99%A3/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-24_%E5%88%A5%E6%8A%8A%E5%90%88%E8%A6%8F%E5%81%9A%E6%88%90%E6%96%87%E4%BB%B6%E5%B1%95_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E6%8E%A7%E5%88%B6%E7%9F%A9%E9%99%A3/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;企業現在最大的風險，不是「不知道法規」，而是「知道很多法規，卻沒有一套能落地的控制矩陣」。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;結果就是：文件很多，控制很少。合規看起來完整，營運一出事就斷點。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;法規正在疊加但企業治理仍是分段&#34;&gt;法規正在「疊加」，但企業治理仍是「分段」&lt;/h2&gt;
+&lt;p&gt;在台灣實務上，許多組織仍把個資治理理解成「法務交付文件」；但從跨法域要求來看，這種做法越來越撐不住。
+以《個資法》第19條第1項第2款來看，非公務機關若主張「契約或類似契約關係」作為蒐集/處理基礎，條文同時要求「已採取適當之安全措施」。這代表合法性不是只靠法律主張，而是要靠控制證據支撐。&lt;/p&gt;
+&lt;p&gt;同一時間，EU 的 AI Act 採風險分級（risk-based approach），且已明確列出禁止行為與高風險應對框架。官方說明頁也指出，禁止性規範已自 2025 年 2 月起生效。這意味著：
+&lt;strong&gt;AI 合規不是等產品上線才補文件，而是從用例分類就要開始。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>個資事件調查，不是出事後才開始</title>
+      <link>https://www.yjho.me/dp_column/2026-04-23_%E5%80%8B%E8%B3%87%E4%BA%8B%E4%BB%B6%E8%AA%BF%E6%9F%A5%E4%B8%8D%E6%98%AF%E5%87%BA%E4%BA%8B%E5%BE%8C%E6%89%8D%E9%96%8B%E5%A7%8B/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-23_%E5%80%8B%E8%B3%87%E4%BA%8B%E4%BB%B6%E8%AA%BF%E6%9F%A5%E4%B8%8D%E6%98%AF%E5%87%BA%E4%BA%8B%E5%BE%8C%E6%89%8D%E9%96%8B%E5%A7%8B/</guid>
+      <description>&lt;p&gt;很多企業把「個資事件調查」想成危機發生後的補救程序：先止血、再寫報告、最後交代。&lt;br&gt;
+但在實務上，真正決定事件損害大小的，往往不是你出事後有沒有寫出漂亮報告，而是你出事前有沒有把調查機制設計進日常治理。&lt;/p&gt;
+&lt;p&gt;事故辨識與分級、證據保全、根因分析、通報決策、改善落地。這些能力如果只在事故當天才臨時啟動，通常都太晚。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一多數組織卡在形式合規&#34;&gt;一、多數組織卡在「形式合規」&lt;/h2&gt;
+&lt;p&gt;在台灣脈絡下，個資治理正從形式合規走向實質治理。差別在於：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;形式合規：文件齊全、稽核紀錄完整，但事件來時角色混亂&lt;/li&gt;
+&lt;li&gt;實質治理：DPO、專責人員、查核人員分工明確，事故處理能即時運轉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;也就是說，制度有沒有「被用」比制度有沒有「存在」更重要。&lt;/p&gt;
+&lt;h2 id=&#34;二真正的壓力測試在前-4-小時&#34;&gt;二、真正的壓力測試在前 4 小時&lt;/h2&gt;
+&lt;p&gt;以常見情境為例：離職人員疑似帶走客戶資料，並在競業環境使用。這時候最常出現的不是技術問題，而是治理問題：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>當處理者成為漏洞：跨國供應鏈個資治理的現在與未來</title>
+      <link>https://www.yjho.me/dp_column/2026-04-21_%E8%99%95%E7%90%86%E8%80%85%E6%B2%BB%E7%90%86%E8%B7%A8%E5%9C%8B%E4%BE%9B%E6%87%89%E9%8F%88%E5%80%8B%E8%B3%87%E9%A2%A8%E9%9A%AA/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-21_%E8%99%95%E7%90%86%E8%80%85%E6%B2%BB%E7%90%86%E8%B7%A8%E5%9C%8B%E4%BE%9B%E6%87%89%E9%8F%88%E5%80%8B%E8%B3%87%E9%A2%A8%E9%9A%AA/</guid>
+      <description>&lt;h2 id=&#34;一個常被忽略的洩漏環節&#34;&gt;一個常被忽略的洩漏環節&lt;/h2&gt;
+&lt;p&gt;2025 年，某家台灣半導體供應商的雲端資料處理者遭到勒索軟體攻擊，數萬筆客戶訂單與員工身份資料外洩。事後調查發現：這家處理者同時替十幾家台灣企業處理資料，但沒有一家控制者曾在合約中約定「處理者事故發生後的通報時效」——導致多數母公司是在新聞報導後才得知，而非依賴處理者的正式通知。&lt;/p&gt;
+&lt;p&gt;這不是個案。在個人資料管理系統（Personal Information Management System, PIMS）中，處理者（Processor）治理是最容易被空洞化的環節：合約裡寫得完整，實際上卻從未執行。當事故發生，監理機關裁罰的對象是控制者（Controller），而非處理者。處理者的過失，最終由控制者承擔。&lt;/p&gt;
+&lt;p&gt;本文以 2026 年初的研究發現為基礎，深度解析：處理者治理的七個強制條款、各國制度差異、為何多數企業的處理者稽核形同虛設，以及台灣跨國企業該如何建立可執行的處理者治理系統。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>肖像權與個資法臉部特徵：一張照片，兩套法律</title>
+      <link>https://www.yjho.me/dp_column/2026-04-13_%E8%82%96%E5%83%8F%E6%AC%8A%E8%88%87%E5%80%8B%E8%B3%87%E6%B3%95%E8%87%89%E9%83%A8%E7%89%B9%E5%BE%B5%E4%B8%80%E5%BC%B5%E7%85%A7%E7%89%87%E5%85%A9%E5%A5%97%E6%B3%95%E5%BE%8B/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-13_%E8%82%96%E5%83%8F%E6%AC%8A%E8%88%87%E5%80%8B%E8%B3%87%E6%B3%95%E8%87%89%E9%83%A8%E7%89%B9%E5%BE%B5%E4%B8%80%E5%BC%B5%E7%85%A7%E7%89%87%E5%85%A9%E5%A5%97%E6%B3%95%E5%BE%8B/</guid>
+      <description>&lt;p&gt;前陣子一位企業客戶問我：「我們想在官網放員工合照，需要簽個資同意書嗎？」&lt;/p&gt;
+&lt;p&gt;我反問他：「你覺得這是肖像權的問題，還是個資法的問題？」&lt;/p&gt;
+&lt;p&gt;他愣了一下：「這兩個不一樣嗎？」&lt;/p&gt;
+&lt;p&gt;這個反應非常典型。肖像權和個資法對臉部特徵的保護，很多人以為是同一件事，但其實它們的法律基礎、保護客體、判斷標準和救濟方式都不同。搞混的後果就是：你以為簽了同意書就沒事，結果只處理了一半的風險。&lt;/p&gt;
+&lt;p&gt;這篇文章就是要把這兩套法律架構拆開來講清楚。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>你的個資管理制度是演戲還是真的？</title>
-      <link>http://localhost:1313/dp_column/%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%98%AF%E6%BC%94%E6%88%B2%E9%82%84%E6%98%AF%E7%9C%9F%E7%9A%84/</link>
+      <link>https://www.yjho.me/dp_column/2026-04-04_%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%98%AF%E6%BC%94%E6%88%B2%E9%82%84%E6%98%AF%E7%9C%9F%E7%9A%84/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dp_column/%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%98%AF%E6%BC%94%E6%88%B2%E9%82%84%E6%98%AF%E7%9C%9F%E7%9A%84/</guid>
+      <guid>https://www.yjho.me/dp_column/2026-04-04_%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%98%AF%E6%BC%94%E6%88%B2%E9%82%84%E6%98%AF%E7%9C%9F%E7%9A%84/</guid>
       <description>&lt;p&gt;一場精心排演的合規秀&lt;/p&gt;
 &lt;p&gt;我走進會議室時，桌上已經擺好三本厚厚的程序書、一疊教育訓練簽到表，還有一份剛印出來的個資盤點清冊。
 負責人很自豪地說：「我們制度都建好了，文件也都有，每年也有辦教育訓練。」
@@ -24,9 +250,9 @@
     </item>
     <item>
       <title>【合規分析】個資蒐集要件分析</title>
-      <link>http://localhost:1313/dp_column/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</link>
+      <link>https://www.yjho.me/dp_column/2025-12-13_%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</link>
       <pubDate>Sat, 13 Dec 2025 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/dp_column/%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
+      <guid>https://www.yjho.me/dp_column/2025-12-13_%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E8%A6%81%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
       <description>&lt;p&gt;在執行個人資料盤點與適法性評估時，企業常習慣性選擇「當事人同意」作為法律依據。然而，依據《個人資料保護法》第19條，「與當事人有契約或類似契約之關係，且已採取適當之安全措施」 往往是更穩固且合適的選擇。&lt;/p&gt;
 &lt;p&gt;我們要回到個資保護最根本的邏輯：「合法性基礎」。非公務機關要處理個資，必須有一個合法的理由。這兩個條款代表了兩種截然不同的權利來源：
 兩者差異的核心在於資料處理的驅動力：&lt;/p&gt;
@@ -37,9 +263,9 @@
     </item>
     <item>
       <title>【深度解析】企業個資保護鐵三角</title>
-      <link>http://localhost:1313/dp_column/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</link>
+      <link>https://www.yjho.me/dp_column/2025-10-30_%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</link>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dp_column/%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</guid>
+      <guid>https://www.yjho.me/dp_column/2025-10-30_%E4%BC%81%E6%A5%AD%E5%80%8B%E8%B3%87%E4%BF%9D%E8%AD%B7%E9%90%B5%E4%B8%89%E8%A7%92%E5%B0%88%E8%B2%AC%E7%AE%A1%E7%90%86%E6%9F%A5%E6%A0%B8%E4%BA%BA%E5%93%A1%E5%88%B0%E5%BA%95%E5%B7%AE%E7%95%B0%E5%9C%A8%E5%93%AA%E4%B8%80%E7%AF%87%E6%96%87%E7%9C%8B%E6%87%82%E8%81%B7%E8%B2%AC%E6%8A%80%E8%83%BD%E8%88%87%E5%BB%BA%E7%BD%AE%E8%B7%AF%E5%BE%91/</guid>
       <description>&lt;p&gt;在數位經濟時代，資料是企業最寶貴的資產之一，而個人資料的保護更是重中之重。隨著台灣《個人資料保護法》及各行業主管機關的法規日趨嚴謹，許多企業開始意識到，單憑IT部門的努力，已不足以應對複雜的個資保護挑戰。於是，「個人資料保護專責人員」、「管理人員」、「查核人員」這些名詞應運而生。&lt;/p&gt;
 &lt;p&gt;然而，許多企業主、法務、甚至IT人員，對於這三個角色的具體差異仍然一知半解：&lt;/p&gt;
 &lt;ul&gt;
@@ -52,33 +278,33 @@
     </item>
     <item>
       <title>別再略過個資蒐集宣告了!!!(一)</title>
-      <link>http://localhost:1313/dp_column/%E5%88%A5%E5%86%8D%E7%95%A5%E9%81%8E%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E5%AE%A3%E5%91%8A%E4%BA%86%E4%B8%80/</link>
+      <link>https://www.yjho.me/dp_column/2022-07-22_%E5%88%A5%E5%86%8D%E7%95%A5%E9%81%8E%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E5%AE%A3%E5%91%8A%E4%BA%86%E4%B8%80/</link>
       <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dp_column/%E5%88%A5%E5%86%8D%E7%95%A5%E9%81%8E%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E5%AE%A3%E5%91%8A%E4%BA%86%E4%B8%80/</guid>
+      <guid>https://www.yjho.me/dp_column/2022-07-22_%E5%88%A5%E5%86%8D%E7%95%A5%E9%81%8E%E5%80%8B%E8%B3%87%E8%92%90%E9%9B%86%E5%AE%A3%E5%91%8A%E4%BA%86%E4%B8%80/</guid>
       <description>&lt;p&gt;這幾年因為疫情的因素，每個人的個人資料基本上已經沒有什麼隱私可言，除非不上街、不進商店購物買東西吃東西、不進公共場所。這也不能怪廠商或店家不好好的保護好我們的個資，其實每個人都在不經意的狀況下，同意了自己的個資同意作自己不想的方式利用。&lt;/p&gt;
 &lt;p&gt;我個人從事個人資料保護的顧問，與大家不同的點在於，每一次按同意個資蒐集宣告時，都會很仔細的看一下內容與細節。在此作個系列文章，幫大家看平常略過的文件，說明裡面是否藏有貓膩。&lt;/p&gt;</description>
     </item>
     <item>
       <title>資訊安全不等於個資安全</title>
-      <link>http://localhost:1313/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/</link>
+      <link>https://www.yjho.me/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/</link>
       <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/</guid>
+      <guid>https://www.yjho.me/dp_column/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E4%B8%8D%E7%AD%89%E6%96%BC%E5%80%8B%E8%B3%87%E5%AE%89%E5%85%A8/</guid>
       <description>&lt;p&gt;從事個人資料保護工作一段時間了，最常被詢問的是ISO 27001做好，不就等於把個資保護好了嗎? 其實差異還蠻大的!!不論是在法源依據、認證組織與施行方式等全都不同，更重要的是法遵的問題。
 先說明一下，以現行中華民國的法律而言，假如資訊安全沒有做好，公司也不是「資通安全法」中所定義的機關組織，那最多就是洩漏了營業祕密。公司不會因為洩漏了營業祕密而犯法或是處以行政罰鍰。&lt;/p&gt;</description>
     </item>
     <item>
       <title>手把手教你製作Trading Gym Env</title>
-      <link>http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/</link>
+      <link>https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/</guid>
+      <guid>https://www.yjho.me/posts/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%A3%BD%E4%BD%9Ctrading/</guid>
       <description>&lt;p&gt;網路上已經有很多AI的訓練框架，最有名的應該就是OpenAI的Stable Baselines系列，也有用PyTorch所寫的Stalbe Baselines3可以直接拿來應用，對於初入強化學習AI訓練的初哥而言算是相當簡易學習的入門磚。但對於有志於要作股市數值分析AI訓練的人而言，OpenAI提供的gym都只有用來玩玩小蜜蜂打磚塊的遊戲應用而已，並沒有如股市一樣的交易遊樂場，可以提供給AI玩樂(?!)
 本篇就初步介紹如何製作個人的Trading Gym。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DEVONthink(五)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
+      <link>https://www.yjho.me/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</link>
       <pubDate>Fri, 05 May 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
+      <guid>https://www.yjho.me/posts/devonthink%E4%BA%94%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/S6DvEt3.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/25/DEVONthink(%E5%9B%9B)%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/&#34;&gt;前文&lt;/a&gt;已經說明了如何把文件輸入DEVONthink的方式，現在來說明輸入之後該如何整理文件。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -89,9 +315,9 @@
     </item>
     <item>
       <title>DEVONthink(四)</title>
-      <link>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
+      <link>https://www.yjho.me/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</link>
       <pubDate>Tue, 25 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://www.yjho.me/posts/devonthink%E5%9B%9B%E8%BC%B8%E5%85%A5%E6%96%87%E4%BB%B6/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/IPr8ocy.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.yjol.org/2017/04/18/DEVONthink(%E4%B8%80)%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/&#34;&gt;前文&lt;/a&gt;有說明到這兩者的差別，本篇文章已進入到將文件/檔案放入資料庫中，所以這裡再重新說明一下這兩者區別。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -108,16 +334,16 @@
     </item>
     <item>
       <title>DEVONthink(三)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
+      <link>https://www.yjho.me/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
+      <guid>https://www.yjho.me/posts/devonthink%E4%B8%89%E5%BB%BA%E7%AB%8B%E8%B3%87%E6%96%99%E5%BA%AB/</guid>
       <description>&lt;p&gt;在DEVONthink Personal版中，系統已經自動幫你建立了資料庫(有只能有一個而已，對大多數人來說，這已經足夠了)。但在Professional版以上，可以擁有多個資料庫，操作方式很簡單。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DEVONthink(二)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
+      <link>https://www.yjho.me/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</link>
       <pubDate>Thu, 20 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
+      <guid>https://www.yjho.me/posts/devonthink%E4%BA%8C%E6%93%8D%E4%BD%9C%E4%BB%8B%E9%9D%A2/</guid>
       <description>&lt;p&gt;初裝好DEVONthink打開一看，哇!這應該算上個十年才有的操作介面吧，但是細細的往內一看，所有的功能一項都不缺，有些就隱藏在小小的角落，不讓你發現，這只有德國人才想得出的設計風格。假如你願意奈住性子，先不從外觀評論一個軟體，慢慢的去了解這它對你的幫助有多麼的巨大，未來的脫離不開了。&lt;/p&gt;
 &lt;p&gt;以下說明都是以DEVONthink Pro Office 2.9.6作為說明的版本，若畫面或操作介面不相同，應是版本的差異所致。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -133,9 +359,9 @@
     </item>
     <item>
       <title>DEVONthink(一)</title>
-      <link>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
+      <link>https://www.yjho.me/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</link>
       <pubDate>Tue, 18 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
+      <guid>https://www.yjho.me/posts/devonthink%E4%B8%80%E5%88%9D%E6%AD%A5%E8%AA%8D%E8%AD%98/</guid>
       <description>&lt;p&gt;我用DEVONthink已經有一段時間了，是該說明一下為何我會用這套軟體來取代Evernote。其實Evernote我並沒有完全刪除，只是把裡面的文件都清空而已(&lt;del&gt;那還不算刪除嗎?&lt;/del&gt;)。畢竟最近一段時間，大象一直做出自砸腳的動作，請看&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.playpcesor.com/2016/12/evernote.html&#34;&gt;Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查&lt;/a&gt;&lt;/li&gt;
@@ -145,64 +371,64 @@
     </item>
     <item>
       <title>幸福其實就在轉念之間~</title>
-      <link>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
+      <link>https://www.yjho.me/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</link>
       <pubDate>Thu, 06 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
+      <guid>https://www.yjho.me/posts/%E5%B9%B8%E7%A6%8F%E5%85%B6%E5%AF%A6%E5%B0%B1%E5%9C%A8%E8%BD%89%E5%BF%B5%E4%B9%8B%E9%96%93~/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/lGfQGcX.jpeg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;很久以前看過的四格漫畫，在不同的時間看會有不同的領悟。&lt;/p&gt;
 &lt;p&gt;我稍微為英文不好的人做個翻譯&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;/th&gt;
-          &lt;th&gt;左&lt;/th&gt;
-          &lt;th&gt;右&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;上&lt;/td&gt;
-          &lt;td&gt;凡人:「我要幸福!」&lt;/td&gt;
-          &lt;td&gt;佛把「我要幸福」取下。&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;下&lt;/td&gt;
-          &lt;td&gt;佛:「首先把&amp;quot;我&amp;quot;去掉，那是自我。再把&amp;quot;要&amp;quot;去掉，那是慾望。」&lt;/td&gt;
-          &lt;td&gt;佛:「現在你只剩下&amp;quot;幸福&amp;quot;了」&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;&lt;/th&gt;
+					&lt;th&gt;左&lt;/th&gt;
+					&lt;th&gt;右&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;上&lt;/td&gt;
+					&lt;td&gt;凡人:「我要幸福!」&lt;/td&gt;
+					&lt;td&gt;佛把「我要幸福」取下。&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;下&lt;/td&gt;
+					&lt;td&gt;佛:「首先把&amp;quot;我&amp;quot;去掉，那是自我。再把&amp;quot;要&amp;quot;去掉，那是慾望。」&lt;/td&gt;
+					&lt;td&gt;佛:「現在你只剩下&amp;quot;幸福&amp;quot;了」&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
 &lt;/table&gt;</description>
     </item>
     <item>
       <title>快速顯示Markdown的.md檔 for MAC</title>
-      <link>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
+      <link>https://www.yjho.me/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</link>
       <pubDate>Thu, 06 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
+      <guid>https://www.yjho.me/posts/%E5%BF%AB%E9%80%9F%E9%A1%AF%E7%A4%BAmarkdown%E7%9A%84.md%E6%AA%94-for-mac/</guid>
       <description>&lt;p&gt;有用過Mac的人都知道，MAC OS X可以直接按空白鍵就快速顯示內容，不讓是影片、音、照片、純文字、RichText、Word、Power Point、Excel，乃至於Apple自己的Pages、Keynote、Numbers的檔案，都可以利用這方式直接快速觀看內容。&lt;/p&gt;
 &lt;p&gt;但最近常常用Markdown的方式寫文章，發現輸出的.md檔居然無法用這方式看內容!但.md檔不也是純文字檔嗎?其實不過就是用文字編輯器做出來的檔案嗎?為何不能直接用Quick Look按個空白鍵直接看內容?其實我也只是要看原始檔而已，又不一定要看編譯好的文件。所以這件事情困擾我一段時間。&lt;/p&gt;
 &lt;p&gt;後來爬文找到一個免費的套件，直接裝在系統內，完成了我快速瀏覽的需求。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Incremental Ta-Lib</title>
-      <link>http://localhost:1313/posts/incremental-ta_lib/</link>
+      <link>https://www.yjho.me/posts/incremental-ta_lib/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/incremental-ta_lib/</guid>
+      <guid>https://www.yjho.me/posts/incremental-ta_lib/</guid>
       <description>&lt;p&gt;最近在做一些 time-series data 的AI訓練，利用Evolution Strategies(以下簡稱ES)的計算方式，找出數值的規律。在此方面有一個非常好用的套件&lt;a href=&#34;https://github.com/mrjbq7/ta-lib&#34;&gt;Ta-Lib&lt;/a&gt;這幾乎就是業界的標準套件，應該不用質疑了。但在ES計算中，是利用的feed forward方式來更新模型，一直跑整個程式的數據，因此一直應用到Ta-Lib的function，也因此產生了一些問題。&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何在MAC中製作Windows 10的重灌USB</title>
-      <link>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
+      <link>https://www.yjho.me/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
+      <guid>https://www.yjho.me/posts/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%AD%E8%A3%BD%E4%BD%9Cwindows-10%E7%9A%84%E9%87%8D%E7%81%8Cusb/</guid>
       <description>&lt;p&gt;最近學習使用Python來作點AI的事，發現好多最新的套件都是在Linux上才有，所以換了Ubuntu 18.04來玩玩。但是對於我這個習慣使用Mac來作文書作業的苦手，終究受不了Linux上的一些問題，且，&lt;strong&gt;電腦是拿來用的，不是拿來折騰的&lt;/strong&gt;。最後決定把我的桌機再重新灌回Windows 10來使用(Linux基本教義派別打我)，但發了一整個晚上，一直沒有辦法順利的重灌。
 灌個windows10哪有這麼難，主要是卡關在Mac上製作可開機USB碟，在忙呼了一整晚，過程中經歴中線上會議與老婆的查勤電話，終於最後找到原因，並解決了。
 以下記錄一下這次的心得。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的推薦標準</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
+      <link>https://www.yjho.me/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</link>
       <pubDate>Mon, 03 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
+      <guid>https://www.yjho.me/posts/%E6%88%91%E7%9A%84%E6%8E%A8%E8%96%A6%E6%A8%99%E6%BA%96/</guid>
       <description>&lt;p&gt;往後我會在BLOG中放上一些我曾經去過、吃過、玩過、看過、聽過的地方、餐廳、樂園、電影、音樂。(國中學的錯綜句法)有人會以為我推薦的東西有何特別，其實沒有。為此我說明一下我的評分標準，其實很簡單，只有幾項而已，免得讓人會錯義，&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;下次不會再來&lt;/li&gt;
@@ -218,9 +444,9 @@
     </item>
     <item>
       <title>我的馬拉松賽事評分標準</title>
-      <link>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
+      <link>https://www.yjho.me/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</link>
       <pubDate>Sun, 02 Apr 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
+      <guid>https://www.yjho.me/posts/%E6%88%91%E7%9A%84%E9%A6%AC%E6%8B%89%E6%9D%BE%E8%B3%BD%E4%BA%8B%E8%A9%95%E5%88%86%E6%A8%99%E6%BA%96/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://tw.running.biji.co&#34;&gt;運動筆記&lt;/a&gt;有個功能就是為賽事評分，這目的也是讓主辦單位知道舉辦之後大家的感想，立意良好。但是評比本來就是主觀的，加上有些人是來亂的，畢竟現在賽事這麼多，但跑者的數量又不是無限的，很容易變成搶人比人氣的現象出現。&lt;/p&gt;
 &lt;p&gt;當然每個人參加馬拉松的目的都是不一樣的，有的人是為了賺錢(?)、有的人是為了肯定自我、有的人是為了身體健康、有的人是為了參賽禮而報名、有的人是為了交朋友(&lt;del&gt;結交正妹&lt;/del&gt;)、有的人是為了吃更多(&lt;del&gt;山豬肉&lt;/del&gt;)、有的人是為了跑而跑(百馬跑者)、有的人是&lt;a href=&#34;http://tw.running.biji.co/index.php?q=review&amp;amp;act=detail&amp;amp;id=29531&amp;amp;subtitle=%E3%80%90%E8%B7%91%E6%AD%A5%E7%85%A7%E7%89%87%E6%95%85%E4%BA%8B%E3%80%91%E5%90%89%E9%9B%B7%E7%B1%B3%E7%82%BA%E5%8F%B0%E7%81%A3%E8%80%8C%E8%B7%91Remy+cours+pour+Taiwan&#34;&gt;為台灣而跑&lt;/a&gt;(棒棒)&amp;hellip;.反正一百個人，有一百零一種理由，出發點都不相同，目的也不相同，怎麼可能會有相同的標準呢?&lt;/p&gt;
 &lt;p&gt;不相同就不相同吧，也沒有必要為了這種事情去統一規格。我個人比較龜毛，針對評分有一套自己的標準，在這提出大家參考看看，以避免在打星星時失去了客觀的評判。&lt;/p&gt;
@@ -232,9 +458,9 @@
     </item>
     <item>
       <title>純文字的力量!</title>
-      <link>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
+      <link>https://www.yjho.me/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</link>
       <pubDate>Thu, 30 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
+      <guid>https://www.yjho.me/posts/%E7%B4%94%E6%96%87%E5%AD%97%E7%9A%84%E5%8A%9B%E9%87%8F/</guid>
       <description>&lt;p&gt;你是有病哦，一直把網站換來換去，這所謂_程式員就是愛折騰_。這一次其實也不是什麼搬家的行為，只是因為之前網站一直被&lt;a href=&#34;http://www.yjol.org/2017/03/10/%E7%B6%B2%E7%AB%99%E7%AE%A1%E7%90%86%E5%87%BA%E7%8F%BE%E6%80%AA%E6%80%AA%E7%9A%84%E7%AC%A6%E8%99%9F/&#34;&gt;警告&lt;/a&gt;，讓我非常的納悶。我blog來看的小貓沒有兩三隻，為何一直被告知使用量過高的問題。其實追根究底還不就是因為Wordpress這個世界使用率超過三成的CMS(Content Management System)，在生成文章時的資源消耗太多了。有很多嗎?其實也不高。畢竟我選擇的是最低階的&lt;a href=&#34;http://i.imgur.com/0AA17AR.png&#34;&gt;配置&lt;/a&gt;造成資源不夠使用的冏境。&lt;/p&gt;
 &lt;p&gt;從我之前的文章可以看到，最近我一直在使用&lt;code&gt;markdown&lt;/code&gt;的語法來作文。其實&lt;code&gt;markdown&lt;/code&gt;與&lt;code&gt;html&lt;/code&gt;語法只有一線之隔而已，從純文字就可以轉換成網頁的呈現型式，真的是好用的語法。現在你所看到的文字，全是用&lt;code&gt;markdown&lt;/code&gt;語法寫出來的。&lt;/p&gt;
 &lt;!-- more --&gt;
@@ -251,9 +477,9 @@
     </item>
     <item>
       <title>Evernote替代方案</title>
-      <link>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
+      <link>https://www.yjho.me/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</link>
       <pubDate>Thu, 23 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
+      <guid>https://www.yjho.me/posts/evernote%E6%9B%BF%E4%BB%A3%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;p&gt;我的Evernote已經有兩千多筆資料，很多東西都是近幾年從網路上找到的文章，覺得還不錯，就把它截錄到Evernote之中。但是前陣子發生了一件事情，雖然最後官方取消了政策，但還是一直讓我耿耿於懷(詳見[Evernote 明年一月更新隱私政策，將允許少數員工進行人工檢查])，外加上之前的資安事件(詳見[難逃駭客之手 Evernote籲5000萬名用戶重設密碼])，更是讓我一直在尋找替代方案的元兇。近日來常使用[Markdown]的方式來寫作，我也花了不少時間在找能在Evernote上可以使用Markdown的方式，但沒有一個方案是令我滿意的。&lt;/p&gt;
 &lt;!-- more --&gt;
 &lt;p&gt;列出我的需求:&lt;/p&gt;
@@ -263,9 +489,9 @@
     </item>
     <item>
       <title>Evernote 搬家到 DEVONthink</title>
-      <link>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
+      <link>https://www.yjho.me/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</link>
       <pubDate>Mon, 20 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
+      <guid>https://www.yjho.me/posts/evernote-%E6%90%AC%E5%AE%B6%E5%88%B0-devonthink/</guid>
       <description>&lt;p&gt;前文已經說明Evernote可以搬家到Devonthink之中，本文就簡單的來敘述搬家的方法。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;已安裝 Evernote，記得一定要用Evernote程式，因為轉移是透過原廠程式來截取資料的。&lt;/li&gt;
@@ -290,9 +516,9 @@
     </item>
     <item>
       <title>Ulysses的Markdown功能</title>
-      <link>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
+      <link>https://www.yjho.me/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</link>
       <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
+      <guid>https://www.yjho.me/posts/ulysses%E7%9A%84markdown%E5%8A%9F%E8%83%BD/</guid>
       <description>&lt;p&gt;會用到Ulysses主要是因為看到APP Store上面評為2016年的Apple Design Award Winner，這讓我好奇這軟體到底是什麼樣的東西，倒底如何幫助到我寫作?&lt;/p&gt;
 &lt;p&gt;其實這軟體主要是用Markdown的語法，讓人們在寫作的時候，雙手不用離開鍵盤。這有什麼好處呢?&lt;/p&gt;
 &lt;ol&gt;
@@ -307,9 +533,9 @@
     </item>
     <item>
       <title>網頁不適合透過行動裝置瀏覽</title>
-      <link>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
+      <link>https://www.yjho.me/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
+      <guid>https://www.yjho.me/posts/%E7%B6%B2%E9%A0%81%E4%B8%8D%E9%81%A9%E5%90%88%E9%80%8F%E9%81%8E%E8%A1%8C%E5%8B%95%E8%A3%9D%E7%BD%AE%E7%80%8F%E8%A6%BD/</guid>
       <description>&lt;p&gt;經過一番奮鬥，我的網站終於可以在Google上找到了，但是發現有一項特別&lt;strong&gt;您的網頁不適合使用行動裝置瀏覽&lt;/strong&gt;，針對這一點我覺得莫名奇妙
 &lt;img alt=&#34;Google搜尋的結果&#34; loading=&#34;lazy&#34; src=&#34;http://i.imgur.com/xragLQ4.png&#34;&gt;
 因為我特別在Wordpress挑上RWD的版型，且用手機看都很正常啊，怎麼會到Google之後反而發生了問題。為了這件事情，特別花一點時間往內查詢錯誤到底在哪裡?&lt;/p&gt;
@@ -328,9 +554,9 @@
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about-me/</link>
+      <link>https://www.yjho.me/about-me/</link>
       <pubDate>Tue, 07 Mar 2017 17:35:50 +0800</pubDate>
-      <guid>http://localhost:1313/about-me/</guid>
+      <guid>https://www.yjho.me/about-me/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;為什麼呢?

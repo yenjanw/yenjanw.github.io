@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>資料在地化 on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/%E8%B3%87%E6%96%99%E5%9C%A8%E5%9C%B0%E5%8C%96/</link>
+    <description>Recent content in 資料在地化 on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/%E8%B3%87%E6%96%99%E5%9C%A8%E5%9C%B0%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>台灣跨國企業的跨境傳輸合規全景</title>
+      <link>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</guid>
+      <description>&lt;p&gt;某個下午，台北總部收到中國子公司的資安通報：內部人力資源（Human Resources, HR）系統疑似遭入侵，受影響資料包含台灣派駐人員、中國當地員工，以及少量歐洲子公司借調員工資料。&lt;/p&gt;
+&lt;p&gt;這時候，問題不只是「要不要通知當事人」。法務、資安與人資很快會被一串更麻煩的問題追著跑：中國子公司把員工資料同步回台灣，是不是符合中國《個人信息保護法》（Personal Information Protection Law, PIPL）的資料出境規則？歐洲借調員工資料曾經傳到台灣總部，當時有沒有歐盟《一般資料保護規則》（General Data Protection Regulation, GDPR）的傳輸工具？台灣母公司把資料放在新加坡雲端區域，是否觸發新加坡《個人資料保護法》（Personal Data Protection Act, PDPA）或其他供應商所在地的要求？如果外洩發生在跨國系統，通報時鐘要從哪一個法域開始算？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>跨境資料傳輸與資料在地化</title>
+      <link>https://www.yjho.me/dp_column/2026-04-28_%E8%B7%A8%E5%A2%83%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8%E8%88%87%E5%9C%A8%E5%9C%B0%E5%8C%96%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-28_%E8%B7%A8%E5%A2%83%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8%E8%88%87%E5%9C%A8%E5%9C%B0%E5%8C%96%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文更新時間：2026-04-28。跨境資料法規變動很快，本文供企業盤點合規風險使用；個案仍應以主管機關最新公告及當地法律意見為準。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;資料放在哪裡，早就不只是資訊部門的架構選擇。&lt;/p&gt;
+&lt;p&gt;台灣母公司想把中國廠員工薪資資料匯回總部；越南子公司把門禁紀錄同步到台灣的人資系統；歐洲客戶資料放在美國雲端服務；印尼平台的使用者資料備份到新加坡。這些動作在工程上可能只是同步、備份或遠端存取，在法律上卻可能已經構成跨境傳輸。&lt;/p&gt;
+&lt;p&gt;企業常見的誤解是：「資料存在雲端，不算出境。」實務上正好相反。只要資料被傳到境外伺服器、由境外人員可存取，或由境外服務商處理，都可能被當作跨境資料流動來看待。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;先把幾個名詞講清楚&#34;&gt;先把幾個名詞講清楚&lt;/h2&gt;
+&lt;p&gt;資料在地化（Data Localization）是指法律要求特定資料必須存放、處理或保留在本國境內。跨境資料傳輸（Cross-border Data Transfer）則是資料離開某個法域，或由境外接收者、處理者取得存取權。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>資料在地化不等於資安</title>
+      <link>https://www.yjho.me/dp_column/2026-04-26_%E8%B3%87%E6%96%99%E5%9C%A8%E5%9C%B0%E5%8C%96%E4%B8%8D%E7%AD%89%E6%96%BC%E8%B3%87%E5%AE%89_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E4%B8%89%E5%B1%A4%E6%B2%BB%E7%90%86%E5%AF%A6%E6%88%B0/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-26_%E8%B3%87%E6%96%99%E5%9C%A8%E5%9C%B0%E5%8C%96%E4%B8%8D%E7%AD%89%E6%96%BC%E8%B3%87%E5%AE%89_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E4%B8%89%E5%B1%A4%E6%B2%BB%E7%90%86%E5%AF%A6%E6%88%B0/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;把資料留在本地，不會自動讓你更安全；它只會把你的治理問題，從「跨境」改成「境內也失控」。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這兩年很多企業面對跨境與 AI 專案時，第一個直覺都是：「那就不要出境」。
+但實務上，資料在地化（data localisation）只能解決一部分監理可近性問題，無法取代流程治理、權限治理與證據治理。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一問題背景監理疊加企業卻還在單點解題&#34;&gt;一、問題背景：監理疊加，企業卻還在單點解題&lt;/h2&gt;
+&lt;p&gt;今天的難題不是單一法規，而是多套規範同時施壓：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;台灣《個人資料保護法》第 19 條要求，企業若以契約關係蒐集/處理個資，仍須「採取適當之安全措施」。&lt;/li&gt;
+&lt;li&gt;歐盟跨境傳輸若無適足性決定，實務上常需採用 Standard Contractual Clauses（SCC）等合法機制。&lt;/li&gt;
+&lt;li&gt;AI 專案又帶來額外風險分類與治理義務（例如 AI Act 的分階段適用節奏）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;結果是什麼？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;法務在做法條對照&lt;/li&gt;
+&lt;li&gt;IT 在做系統上線&lt;/li&gt;
+&lt;li&gt;內稽在補證據&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;三邊都努力，但沒有共同控制底圖，最後就會變成「文件看起來有做，事件來時不會動」。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>風險管理 on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86/</link>
+    <description>Recent content in 風險管理 on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 25 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/%E9%A2%A8%E9%9A%AA%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI素養義務已上路，個資治理要從文件合規走向營運控制</title>
+      <link>https://www.yjho.me/dp_column/2026-04-25_ai%E7%B4%A0%E9%A4%8A%E7%BE%A9%E5%8B%99%E5%B7%B2%E4%B8%8A%E8%B7%AF_%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E8%A6%81%E5%BE%9E%E6%96%87%E4%BB%B6%E5%90%88%E8%A6%8F%E8%B5%B0%E5%90%91%E7%87%9F%E9%81%8B%E6%8E%A7%E5%88%B6/</link>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-25_ai%E7%B4%A0%E9%A4%8A%E7%BE%A9%E5%8B%99%E5%B7%B2%E4%B8%8A%E8%B7%AF_%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E8%A6%81%E5%BE%9E%E6%96%87%E4%BB%B6%E5%90%88%E8%A6%8F%E8%B5%B0%E5%90%91%E7%87%9F%E9%81%8B%E6%8E%A7%E5%88%B6/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;2026 年還把 AI 合規當成「法務文件專案」的企業，風險不在法條不熟，而在治理系統不會動。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;這一波監理變化已經不是「預告」，而是「分階段生效」。如果你的團隊還停在彙整法規摘要，卻沒有把流程、角色與證據鏈接進日常營運，真正的斷點會出現在跨境傳輸、當事人權利請求（DSR）與 AI 專案上線的交會點。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一問題背景&#34;&gt;一、問題背景&lt;/h2&gt;
+&lt;p&gt;法規壓力已經從「知道」進入「做到」從歐盟執委會 AI Act 官方說明可看到一個很關鍵的時間結構：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AI Act 於 2024-08-01 生效，原則上 2 年後（2026-08-02）全面適用。&lt;/li&gt;
+&lt;li&gt;但部分義務提前適用：
+&lt;ul&gt;
+&lt;li&gt;禁止性 AI 實務與 AI literacy（AI 素養）義務：2025-02-02 起適用&lt;/li&gt;
+&lt;li&gt;GPAI 模型治理義務：2025-08-02 起適用&lt;/li&gt;
+&lt;li&gt;部分嵌入式高風險 AI 系統有更長過渡期（至 2027-08-02）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這代表企業不能再用「等全面上路再說」當策略，因為某些義務其實已經在跑。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>跨境與AI時代的個資治理控制矩陣</title>
+      <link>https://www.yjho.me/dp_column/2026-04-24_%E5%88%A5%E6%8A%8A%E5%90%88%E8%A6%8F%E5%81%9A%E6%88%90%E6%96%87%E4%BB%B6%E5%B1%95_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E6%8E%A7%E5%88%B6%E7%9F%A9%E9%99%A3/</link>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-24_%E5%88%A5%E6%8A%8A%E5%90%88%E8%A6%8F%E5%81%9A%E6%88%90%E6%96%87%E4%BB%B6%E5%B1%95_%E8%B7%A8%E5%A2%83%E8%88%87ai%E6%99%82%E4%BB%A3%E7%9A%84%E5%80%8B%E8%B3%87%E6%B2%BB%E7%90%86%E6%8E%A7%E5%88%B6%E7%9F%A9%E9%99%A3/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;企業現在最大的風險，不是「不知道法規」，而是「知道很多法規，卻沒有一套能落地的控制矩陣」。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;結果就是：文件很多，控制很少。合規看起來完整，營運一出事就斷點。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;法規正在疊加但企業治理仍是分段&#34;&gt;法規正在「疊加」，但企業治理仍是「分段」&lt;/h2&gt;
+&lt;p&gt;在台灣實務上，許多組織仍把個資治理理解成「法務交付文件」；但從跨法域要求來看，這種做法越來越撐不住。
+以《個資法》第19條第1項第2款來看，非公務機關若主張「契約或類似契約關係」作為蒐集/處理基礎，條文同時要求「已採取適當之安全措施」。這代表合法性不是只靠法律主張，而是要靠控制證據支撐。&lt;/p&gt;
+&lt;p&gt;同一時間，EU 的 AI Act 採風險分級（risk-based approach），且已明確列出禁止行為與高風險應對框架。官方說明頁也指出，禁止性規範已自 2025 年 2 月起生效。這意味著：
+&lt;strong&gt;AI 合規不是等產品上線才補文件，而是從用例分類就要開始。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ISO 27001 on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/iso-27001/</link>
+    <description>Recent content in ISO 27001 on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/iso-27001/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>個資事件的第一個小時：把通報壓力轉成可執行的應變流程</title>
+      <link>https://www.yjho.me/dp_column/20260909_%E5%80%8B%E8%B3%87%E4%BA%8B%E4%BB%B6%E7%AC%AC%E4%B8%80%E5%80%8B%E5%B0%8F%E6%99%82/</link>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/20260909_%E5%80%8B%E8%B3%87%E4%BA%8B%E4%BB%B6%E7%AC%AC%E4%B8%80%E5%80%8B%E5%B0%8F%E6%99%82/</guid>
+      <description>從事件發現、證據保存、風險判斷到對外溝通，建立企業可以在第一個小時內啟動的個資事件應變流程。</description>
+    </item>
+  </channel>
+</rss>

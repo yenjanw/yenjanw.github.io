@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>APEC CBPR on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/apec-cbpr/</link>
+    <description>Recent content in APEC CBPR on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/apec-cbpr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>台灣跨國企業的跨境傳輸合規全景</title>
+      <link>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</guid>
+      <description>&lt;p&gt;某個下午，台北總部收到中國子公司的資安通報：內部人力資源（Human Resources, HR）系統疑似遭入侵，受影響資料包含台灣派駐人員、中國當地員工，以及少量歐洲子公司借調員工資料。&lt;/p&gt;
+&lt;p&gt;這時候，問題不只是「要不要通知當事人」。法務、資安與人資很快會被一串更麻煩的問題追著跑：中國子公司把員工資料同步回台灣，是不是符合中國《個人信息保護法》（Personal Information Protection Law, PIPL）的資料出境規則？歐洲借調員工資料曾經傳到台灣總部，當時有沒有歐盟《一般資料保護規則》（General Data Protection Regulation, GDPR）的傳輸工具？台灣母公司把資料放在新加坡雲端區域，是否觸發新加坡《個人資料保護法》（Personal Data Protection Act, PDPA）或其他供應商所在地的要求？如果外洩發生在跨國系統，通報時鐘要從哪一個法域開始算？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

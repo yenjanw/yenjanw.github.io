@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>個資合規 on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/%E5%80%8B%E8%B3%87%E5%90%88%E8%A6%8F/</link>
+    <description>Recent content in 個資合規 on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/%E5%80%8B%E8%B3%87%E5%90%88%E8%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>跨境資料傳輸與資料在地化</title>
+      <link>https://www.yjho.me/dp_column/2026-04-28_%E8%B7%A8%E5%A2%83%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8%E8%88%87%E5%9C%A8%E5%9C%B0%E5%8C%96%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-28_%E8%B7%A8%E5%A2%83%E8%B3%87%E6%96%99%E5%82%B3%E8%BC%B8%E8%88%87%E5%9C%A8%E5%9C%B0%E5%8C%96%E7%94%9F%E5%AD%98%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;本文更新時間：2026-04-28。跨境資料法規變動很快，本文供企業盤點合規風險使用；個案仍應以主管機關最新公告及當地法律意見為準。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;資料放在哪裡，早就不只是資訊部門的架構選擇。&lt;/p&gt;
+&lt;p&gt;台灣母公司想把中國廠員工薪資資料匯回總部；越南子公司把門禁紀錄同步到台灣的人資系統；歐洲客戶資料放在美國雲端服務；印尼平台的使用者資料備份到新加坡。這些動作在工程上可能只是同步、備份或遠端存取，在法律上卻可能已經構成跨境傳輸。&lt;/p&gt;
+&lt;p&gt;企業常見的誤解是：「資料存在雲端，不算出境。」實務上正好相反。只要資料被傳到境外伺服器、由境外人員可存取，或由境外服務商處理，都可能被當作跨境資料流動來看待。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;先把幾個名詞講清楚&#34;&gt;先把幾個名詞講清楚&lt;/h2&gt;
+&lt;p&gt;資料在地化（Data Localization）是指法律要求特定資料必須存放、處理或保留在本國境內。跨境資料傳輸（Cross-border Data Transfer）則是資料離開某個法域，或由境外接收者、處理者取得存取權。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

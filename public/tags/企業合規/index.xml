@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>企業合規 on YJ-OnLine</title>
+    <link>https://www.yjho.me/tags/%E4%BC%81%E6%A5%AD%E5%90%88%E8%A6%8F/</link>
+    <description>Recent content in 企業合規 on YJ-OnLine</description>
+    <generator>Hugo -- 0.166.0</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 16 Sep 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://www.yjho.me/tags/%E4%BC%81%E6%A5%AD%E5%90%88%E8%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>被指派負責個資的那一天，你需要的是一本可以照著做的手冊：《從零到合規》出版了</title>
+      <link>https://www.yjho.me/dp_column/2026-09-16_%E5%BE%9E%E9%9B%B6%E5%88%B0%E5%90%88%E8%A6%8F%E5%87%BA%E7%89%88%E8%A2%AB%E6%8C%87%E6%B4%BE%E8%B2%A0%E8%B2%AC%E5%80%8B%E8%B3%87%E7%9A%84%E9%82%A3%E4%B8%80%E5%A4%A9/</link>
+      <pubDate>Wed, 16 Sep 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-09-16_%E5%BE%9E%E9%9B%B6%E5%88%B0%E5%90%88%E8%A6%8F%E5%87%BA%E7%89%88%E8%A2%AB%E6%8C%87%E6%B4%BE%E8%B2%A0%E8%B2%AC%E5%80%8B%E8%B3%87%E7%9A%84%E9%82%A3%E4%B8%80%E5%A4%A9/</guid>
+      <description>&lt;p&gt;「去把個資法要求該做的做一做。」主管一句話，你成了公司的個資負責人。然後呢？&lt;/p&gt;
+&lt;p&gt;這是《從零到合規：個人資料保護制度的第一本實作手冊》開場的第一句話，也是我在顧問工作裡聽過最多次的一句話。說這句話的主管通常不是不在乎，而是他也不知道「該做的」到底有哪些。被點名的那個人多半來自行政、人資、資訊或品保，手上沒有法務背景，也沒有資安編制，只有一封轉寄的主管機關公文，以及一個模糊的期限。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>臺灣個資管理制度整合與國際標準的整合</title>
+      <link>https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-05-05_%E8%87%BA%E7%81%A3%E5%80%8B%E8%B3%87%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6%E6%95%B4%E5%90%88/</guid>
+      <description>&lt;p&gt;一家台灣科技製造商準備接兩個海外案子。美國資料中心客戶問有沒有 Global CBPR；歐洲品牌商希望看到 ISO 27701；國內標案又把 TPIPAS 或相近的個資管理證明列入加分條件。資安長真正要回答的不是「要不要做三套制度」，而是：哪些文件可以共用，哪些要求必須分開處理。&lt;/p&gt;
+&lt;p&gt;這三套制度常被放在同一張合規地圖上，但它們解決的問題不一樣。TPIPAS 主要處理台灣個資法與本地稽核語境；ISO/IEC 27701:2025 是國際化的隱私資訊管理系統；Global CBPR 則是跨境資料流通下的問責式認證。若把三者都當成「個資證書」，建置時很容易做出三份相似文件，卻漏掉真正會被客戶或主管機關追問的細節。&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;h2 id=&#34;一三套制度各自管什麼&#34;&gt;一、三套制度各自管什麼&lt;/h2&gt;
+&lt;h3 id=&#34;11-tpipas台灣本地法遵的骨架&#34;&gt;1.1 TPIPAS：台灣本地法遵的骨架&lt;/h3&gt;
+&lt;p&gt;TPIPAS（Taiwan Personal Information Protection and Administration System）是經濟部體系推動、資策會科法所維運的台灣個人資料保護與管理制度。企業通過驗證後，取得的是資料隱私保護標章（dp.mark）。依 TPIPAS 官網公告，目前 TPIPAS 驗證由外部驗證機構執行，驗證機構名單包括 SGS 與 BSI；實際申請仍要以官網當期公告為準。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>當 AI 面臨自動化決策</title>
+      <link>https://www.yjho.me/dp_column/2026-05-01_%E5%B0%B1%E6%A5%AD%E9%9A%B1%E7%A7%81%E8%88%87ai%E8%87%AA%E5%8B%95%E5%8C%96%E6%B1%BA%E7%AD%96%E5%90%88%E8%A6%8F/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-05-01_%E5%B0%B1%E6%A5%AD%E9%9A%B1%E7%A7%81%E8%88%87ai%E8%87%AA%E5%8B%95%E5%8C%96%E6%B1%BA%E7%AD%96%E5%90%88%E8%A6%8F/</guid>
+      <description>&lt;p&gt;場景一：你在人力銀行投了履歷，系統幾秒後回覆：「感謝您應徵，此職缺已找到合適人選。」你不知道的是，這份履歷可能從來沒有被任何人類看過。招募系統已經根據學歷、工作經驗、語意特徵，甚至履歷中的空白期與用字模式，替你打了分數，然後把你的檔案歸類到「不優先考慮」。&lt;/p&gt;
+&lt;p&gt;場景二：你任職的公司上線了一套新的「智慧考勤系統」，用臉部辨識取代傳統打卡鐘。人力資源部門說這是「提升效率」。但沒有人清楚說明，影像資料會不會被上傳到雲端、供應商位於哪個國家、臉部特徵模板會保存多久，或者離職後是否會刪除。&lt;/p&gt;
+&lt;p&gt;場景三：公司引進 AI 績效評估系統，每週根據鍵盤輸入節奏、會議參與率、電子郵件回覆速度與任務系統紀錄，自動計算「組織貢獻指數」。你的年終獎金、晉升機會，甚至是否被列入改善名單，都可能受一個你從未看過、也難以挑戰的模型影響。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>台灣跨國企業的跨境傳輸合規全景</title>
+      <link>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.yjho.me/dp_column/2026-04-29_%E8%B7%A8%E5%A2%83%E5%82%B3%E8%BC%B8%E5%90%88%E8%A6%8F%E5%85%A8%E6%99%AF/</guid>
+      <description>&lt;p&gt;某個下午，台北總部收到中國子公司的資安通報：內部人力資源（Human Resources, HR）系統疑似遭入侵，受影響資料包含台灣派駐人員、中國當地員工，以及少量歐洲子公司借調員工資料。&lt;/p&gt;
+&lt;p&gt;這時候，問題不只是「要不要通知當事人」。法務、資安與人資很快會被一串更麻煩的問題追著跑：中國子公司把員工資料同步回台灣，是不是符合中國《個人信息保護法》（Personal Information Protection Law, PIPL）的資料出境規則？歐洲借調員工資料曾經傳到台灣總部，當時有沒有歐盟《一般資料保護規則》（General Data Protection Regulation, GDPR）的傳輸工具？台灣母公司把資料放在新加坡雲端區域，是否觸發新加坡《個人資料保護法》（Personal Data Protection Act, PDPA）或其他供應商所在地的要求？如果外洩發生在跨國系統，通報時鐘要從哪一個法域開始算？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
