@@ -2,6 +2,7 @@
 title = "印度 DPDP Consent Manager 怎麼落地：把同意從按鈕變成可查、可撤、可驗證的治理機制"
 description = "從印度 Digital Personal Data Protection Act、2025 年正式規則與 Consent Manager 制度出發，拆解企業如何設計同意流程、證據鏈、撤回處理、供應商介接與治理控制。"
 date = "2026-10-02"
+draft = true
 tags = ["個人資料保護", "印度 DPDP", "同意管理", "跨境合規", "資料治理"]
 categories = ["個資管理"]
 +++
