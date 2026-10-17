@@ -4,7 +4,7 @@ description = "從印度 Digital Personal Data Protection Act、2025 年正式�
 date = "2026-10-02"
 draft = true
 tags = ["個人資料保護", "印度 DPDP", "同意管理", "跨境合規", "資料治理"]
-categories = ["個資管理"]
+categories = ["個資法專欄"]
 +++
 
 # 印度 DPDP Consent Manager 怎麼落地：把同意從按鈕變成可查、可撤、可驗證的治理機制
